@@ -1,0 +1,8 @@
+<nav class="c-breadcrumb" aria-label="パンくずリスト">
+  <ol>
+    <li><a href="/">TOP</a></li>
+    {% for bc in breadcrumb %}
+    <li>{% if bc.url %}<a href="{{ bc.url }}">{{ bc.label }}</a>{% else %}<span aria-current="page">{{ bc.label }}</span>{% endif %}</li>
+    {% endfor %}
+  </ol>
+</nav>

@@ -1,0 +1,20 @@
+{
+  "name": "札幌看護医療専門学校",
+  "tagline": "\"Future is yours.\" 最先端の医療教育を実践できる新さっぽろの専門学校",
+  "prodOrigin": "https://www.snm.ac.jp",
+  "address": "〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号",
+  "tel": "011-801-8343",
+  "freedial": "0120-37-8343",
+  "cta": {
+    "document": "https://www.snm.ac.jp/form/document/",
+    "event": "/opencampus/calendar/",
+    "ao": "https://webappform.jikei.com/entry/?sid=snm",
+    "line": "https://www.snm.ac.jp/news/2023/914/"
+  },
+  "sns": {
+    "instagram": "https://www.instagram.com/sapporo_kango/",
+    "tiktok": "https://www.tiktok.com/@sapporo_kango",
+    "youtube": "https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww",
+    "line": "https://www.snm.ac.jp/news/2023/914/"
+  }
+}

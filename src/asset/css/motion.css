@@ -1,0 +1,24 @@
+/* ============ モーション規約: data-anim / is-inview ============ */
+/* JSが有効なときだけ初期非表示（no-JS事故防止のため html.js ゲート必須） */
+html.js [data-anim] {
+  opacity: 0;
+  transition:
+    opacity var(--dur-slow) var(--ease-out-quart),
+    translate var(--dur-slow) var(--ease-out-quart),
+    scale var(--dur-slow) var(--ease-out-quart);
+  transition-delay: calc(var(--i, 0) * var(--stagger-step));
+}
+html.js [data-anim="fade-up"] { translate: 0 var(--reveal-y); }
+html.js [data-anim="fade-left"] { translate: calc(-1 * var(--reveal-y)) 0; }
+html.js [data-anim="zoom"] { scale: 0.92; }
+html.js [data-anim].is-inview { opacity: 1; translate: 0 0; scale: 1; }
+
+/* 実績バッジの捺印 */
+html.js [data-anim="stamp"] { scale: 1.4; rotate: 4deg; transition-duration: var(--dur-base); transition-timing-function: var(--ease-spring); }
+html.js [data-anim="stamp"].is-inview { scale: 1; rotate: -4deg; }
+
+/* reduced-motion: 全演出を無効化して即時表示 */
+@media (prefers-reduced-motion: reduce) {
+  html.js [data-anim] { opacity: 1 !important; translate: none !important; scale: none !important; rotate: none !important; transition: none !important; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; }
+}

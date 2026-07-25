@@ -1,0 +1,44 @@
+<header class="c-header">
+  <div class="c-header__bar">
+    <a class="c-header__logo" href="/">
+      <img src="/asset/img/share/logo.png" alt="{{ site.name }}" width="238" height="33">
+    </a>
+    <button class="c-header__menu-btn" type="button" data-menu-toggle aria-expanded="false" aria-controls="global-menu">
+      <span class="c-header__menu-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="c-header__menu-label">MENU</span>
+    </button>
+  </div>
+
+  <nav class="c-menu" id="global-menu" hidden>
+    <div class="c-menu__inner">
+      {% for group in nav %}
+      <details class="c-menu__group">
+        <summary class="c-menu__group-head">
+          <span class="c-menu__group-en">{{ group.en }}</span>
+          <span class="c-menu__group-label">{{ group.label }}</span>
+        </summary>
+        <ul class="c-menu__list">
+          {% for item in group.children %}
+          <li><a href="{{ item.path }}">{{ item.label }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+      {% endfor %}
+      <div class="c-menu__cta">
+        <a class="c-btn c-btn--pill" href="{{ site.cta.document }}" target="_blank" rel="noopener">資料請求</a>
+        <a class="c-btn c-btn--pill" href="{{ site.cta.event }}">イベント全日程一覧</a>
+        <a class="c-btn c-btn--pill c-btn--accent" href="{{ site.cta.ao }}" target="_blank" rel="noopener">AOエントリー</a>
+      </div>
+      <ul class="c-menu__visitors">
+        {% for v in visitors %}
+        <li><a href="{{ v.path }}"{% if v.external %} target="_blank" rel="noopener"{% endif %}>{{ v.label }}</a></li>
+        {% endfor %}
+      </ul>
+      <ul class="c-menu__sns">
+        <li><a href="{{ site.sns.instagram }}" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a></li>
+        <li><a href="{{ site.sns.tiktok }}" target="_blank" rel="noopener" aria-label="TikTok">TikTok</a></li>
+        <li><a href="{{ site.sns.youtube }}" target="_blank" rel="noopener" aria-label="YouTube">YouTube</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>

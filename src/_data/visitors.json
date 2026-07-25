@@ -1,0 +1,9 @@
+[
+  { "label": "卒業生の方へ", "path": "/visit_graduate/" },
+  { "label": "高等学校の先生方へ", "path": "https://www.snm.ac.jp/news/2023/9888/", "external": true },
+  { "label": "中学校の先生方へ", "path": "https://www.snm.ac.jp/news/2023/9891/", "external": true },
+  { "label": "社会人・大学生・短大生の方へ", "path": "/visit_society/" },
+  { "label": "企業の方へ", "path": "/visit_company/" },
+  { "label": "職員募集につきまして", "path": "/recruit/" },
+  { "label": "産官学連携にご協力いただける企業・自治体の方へ", "path": "/visit_municipality/" }
+]

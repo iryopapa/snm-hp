@@ -1,0 +1,72 @@
+[
+  {
+    "en": "ABOUT",
+    "label": "学校案内",
+    "path": "/school/",
+    "children": [
+      { "label": "学校案内 トップ", "path": "/school/" },
+      { "label": "札幌看護医療が選ばれる理由", "path": "/school/study/" },
+      { "label": "高校1・2年生のための進路選び", "path": "/school/guide/" },
+      { "label": "交通・アクセス", "path": "/school/access/" },
+      { "label": "建学の理念", "path": "/school/philosophy/" },
+      { "label": "情報公開（職業実践専門課程）", "path": "/school/info/" }
+    ]
+  },
+  {
+    "en": "COURSE",
+    "label": "学科・専攻",
+    "path": "/course/",
+    "children": [
+      { "label": "学科・専攻 トップ", "path": "/course/" },
+      { "label": "看護学科", "path": "/course/nursing/" },
+      { "label": "視能訓練士学科", "path": "/course/orthoptist/" },
+      { "label": "歯科衛生士学科 ホワイトニング・デンタルエステ専攻", "path": "/course/dentalhygienists/" },
+      { "label": "臨床工学技士学科", "path": "/course/clinicalengineer/" }
+    ]
+  },
+  {
+    "en": "CAREER",
+    "label": "資格・就職",
+    "path": "/career/",
+    "children": [
+      { "label": "資格・就職 トップ", "path": "/career/" },
+      { "label": "資格サポート", "path": "/career/license_support/" },
+      { "label": "就職サポート", "path": "/career/job_result/" }
+    ]
+  },
+  {
+    "en": "CAMPUS LIFE",
+    "label": "学校生活・施設",
+    "path": "/campuslife/",
+    "children": [
+      { "label": "学校生活・施設 トップ", "path": "/campuslife/" },
+      { "label": "キャンパスライフ", "path": "/campuslife/schedule/" },
+      { "label": "施設紹介", "path": "/campuslife/facility/" }
+    ]
+  },
+  {
+    "en": "ADMISSION",
+    "label": "入試・学費",
+    "path": "/admission/",
+    "children": [
+      { "label": "入試・学費 トップ", "path": "/admission/" },
+      { "label": "募集要項", "path": "/admission/application/" },
+      { "label": "AO入試エントリー・出願方法", "path": "/admission/ao/" },
+      { "label": "推薦・一般入試 出願方法", "path": "/admission/applicationflow/" },
+      { "label": "学費・奨学金制度", "path": "/admission/expenses/" },
+      { "label": "特待生＆減免制度", "path": "/admission/scholarship/" }
+    ]
+  },
+  {
+    "en": "OPEN CAMPUS",
+    "label": "オープンキャンパス",
+    "path": "/opencampus/",
+    "children": [
+      { "label": "オープンキャンパスとは", "path": "/opencampus/" },
+      { "label": "イベント全日程一覧", "path": "/opencampus/calendar/" },
+      { "label": "学校説明・個別相談会", "path": "/opencampus/session/" },
+      { "label": "無料送迎バス", "path": "/opencampus/bus/" },
+      { "label": "交通費補助", "path": "/opencampus/subsidy_list/" }
+    ]
+  }
+]

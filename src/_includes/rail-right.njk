@@ -1,0 +1,39 @@
+<div class="l-rail l-rail--right">
+  <div class="l-rail__inner l-rail__inner--right">
+    <details class="c-visitor-drop">
+      <summary>訪問者別メニュー</summary>
+      <ul>
+        {% for v in visitors %}
+        <li><a href="{{ v.path }}"{% if v.external %} target="_blank" rel="noopener"{% endif %}>{{ v.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </details>
+    <p class="l-rail__sublinks">
+      <a href="/school/info/">情報公開（職業実践専門課程）</a>／
+      <a href="https://www.snm.ac.jp/form/facility/" target="_blank" rel="noopener">施設(教室)利用貸出につきまして</a>
+    </p>
+
+    <div class="l-rail__cta-cards">
+      <a class="c-cta-card" href="{{ site.cta.document }}" target="_blank" rel="noopener">
+        <span class="c-cta-card__icon c-cta-card__icon--blue"><img src="/asset/img/share/2026/fixed-cv-icon01.png" alt="" width="44" height="44" loading="lazy"></span>
+        <span class="c-cta-card__label">資料請求</span>
+      </a>
+      <a class="c-cta-card" href="{{ site.cta.event }}">
+        <span class="c-cta-card__icon c-cta-card__icon--yellow"><img src="/asset/img/share/2026/fixed-cv-icon02.png" alt="" width="44" height="44" loading="lazy"></span>
+        <span class="c-cta-card__label">イベント<br>全日程一覧</span>
+      </a>
+      <a class="c-cta-card" href="{{ site.cta.line }}" target="_blank" rel="noopener">
+        <span class="c-cta-card__icon c-cta-card__icon--green"><img src="/asset/img/share/2026/fixed-cv-icon03.png" alt="" width="44" height="44" loading="lazy"></span>
+        <span class="c-cta-card__label">LINEなんでも<br>相談</span>
+      </a>
+    </div>
+
+    <ul class="l-rail__quicklinks">
+      <li><a class="c-quicklink" href="/opencampus/"><span class="c-quicklink__sub">夢がふくらむ、目標が見つかる！</span><span class="c-quicklink__label">オープンキャンパス</span><span class="c-quicklink__arrow" aria-hidden="true"></span></a></li>
+      <li><a class="c-quicklink" href="/school/study/"><span class="c-quicklink__sub">REASON</span><span class="c-quicklink__label">札幌看護医療専門学校が選ばれる理由</span><span class="c-quicklink__arrow" aria-hidden="true"></span></a></li>
+      <li><a class="c-quicklink" href="/course/"><span class="c-quicklink__sub">COURSE</span><span class="c-quicklink__label">ミライを担う医療系4学科</span><span class="c-quicklink__arrow" aria-hidden="true"></span></a></li>
+      <li><a class="c-quicklink" href="/admission/"><span class="c-quicklink__sub">ADMISSION</span><span class="c-quicklink__label">入試・学費</span><span class="c-quicklink__arrow" aria-hidden="true"></span></a></li>
+      <li><a class="c-quicklink" href="/campuslife/facility/"><span class="c-quicklink__sub">FACILITY</span><span class="c-quicklink__label">施設紹介</span><span class="c-quicklink__arrow" aria-hidden="true"></span></a></li>
+    </ul>
+  </div>
+</div>

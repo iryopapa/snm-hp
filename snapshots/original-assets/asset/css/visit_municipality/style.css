@@ -1,0 +1,1 @@
+.content-block .txt{font-size:1.3rem}@media(min-width: 480px){.content-block .txt{font-size:calc(1.3rem + (1vw - 4.8px) * 0.1086956522)}}@media(min-width: 1400px){.content-block .txt{font-size:1.4rem}}.logo-box{margin-bottom:1em}

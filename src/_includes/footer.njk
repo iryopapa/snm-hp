@@ -1,0 +1,48 @@
+<footer class="c-footer">
+  <div class="c-footer__inner">
+    <a class="c-footer__logo" href="/">
+      <img src="/asset/img/share/logo.png" alt="{{ site.name }}" width="238" height="33" loading="lazy">
+    </a>
+    <p class="c-footer__address">{{ site.address }}</p>
+    <p class="c-footer__tel">TEL <a href="tel:{{ site.tel }}">{{ site.tel }}</a>／フリーダイヤル <a href="tel:{{ site.freedial }}">{{ site.freedial }}</a></p>
+
+    <nav class="c-footer__nav" aria-label="フッターナビゲーション">
+      {% for group in nav %}
+      <div class="c-footer__group">
+        <a class="c-footer__group-head" href="{{ group.path }}"><span>{{ group.en }}</span>{{ group.label }}</a>
+        <ul>
+          {% for item in group.children %}
+          <li><a href="{{ item.path }}">{{ item.label }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </nav>
+
+    <ul class="c-footer__visitors">
+      {% for v in visitors %}
+      <li><a href="{{ v.path }}"{% if v.external %} target="_blank" rel="noopener"{% endif %}>{{ v.label }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <ul class="c-footer__links">
+      <li><a href="https://www.snm.ac.jp/form/inquiry/" target="_blank" rel="noopener">お問い合わせ</a></li>
+      <li><a href="/school/access/">交通・アクセス</a></li>
+      <li><a href="/school/info/">情報公開（職業実践専門課程）</a></li>
+      <li><a href="https://www.snm.ac.jp/form/facility/" target="_blank" rel="noopener">施設(教室)利用貸出につきまして</a></li>
+      <li><a href="/recruit/">採用情報</a></li>
+      <li><a href="/sitemap/">サイトマップ</a></li>
+      <li><a href="/privacy/">プライバシーポリシー</a></li>
+      <li><a href="/socialpolicy/">ソーシャルメディアポリシー</a></li>
+    </ul>
+
+    <ul class="c-footer__sns">
+      <li><a href="{{ site.sns.instagram }}" target="_blank" rel="noopener">Instagram</a></li>
+      <li><a href="{{ site.sns.tiktok }}" target="_blank" rel="noopener">TikTok</a></li>
+      <li><a href="{{ site.sns.youtube }}" target="_blank" rel="noopener">YouTube</a></li>
+      <li><a href="{{ site.sns.line }}" target="_blank" rel="noopener">LINE</a></li>
+    </ul>
+
+    <p class="c-footer__copyright"><small>&copy; Sapporo College of Nursing &amp; Medical Care.</small></p>
+  </div>
+</footer>
