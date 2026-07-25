@@ -1,0 +1,122 @@
+---
+layout: page.njk
+title: キャンパスライフ
+description: ー医療学校なのに楽しい！学園祭や体育祭など行事もたくさん！学校も、仲間も、ますます好きになる。札幌看護医療は“楽しい”がいっぱい！
+breadcrumb: [{label: 学校生活・施設, url: /campuslife/}, {label: キャンパスライフ}]
+bodyClass: p-campuslife p-campuslife-schedule
+pageCss: /asset/css/pages/campuslife.css
+pageJs: /asset/js/pages/campuslife.js
+permalink: /campuslife/schedule/index.html
+---
+{#- メインビジュアル -#}
+<section class="p-campuslife__sc-mv">
+  <div class="p-campuslife__sc-mv-txt">
+    <h2 class="ttl"><img src="/asset/img/campuslife/schedule/mv-title.png" alt="キャンパスライフ" width="659" height="428"></h2>
+    <p class="catch"><img src="/asset/img/campuslife/schedule/mv-catch.png" alt="" width="672" height="183"></p>
+  </div>
+  <div class="p-campuslife__sc-mv-img"><img src="/asset/img/campuslife/schedule/2025/mv-img.jpg" alt="" width="780" height="836"></div>
+</section>
+
+{#- リード -#}
+<section class="p-campuslife__sc-lead u-section">
+  <p class="txt" data-anim="fade-up">毎日の授業はもちろん、友達とのランチや、<br>放課後だって<span class="u-marker" data-marker>大切な学校生活の一部。</span><br>仲間がいれば全部<span class="u-marker" data-marker>最高の思い出になる！</span></p>
+</section>
+
+{#- 年間行事 -#}
+{%- set base = "/asset/img/campuslife/schedule/" -%}
+{%- set events = [
+  {no: "01", title: "event01-title.png", alt: "#入学式・卒業式", tw: 371, th: 72, deco: "event01-img.png", dw: 257, dh: 214, reverse: false, items: [
+    {p: ["event01-ph1-1.jpg", "2026/event01-ph1-2.jpg"]},
+    {p: ["event01-ph2-1.jpg", "event01-ph2-2.jpg"]},
+    {p: ["event01-ph3-1.jpg", "event01-ph3-2.jpg"]},
+    {p: ["event01-ph4-1.jpg", "event01-ph4-2.jpg"]},
+    {p: ["event01-ph5-1.jpg", "event01-ph5-2.jpg"], tall: true},
+    {p: ["2026/event01-ph6-1.jpg", "2026/event01-ph6-2.jpg"], tall: true},
+    {p: ["2026/event01-ph7-1.jpg", "2026/event01-ph7-2.jpg"], tall: true},
+    {p: ["2026/event01-ph8-1.jpg", "2026/event01-ph8-2.jpg"], tall: true}
+  ]},
+  {no: "02", title: "event02-title.png", alt: "#学園祭・ウェルネスフェス", tw: 523, th: 74, deco: "event02-img.png", dw: 173, dh: 170, reverse: true, items: [
+    {p: ["2025/event02-ph1-1.jpg", "event02-ph1-2.jpg", "2025/event02-ph1-3.jpg"]},
+    {p: ["2025/event02-ph2-1.jpg", "event02-ph2-2.jpg", "2025/event02-ph2-3.jpg"]},
+    {p: ["event02-ph3-1.jpg", "event02-ph3-2.jpg", "2025/event02-ph3-3.jpg"]},
+    {p: ["event02-ph4-1.jpg", "event02-ph4-2.jpg", "2025/event02-ph4-3.jpg"]},
+    {movie: "https://youtu.be/oiY9VC8NE8w", p: ["2025/event02-ph5-1.jpg"], tall: true},
+    {p: ["2026/event02-ph6-1.jpg", "2026/event02-ph6-2.jpg"]},
+    {p: ["2026/event02-ph7-1.jpg", "2026/event02-ph7-2.jpg"]},
+    {p: ["2026/event02-ph8-1.jpg"]}
+  ]},
+  {no: "03", title: "event03-title.png", alt: "#学年交流フェス（運動会）", tw: 497, th: 69, deco: "event03-img.png", dw: 205, dh: 155, reverse: false, items: [
+    {p: ["event03-ph1-1.jpg", "event03-ph1-2.jpg"]},
+    {p: ["event03-ph2-1.jpg", "event03-ph2-2.jpg", "2025/event03-ph2-3.jpg"]},
+    {p: ["event03-ph3-2.jpg", "2025/event03-ph3-3.jpg"]},
+    {p: ["2025/event03-ph4-1.jpg", "event03-ph4-2.jpg", "2025/event03-ph4-3.jpg"]},
+    {movie: "https://youtu.be/C7ywwIbZDtE", p: ["event03-ph5-1.jpg"], tall: true}
+  ]},
+  {no: "04", title: "event04-title.png", alt: "#研修旅行", tw: 269, th: 70, deco: "event04-img.png", dw: 242, dh: 229, reverse: true, items: [
+    {p: ["event04-ph1-1.jpg", "event04-ph1-2.jpg", "2025/event04-ph1-3.jpg"]},
+    {p: ["2025/event04-ph2-1.jpg", "event04-ph2-2.jpg", "2025/event04-ph2-3.jpg"]},
+    {p: ["event04-ph3-1.jpg", "event04-ph3-2.jpg", "2025/event04-ph3-3.jpg"]},
+    {p: ["2025/event04-ph4-1.jpg", "event04-ph4-2.jpg", "2025/event04-ph4-3.jpg"]},
+    {p: ["event04-ph5-1.jpg", "event04-ph5-2.jpg", "2025/event04-ph5-3.jpg"], tall: true},
+    {p: ["2026/event04-ph6-1.jpg"]},
+    {p: ["2026/event04-ph7-1.jpg"]},
+    {p: ["2026/event04-ph8-1.jpg", "2026/event04-ph8-2.jpg"]}
+  ]},
+  {no: "05", title: "event05-title.png", alt: "#徽章授与式・ 臨床実習激励式", tw: 379, th: 161, deco: "event05-img.png", dw: 242, dh: 191, reverse: false, items: [
+    {p: ["event05-ph1-1.jpg", "event05-ph1-2.jpg", "2025/event05-ph1-3.jpg"]},
+    {p: ["event05-ph2-1.jpg", "event05-ph2-2.jpg", "2025/event05-ph2-3.jpg"]},
+    {p: ["2025/event05-ph3-1.jpg", "event05-ph3-2.jpg"]},
+    {p: ["2025/event05-ph4-1.jpg", "event05-ph4-2.jpg"]},
+    {movie: "https://youtu.be/I0JdLcuU3zI", p: ["2025/event05-ph5-1.jpg"], tall: true},
+    {p: ["2026/event05-ph6-1.jpg", "2026/event05-ph6-2.jpg"]},
+    {p: ["2026/event05-ph7-1.jpg", "2026/event05-ph7-2.jpg"]},
+    {p: ["2026/event05-ph8-1.jpg"]}
+  ]},
+  {no: "06", title: "event06-title.png", alt: "#戴帽式", tw: 221, th: 90, deco: "event06-img.png", dw: 298, dh: 186, reverse: true, items: [
+    {p: ["event06-ph1-1.jpg", "event06-ph1-2.jpg", "2025/event06-ph1-3.jpg"]},
+    {p: ["event06-ph2-1.jpg", "event06-ph2-2.jpg", "2025/event06-ph2-3.jpg"]},
+    {p: ["2025/event06-ph3-1.jpg", "event06-ph3-2.jpg", "2025/event06-ph3-3.jpg"]},
+    {p: ["2025/event06-ph4-1.jpg", "event06-ph4-2.jpg", "2025/event06-ph4-3.jpg"]},
+    {movie: "https://youtu.be/MFEUmrZmnk4", p: ["event06-ph5-1.jpg"], tall: true},
+    {p: ["2026/event06-ph6-1.jpg", "2026/event06-ph6-2.jpg"]},
+    {p: ["2026/event06-ph7-1.jpg", "2026/event06-ph7-2.jpg"]},
+    {p: ["2026/event06-ph8-1.jpg"]}
+  ]},
+  {no: "07", title: "event07-title.png", alt: "#札幌医療看護の日常", tw: 513, th: 75, deco: "event07-img.png", dw: 188, dh: 165, reverse: false, items: [
+    {p: ["event07-ph1-1.jpg", "event07-ph1-2.jpg"]},
+    {p: ["event07-ph2-1.jpg", "event07-ph2-2.jpg", "2025/event07-ph2-3.jpg"]},
+    {p: ["event07-ph3-1.jpg", "event07-ph3-2.jpg", "2025/event07-ph3-3.jpg"], tall: true},
+    {p: ["event07-ph4-1.jpg", "event07-ph4-2.jpg"], tall: true},
+    {p: ["event07-ph5-1.jpg", "event07-ph5-2.jpg", "2025/event07-ph5-3.jpg"]},
+    {p: ["event07-ph6-1.jpg", "event07-ph6-2.jpg", "2025/event07-ph6-3.jpg"]},
+    {p: ["event07-ph7-2.jpg"]}
+  ]}
+] -%}
+{%- for ev in events %}
+<section class="p-campuslife__event{% if ev.reverse %} is-reverse{% endif %}">
+  <div class="p-campuslife__event-head">
+    <h3 class="ttl" data-anim="fade-up"><img src="{{ base }}{{ ev.title }}" loading="lazy" alt="{{ ev.alt }}" width="{{ ev.tw }}" height="{{ ev.th }}"></h3>
+    <div class="deco" data-anim="stamp"><img src="{{ base }}{{ ev.deco }}" loading="lazy" alt="" width="{{ ev.dw }}" height="{{ ev.dh }}"></div>
+  </div>
+  <div class="p-campuslife__event-grid" data-anim-group>
+    {%- for item in ev.items %}
+    {%- set h = 519 if item.tall else 260 %}
+    {%- if item.movie %}
+    <a href="{{ item.movie }}" target="_blank" rel="noopener" class="p-campuslife__event-item is-movie{% if item.tall %} is-tall{% endif %}" data-anim="zoom">
+      <img src="{{ base }}{{ item.p[0] }}" loading="lazy" alt="" width="260" height="{{ h }}">
+      <span class="play">
+        <span class="front"><img src="/asset/img/share/icon-play-front.png" loading="lazy" alt="" width="130" height="130"></span>
+        <span class="text"><img src="/asset/img/share/icon-play-text.png" loading="lazy" alt="PLAY MOVIE" width="130" height="130"></span>
+      </span>
+    </a>
+    {%- else %}
+    <div class="p-campuslife__event-item{% if item.tall %} is-tall{% endif %}{% if item.p | length > 1 %} is-xfade" data-xfade{% else %}"{% endif %} data-anim="zoom">
+      {%- for src in item.p %}
+      <img src="{{ base }}{{ src }}" loading="lazy" alt="" width="260" height="{{ h }}"{% if not loop.first %} class="is-hidden"{% endif %}>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+    {%- endfor %}
+  </div>
+</section>
+{%- endfor %}

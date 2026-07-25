@@ -1,0 +1,64 @@
+---
+layout: page.njk
+title: 学科・専攻
+description: ーミライにつながる学びー最先端の医療が学べる！看護学科・視能訓練士学科・歯科衛生士学科・臨床工学技士からなる医療系総合専門学校です。最新機器×ICT教育で基礎から国家資格・就職まで徹底サポートし、地域医療の発展に貢献できる人材を育成しています。
+breadcrumb: [{label: 学科・専攻}]
+bodyClass: p-course p-course-index
+pageCss: /asset/css/pages/course.css
+pageJs: /asset/js/pages/course.js
+permalink: /course/index.html
+---
+{#- MV -#}
+<section class="p-course__page-mv">
+  <div class="p-course__page-mv-txt">
+    <h1 class="p-course__page-ttl"><span class="en">COURSE</span><span class="ja">学科・専攻</span></h1>
+  </div>
+  <div class="p-course__page-mv-bg"><img src="/asset/img/course/share/2026/mv.jpg" alt="" width="740" height="330"></div>
+</section>
+
+<section class="u-section">
+  <p class="p-course__lead" data-anim="fade-up">札幌看護医療専門学校では、<br>新さっぽろの未来を担う<span class="p-course__nowrap">医療系4学科1専攻があります。</span></p>
+
+  {#- 4学科カード -#}
+  {%- set courses = [
+    {slug: "nursing",          name: "看護",         img: "course-img01.webp", bg: "course-bg01.webp"},
+    {slug: "orthoptist",       name: "視能訓練士",   img: "course-img02.webp", bg: "course-bg02.webp"},
+    {slug: "dentalhygienists", name: "歯科衛生士",   img: "course-img03.webp", bg: "course-bg03.webp"},
+    {slug: "clinicalengineer", name: "臨床工学技士", img: "course-img04.webp", bg: "course-bg04.webp"}
+  ] -%}
+  <div class="p-course__index-grid" data-anim-group>
+    {%- for c in courses %}
+    <a href="/course/{{ c.slug }}/" class="p-course__index-item is-{{ c.slug }}" data-anim="fade-up">
+      <span class="p-course__index-name">
+        <span class="txt"><span class="number">3</span>年制</span>
+        <span class="course">{{ c.name }}<span class="small">学科</span></span>
+      </span>
+      <span class="img"><img src="/asset/img/top/2026/{{ c.img }}" alt="" width="295" height="410" loading="lazy"></span>
+      <span class="bg"><img src="/asset/img/top/2026/{{ c.bg }}" alt="" width="295" height="410" loading="lazy"></span>
+    </a>
+    {%- endfor %}
+  </div>
+</section>
+
+{#- 学びの環境／学びの楽しさ -#}
+<section class="p-course__env u-section">
+  <div class="p-course__env-block" data-anim="fade-up">
+    <div class="c-section-head">
+      <span class="c-badge"><span class="c-badge__label">Facilitiy</span></span>
+      <h2 class="c-section-head__catch">学びの環境</h2>
+      <p class="p-course__balloon"><span>最新の医療現場と同じ環境で学べる</span></p>
+    </div>
+    <p class="p-course__banner-wide"><a href="/campuslife/facility/"><img src="/asset/img/share/2025/banner-facility-wide.png" loading="lazy" alt="施設紹介" width="700" height="324"></a></p>
+  </div>
+  <div class="p-course__env-block" data-anim="fade-up">
+    <div class="c-section-head">
+      <span class="c-badge"><span class="c-badge__label">Fun</span></span>
+      <h2 class="c-section-head__catch">学びの楽しさ</h2>
+      <p class="p-course__balloon"><span>札幌看護医療は“楽しい”がいっぱい！</span></p>
+    </div>
+    <div data-anim-group>
+      <p class="p-course__banner-wide" data-anim="fade-up"><a href="/campuslife/schedule/"><img src="/asset/img/share/2025/banner-campuslife-wide02.png" loading="lazy" alt="キャンパスライフ" width="700" height="324"></a></p>
+      <p class="p-course__banner-wide" data-anim="fade-up"><a href="/opencampus/"><img src="/asset/img/share/2025/banner-ictoc-wide.png" loading="lazy" alt="ICTオープンキャンパス" width="700" height="324"></a></p>
+    </div>
+  </div>
+</section>

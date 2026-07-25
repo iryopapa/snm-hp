@@ -1,0 +1,200 @@
+---
+layout: page.njk
+title: 高校1・2年生のための進路選び
+description: 約8割が高校1.2年生のうちから進路を考えています！高校3年生の時に焦らないためにも今からオープンキャンパスなどに参加して進路を進めておこう！
+breadcrumb: [{label: 学校案内, url: /school/}, {label: 高校1・2年生のための進路選び}]
+bodyClass: p-school p-school-guide
+pageCss: /asset/css/pages/school.css
+permalink: /school/guide/index.html
+---
+{#- MV -#}
+<section class="p-school-guide__mv">
+  <h1 class="p-school-guide__mv-ttl"><img src="/asset/img/school/guide/2025/mv-ttl.png" alt="高校1・2年生のための進路選び" width="604" height="263"></h1>
+  <div class="p-school-guide__mv-bg">
+    <img src="/asset/img/school/guide/2026/mv.jpg" alt="" width="732" height="944">
+    <span class="mv-img img01"><img src="/asset/img/school/guide/2026/mv-img01.png" alt="" width="353" height="374"></span>
+    <span class="mv-img img02"><img src="/asset/img/school/guide/2026/mv-img02.png" alt="" width="373" height="381"></span>
+  </div>
+</section>
+
+{#- 導入 -#}
+<section class="p-school-guide__top u-section">
+  <div class="p-school-guide__balloon" data-anim="fade-up">
+    <span class="icon"><img src="/asset/img/school/guide/2025/top-icon.png" loading="lazy" alt="" width="74" height="74"></span>
+    <p class="txt">進路のことって<br>いつから考えたらいいの？</p>
+  </div>
+  <p class="p-school-guide__catch" data-anim="fade-up">
+    <span class="u-marker" data-marker>約8割</span>が<span class="small">高校1・2年生のうちから<br>進路を考えています！</span>
+    <span class="deco"><img src="/asset/img/school/guide/2025/top-deco.png" loading="lazy" alt="" width="34" height="19"></span>
+  </p>
+  <p data-anim="fade-up">学校で進路指導の授業が増えてきたり、まわりの友達と進路の話をすることも増えてきたのではないでしょうか？余裕のある高校1・2年生のうちに色々な学校を見学して、高校3年生になったら入試の準備を始めよう！</p>
+  <div class="p-school-guide__graph" data-anim="zoom">
+    <p class="title">進路選びスタート時期</p>
+    <div class="img"><img src="/asset/img/school/guide/2025/top-graph.png" loading="lazy" alt="" width="533" height="531"></div>
+  </div>
+</section>
+
+{#- アンカーメニュー -#}
+<nav class="p-school-guide__anchor u-section" aria-label="ケース別メニュー">
+  <h2 class="p-school-guide__anchor-ttl" data-anim="fade-up"><img src="/asset/img/school/guide/2025/anchor-ttl.png" loading="lazy" alt="今の自分に合った進路選びからスタートしよう！" width="576" height="152"></h2>
+  {%- set cases = [
+    {no: "01", txt: '<span class="u-marker" data-marker>医療系</span>に興味がある<br><span class="u-marker" data-marker>病院</span>で働きたい！'},
+    {no: "02", txt: '<span class="u-marker" data-marker>オーキャン</span>で在校生や<br>学校の雰囲気が知りたい'},
+    {no: "03", txt: '部活で<span class="u-marker" data-marker>オーキャン</span>に<br>なかなか行けなさそう…'},
+    {no: "04", txt: '在校生の<span class="u-marker" data-marker>リアル</span>な<br>話が聞きたい！'},
+    {no: "05", txt: '他の学校と比較中で<br><span class="u-marker" data-marker>学校の特徴</span>が知りたい！'},
+    {no: "06", txt: 'まずは<span class="u-marker" data-marker>気軽に</span><br><span class="u-marker" data-marker>相談や質問</span>がしたい！'}
+  ] -%}
+  <ol class="p-school-guide__anchor-list" data-anim-group>
+    {%- for c in cases %}
+    <li data-anim="fade-up">
+      <a href="#anchor{{ c.no }}">
+        <span class="case"><img src="/asset/img/school/guide/2025/anchor-case{{ c.no }}.png" loading="lazy" alt="Case {{ c.no }}" width="150" height="36"></span>
+        <span class="icon"><img src="/asset/img/school/guide/2025/anchor-icon{{ c.no }}.png" loading="lazy" alt="" width="80" height="80"></span>
+        <span class="txt">{{ c.txt | safe }}</span>
+        <span class="arrow">↓</span>
+      </a>
+    </li>
+    {%- endfor %}
+  </ol>
+</nav>
+
+{#- Case 01 -#}
+<section class="p-school-guide__case" id="anchor01">
+  <div class="p-school-guide__case-head" data-anim="fade-up">
+    <p class="case-ttl"><img src="/asset/img/school/guide/2025/anchor-case01.png" loading="lazy" alt="Case 01" width="233" height="60"></p>
+    <div class="catch-box">
+      <span class="icon"><img src="/asset/img/school/guide/2025/anchor-icon01.png" loading="lazy" alt="" width="110" height="110"></span>
+      <p class="catch"><span class="u-marker" data-marker>医療系</span>に興味がある<br><span class="u-marker" data-marker>病院</span>で働きたい！</p>
+    </div>
+  </div>
+  <div class="p-school-guide__case-body">
+    <p class="cont-catch" data-anim="fade-up"><b>札幌看護医療</b>で目指せる<br><b>医療のシゴト</b>を知る！</p>
+    <p class="p-school-guide__bnr" data-anim="fade-up">
+      <a href="https://www.snm.ac.jp/special/" target="_blank" rel="noopener"><img src="/asset/img/share/2025/banner-iryo-wide.png" loading="lazy" width="700" height="324" alt="それぞれの仕事がよくわかる！ 医療のシゴト特集"></a>
+    </p>
+    <p class="cont-catch" data-anim="fade-up">姉妹校も含めて<br>色んな<b>医療のシゴト</b>を知る！</p>
+    <p class="p-school-guide__bnr" data-anim="fade-up">
+      <a href="https://www.hht.ac.jp/" target="_blank" rel="noopener noreferrer"><img src="/asset/img/share/2025/banner-hht-wide.png" loading="lazy" width="700" height="324" alt="キミの「好き」がきっと見つかる。ハイテクの医療"></a>
+    </p>
+  </div>
+</section>
+
+{#- Case 02 -#}
+<section class="p-school-guide__case" id="anchor02">
+  <div class="p-school-guide__case-head" data-anim="fade-up">
+    <p class="case-ttl"><img src="/asset/img/school/guide/2025/anchor-case02.png" loading="lazy" alt="Case 02" width="233" height="60"></p>
+    <div class="catch-box">
+      <span class="icon"><img src="/asset/img/school/guide/2025/anchor-icon02.png" loading="lazy" alt="" width="110" height="110"></span>
+      <p class="catch"><span class="u-marker" data-marker>オーキャン</span>で在校生や<br>学校の雰囲気が知りたい</p>
+    </div>
+  </div>
+  <div class="p-school-guide__case-body">
+    <p class="cont-catch" data-anim="fade-up"><b>選べるプログラム30種類以上！</b></p>
+    <p class="p-school-guide__bnr" data-anim="fade-up">
+      <a href="/opencampus/"><img src="/asset/img/share/2026/banner-oc-wide.png" loading="lazy" width="700" height="324" alt="医療系が気になる方に最適！オープンキャンパス"></a>
+    </p>
+    <p class="note" data-anim="fade-up">学科の体験や在校生トークなど自分の進路に合わせて自由にプログラムをセレクトできます。</p>
+    <p class="cont-catch" data-anim="fade-up"><b>はじめての方</b>の<b>特典</b>！</p>
+    <p class="p-school-guide__bnr" data-anim="fade-up">
+      <a href="/opencampus/subsidy_list/"><img src="/asset/img/share/banner-subsidy.png" loading="lazy" width="621" height="286" alt="来校の際も安心サポート 交通費補助 公共交通機関ご利用の方必見！"></a>
+    </p>
+  </div>
+</section>
+
+{#- Case 03 -#}
+<section class="p-school-guide__case" id="anchor03">
+  <div class="p-school-guide__case-head" data-anim="fade-up">
+    <p class="case-ttl"><img src="/asset/img/school/guide/2025/anchor-case03.png" loading="lazy" alt="Case 03" width="233" height="60"></p>
+    <div class="catch-box">
+      <span class="icon"><img src="/asset/img/school/guide/2025/anchor-icon03.png" loading="lazy" alt="" width="110" height="110"></span>
+      <p class="catch">部活で<span class="u-marker" data-marker>オーキャン</span>に<br>なかなか行けなさそう…</p>
+    </div>
+  </div>
+  <div class="p-school-guide__case-body">
+    <p class="cont-catch" data-anim="fade-up">あなたの<b>高校に訪問！</b><br><b>地元でお話</b>しよう♪</p>
+    <p class="p-school-guide__bnr" data-anim="fade-up">
+      <a href="https://www.snm.ac.jp/news/2022/5543/" target="_blank" rel="noopener"><img src="/asset/img/share/2025/banner-highschool-wide.png" loading="lazy" width="700" height="324" alt="気軽に参加してみよう！高校訪問ガイダンス　開催校はこちら"></a>
+    </p>
+    <p class="cont-catch" data-anim="fade-up"><b>都合の良い日</b>にじっくり<b>相談！</b></p>
+    <p class="p-school-guide__bnr" data-anim="fade-up">
+      <a href="https://www.snm.ac.jp/news/2023/2849/" target="_blank" rel="noopener"><img src="/asset/img/share/2026/banner-consultation-wide.png" loading="lazy" width="700" height="324" alt="学校説明&個別相談会"></a>
+    </p>
+  </div>
+</section>
+
+{#- Case 04 -#}
+<section class="p-school-guide__case" id="anchor04">
+  <div class="p-school-guide__case-head" data-anim="fade-up">
+    <p class="case-ttl"><img src="/asset/img/school/guide/2025/anchor-case04.png" loading="lazy" alt="Case 04" width="233" height="60"></p>
+    <div class="catch-box">
+      <span class="icon"><img src="/asset/img/school/guide/2025/anchor-icon04.png" loading="lazy" alt="" width="110" height="110"></span>
+      <p class="catch">在校生の<span class="u-marker" data-marker>リアル</span>な<br>話が聞きたい！</p>
+    </div>
+  </div>
+  <div class="p-school-guide__case-body">
+    <p class="cont-catch" data-anim="fade-up"><b>先パイの進路ストーリー</b>を聞こう！</p>
+    <ul class="p-school-guide__blog-list" data-anim-group>
+      {%- set blogs = [
+        {href: "https://www.snm.ac.jp/blog/2025/15750/", img: "banner-blog01"},
+        {href: "https://www.snm.ac.jp/blog/2025/15862/", img: "banner-blog02"},
+        {href: "https://www.snm.ac.jp/blog/2025/15885/", img: "banner-blog03"},
+        {href: "https://www.snm.ac.jp/blog/2025/15872/", img: "banner-blog04"}
+      ] -%}
+      {%- for b in blogs %}
+      <li data-anim="fade-up">
+        <a href="{{ b.href }}" target="_blank" rel="noopener" class="p-school-guide__bnr">
+          <img src="/asset/img/school/guide/2026/{{ b.img }}.png" loading="lazy" alt="在校生トーク わたしの進む道" width="700" height="324">
+        </a>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+{#- Case 05 -#}
+<section class="p-school-guide__case" id="anchor05">
+  <div class="p-school-guide__case-head" data-anim="fade-up">
+    <p class="case-ttl"><img src="/asset/img/school/guide/2025/anchor-case05.png" loading="lazy" alt="Case 05" width="233" height="60"></p>
+    <div class="catch-box">
+      <span class="icon"><img src="/asset/img/school/guide/2025/anchor-icon05.png" loading="lazy" alt="" width="110" height="110"></span>
+      <p class="catch">他の学校と比較中で<br><span class="u-marker" data-marker>学校の特徴</span>が知りたい！</p>
+    </div>
+  </div>
+  <div class="p-school-guide__case-body">
+    <p class="cont-catch" data-anim="fade-up"><b>最新設備</b>の<b>キレイな校舎</b>で<b>ワクワク</b>！</p>
+    <p class="p-school-guide__bnr" data-anim="fade-up">
+      <a href="/campuslife/facility/"><img src="/asset/img/share/2025/banner-facility-wide.png" loading="lazy" width="700" height="324" alt="施設紹介"></a>
+    </p>
+    <p class="cont-catch" data-anim="fade-up"><b>最先端</b>の<b>ICT教育</b>で<b>学び</b>を深めよう！</p>
+    <p class="p-school-guide__bnr" data-anim="fade-up">
+      <a href="/school/study/"><img src="/asset/img/share/2025/banner-ict-wide.png" loading="lazy" width="700" height="324" alt="医療×ICT教育 超スマート社会で主体的に対応できる、ICT教育を各学科に導入！"></a>
+    </p>
+    <p class="cont-catch" data-anim="fade-up"><b>札幌学院大学・星槎大学</b>と<br><b>協定</b>を結んでいます</p>
+    <p class="p-school-guide__bnr" data-anim="fade-up">
+      <a href="/campuslife/schedule/"><img src="/asset/img/share/2025/banner-campuslife-wide.png" loading="lazy" width="700" height="324" alt="大学が同じ敷地に！充実したキャンパスライフ サツガク連携"></a>
+    </p>
+  </div>
+</section>
+
+{#- Case 06 -#}
+<section class="p-school-guide__case" id="anchor06">
+  <div class="p-school-guide__case-head" data-anim="fade-up">
+    <p class="case-ttl"><img src="/asset/img/school/guide/2025/anchor-case06.png" loading="lazy" alt="Case 06" width="233" height="60"></p>
+    <div class="catch-box">
+      <span class="icon"><img src="/asset/img/school/guide/2025/anchor-icon06.png" loading="lazy" alt="" width="110" height="110"></span>
+      <p class="catch">まずは<span class="u-marker" data-marker>気軽に</span><br><span class="u-marker" data-marker>相談や質問</span>がしたい！</p>
+    </div>
+  </div>
+  <div class="p-school-guide__case-body">
+    <p class="cont-catch" data-anim="fade-up">入学生の<b>82.5%</b>が<b>利用</b>する！</p>
+    <p class="p-school-guide__bnr" data-anim="fade-up">
+      <a href="https://www.snm.ac.jp/news/2020/914/" target="_blank" rel="noopener"><img src="/asset/img/share/2026/banner-line.jpg" loading="lazy" width="700" height="324" alt="入学予定者の82.5%が利用する？！LINEなんでも相談室"></a>
+    </p>
+    <p class="note" data-anim="fade-up">学校の先生にLINEで質問や相談ができる！<br>まずはLINEで友達追加してみよう！</p>
+  </div>
+</section>
+
+<div class="p-school-guide__bottom" data-anim="fade">
+  <img src="/asset/img/school/guide/2025/bottom-img.jpg" loading="lazy" width="780" height="838" alt="皆さんの進路選びを応援しています！">
+</div>

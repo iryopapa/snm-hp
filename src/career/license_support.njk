@@ -1,0 +1,112 @@
+---
+layout: page.njk
+title: 資格サポート
+description: 30年以上の実績と全国にある80校以上のグループ校や業界とのネットワークを活かし、基礎学力から総復習する特別授業など、一人ひとりの学力に合わせた手厚いサポートで合格へと導きます。
+breadcrumb: [{label: 資格・就職, url: /career/}, {label: 資格サポート}]
+bodyClass: p-career p-career-license_support
+pageCss: /asset/css/pages/career.css
+permalink: /career/license_support/index.html
+---
+{#- メインビジュアル -#}
+<section class="p-career__mv">
+  <div class="p-career__mv-inner">
+    <h2 class="p-career__mv-ttl">
+      <span class="eng">CAREER</span>
+      <span class="ja">資格サポート</span>
+    </h2>
+    <p class="p-career__mv-catch"><img src="/asset/img/career/share/2025/mv-catch.png" alt="私はここで、なりたいジブンへ。" width="483" height="250"></p>
+    <div class="p-career__mv-bg"><img src="/asset/img/career/share/2026/mv.jpg" alt="" width="740" height="330"></div>
+  </div>
+</section>
+
+{#- 取得できる資格 -#}
+<section class="p-career__license u-section">
+  <h2 class="p-career__head-title" data-anim="fade-up"><span class="bg">札幌看護医療専門学校で</span><br><span class="bg">取得できる豊富な資格！</span></h2>
+  {%- set licenses = [
+    {tone: "pink",   icon: "license-icon01.png", iw: 27, ih: 19, name: "看護学科",
+     items: ["看護師（国家資格）", "保健師・助産師学校の受験資格", "養護教諭課程の受験資格", "看護大学の編入試験の受験資格"]},
+    {tone: "blue",   icon: "license-icon02.png", iw: 21, ih: 22, name: "視能訓練士学科",
+     items: ["視能訓練士（国家資格）", "同行援護従業者養成研修一般課程", "同行援護従業者養成研修応用課程（選択）", "分部科学省後援　色彩検定（選択）"]},
+    {tone: "yellow", icon: "license-icon03.png", iw: 17, ih: 29, name: "歯科衛生士学科",
+     items: ["歯科衛生士（国家資格）", "アロマテラピー検定1級（選択）"]},
+    {tone: "green",  icon: "license-icon04.png", iw: 25, ih: 20, name: "臨床工学技士学科",
+     items: ["臨床工学技士（国家資格）", "第1種ME技術実力検定試験（選択）", "第2種ME技術実力検定試験", "心電図検定（選択）", "医療機器情報コミュニケーションMIDC検定試験（選択）"]}
+  ] -%}
+  <div class="p-career__license-grid" data-anim-group>
+    {%- for lic in licenses %}
+    <div class="c-num-card p-career__license-group" data-tone="{{ lic.tone }}" data-anim="fade-up">
+      <h3 class="p-career__license-ttl"><span class="icon"><img src="/asset/img/career/license_support/{{ lic.icon }}" loading="lazy" alt="" width="{{ lic.iw }}" height="{{ lic.ih }}"></span><span class="txt">{{ lic.name }}</span></h3>
+      <ul class="p-career__dot-list">
+        {%- for item in lic.items %}
+        <li>{{ item }}</li>
+        {%- endfor %}
+      </ul>
+    </div>
+    {%- endfor %}
+  </div>
+  <ul class="p-career__note-list" data-anim="fade">
+    <li>※卒業時「専門士」の称号を付与</li>
+    <li>※専修学校教員資格（国家資格取得後、実務経験5年積んだ者）</li>
+  </ul>
+</section>
+
+{#- 国家試験サポート -#}
+<section class="p-career__support u-section">
+  <h2 class="p-career__head-title" data-anim="fade-up"><span class="bg">勉強が苦手な人も安心！</span><br><span class="bg">きめ細やかな国家試験サポート</span></h2>
+  <p class="p-career__lead" data-anim="fade-up">国家試験対策では、放課後の個別サポートや、基礎学力から総復習する特別授業など、一人ひとりの学力に合わせた手厚いサポートで合格へと導きます。</p>
+  <div class="p-career__support-row" data-anim-group>
+    <div class="p-career__support-col is-wide" data-anim="fade-up">
+      <div class="img"><img src="/asset/img/career/license_support/2026/support-img01.jpg" loading="lazy" alt="" width="700" height="466"></div>
+      <h3 class="ttl"><span class="u-marker" data-marker><span class="strong">頼れる先生</span>がいるから安心して勉強できる</span></h3>
+      <p class="txt">業界に精通した先生が、学生一人ひとりにしっかりと向き合います。勉強や就職の悩みなど、何でも相談できるのはもちろん、わからないことはわかるまでじっくり教えてくれるので安心です。</p>
+    </div>
+    <div class="p-career__support-col" data-anim="fade-up">
+      <div class="img"><img src="/asset/img/career/license_support/2026/support-img02.jpg" loading="lazy" alt="" width="330" height="330"></div>
+      <h3 class="ttl"><span class="u-marker" data-marker>高校の基礎学力から総復習する<span class="strong">特別対策授業</span></span></h3>
+      <p class="txt">高校での基礎が不安な人には、専門的な授業を受ける前に、特別対策授業で基礎を復習できるので安心です。</p>
+    </div>
+    <div class="p-career__support-col" data-anim="fade-up">
+      <div class="img"><img src="/asset/img/career/license_support/2026/support-img03.jpg" loading="lazy" alt="" width="330" height="330"></div>
+      <h3 class="ttl"><span class="u-marker" data-marker>放課後も<span class="strong">個別に学べる環境</span>で徹底的に知識を吸収</span></h3>
+      <p class="txt">放課後も頼れる先生がわかるまで個別にサポート。また、図書館やカフェなどを使用しテストや国家試験前などに集中して勉強ができます。</p>
+    </div>
+    <div class="p-career__support-col" data-anim="fade-up">
+      <div class="img"><img src="/asset/img/career/license_support/2026/support-img04.jpg" loading="lazy" alt="" width="330" height="330"></div>
+      <h3 class="ttl"><span class="u-marker" data-marker>スマホでも試験勉強が可能な<span class="strong">e-Learning</span></span></h3>
+      <p class="txt">自宅のパソコンやスマートフォンなどを使って勉強ができるシステムを確立。アプリ感覚で検定試験や国家試験の模擬試験にいつでもチャレンジできます。</p>
+    </div>
+    <div class="p-career__support-col" data-anim="fade-up">
+      <div class="img"><img src="/asset/img/career/license_support/support-img05.jpg" loading="lazy" alt="" width="330" height="330"></div>
+      <h3 class="ttl"><span class="u-marker" data-marker>試験の傾向に合わせた<span class="strong">オリジナル教材</span>を活用</span></h3>
+      <p class="txt">滋慶学園グループの卒業生5万人のデータを分析し、資格試験の傾向にあわせたオリジナルの問題集や模擬試験を制作。国家資格の合格に直結した学びを実践しています。</p>
+    </div>
+  </div>
+</section>
+
+{#- 手厚いサポートで国家試験に挑戦 -#}
+<section class="p-career__result u-section">
+  <p class="p-career__sub-title" data-anim="fade-up"><span class="u-marker" data-marker>手厚いサポートで国家試験に挑戦！</span></p>
+  {%- set supports = [
+    {img: "result-support01.png", txt: "経験豊かな<br>先生による<br>試験対策授業"},
+    {img: "result-support02.png", txt: "いつでもどこでも<br>試験勉強が可能な<br>e-Learning"},
+    {img: "result-support03.png", txt: "放課後も<br>個別に学べる<br>学習環境"},
+    {img: "result-support04.png", txt: "試験の傾向に<br>合わせた<br>オリジナル教材"},
+    {img: "result-support05.png", txt: "過去問題を<br>活用した<br>オリジナル模擬試験"},
+    {img: "result-support06.png", txt: "高校からの<br>基礎力を総復習する<br>特別授業"}
+  ] -%}
+  <ul class="p-career__result-list" data-anim-group>
+    {%- for s in supports %}
+    <li class="c-frame-card p-career__result-item" data-anim="fade-up">
+      <span class="img"><img src="/asset/img/career/license_support/2025/{{ s.img }}" loading="lazy" alt="" width="100" height="68"></span>
+      <span class="txt">{{ s.txt | safe }}</span>
+    </li>
+    {%- endfor %}
+  </ul>
+  <p class="p-career__goukaku" data-anim="stamp">
+    <span class="deco"><img src="/asset/img/career/license_support/result-deco.png" loading="lazy" alt="" width="26" height="36"></span>合格！<span class="deco"><img src="/asset/img/career/license_support/result-deco.png" loading="lazy" alt="" width="26" height="36"></span>
+  </p>
+  <div class="p-career__add-box" data-anim="fade-up">
+    <p class="ttl">卒業後も無償サポート</p>
+    <p class="txt">本校では、万が一不合格となった学生も卒業後サポートを継続し合格へ導きます。</p>
+  </div>
+</section>

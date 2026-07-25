@@ -1,0 +1,724 @@
+/* ============ course セクション（/course/ 配下 5ページ） ============ */
+
+.p-course__nowrap { display: inline-block; }
+
+/* ---- 学科一覧（/course/） ---- */
+.p-course__page-mv { position: relative; }
+.p-course__page-mv-bg img { width: 100%; height: auto; display: block; }
+.p-course__page-mv-txt {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+}
+.p-course__page-ttl {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-1);
+  padding: var(--space-4) var(--space-6);
+  background: rgba(255, 255, 255, 0.88);
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+.p-course__page-ttl .en { font-family: var(--font-en); font-weight: 800; font-size: var(--fs-xl); letter-spacing: var(--ls-caps); }
+.p-course__page-ttl .ja { font-weight: 700; font-size: var(--fs-sm); }
+.p-course__lead { text-align: center; font-weight: 700; font-size: var(--fs-md); margin-bottom: var(--space-6); }
+
+.p-course__index-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
+.p-course__index-item { position: relative; display: block; border-radius: var(--radius-md); overflow: hidden; }
+.p-course__index-item .bg { position: absolute; inset: 0; z-index: 0; }
+.p-course__index-item .img { position: relative; z-index: 1; display: block; transition: scale var(--dur-base) var(--ease-site); }
+.p-course__index-item img { width: 100%; height: auto; display: block; }
+.p-course__index-item:hover .img { scale: 1.04; }
+.p-course__index-name {
+  position: absolute;
+  top: var(--space-3);
+  left: var(--space-3);
+  z-index: 2;
+  display: grid;
+  gap: var(--space-1);
+}
+.p-course__index-name .txt {
+  justify-self: start;
+  background: var(--color-ink);
+  color: #fff;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  padding: 2px var(--space-2);
+  border-radius: var(--radius-xs);
+}
+.p-course__index-name .txt .number { font-family: var(--font-en); font-size: var(--fs-base); }
+.p-course__index-name .course { font-weight: 700; font-size: var(--fs-md); text-shadow: 0 0 6px #fff, 0 0 12px #fff; }
+.p-course__index-name .course .small { font-size: var(--fs-xs); }
+
+.p-course__balloon { font-size: var(--fs-sm); font-weight: 700; }
+.p-course__balloon span {
+  display: inline-block;
+  padding: var(--space-1) var(--space-4);
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-pill);
+  background: var(--color-pastel-cream);
+}
+.p-course__env-block + .p-course__env-block { margin-top: var(--space-8); }
+.p-course__banner-wide { margin-top: var(--space-4); }
+.p-course__banner-wide img { width: 100%; height: auto; border-radius: var(--radius-md); display: block; }
+.p-course__banner-wide a { display: block; transition: translate var(--dur-fast) var(--ease-site); }
+.p-course__banner-wide a:hover { translate: 0 -3px; }
+
+/* ---- 学科ページ共通: MV ---- */
+.p-course__mv { position: relative; }
+.p-course__mv-img img { width: 100%; height: auto; display: block; }
+.p-course__mv-wrap { position: absolute; inset: 0; z-index: 2; }
+.p-course__mv-catch { position: absolute; top: var(--space-4); right: var(--space-4); }
+.p-course__mv-catch img { width: auto; max-height: 240px; filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.8)); }
+.p-course__mv-title-box {
+  position: absolute;
+  left: var(--space-4);
+  bottom: var(--space-5);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  background: rgba(255, 255, 255, 0.92);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+}
+.p-course__mv-title { font-size: var(--fs-lg); font-weight: 700; line-height: var(--lh-tight); }
+.p-course__mv-title .sub { font-size: var(--fs-xs); margin-left: var(--space-1); }
+.p-course__mv-en { font-family: var(--font-en); font-size: 0.625rem; letter-spacing: var(--ls-wide); color: var(--color-ink-soft); }
+.p-course__voice-btn {
+  position: absolute;
+  right: var(--space-3);
+  bottom: var(--space-5);
+  width: 92px;
+  transition: scale var(--dur-fast) var(--ease-spring);
+}
+.p-course__voice-btn img { width: 100%; height: auto; }
+.p-course__voice-btn:hover { scale: 1.08; }
+html.js .p-course__voice-btn { animation: voice-float 2.6s ease-in-out infinite alternate; }
+@keyframes voice-float { from { translate: 0 0; } to { translate: 0 -8px; } }
+
+/* AOエントリー サークル */
+.p-course__mv-circle { position: absolute; z-index: 3; top: -14px; left: var(--space-3); width: 110px; height: 110px; }
+.p-course__mv-circle a { position: relative; display: block; width: 100%; height: 100%; }
+.p-course__mv-circle img { width: 100%; height: auto; display: block; }
+.p-course__mv-circle .front { position: absolute; inset: 12%; z-index: 1; }
+.p-course__mv-circle .back { position: absolute; inset: 0; }
+html.js .p-course__mv-circle .back { animation: circle-spin 14s linear infinite; }
+@keyframes circle-spin { to { rotate: 360deg; } }
+
+/* ---- 導入ブロック ---- */
+.p-course__head-catch { text-align: center; margin-bottom: var(--space-3); }
+.p-course__head-title { text-align: center; font-size: var(--fs-xl); font-weight: 700; line-height: 1.5; margin-bottom: var(--space-4); }
+.p-course__head-title .small { font-size: var(--fs-md); }
+.p-course__head-lead { text-align: center; font-size: var(--fs-sm); }
+.p-course__anchor-list { display: grid; margin-top: var(--space-6); }
+
+/* ---- ブロック見出し ---- */
+.p-course__block-title { display: grid; justify-items: center; gap: var(--space-2); text-align: center; margin-bottom: var(--space-5); }
+.p-course__block-title .en {
+  display: inline-block;
+  padding: var(--space-1) var(--space-5);
+  background: var(--grad-badge);
+  border-radius: var(--radius-xs);
+  transform: skewX(-12deg);
+  color: #fff;
+  font-family: var(--font-en);
+  font-weight: 700;
+  font-size: var(--fs-base);
+  letter-spacing: var(--ls-caps);
+}
+.p-course__block-title .catch { font-size: var(--fs-xs); font-weight: 700; color: var(--color-brand-pink); letter-spacing: var(--ls-wide); }
+.p-course__block-title .ttl { font-size: var(--fs-xl); font-weight: 700; line-height: 1.5; }
+.p-course__block-title .ttl .s-txt { font-size: var(--fs-md); }
+.p-course__block-lead { font-size: var(--fs-sm); margin-bottom: var(--space-5); }
+
+.p-course__border-title { position: relative; text-align: center; font-size: var(--fs-md); font-weight: 700; margin: var(--space-5) 0 var(--space-4); }
+.p-course__border-title span { position: relative; display: inline-block; padding: 0 var(--space-4); background: inherit; }
+.p-course__border-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background-image: repeating-linear-gradient(90deg, var(--color-ink) 0 4px, transparent 4px 10px);
+}
+.p-course__border-title span { background: var(--color-bg); }
+
+/* ---- 年次タブ ---- */
+.p-course__year-tab .c-tab__btn .num { font-family: var(--font-en); font-size: var(--fs-lg); margin-right: 2px; }
+.p-course__year-title { font-size: var(--fs-md); font-weight: 700; text-align: center; margin-bottom: var(--space-3); line-height: 1.6; }
+.p-course__year-img { margin-bottom: var(--space-3); }
+.p-course__year-img img { width: 100%; height: auto; border-radius: var(--radius-md); display: block; }
+.p-course__schedule { margin-top: var(--space-4); background: var(--color-bg-gray-1); border-radius: var(--radius-md); padding: var(--space-4); }
+.p-course__schedule-list { display: grid; gap: var(--space-2); font-size: var(--fs-sm); font-weight: 500; }
+.p-course__schedule-list li { display: flex; align-items: baseline; gap: var(--space-3); }
+.p-course__schedule-list .month {
+  flex-shrink: 0;
+  min-width: 64px;
+  text-align: center;
+  background: var(--color-bg);
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-pill);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  padding: 1px var(--space-2);
+}
+.p-course__schedule-list .month .en { font-family: var(--font-en); font-size: var(--fs-base); }
+.p-course__schedule-period { margin-top: var(--space-3); font-weight: 700; }
+.p-course__schedule-period .bg {
+  display: inline-block;
+  background: var(--color-brand-pink);
+  color: #fff;
+  border-radius: var(--radius-xs);
+  padding: 1px var(--space-2);
+  font-size: var(--fs-xs);
+  margin-right: var(--space-2);
+}
+.p-course__schedule-note { margin-top: var(--space-2); font-size: var(--fs-xs); color: var(--color-ink-soft); }
+
+/* ---- 時間割 ---- */
+.p-course__timetable { margin-top: var(--space-6); text-align: center; }
+.p-course__timetable .img { margin-top: var(--space-3); }
+.p-course__timetable .img img { max-width: 100%; height: auto; }
+
+/* ---- Swiper 共通 ---- */
+.p-course__slider { overflow: hidden; border-radius: var(--radius-md); }
+.p-course__slider img { width: 100%; height: auto; display: block; border-radius: var(--radius-md); }
+.p-course__slider .swiper-pagination { position: static; margin-top: var(--space-2); }
+.p-course__slider .swiper-pagination-bullet-active { background: var(--color-brand-pink); }
+.p-course__slider .swiper-slide .title { font-size: var(--fs-xs); font-weight: 700; text-align: center; margin-top: var(--space-1); }
+
+/* ---- 卒業生VOICE ---- */
+.p-course__graduate { margin-top: var(--space-7); }
+.p-course__graduate-title { text-align: center; margin-bottom: var(--space-4); }
+.p-course__graduate-slide { background: var(--color-pastel-cream); border-radius: var(--radius-md); padding: var(--space-4); }
+.p-course__graduate-slide .img img { border-radius: var(--radius-md); width: 100%; height: auto; }
+.p-course__graduate-details { margin-top: var(--space-3); font-size: var(--fs-sm); }
+.p-course__graduate-details summary { font-weight: 700; cursor: pointer; }
+.p-course__graduate-details summary .small { font-size: var(--fs-xs); font-weight: 500; }
+.p-course__graduate-details p { margin-top: var(--space-2); }
+
+.p-course__voice-slide { background: var(--color-bg); border: 1px solid var(--color-line); border-radius: var(--radius-md); padding: var(--space-4); font-size: var(--fs-sm); }
+.p-course__voice-slide .catch { text-align: center; margin-bottom: var(--space-2); }
+.p-course__voice-slide .catch-label { font-weight: 700; font-size: var(--fs-base); text-align: center; margin-bottom: var(--space-2); }
+.p-course__voice-slide .img { margin-bottom: var(--space-2); }
+.p-course__voice-slide .img img { width: 100%; height: auto; border-radius: var(--radius-md); display: block; }
+.p-course__voice-slide .name { font-weight: 700; margin-bottom: var(--space-2); }
+.p-course__voice-slide .name .small,
+.p-course__voice-slide .small { font-size: var(--fs-xs); font-weight: 500; }
+.p-course__voice-slide.is-static { margin-bottom: var(--space-4); }
+.p-course__voice-slide.is-static .name { margin-top: var(--space-2); margin-bottom: 0; }
+.p-course__voice-open { display: block; width: 100%; text-align: left; }
+.p-course__voice-open .name { display: block; margin-top: var(--space-2); font-weight: 700; }
+.p-course__voice-open:hover img { opacity: 0.85; }
+
+/* ---- バナー ---- */
+.p-course__banners { padding-top: 0; }
+.p-course__banner-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); margin-top: var(--space-6); }
+.p-course__banner-list a { display: block; transition: translate var(--dur-fast) var(--ease-site); }
+.p-course__banner-list a:hover { translate: 0 -3px; }
+.p-course__banner-list img { width: 100%; height: auto; border-radius: var(--radius-md); display: block; }
+
+/* ---- 実績カード ---- */
+.p-course__result-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
+.p-course__result-card {
+  display: grid;
+  align-content: start;
+  justify-items: center;
+  gap: var(--space-2);
+  background: var(--color-pastel-cream);
+  border-radius: var(--radius-md);
+  padding: var(--space-4) var(--space-3);
+  text-align: center;
+}
+.p-course__result-card.is-tone02 { background: var(--color-pastel-pink); }
+.p-course__result-card.is-wide { grid-column: 1 / -1; }
+.p-course__result-card .head { display: grid; justify-items: center; gap: var(--space-1); font-weight: 700; font-size: var(--fs-sm); }
+.p-course__result-card .head .title .tag {
+  display: inline-block;
+  background: var(--color-ink);
+  color: #fff;
+  font-size: 0.625rem;
+  border-radius: var(--radius-xs);
+  padding: 0 var(--space-1);
+  margin-left: var(--space-1);
+}
+.p-course__result-card .head { grid-auto-flow: row; }
+.p-course__result-card .head .deco img { vertical-align: middle; }
+.p-course__result-card .number { font-weight: 800; line-height: 1.1; }
+.p-course__result-card .number .c-counter { color: var(--color-brand-pink); font-size: clamp(2rem, 10cqw, 3rem); }
+.p-course__result-card .number.is-hundred .c-counter {
+  color: #fff;
+  -webkit-text-stroke: 2px var(--color-ink);
+  paint-order: stroke fill;
+  text-shadow: 3px 3px 0 var(--color-brand-yellow);
+  font-size: clamp(2.4rem, 12cqw, 3.5rem);
+}
+.p-course__result-card .number .small { font-size: var(--fs-base); font-weight: 700; }
+.p-course__result-card .badge {
+  display: inline-block;
+  background: #fff;
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-pill);
+  font-weight: 700;
+  font-size: var(--fs-xs);
+  padding: 2px var(--space-3);
+}
+.p-course__result-card .badge .en { font-family: var(--font-en); font-size: var(--fs-md); }
+.p-course__result-card .txt { font-size: var(--fs-xs); font-weight: 700; color: var(--color-brand-pink); }
+.p-course__result-card .note { font-size: 0.625rem; color: var(--color-ink-soft); }
+.p-course__result-card .catch-txt { font-weight: 800; font-size: var(--fs-md); color: var(--color-brand-pink); }
+.p-course__result-card .btn { margin-top: var(--space-1); }
+.p-course__result-card .btn .plus { font-family: var(--font-en); margin-left: var(--space-1); }
+
+/* ---- 学び紹介 ---- */
+.p-course__learning-group { margin-top: var(--space-7); }
+.p-course__learning-group:first-of-type { margin-top: 0; }
+.p-course__learning-group .img img { width: 100%; height: auto; border-radius: var(--radius-md); display: block; }
+.p-course__learning-title { font-size: var(--fs-md); font-weight: 700; line-height: 1.6; margin: var(--space-3) 0 var(--space-2); }
+.p-course__learning-title .icon { display: inline-block; vertical-align: middle; margin-right: var(--space-2); }
+.p-course__learning-mini { margin-top: var(--space-3); }
+.p-course__learning-more { text-align: center; margin-bottom: var(--space-4); }
+.p-course__learning-more img { max-width: 100%; height: auto; }
+.p-course__learning-row { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
+.p-course__learning-row .col-title { font-weight: 700; font-size: var(--fs-sm); text-align: center; margin-bottom: var(--space-1); }
+.p-course__learning-row .img img { width: 100%; height: auto; border-radius: var(--radius-md); display: block; }
+.p-course__learning-row .small { font-size: var(--fs-xs); margin-top: var(--space-2); }
+.p-course__learning-cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-5) var(--space-4); }
+.p-course__learning-cards .p-course__learning-group { margin-top: 0; font-size: var(--fs-xs); }
+.p-course__learning-cards .p-course__learning-group .p-course__learning-title { font-size: var(--fs-sm); margin-top: 0; text-align: center; }
+.p-course__learning-cards .is-wide { grid-column: 1 / -1; font-size: var(--fs-sm); }
+.p-course__deco-img { text-align: center; margin-top: var(--space-5); }
+.p-course__deco-img img { max-width: 70%; height: auto; }
+
+/* ---- 大学併修 NEWS ---- */
+.p-course__news { background: var(--color-pastel-cream); border-radius: var(--radius-md); margin: var(--space-6) var(--space-5); padding: var(--space-6) var(--space-4); }
+.p-course__news-catch { text-align: center; margin-bottom: var(--space-3); }
+.p-course__news-title { text-align: center; font-weight: 700; margin-bottom: var(--space-4); }
+.p-course__news-title .txt01 { font-size: var(--fs-sm); }
+.p-course__news-title .txt01 .note { display: block; font-size: var(--fs-xs); font-weight: 500; }
+.p-course__news-title .txt01 .border { border-bottom: 3px solid var(--color-brand-yellow); }
+.p-course__news-title .txt02 { font-size: var(--fs-lg); margin-top: var(--space-2); }
+.p-course__news-group { background: var(--color-bg); border-radius: var(--radius-md); padding: var(--space-4); }
+.p-course__news-group .title { font-weight: 700; margin-bottom: var(--space-2); }
+.p-course__news-group .title .small { font-size: var(--fs-xs); }
+.p-course__news-group .logo { margin-top: var(--space-3); text-align: right; }
+.p-course__news .title { font-weight: 700; font-size: var(--fs-md); text-align: center; margin-bottom: var(--space-3); }
+.p-course__news .img { text-align: center; margin-bottom: var(--space-3); }
+.p-course__news .logo { text-align: right; margin-top: var(--space-3); }
+.p-course__news .note { font-size: var(--fs-xs); color: var(--color-ink-soft); margin-top: var(--space-2); }
+.p-course__note-right { text-align: right; font-size: var(--fs-xs); color: var(--color-ink-soft); margin-top: var(--space-2); }
+
+.p-course__dot-list { display: grid; gap: var(--space-1); font-size: var(--fs-sm); }
+.p-course__dot-list li { padding-left: 1em; text-indent: -1em; }
+.p-course__dot-list li::before { content: "・"; font-weight: 700; color: var(--color-brand-pink); }
+.p-course__dot-list.is-flex { grid-template-columns: repeat(2, 1fr); }
+.p-course__dot-list .small { font-size: var(--fs-xs); }
+
+/* ---- 看護: 1日の流れ ---- */
+.p-course__training { background: var(--color-pastel-pink); }
+.p-course__dot-catch { text-align: center; font-family: var(--font-en); font-weight: 700; letter-spacing: var(--ls-caps); font-size: var(--fs-sm); }
+.p-course__training-title { text-align: center; font-size: var(--fs-xl); font-weight: 700; margin: var(--space-2) 0 var(--space-5); }
+.p-course__training-topimg { text-align: center; margin-bottom: var(--space-4); }
+.p-course__training-topimg img { max-width: 100%; height: auto; border-radius: var(--radius-md); }
+.p-course__training-container { background: var(--color-bg); border-radius: var(--radius-md); padding: var(--space-5) var(--space-4); display: grid; gap: var(--space-5); }
+.p-course__group-title {
+  text-align: center;
+  font-size: var(--fs-md);
+  font-weight: 700;
+  background: var(--color-brand-yellow);
+  border-radius: var(--radius-pill);
+  padding: var(--space-1) var(--space-4);
+  margin-bottom: var(--space-4);
+}
+.p-course__training-group .inner { margin-top: var(--space-4); }
+.p-course__training-group .inner-title { font-weight: 700; font-size: var(--fs-base); margin-bottom: var(--space-2); }
+.p-course__training-group .row { display: grid; grid-template-columns: 110px 1fr; gap: var(--space-3); align-items: start; font-size: var(--fs-sm); }
+.p-course__training-group .row .img img { width: 100%; height: auto; border-radius: var(--radius-md); display: block; }
+.p-course__point-box { background: var(--color-pastel-cream); border-radius: var(--radius-md); padding: var(--space-5) var(--space-4); text-align: center; font-size: var(--fs-sm); }
+.p-course__point-box .catch { margin-bottom: var(--space-2); }
+.p-course__point-box .catch img { max-width: 60%; height: auto; }
+.p-course__point-box .title { font-weight: 700; font-size: var(--fs-base); display: flex; justify-content: center; align-items: center; gap: var(--space-2); margin-bottom: var(--space-3); }
+.p-course__point-box .border { border-bottom: 3px solid var(--color-brand-yellow); }
+.p-course__time-list { display: grid; gap: var(--space-4); }
+.p-course__time-list li { display: grid; grid-template-columns: 64px 1fr; gap: var(--space-3); align-items: start; font-size: var(--fs-sm); }
+.p-course__time-list .time {
+  font-family: var(--font-en);
+  font-weight: 800;
+  text-align: center;
+  background: var(--color-brand-pink);
+  color: #fff;
+  border-radius: var(--radius-pill);
+  padding: var(--space-1) 0;
+}
+.p-course__time-list .time-title { font-weight: 700; }
+.p-course__training-voice { text-align: center; font-size: var(--fs-sm); }
+.p-course__training-voice .img img { max-width: 40%; height: auto; }
+.p-course__training-voice .name { font-weight: 700; margin: var(--space-2) 0; }
+.p-course__training-voice .name .small { font-size: var(--fs-xs); font-weight: 500; }
+.p-course__training-voice .balloon { background: var(--color-bg-gray-1); border-radius: var(--radius-md); padding: var(--space-4); text-align: left; }
+.p-course__day-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); font-size: var(--fs-xs); }
+.p-course__day-list .time { display: flex; align-items: baseline; gap: var(--space-2); font-weight: 700; margin-bottom: var(--space-1); }
+.p-course__day-list .time .en { font-family: var(--font-en); font-size: var(--fs-lg); color: var(--color-brand-pink); }
+.p-course__day-list .img img { width: 100%; height: auto; border-radius: var(--radius-md); display: block; margin-bottom: var(--space-1); }
+.p-course__add-box { margin-top: var(--space-4); background: var(--color-pastel-cream); border-radius: var(--radius-md); padding: var(--space-4); text-align: center; font-size: var(--fs-sm); }
+.p-course__add-box .catch img,
+.p-course__add-box .img img { max-width: 80%; height: auto; }
+
+/* ---- Q&A ---- */
+.p-course__qa-body { display: grid; grid-template-columns: 90px 1fr; gap: var(--space-3); align-items: start; }
+.p-course__qa-body .img img { width: 100%; height: auto; border-radius: var(--radius-full); }
+.p-course__qa-body .answer .a { font-family: var(--font-en); font-weight: 800; color: var(--color-brand-pink); font-size: var(--fs-lg); margin-right: var(--space-2); }
+.p-course__qa-img { text-align: center; margin-top: var(--space-5); }
+.p-course__qa-img img { max-width: 70%; height: auto; }
+
+/* ---- 動画 ---- */
+.p-course__movie-frame { position: relative; aspect-ratio: 16 / 9; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-soft); }
+.p-course__movie-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.p-course__movie-caption { margin-top: var(--space-4); font-size: var(--fs-sm); }
+
+/* ---- 他学科リンク ---- */
+.p-course__links { background: var(--color-bg-gray-1); }
+.p-course__links-title { text-align: center; font-size: var(--fs-lg); font-weight: 700; margin-bottom: var(--space-5); }
+.p-course__links-title span { border-bottom: 4px solid var(--color-brand-yellow); padding-bottom: var(--space-1); }
+.p-course__links-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
+.p-course__links-item { text-align: center; }
+.p-course__links-item a { display: block; border-radius: var(--radius-full); overflow: hidden; transition: translate var(--dur-fast) var(--ease-site); }
+.p-course__links-item a:hover { translate: 0 -3px; }
+.p-course__links-item img { width: 100%; height: auto; display: block; }
+.p-course__links-item .course { font-weight: 700; margin-top: var(--space-2); font-size: var(--fs-sm); }
+.p-course__links-item .course .small { font-size: var(--fs-xs); }
+.p-course__links-item.is-current { opacity: 0.55; }
+.p-course__links-item.is-current a { pointer-events: none; }
+
+/* ---- モーダル（dialog） ---- */
+.p-course__modal {
+  max-width: min(92vw, 560px);
+  width: 100%;
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-md);
+  padding: var(--space-6) var(--space-4) var(--space-5);
+  font-size: var(--fs-sm);
+  line-height: var(--lh-body);
+}
+.p-course__modal::backdrop { background: rgba(51, 51, 51, 0.6); }
+.p-course__modal-catch,
+.p-course__modal-face,
+.p-course__modal-txtimg { text-align: center; margin-bottom: var(--space-3); }
+.p-course__modal-face img { border-radius: var(--radius-full); }
+.p-course__modal-name { font-weight: 700; margin-top: var(--space-3); }
+.p-course__modal-name .small { font-size: var(--fs-xs); font-weight: 500; }
+.p-course__modal-title { font-weight: 700; font-size: var(--fs-md); text-align: center; margin-bottom: var(--space-3); }
+.p-course__modal-title .small { font-size: var(--fs-xs); }
+.p-course__modal-sub { font-weight: 700; color: var(--color-brand-pink); text-align: center; margin-bottom: var(--space-2); }
+.p-course__modal-img { margin: var(--space-3) 0; text-align: center; }
+.p-course__modal-img img { max-width: 100%; height: auto; border-radius: var(--radius-md); }
+.p-course__modal-imgs { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-2); margin-bottom: var(--space-3); }
+.p-course__modal-imgs img { width: 100%; height: auto; border-radius: var(--radius-md); }
+.p-course__modal-item + .p-course__modal-item { margin-top: var(--space-4); }
+.p-course__modal-item .title { font-weight: 700; color: var(--color-brand-pink); margin-bottom: var(--space-1); }
+.p-course__modal .colored { color: var(--color-brand-pink); font-weight: 700; }
+.p-course__modal-close {
+  position: absolute;
+  top: var(--space-2);
+  right: var(--space-2);
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-ink);
+  background: var(--color-bg);
+  font-weight: 700;
+  line-height: 1;
+}
+.p-course__modal-close:hover { background: var(--color-brand-yellow); }
+
+/* ---- お仕事内容（work） ---- */
+.p-course__work-box { margin-top: var(--space-6); }
+.p-course__work-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
+.p-course__work-btn {
+  display: grid;
+  gap: var(--space-1);
+  width: 100%;
+  text-align: center;
+  background: var(--color-bg);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  transition: translate var(--dur-fast) var(--ease-site), box-shadow var(--dur-fast) var(--ease-site);
+}
+.p-course__work-btn:hover { translate: 0 -3px; box-shadow: var(--shadow-soft); }
+.p-course__work-btn .label { font-weight: 700; font-size: var(--fs-sm); }
+.p-course__work-btn .label .small { display: block; font-size: 0.625rem; font-weight: 500; }
+.p-course__work-btn .img img { width: 100%; height: auto; border-radius: var(--radius-xs); display: block; }
+.p-course__work-btn .more { font-family: var(--font-en); font-size: var(--fs-xs); font-weight: 700; letter-spacing: var(--ls-wide); color: var(--color-brand-pink); }
+.p-course__work-other .item { margin-bottom: var(--space-3); font-size: var(--fs-sm); }
+.p-course__work-other .item-title { font-weight: 700; border-left: 4px solid var(--color-brand-yellow); padding-left: var(--space-2); margin-bottom: var(--space-1); }
+
+/* ---- おすすめPoint / 理由 ---- */
+.p-course__point-group { margin-top: var(--space-6); text-align: center; }
+.p-course__point-title { font-weight: 700; font-size: var(--fs-md); margin-bottom: var(--space-3); }
+.p-course__point-title .colored { color: var(--color-brand-pink); }
+.p-course__point-title .en { font-family: var(--font-en); color: var(--color-brand-pink); margin-left: var(--space-1); }
+.p-course__point-group .img img { max-width: 100%; height: auto; }
+.p-course__reason { margin-top: var(--space-7); }
+.p-course__reason-title { display: flex; justify-content: center; align-items: center; gap: var(--space-2); text-align: center; font-size: var(--fs-base); font-weight: 700; margin-bottom: var(--space-4); }
+.p-course__reason-title .l-txt { font-size: var(--fs-lg); }
+
+/* ---- Pick Up 枠 ---- */
+.p-course__pickup {
+  margin-top: var(--space-7);
+  background: var(--color-pastel-cream);
+  border-radius: var(--radius-md);
+  padding: var(--space-6) var(--space-4);
+  text-align: center;
+  font-size: var(--fs-sm);
+}
+.p-course__pickup > p { text-align: left; }
+.p-course__pickup .note { font-size: var(--fs-xs); color: var(--color-ink-soft); margin-top: var(--space-2); }
+.p-course__pickup .catch-img { text-align: center; margin-bottom: var(--space-2); }
+.p-course__pickup .catch { text-align: center; font-weight: 700; }
+.p-course__pickup .title { font-size: var(--fs-md); font-weight: 700; line-height: 1.7; margin-bottom: var(--space-3); text-align: center; }
+.p-course__pickup .title.deco-title { display: flex; justify-content: center; align-items: center; gap: var(--space-2); }
+.p-course__pickup .title .img img { vertical-align: middle; }
+.p-course__pickup .img { text-align: center; margin: var(--space-3) 0; }
+.p-course__pickup .img img { max-width: 100%; height: auto; border-radius: var(--radius-md); }
+.p-course__pickup-imgs { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-3); margin-top: var(--space-4); }
+.p-course__pickup-imgs.p-course__pickup-imgs { text-align: center; }
+.p-course__pickup-imgs li .label { font-size: var(--fs-xs); font-weight: 700; margin-bottom: var(--space-1); }
+.p-course__pickup-imgs img { width: 100%; height: auto; border-radius: var(--radius-md); }
+.p-course__pickup-imgs li:only-child,
+.p-course__pickup-imgs li:last-child:nth-child(odd) { grid-column: 1 / -1; }
+
+/* ---- 実習カード ---- */
+.p-course__training-cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-5) var(--space-4); margin-top: var(--space-4); }
+.p-course__training-card { font-size: var(--fs-xs); }
+.p-course__training-card .title { font-weight: 700; font-size: var(--fs-sm); text-align: center; margin-bottom: var(--space-2); }
+.p-course__training-card .img img { width: 100%; height: auto; border-radius: var(--radius-md); display: block; }
+.p-course__training-card .img { margin-bottom: var(--space-2); }
+.p-course__training-card > p:last-child { margin-top: var(--space-2); }
+.p-course__training-card.is-wide { grid-column: 1 / -1; font-size: var(--fs-sm); }
+.p-course__training-card.is-deco { display: grid; place-items: center; }
+.p-course__training-card.is-deco .img img { border-radius: 0; width: auto; max-width: 100%; }
+
+/* ---- 研修旅行 ---- */
+.p-course__trip { margin-top: var(--space-7); background: var(--color-pastel-blue); border-radius: var(--radius-md); padding: var(--space-5) var(--space-4); font-size: var(--fs-sm); }
+.p-course__trip .title { text-align: center; margin-bottom: var(--space-3); }
+.p-course__trip .img { text-align: center; margin-top: var(--space-3); }
+.p-course__trip .img img { max-width: 80%; height: auto; }
+.p-course__trip-title { text-align: center; margin: var(--space-4) 0; }
+.p-course__trip-title img { max-width: 100%; height: auto; }
+.p-course__trip-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-2); margin-bottom: var(--space-6); }
+.p-course__trip-ph { position: relative; }
+.p-course__trip-ph.is-wide { grid-column: span 2; }
+.p-course__trip-ph img { width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-xs); display: block; }
+.p-course__trip-ph .alt { position: absolute; inset: 0; opacity: 0; }
+html.js .p-course__trip-ph .alt { animation: trip-swap 6s ease-in-out infinite; }
+html.js .p-course__trip-ph.is-delay01 .alt { animation-delay: 1s; }
+html.js .p-course__trip-ph.is-delay02 .alt { animation-delay: 2s; }
+@keyframes trip-swap { 0%, 40% { opacity: 0; } 50%, 90% { opacity: 1; } 100% { opacity: 0; } }
+
+/* ---- ゼミ ---- */
+.p-course__seminar-group { margin-top: var(--space-6); text-align: center; }
+.p-course__seminar-group .label {
+  display: inline-block;
+  background: var(--color-brand-pink);
+  color: #fff;
+  border-radius: var(--radius-pill);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  padding: 2px var(--space-4);
+}
+.p-course__seminar-group .title { font-size: var(--fs-lg); font-weight: 700; margin: var(--space-2) 0 var(--space-3); }
+.p-course__seminar-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-4) var(--space-2); }
+.p-course__seminar-list button { display: grid; justify-items: center; gap: var(--space-1); width: 100%; transition: translate var(--dur-fast) var(--ease-spring); }
+.p-course__seminar-list button:hover { translate: 0 -4px; }
+.p-course__seminar-list .img img { border-radius: var(--radius-full); box-shadow: var(--shadow-soft); }
+.p-course__seminar-list .name { font-size: var(--fs-xs); font-weight: 700; line-height: 1.4; }
+
+/* ---- OB/OG マップ ---- */
+.p-course__map-group { background: var(--color-pastel-cream); border-radius: var(--radius-md); padding: var(--space-5) var(--space-4); text-align: center; margin-bottom: var(--space-6); }
+.p-course__map-group .box-title { font-weight: 700; font-size: var(--fs-md); margin-bottom: var(--space-3); }
+.p-course__map-group .number-txt { font-weight: 800; }
+.p-course__map-group .number-txt .c-counter { color: var(--color-brand-pink); }
+.p-course__map-group .note { font-size: var(--fs-xs); color: var(--color-ink-soft); }
+.p-course__map-group .map-box { margin-top: var(--space-3); }
+.p-course__map-group .map-txt { font-weight: 700; font-size: var(--fs-sm); }
+.p-course__map-group .number { font-weight: 800; }
+.p-course__map-group .number .c-counter {
+  color: #fff;
+  -webkit-text-stroke: 2px var(--color-ink);
+  paint-order: stroke fill;
+  text-shadow: 3px 3px 0 var(--color-brand-yellow);
+}
+.p-course__map-group .number .small { font-size: var(--fs-md); font-weight: 700; }
+.p-course__map-group .img { margin-top: var(--space-3); }
+.p-course__map-group .img img { max-width: 100%; height: auto; }
+
+/* ---- 歯科: 特集 ---- */
+.p-course__feature { margin-top: var(--space-7); }
+.p-course__feature-anchor { display: flex; justify-content: center; align-items: center; gap: var(--space-3); }
+.p-course__feature-anchor .x { font-family: var(--font-en); font-weight: 800; font-size: var(--fs-xl); }
+.p-course__feature-anchor a { transition: translate var(--dur-fast) var(--ease-spring); }
+.p-course__feature-anchor a:hover { translate: 0 -4px; }
+.p-course__feature-head { font-size: var(--fs-sm); }
+.p-course__feature-title { display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-3); }
+.p-course__feature-title .course { display: block; font-size: var(--fs-xs); color: var(--color-brand-pink); font-weight: 700; }
+.p-course__feature-title .title { display: block; font-size: var(--fs-lg); font-weight: 700; }
+.p-course__feature-head .img { position: relative; margin-bottom: var(--space-3); }
+.p-course__feature-head .img img { width: 100%; height: auto; border-radius: var(--radius-md); display: block; }
+.p-course__feature-head .img .logo { position: absolute; right: var(--space-2); bottom: var(--space-2); width: 56px; }
+.p-course__feature-head .img .logo img { border-radius: var(--radius-xs); }
+.p-course__feature-body { margin-top: var(--space-5); }
+.p-course__step-head { text-align: center; font-size: var(--fs-sm); margin-bottom: var(--space-5); }
+.p-course__step-head .catch { font-weight: 700; }
+.p-course__step-head .title { font-size: var(--fs-md); font-weight: 700; margin: var(--space-2) 0; line-height: 1.8; }
+.p-course__step-head > p:last-child { text-align: left; }
+.p-course__step-group { position: relative; background: var(--color-bg); border: 1px solid var(--color-line); border-radius: var(--radius-md); padding: var(--space-5) var(--space-4) var(--space-4); margin-top: var(--space-6); font-size: var(--fs-sm); }
+.p-course__step-group::after {
+  content: "▼";
+  position: absolute;
+  left: 50%;
+  bottom: -26px;
+  translate: -50% 0;
+  color: var(--color-brand-pink);
+  font-size: var(--fs-md);
+}
+.p-course__step-group:last-of-type::after { content: none; }
+.p-course__step-group .label {
+  position: absolute;
+  top: -14px;
+  left: var(--space-4);
+  background: var(--color-brand-pink);
+  color: #fff;
+  font-weight: 700;
+  font-size: var(--fs-xs);
+  border-radius: var(--radius-pill);
+  padding: 2px var(--space-4);
+}
+.p-course__step-group .inner + .inner { margin-top: var(--space-4); border-top: 1px dashed var(--color-line); padding-top: var(--space-4); }
+.p-course__step-group .inner .title { font-weight: 700; font-size: var(--fs-base); margin-bottom: var(--space-1); }
+.p-course__step-group .inner .img { margin-top: var(--space-2); }
+.p-course__step-group .inner .img img { width: 100%; height: auto; border-radius: var(--radius-md); display: block; }
+.p-course__teacher-item { margin-bottom: var(--space-5); }
+.p-course__teacher-btn { position: relative; display: block; width: 100%; }
+.p-course__teacher-btn img { width: 100%; height: auto; border-radius: var(--radius-md); display: block; }
+.p-course__teacher-btn .name-box {
+  position: absolute;
+  left: var(--space-2);
+  bottom: var(--space-2);
+  text-align: left;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: var(--radius-xs);
+  padding: var(--space-1) var(--space-2);
+  font-size: var(--fs-xs);
+}
+.p-course__teacher-btn .name-box .name { display: block; font-weight: 700; font-size: var(--fs-sm); }
+.p-course__teacher-btn .more { position: absolute; right: var(--space-2); bottom: var(--space-2); width: 40px; }
+.p-course__teacher-btn:hover img { opacity: 0.92; }
+
+/* ---- 臨工: 講師陣 ---- */
+.p-course__teacher-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-5) var(--space-4); margin-top: var(--space-4); }
+.p-course__teacher-list li { text-align: center; font-size: var(--fs-xs); }
+.p-course__teacher-list .img { position: relative; margin-bottom: var(--space-2); }
+.p-course__teacher-list .img img { width: 100%; height: auto; border-radius: var(--radius-md); display: block; }
+.p-course__teacher-list .catch {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(51, 51, 51, 0.75);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.625rem;
+  padding: 2px var(--space-1);
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+}
+.p-course__teacher-list .txt .l-txt { font-size: var(--fs-base); font-weight: 700; }
+.p-course__teacher-list .is-other button {
+  display: grid;
+  gap: var(--space-2);
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+  background: var(--color-pastel-cream);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  font-size: var(--fs-xs);
+  text-align: center;
+}
+.p-course__teacher-list .is-other button:hover { box-shadow: var(--shadow-soft); }
+.p-course__teacher-list .is-other .colored { color: var(--color-brand-pink); font-weight: 700; }
+.p-course__teacher-list .is-other .more { font-family: var(--font-en); font-weight: 700; color: var(--color-brand-pink); }
+.p-course__square-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-1) var(--space-3); font-size: var(--fs-xs); }
+.p-course__square-list li::before { content: "■"; color: var(--color-brand-pink); margin-right: var(--space-1); font-size: 0.625rem; }
+
+/* ---- 臨工: VR ---- */
+.p-course__vr { margin-top: var(--space-7); background: var(--color-pastel-blue); border-radius: var(--radius-md); padding: var(--space-6) var(--space-4); font-size: var(--fs-sm); }
+.p-course__vr .head-img { text-align: center; margin-bottom: var(--space-3); }
+.p-course__vr .head-img img { max-width: 100%; height: auto; }
+.p-course__vr .head-title { text-align: center; font-size: var(--fs-lg); font-weight: 800; margin-bottom: var(--space-3); background: var(--grad-script); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.p-course__vr .vr-title { text-align: center; font-weight: 700; font-size: var(--fs-md); margin: var(--space-5) 0 var(--space-3); }
+.p-course__vr .tag { text-align: center; margin-top: var(--space-6); }
+.p-course__vr-slide .txt { font-size: var(--fs-xs); margin-top: var(--space-2); background: var(--color-bg); border-radius: var(--radius-xs); padding: var(--space-2); }
+.p-course__vr-pickup { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
+.p-course__vr-pickup li { background: var(--color-bg); border-radius: var(--radius-md); padding: var(--space-3); font-size: var(--fs-xs); }
+.p-course__vr-pickup .title { font-weight: 700; font-size: var(--fs-sm); text-align: center; margin-bottom: var(--space-2); }
+.p-course__vr-pickup .img { text-align: center; margin-bottom: var(--space-2); }
+.p-course__vr-pickup .img img { border-radius: var(--radius-md); }
+.p-course__panorama { margin-top: var(--space-5); text-align: center; }
+.p-course__panorama .title { display: flex; justify-content: center; align-items: center; gap: var(--space-2); font-weight: 700; margin-bottom: var(--space-3); }
+.p-course__panorama .title .colored { color: var(--color-brand-pink); }
+.p-course__panorama .title .l-txt { font-size: var(--fs-md); }
+.p-course__panorama .frame a {
+  display: grid;
+  place-items: center;
+  min-height: 120px;
+  background: var(--color-ink);
+  color: #fff;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  font-size: var(--fs-sm);
+}
+.p-course__panorama .frame a:hover { opacity: 0.9; }
+.p-course__panorama .frame .arrow { font-family: var(--font-en); margin-left: var(--space-2); }
+.p-course__panorama .img { margin-top: var(--space-3); }
+
+/* ---- 臨工: 国試サポート ---- */
+.p-course__support-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); margin-top: var(--space-4); }
+.p-course__support-list li { text-align: center; font-size: var(--fs-xs); }
+.p-course__support-list button { position: relative; display: grid; justify-items: center; gap: var(--space-1); width: 100%; transition: translate var(--dur-fast) var(--ease-spring); }
+.p-course__support-list button:hover { translate: 0 -4px; }
+.p-course__support-list .img img { width: 100%; height: auto; border-radius: var(--radius-md); display: block; }
+.p-course__support-list .name { font-weight: 700; font-size: var(--fs-sm); }
+.p-course__support-list .name .small,
+.p-course__support-list .small { font-size: var(--fs-xs); font-weight: 500; }
+.p-course__support-list .more { position: absolute; right: var(--space-1); top: var(--space-1); width: 32px; }
+.p-course__support-list.is-static .label { font-weight: 700; margin-bottom: var(--space-1); }
+
+/* ---- 臨工: 資格・チャート ---- */
+.p-course__qualification { margin-top: var(--space-6); }
+.p-course__chart-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); margin-top: var(--space-4); text-align: center; }
+.p-course__chart-list .img img { width: 100%; height: auto; }
+.p-course__chart-list .note { font-size: 0.625rem; color: var(--color-ink-soft); margin-top: var(--space-1); }
+
+/* ---- 臨工: 行事 ---- */
+.p-course__event { text-align: center; }
+.p-course__event .title { margin-bottom: var(--space-4); }
+.p-course__event .title img,
+.p-course__event .img img { max-width: 100%; height: auto; }
+
+/* ---- 臨工: アンカーヘッド ---- */
+.p-course__anchor-head { text-align: center; margin-top: var(--space-7); }
+.p-course__anchor-head .balloon { margin-bottom: var(--space-1); }
+.p-course__anchor-head img { max-width: 100%; height: auto; }
+
+/* ---- reduced-motion ---- */
+@media (prefers-reduced-motion: reduce) {
+  html.js .p-course__voice-btn,
+  html.js .p-course__mv-circle .back,
+  html.js .p-course__trip-ph .alt { animation: none; }
+  html.js .p-course__trip-ph .alt { opacity: 0; }
+}

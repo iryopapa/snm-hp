@@ -1,0 +1,259 @@
+---
+layout: page.njk
+title: 学校説明・個別相談会
+description: 【看護師・視能訓練士・歯科衛生士・臨床工学技士】医療系に進むなら札幌看護医療専門学校！知りたいことをなんでも聞ける個別相談。学びや職業、学費に入試もお気軽にご相談ください。
+breadcrumb: [{label: オープンキャンパス, url: /opencampus/}, {label: 学校説明・個別相談会}]
+bodyClass: p-opencampus p-opencampus-session
+pageCss: /asset/css/pages/opencampus.css
+pageJs: /asset/js/pages/opencampus.js
+permalink: /opencampus/session/index.html
+---
+{#- MV -#}
+<section class="p-opencampus__mv">
+  <h1 class="p-opencampus__mv-ttl"><span class="eng">OPEN CAMPUS</span><span class="ja">学校説明・個別相談会</span></h1>
+  <div class="p-opencampus__mv-bg"><img src="/asset/img/opencampus/share/2026/mv.jpg" alt="" width="740" height="330"></div>
+</section>
+
+{#- リード -#}
+<section class="p-opencampus__intro u-section">
+  <p class="p-opencampus__lead" data-anim="fade-up">札幌看護医療の学び・入試・学費まで全部わかる！<br>個別相談だから自分の進路にピッタリの情報が手に入ります。</p>
+  <p class="p-opencampus__intro-txt" data-anim="fade-up">職員と一対一でお話しができる相談会です。<br>学校や学科・学費・入試・一人暮らしなど、自分の進路や知りたい内容に合わせて札幌看護医療がわかる60分間（相談内容によって時間は変わります）。<br>体験授業がないので、校舎見学もゆっくりできます。<br>保護者の方のみの参加も大歓迎です。<br>個別相談で、不安を一緒に解決しましょう！</p>
+  <p class="p-opencampus__intro-img" data-anim="zoom"><img src="/asset/img/opencampus/session/head-ph01.jpg" width="700" height="344" alt=""></p>
+</section>
+
+{#- 参加特典 -#}
+<section class="p-opencampus__session-benefits u-section">
+  <div class="c-section-head" data-anim="fade-up">
+    <h2 class="c-section-head__catch">参加特典</h2>
+  </div>
+  {%- set benefits = [
+    {icon: "benefits-icon01.png", catch: "2027年4月入試対策ができる！", title: "入試パーフェクトBOOK", link: false},
+    {icon: "benefits-icon02.png", catch: "公共交通機関ご利用の方必見！", title: "交通費補助の安心サポート", link: "/opencampus/subsidy_list/"},
+    {icon: "benefits-icon03.png", catch: "オープンキャンパス参加でGET！", title: "AOエントリー応募資格", link: "/admission/ao/"}
+  ] -%}
+  <div class="p-opencampus__session-benefits-grid" data-anim-group>
+    {%- for b in benefits %}
+    <div class="c-frame-card p-opencampus__session-benefit" data-anim="fade-up">
+      <p class="label">特典その<span class="num">{{ loop.index }}</span></p>
+      <div class="inner">
+        <p class="icon"><img src="/asset/img/opencampus/session/2025/{{ b.icon }}" loading="lazy" width="100" height="100" alt=""></p>
+        <div class="txt">
+          <p class="catch">{{ b.catch }}</p>
+          <p class="title"><span class="u-marker" data-marker>{{ b.title }}</span></p>
+        </div>
+      </div>
+      {%- if b.link %}
+      <p class="link"><a href="{{ b.link }}">くわしく見る →</a></p>
+      {%- endif %}
+    </div>
+    {%- endfor %}
+  </div>
+  <p class="p-opencampus__session-benefits-note" data-anim="fade"><span class="u-marker" data-marker>保護者の方のみの参加</span>も大歓迎！<br>申込フォームにその旨、記載ください。</p>
+</section>
+
+{#- 日程 -#}
+<section class="p-opencampus__session-schedule u-section">
+  <div class="c-section-head" data-anim="fade-up">
+    <span class="c-badge"><span class="c-badge__label">Schedule</span></span>
+    <h2 class="c-section-head__catch">学校説明・個別相談会日程</h2>
+  </div>
+  <p class="p-opencampus__note" data-anim="fade">※ご予約後、時間についてメールでご連絡しますのでご確認ください。</p>
+  <ul class="p-opencampus__session-list" data-anim-group>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">7</span>/<span class="num">27</span>（月）</p>
+        <p class="time">10:00〜16:00（選択制）※10:00~,11:00~,12:00~は満席です！</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/07/27(月) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">7</span>/<span class="num">28</span>（火）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/07/28(火) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">7</span>/<span class="num">29</span>（水）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/07/29(水) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">7</span>/<span class="num">30</span>（木）</p>
+        <p class="time">10:00〜16:00（選択制）※10:00~.11:00~.12:00~.13:00~は満席です！</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/07/30(木) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">7</span>/<span class="num">31</span>（金）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/07/31(金) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">8</span>/<span class="num">16</span>（日）</p>
+        <p class="time">10:00〜16:00（選択制）※14:00~,15:00~は満席です！</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/08/16(日) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">8</span>/<span class="num">29</span>（土）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/08/29(土) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">8</span>/<span class="num">30</span>（日）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/08/30(日) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">9</span>/<span class="num">13</span>（日）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/09/13(日) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">9</span>/<span class="num">19</span>（土）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/09/19(土) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">9</span>/<span class="num">27</span>（日）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/09/27(日) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">10</span>/<span class="num">4</span>（日）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/10/04(日) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">10</span>/<span class="num">11</span>（日）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/10/11(日) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">10</span>/<span class="num">24</span>（土）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/10/24(土) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">10</span>/<span class="num">31</span>（土）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/10/31(土) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">11</span>/<span class="num">7</span>（土）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/11/07(土) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">11</span>/<span class="num">14</span>（土）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/11/14(土) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">11</span>/<span class="num">15</span>（日）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/11/15(日) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">11</span>/<span class="num">21</span>（土）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/11/21(土) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">12</span>/<span class="num">12</span>（土）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/12/12(土) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">12</span>/<span class="num">20</span>（日）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2026/12/20(日) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">1</span>/<span class="num">10</span>（日）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2027/01/10(日) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">1</span>/<span class="num">16</span>（土）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2027/01/16(土) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">1</span>/<span class="num">30</span>（土）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2027/01/30(土) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">2</span>/<span class="num">6</span>（土）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2027/02/06(土) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">2</span>/<span class="num">20</span>（土）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2027/02/20(土) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">3</span>/<span class="num">6</span>（土）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2027/03/06(土) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+    <li data-anim="fade-up">
+      <div class="date-box">
+        <p class="date"><span class="num">3</span>/<span class="num">14</span>（日）</p>
+        <p class="time">10:00〜16:00（選択制）</p>
+      </div>
+      <p class="btn"><a href="https://www.snm.ac.jp/form/session/?event=2027/03/14(日) - 学校説明・個別相談会" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込む</a></p>
+    </li>
+  </ul>
+</section>

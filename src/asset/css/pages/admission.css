@@ -1,0 +1,359 @@
+/* ============ 入試・学費セクション（.p-admission 配下限定） ============ */
+
+/* ---- メインビジュアル ---- */
+.p-admission__mv { position: relative; overflow: hidden; }
+.p-admission__mv-bg { display: block; width: 100%; height: auto; }
+.p-admission__mv-txt {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: var(--space-1);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.24);
+}
+.p-admission__mv-en {
+  font-family: var(--font-en);
+  font-weight: 800;
+  font-size: clamp(1.6rem, 8cqw, 2.2rem);
+  letter-spacing: var(--ls-caps);
+  line-height: var(--lh-tight);
+  text-shadow: 0 1px 12px rgba(255, 255, 255, 0.9);
+}
+.p-admission__mv-ja {
+  font-size: var(--fs-md);
+  font-weight: 700;
+  line-height: var(--lh-tight);
+  padding: var(--space-1) var(--space-3);
+  background: var(--color-brand-yellow);
+  border-radius: var(--radius-xs);
+}
+
+/* ---- セクション骨格 ---- */
+.p-admission__section { padding: var(--space-6) var(--space-5); }
+.p-admission__section + .p-admission__section { padding-top: 0; }
+.p-admission__block + .p-admission__block { margin-top: var(--space-6); }
+
+/* ---- 見出し ---- */
+.p-admission__catch {
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: var(--space-5);
+}
+.p-admission__ttl {
+  position: relative;
+  font-size: var(--fs-md);
+  font-weight: 700;
+  line-height: 1.5;
+  padding-bottom: var(--space-2);
+  margin-bottom: var(--space-4);
+  border-bottom: 3px solid var(--color-line);
+}
+.p-admission__ttl::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 88px;
+  height: 3px;
+  background: var(--color-brand-yellow);
+}
+.p-admission__ttl small,
+.p-admission__ttl-sub small { font-size: var(--fs-xs); font-weight: 500; }
+.p-admission__ttl-sub {
+  font-size: var(--fs-base);
+  font-weight: 700;
+  line-height: 1.5;
+  padding-left: var(--space-3);
+  border-left: 4px solid var(--color-brand-pink);
+  margin-bottom: var(--space-3);
+}
+.p-admission__label {
+  font-weight: 700;
+  margin-bottom: var(--space-2);
+}
+.p-admission__label .u-marker { padding-inline: 2px; }
+
+/* ---- テキスト部品 ---- */
+.p-admission__txt-red { color: #d02c2c; }
+.p-admission__lead { margin-bottom: var(--space-3); }
+.p-admission__notes { font-size: var(--fs-sm); color: var(--color-ink-soft); }
+.p-admission__notes li { position: relative; padding-left: 1.2em; }
+.p-admission__notes li::before { content: "※"; position: absolute; left: 0; }
+.p-admission__disc li { position: relative; padding-left: 1em; }
+.p-admission__disc li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.7em;
+  width: 6px;
+  height: 6px;
+  border-radius: var(--radius-full);
+  background: var(--color-brand-pink);
+}
+.p-admission__olist { counter-reset: adm-circ; }
+.p-admission__olist li { position: relative; padding-left: 1.7em; counter-increment: adm-circ; }
+.p-admission__olist li::before {
+  content: counter(adm-circ);
+  position: absolute;
+  left: 0;
+  top: 0.28em;
+  display: grid;
+  place-content: center;
+  width: 1.25em;
+  height: 1.25em;
+  font-size: 0.8em;
+  font-weight: 700;
+  border: 1px solid currentcolor;
+  border-radius: var(--radius-full);
+  line-height: 1;
+}
+.p-admission__disc + .p-admission__notes,
+.p-admission__notes + .p-admission__disc,
+.p-admission__olist + .p-admission__notes,
+p + .p-admission__notes { margin-top: var(--space-2); }
+.p-admission__btn-box { text-align: center; margin-top: var(--space-4); }
+
+/* ---- テーブル ---- */
+.p-admission__scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.p-admission__scroll .p-admission__tbl { min-width: 640px; }
+.p-admission__scroll.is-wide .p-admission__tbl { min-width: 960px; }
+.p-admission__tbl {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--fs-sm);
+  line-height: 1.6;
+  background: var(--color-bg);
+}
+.p-admission__tbl th,
+.p-admission__tbl td {
+  border: 1px solid var(--color-line);
+  padding: var(--space-2) var(--space-3);
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 500;
+}
+.p-admission__tbl thead th,
+.p-admission__tbl tbody > tr > th {
+  background: var(--color-pastel-cream);
+  font-weight: 700;
+}
+.p-admission__tbl .is-center { text-align: center; }
+.p-admission__tbl.is-center td { text-align: center; }
+.p-admission__tbl small { font-size: var(--fs-xs); font-weight: 400; }
+.p-admission__tbl .p-admission__disc,
+.p-admission__tbl .p-admission__notes { text-align: left; }
+.p-admission__block > .p-admission__tbl,
+.p-admission__block > .p-admission__scroll { margin-bottom: var(--space-3); }
+
+/* ---- ハブページ：コンテンツカード ---- */
+.p-admission__menu { display: grid; gap: var(--space-5); }
+.p-admission__menu-card { display: block; }
+.p-admission__menu-card .img { display: block; border-radius: var(--radius-md) var(--radius-md) 0 0; overflow: hidden; }
+.p-admission__menu-card img { transition: scale var(--dur-base) var(--ease-site); }
+.p-admission__menu-card:hover img { scale: 1.04; }
+.p-admission__menu-ttl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  font-size: var(--fs-base);
+  font-weight: 700;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-bg);
+  border: 1px solid var(--color-line);
+  border-top: 0;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+}
+.p-admission__menu-ttl .arrow {
+  flex: none;
+  display: grid;
+  place-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-full);
+  background: var(--color-brand-yellow);
+  font-family: var(--font-en);
+  transition: translate var(--dur-fast) var(--ease-site);
+}
+.p-admission__menu-card:hover .arrow { translate: 4px 0; }
+
+/* ---- バナー ---- */
+.p-admission__banner-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+  justify-content: center;
+}
+.p-admission__banner-grid.is-solo { grid-template-columns: minmax(0, 340px); }
+.p-admission__banner,
+.p-admission__banner-wide {
+  display: block;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  transition: translate var(--dur-fast) var(--ease-site), box-shadow var(--dur-fast) var(--ease-site);
+}
+.p-admission__banner:hover,
+.p-admission__banner-wide:hover { translate: 0 -3px; box-shadow: 0 6px 24px rgba(51, 51, 51, 0.18); }
+.p-admission__banner img,
+.p-admission__banner-wide img { width: 100%; }
+.p-admission__banner-wide + .p-admission__banner-wide { margin-top: var(--space-4); }
+
+/* ---- 出願フロー（Phase 3 でSVG線演出を載せる土台） ---- */
+.p-admission__flow { position: relative; display: grid; gap: var(--space-5); }
+.p-admission__flow::before {
+  content: "";
+  position: absolute;
+  left: 21px;
+  top: 12px;
+  bottom: 12px;
+  width: 2px;
+  background-image: repeating-linear-gradient(180deg, var(--color-brand-pink) 0 6px, transparent 6px 12px);
+}
+.p-admission__flow-item {
+  position: relative;
+  padding-left: var(--space-7);
+  counter-increment: adm-flow;
+}
+.p-admission__flow-num {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: grid;
+  place-content: center;
+  gap: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  background: var(--color-brand-yellow);
+  font-family: var(--font-en);
+  font-size: 0.55rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  box-shadow: var(--shadow-soft);
+}
+.p-admission__flow-num b { display: block; font-size: 1.1rem; line-height: 1; }
+.p-admission__flow-item.is-plain .p-admission__flow-num {
+  background: var(--color-bg);
+  border: 2px solid var(--color-brand-pink);
+}
+.p-admission__flow-item.is-plain .p-admission__flow-num::before { content: "●"; color: var(--color-brand-pink); font-size: 0.6rem; }
+.p-admission__flow-box {
+  background: var(--color-bg);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+}
+.p-admission__flow-ttl {
+  font-size: var(--fs-base);
+  font-weight: 700;
+  line-height: 1.5;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-pastel-cream);
+}
+.p-admission__flow-ttl small { font-size: var(--fs-xs); font-weight: 500; }
+.p-admission__flow-body { padding: var(--space-4); font-size: var(--fs-sm); display: grid; gap: var(--space-3); }
+.p-admission__flow-body > * { margin: 0; }
+
+/* ---- 囲み ---- */
+.p-admission__border-box {
+  border: 2px solid var(--color-brand-pink);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  display: grid;
+  gap: var(--space-2);
+}
+.p-admission__border-box .box-ttl { font-weight: 700; }
+.p-admission__color-box {
+  background: var(--color-pastel-cream);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+}
+.p-admission__color-box .box-ttl { font-weight: 700; margin-bottom: var(--space-1); }
+.p-admission__info-box {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  display: grid;
+  gap: var(--space-2);
+  font-size: var(--fs-sm);
+}
+
+/* ---- AOページ：イントロ・メリット・Q&A ---- */
+.p-admission__policy {
+  margin-top: var(--space-4);
+  background: var(--color-bg);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+}
+.p-admission__policy h5 { font-weight: 700; margin-bottom: var(--space-2); }
+.p-admission__policy h5 small { font-size: var(--fs-xs); font-weight: 500; }
+.p-admission__intro-bg {
+  background: var(--color-pastel-cream) url("../../img/top/2026/bg-pattern01.png");
+  border-radius: var(--radius-md);
+  padding: var(--space-5) var(--space-4);
+}
+.p-admission__intro-bg .intro-ttl {
+  font-size: var(--fs-md);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: var(--space-3);
+}
+.p-admission__merit-grid { display: grid; gap: var(--space-4); }
+.p-admission__merit {
+  background: var(--color-bg);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  text-align: center;
+}
+.p-admission__merit .merit-mark { display: inline-block; margin-bottom: var(--space-2); }
+.p-admission__merit .merit-mark img { display: inline-block; }
+.p-admission__merit .merit-lead { font-size: var(--fs-md); font-weight: 700; line-height: 1.5; margin-bottom: var(--space-2); }
+.p-admission__merit .merit-body { font-size: var(--fs-sm); text-align: left; }
+.p-admission__subttl { text-align: center; margin-bottom: var(--space-4); }
+.p-admission__subttl .inner {
+  display: inline-block;
+  font-weight: 700;
+  line-height: 1.6;
+  background: var(--grad-marker);
+  padding-inline: var(--space-1);
+}
+.p-admission__qa { display: grid; gap: var(--space-3); }
+.p-admission__qa-item {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  font-size: var(--fs-sm);
+}
+.p-admission__qa-item .q,
+.p-admission__qa-item .a { display: flex; gap: var(--space-2); padding: var(--space-3) var(--space-4); }
+.p-admission__qa-item .q { background: var(--color-pastel-cream); font-weight: 700; }
+.p-admission__qa-item .number { font-family: var(--font-en); font-weight: 800; flex: none; }
+.p-admission__qa-item .q .number { color: var(--color-brand-pink); }
+.p-admission__qa-item .a .number { color: var(--color-brand-green); }
+
+/* ---- コンビニ決済リスト ---- */
+.p-admission__cvs-list { display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-2); }
+.p-admission__cvs-list li {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-xs);
+  padding: var(--space-1) var(--space-2);
+  font-size: var(--fs-xs);
+  background: var(--color-bg-gray-1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .p-admission__menu-card img,
+  .p-admission__menu-ttl .arrow,
+  .p-admission__banner,
+  .p-admission__banner-wide { transition: none; }
+}

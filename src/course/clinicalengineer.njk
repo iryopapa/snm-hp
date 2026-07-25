@@ -1,0 +1,523 @@
+---
+layout: page.njk
+title: 臨床工学技士学科
+description: 北海道・札幌で臨床工学技士の学校なら札幌看護医療専門学校！30年以上の実績を誇り高い国試合格率と就職率100％！新さっぽろ駅徒歩3分の駅近×最新機器や設備が整う環境で、３年間で国家資格＋実践力を修得します。大学併修制度で学士も取得可能です！
+breadcrumb: [{label: 学科・専攻, url: /course/}, {label: 臨床工学技士学科}]
+bodyClass: p-course p-course-clinicalengineer
+pageCss: /asset/css/pages/course.css
+pageJs: /asset/js/pages/course.js
+permalink: /course/clinicalengineer/index.html
+---
+{#- 1. MV -#}
+<section class="p-course__mv">
+  <div class="p-course__mv-wrap">
+    <p class="p-course__mv-catch"><img src="/asset/img/course/clinicalengineer/2026/mv-catch.png" alt="医療機器でいのちを支えるメディカルエンジニア。" width="82" height="248"></p>
+    <div class="p-course__mv-title-box">
+      <span class="icon"><img src="/asset/img/course/clinicalengineer/2026/mv-icon.png" width="37" height="36" alt=""></span>
+      <span class="txt">
+        <h2 class="p-course__mv-title">臨床工学技士学科<span class="sub">3年制</span></h2>
+        <p class="p-course__mv-en">DEPARTMENT OF CERTIFIED ORTHOPTIST</p>
+      </span>
+    </div>
+    <button type="button" class="p-course__voice-btn" data-modal-open="mv-voice01"><img src="/asset/img/course/clinicalengineer/2026/voice-button.png" alt="在校生VOICEを開く" width="124" height="136"></button>
+  </div>
+  <div class="p-course__mv-circle">
+    <a href="https://www.snm.ac.jp/news/2026/14409/" target="_blank" rel="noopener">
+      <span class="front"><img src="/asset/img/course/clinicalengineer/2026/mv-circle-front.png" alt="AO エントリーはこちら" width="280" height="280"></span>
+      <span class="back"><img src="/asset/img/course/clinicalengineer/2026/mv-circle-back.png" alt="ONLINE APPLICATION" width="280" height="280"></span>
+    </a>
+  </div>
+  <div class="p-course__mv-img"><img src="/asset/img/course/clinicalengineer/2026/mv-img.jpg" alt="" width="700" height="800"></div>
+</section>
+<dialog class="p-course__modal" id="mv-voice01">
+  <p class="p-course__modal-catch"><img src="/asset/img/course/clinicalengineer/2026/voice-title.png" width="99" height="44" alt="VOICE" loading="lazy"></p>
+  <p class="p-course__modal-face"><img src="/asset/img/course/clinicalengineer/2026/mv-voice01.png" width="110" height="110" alt="" loading="lazy"></p>
+  <p class="p-course__modal-txtimg"><img src="/asset/img/course/clinicalengineer/2026/mv-voice01-txt.png" width="256" height="66" alt="" loading="lazy"></p>
+  <p>私は「人の為になる職業｣を目指していましたが、目指す職業が定まらず初めは大学に進学しました。1年間大学に通い、改めて医療の道に進むことを決心し、命と隣合わせで責任感ある職業を目指すため、この学校に入学しました。入学してみると、校内環境も整っており、先生方のご指導もとても丁寧で、一から学ぶことが多い中でも理解できるようになりました。さらに試験対策や国家資格対策など幅広くサポートしてくれるので自信が持てるようになります。将来は医療現場において、医療機器のスペシャリストとして頼られる人材になり、患者さんや現場の方々からも必要とされる臨床工学技士になれるように頑張っていきたいです！</p>
+  <p class="p-course__modal-name">阿部さん <span class="small">（寿都高校出身）</span></p>
+</dialog>
+
+{#- 2. 職業説明＋業務内容 -#}
+<section class="p-course__head-block u-section">
+  <div data-anim="fade-up">
+    <p class="p-course__head-catch"><img src="/asset/img/course/clinicalengineer/2026/head-catch.png" alt="可能性が広がる注目の医療職種！" width="321" height="25" loading="lazy"></p>
+    <h3 class="p-course__head-title"><span class="u-marker" data-marker>臨床工学技士</span>は<br><span class="small">どんなシゴト？</span></h3>
+    <p>医療職の中で最も医療機器に精通した職種として、他の医療スタッフとともに患者さんの命を守る現代のチーム医療に欠かせない重要な職種です。</p>
+  </div>
+  {%- set works = [
+    {id: "work01", label: "集中治療業務", img: "work-img01.jpg", txt: "高度医療が必須のICU領域で、臨床工学技士が24時間体制で医療機器の運用・巡回点検を行いながら患者さんの命を守る。"},
+    {id: "work02", label: "人工心肺業務", img: "work-img02.jpg", txt: "心臓手術の際に使用する体外循環装置（人工心肺）の操作・管理や、麻酔器をはじめとした手術室内の機器管理業務・手術補助業務など個々の患者さんに合わせて医師や看護師と共に、手術の安全をサポート。"},
+    {id: "work03", label: "血液浄化業務", img: "work-img03.jpg", txt: "血液浄化業務における人工透析装置の操作はもちろん、穿刺（せんし）も担当。自分の役割をこなすだけでなく、患者さんとのコミュニケーションや信頼関係も重要。"},
+    {id: "work04", label: "呼吸治療業務", img: "work-img04.jpg", txt: "人工呼吸器が安全に使用されているか、また、装置に異常がないかなどを確認するほか、メンテナンス・管理を行う。"}
+  ] -%}
+  <div class="p-course__work-box" data-anim="fade-up">
+    <h4 class="p-course__border-title"><span>業務内容</span></h4>
+    <ul class="p-course__work-list" data-anim-group>
+      {%- for w in works %}
+      <li data-anim="fade-up">
+        <button type="button" class="p-course__work-btn" data-modal-open="{{ w.id }}">
+          <span class="label">{{ w.label }}</span>
+          <span class="img"><img src="/asset/img/course/clinicalengineer/2026/{{ w.img }}" alt="" loading="lazy" width="590" height="440"></span>
+          <span class="more">VIEW MORE<span class="plus">＋</span></span>
+        </button>
+      </li>
+      {%- endfor %}
+    </ul>
+    <div class="p-course__work-other" data-anim="fade-up">
+      <h3 class="p-course__border-title"><span>その他の業務</span></h3>
+      <div class="item">
+        <h4 class="item-title">医療機器管理業務</h4>
+        <p>医療施設で使用される医療機器が安全で機器の性能が維持できるように保守・点検を行う。</p>
+      </div>
+      <div class="item">
+        <h4 class="item-title">手術室業務</h4>
+        <p>手術が円滑かつ安全に行われるよう手術室内の広範な多種多様の医療機器の操作や事前の管理を行う。</p>
+      </div>
+      <ul class="p-course__dot-list">
+        <li>高気圧酸素業務</li>
+        <li>心血管カテーテル業務</li>
+        <li>ペースメーカー／ICD業務 など</li>
+      </ul>
+    </div>
+  </div>
+  {%- for w in works %}
+  <dialog class="p-course__modal" id="{{ w.id }}">
+    <p class="p-course__modal-title">{{ w.label }}</p>
+    <p>{{ w.txt }}</p>
+    <p class="p-course__modal-img"><img src="/asset/img/course/clinicalengineer/2026/{{ w.img }}" alt="" loading="lazy" width="590" height="440"></p>
+  </dialog>
+  {%- endfor %}
+  <div class="p-course__work-box" data-anim="fade-up">
+    <h4 class="p-course__border-title"><span>活躍できる場所</span></h4>
+    <ul class="p-course__dot-list is-flex">
+      <li>大学病院</li>
+      <li>医療機器メーカー</li>
+      <li>病院</li>
+      <li>教育研究機関</li>
+      <li>クリニック</li>
+      <li>海外NPO、NGO</li>
+    </ul>
+  </div>
+
+  {#- 多職種が一目置く存在 -#}
+  <div class="p-course__reason" data-anim="fade-up">
+    <h3 class="p-course__reason-title"><span class="deco"><img src="/asset/img/course/clinicalengineer/2026/img-deco01.png" loading="lazy" alt="" width="30" height="50"></span><span class="txt"><span class="u-marker" data-marker>医師・看護師</span>など多職種が一目置く<br><span class="l-txt">「臨床工学技士」の存在</span></span><span class="deco"><img src="/asset/img/course/clinicalengineer/2026/img-deco02.png" loading="lazy" alt="" width="30" height="50"></span></h3>
+    <div class="p-course__result-grid" data-anim-group>
+      <div class="p-course__result-card" data-anim="fade-up">
+        <h4 class="head"><span class="title"><span class="u-marker" data-marker>医師</span> × 臨床工学技士</span></h4>
+        <p class="txt">高い専門性を発揮して患者さんを救う、<br>必要不可欠のパートナー</p>
+        <p class="btn"><button type="button" class="c-btn" data-modal-open="result01">その理由は？<span class="plus">＋</span></button></p>
+      </div>
+      <div class="p-course__result-card" data-anim="fade-up">
+        <h4 class="head"><span class="title"><span class="u-marker" data-marker>看護師</span> × 臨床工学技士</span></h4>
+        <p class="txt">看護師では関われない治療に携わる心強い存在</p>
+        <p class="btn"><button type="button" class="c-btn" data-modal-open="result02">その理由は？<span class="plus">＋</span></button></p>
+      </div>
+    </div>
+    <dialog class="p-course__modal" id="result01">
+      <p class="p-course__modal-img"><img src="/asset/img/course/clinicalengineer/2026/modal-reason-img01.jpg" alt="" width="500" height="320" loading="lazy"></p>
+      <p>医療の高度化により、それぞれが高いスキルを求められる中、臨床工学技士のサポートや機転によって手術を成功に導く事も少なくありません。医師と共に治療に携わり、時には医師に治療内容を提案することで、多くの患者さんを救っています。</p>
+    </dialog>
+    <dialog class="p-course__modal" id="result02">
+      <p class="p-course__modal-img"><img src="/asset/img/course/clinicalengineer/2026/modal-reason-img02.jpg" alt="" width="460" height="680" loading="lazy"></p>
+      <p>医療機器での治療は臨床工学技士の専門領域です。専門職ならではの着眼点でチーム内に患者さんの治療情報や意見を発信することができるため、日常のケアを行う看護師にとっても頼りになる存在です。</p>
+    </dialog>
+  </div>
+
+  {#- タスクシフト／シェア -#}
+  <div class="p-course__pickup" data-anim="zoom">
+    <p class="catch-img"><img src="/asset/img/course/clinicalengineer/2026/pickup-catch-img.png" alt="Start!" width="84" height="33" loading="lazy"></p>
+    <h4 class="title deco-title"><span class="deco"><img src="/asset/img/course/clinicalengineer/2026/pickup-deco01.png" loading="lazy" alt="" width="29" height="50"></span><span><span class="img"><img src="/asset/img/course/clinicalengineer/2026/pickup-title-img.png" loading="lazy" alt="タスクシフト／シェア" width="148" height="29"></span>のスタートで<br>「臨床工学技士」の存在が<span class="u-marker" data-marker>より重要に</span></span><span class="deco"><img src="/asset/img/course/clinicalengineer/2026/pickup-deco02.png" loading="lazy" alt="" width="29" height="50"></span></h4>
+    <p>2024年4月から始まったタスクシフト／シェアの担い手として特に注目されているのは他の医療専門職にはない“医学と工学” 両方の知識を併せ持っているからです。</p>
+    <p>これまでの業務に加え、人工透析業務における「動脈<ruby>穿刺<rt>せんし</rt></ruby>」や手術や集中治療室業務における「静脈<ruby>穿刺<rt>せんし</rt></ruby>」、医師の指示のもと行う「電気的刺激」、「内視鏡手術のカメラ操作」業務にあたることが可能になり臨床工学技士へのニーズは高まる一方です。</p>
+    <p class="note">※<ruby>穿刺<rt>せんし</rt></ruby>：診断や治療を目的として、針を体に刺す医療行為のこと。</p>
+    <ul class="p-course__pickup-imgs" data-anim-group>
+      <li data-anim="zoom"><p class="label">内視鏡手術のカメラ操作</p><img src="/asset/img/course/clinicalengineer/2026/pickup-img01.jpg" alt="" width="296" height="198" loading="lazy"></li>
+      <li data-anim="zoom"><p class="label">静脈<ruby>穿刺<rt>せんし</rt></ruby></p><img src="/asset/img/course/clinicalengineer/2026/pickup-img02.jpg" alt="" width="296" height="198" loading="lazy"></li>
+    </ul>
+  </div>
+
+  {#- バナー -#}
+  <ul class="p-course__banner-list" data-anim-group>
+    <li data-anim="fade-up"><a href="/opencampus/"><img src="/asset/img/share/2026/banner-ictoc.png" alt="オープンキャンパス" width="330" height="310" loading="lazy"></a></li>
+    <li data-anim="fade-up"><a href="https://www.snm.ac.jp/news/2026/14409/" target="_blank" rel="noopener"><img src="/asset/img/share/2026/banner-aoentry.png" alt="AO" loading="lazy" width="330" height="310"></a></li>
+  </ul>
+
+  {#- 4つのポイント アンカー -#}
+  <div class="p-course__anchor-head" data-anim="fade-up">
+    <p class="balloon"><img src="/asset/img/course/clinicalengineer/2026/anchor-balloon.png" loading="lazy" alt="札幌看護医療だからできる" width="195" height="38"></p>
+    <p class="title"><img src="/asset/img/course/clinicalengineer/2026/anchor-title.png" loading="lazy" alt="4つのポイント" width="196" height="60"></p>
+  </div>
+  {%- set anchors = [
+    {href: "#learning",   sub: "現場に近い“リアル”な学びで", ttl: "不安を“強み”に変える"},
+    {href: "#result",     sub: "多彩なサポートで",           ttl: "国家試験対策も万全"},
+    {href: "#voice",      sub: "医療の最前線で活躍する",     ttl: "卒業生紹介"},
+    {href: "#curriculum", sub: "学びを深められる",           ttl: "資格＋αのカリキュラム"}
+  ] -%}
+  <ul class="p-course__anchor-list" data-anim-group>
+    {%- for a in anchors %}
+    <li data-anim="fade-up"><a href="{{ a.href }}" class="c-quicklink"><span class="c-quicklink__sub">{{ a.sub }}</span><span class="c-quicklink__label">{{ a.ttl }}</span><span class="c-quicklink__arrow"></span></a></li>
+    {%- endfor %}
+  </ul>
+</section>
+
+{#- 3. 現場に近いリアルな学び -#}
+<section class="p-course__section u-section" id="learning">
+  <h3 class="p-course__block-title" data-anim="fade-up">
+    <span class="en">LEANING</span>
+    <span class="ttl"><span class="s-txt">現場に近い“リアル”な学びで</span><br>不安を“強み”に変える</span>
+  </h3>
+  <div class="p-course__learning-group" data-anim="fade-up">
+    <h4 class="p-course__learning-title"><span class="icon"><img src="/asset/img/course/clinicalengineer/2026/learning-icon01.png" width="50" height="50" alt="" loading="lazy"></span>札幌看護医療なら<br>“40名以上の最強講師陣”から学べる</h4>
+    <p>現役の臨床工学技士をはじめ、医師や看護師、薬剤師、臨床検査技師、医療機器メーカースタッフ、医療系Youtuberなどから直接、医療現場の今をリアルに学べます。</p>
+    {%- set teachers = [
+      {img: "learning-teacher01.jpg", catch: "多方面で活躍する<br>現役総合診療医", txt: "（株）WeLa 代表取締役<br><span class=\"l-txt\">舛森 悠</span>（Dr.マンデリン） 先生"},
+      {img: "learning-teacher02.jpg", catch: "世界を舞台に働く<br>人工心肺のエキスパート", txt: "フロリダ大学 勤務<br><span class=\"l-txt\">四井田 英樹</span> 先生"},
+      {img: "learning-teacher03.jpg", catch: "優しく寄り添う<br>丁寧な指導で人気", txt: "医療法人社団群仁会<br>保坂内科クリニック 勤務<br><span class=\"l-txt\">佐藤 友美</span> 先生"},
+      {img: "learning-teacher04.jpg", catch: "災害派遣医療の<br>スペシャリスト", txt: "医療法人渓仁会<br>手稲渓仁会病院 勤務<br><span class=\"l-txt\">菅原 誠一</span> 先生"},
+      {img: "learning-teacher05.jpg", catch: "熱意あふれる<br>パワフルな実習担当", txt: "医療法人徳洲会<br>札幌徳洲会病院 勤務<br><span class=\"l-txt\">安藤 偉子</span> 先生"},
+      {img: "learning-teacher06.jpg", catch: "分かりやすい説明<br>が定評", txt: "札幌医科大学附属病院 勤務<br><span class=\"l-txt\">岸本 万寿実</span> 先生"},
+      {img: "learning-teacher07.jpg", catch: "勉強方法の<br>アドバイスも的確", txt: "医療法人社団<br>よしだ内科循環器クリニック勤務<br><span class=\"l-txt\">吉田 行宏</span> 先生"}
+    ] -%}
+    <ul class="p-course__teacher-list" data-anim-group>
+      {%- for t in teachers %}
+      <li data-anim="fade-up">
+        <p class="img"><img src="/asset/img/course/clinicalengineer/2026/{{ t.img }}" width="153" height="153" alt="" loading="lazy"><span class="catch">{{ t.catch | safe }}</span></p>
+        <p class="txt">{{ t.txt | safe }}</p>
+      </li>
+      {%- endfor %}
+      <li class="is-other" data-anim="fade-up">
+        <button type="button" data-modal-open="learning01">
+          <span class="balloon"><img src="/asset/img/course/clinicalengineer/2026/learning-balloon.png" width="112" height="40" alt="他にも！" loading="lazy"></span>
+          <span class="detail">日本全国の第一線で活躍する<span class="colored">現役の臨床工学技士</span>が授業を担当。<br>在学中から多くの現役臨床工学技士に出会える!</span>
+          <span class="more">VIEW MORE<span class="plus">＋</span></span>
+        </button>
+      </li>
+    </ul>
+    <dialog class="p-course__modal" id="learning01">
+      <ul class="p-course__square-list">
+        <li>北海道大学病院</li>
+        <li>札幌北辰病院</li>
+        <li>札幌医科大学附属病院</li>
+        <li>NTT東日本札幌病院</li>
+        <li>手稲渓仁会病院</li>
+        <li>旭川医科大学病院</li>
+        <li>札幌孝仁会記念病院</li>
+        <li>旭川赤十字病院</li>
+        <li>KKR札幌医療センター</li>
+        <li>国立循環器病研究センター</li>
+        <li>子ども総合医療・療育センター</li>
+        <li>虎の門病院</li>
+        <li>市立札幌病院</li>
+        <li>大阪医療センター 他多数</li>
+        <li>札幌東徳洲会病院</li>
+      </ul>
+    </dialog>
+  </div>
+
+  <div class="p-course__learning-group" data-anim="fade-up">
+    <h4 class="p-course__learning-title"><span class="icon"><img src="/asset/img/course/clinicalengineer/2026/learning-icon02.png" width="50" height="50" alt="" loading="lazy"></span>最新の医療機器で、<br>実践的な実習・授業を実施！</h4>
+    <p>豚の心臓を使った実習や、多職種コラボレーション実習、さらに全国から指名の絶えない臨床工学技士による実習など幅広く実践的な実習で医療機器のスペシャリストを目指します！</p>
+    <div class="p-course__training-cards" data-anim-group>
+      <div class="p-course__training-card is-wide" data-anim="fade-up">
+        <h4 class="title">実習施設は道内外70ケ所<br>道外への実習は宿泊サポートも</h4>
+        <div class="swiper p-course__slider" data-course-swiper>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="/asset/img/course/clinicalengineer/2026/training-img01-1.jpg" alt="" width="296" height="198" loading="lazy"></div>
+            <div class="swiper-slide"><img src="/asset/img/course/clinicalengineer/2026/training-img01-2.jpg" alt="" width="296" height="198" loading="lazy"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <p>多数の実習施設の中から自分の希望に合わせて実習先が選べるほか、臨床（病院）実習前に学内実習でのシミュレーションで技術を修得してから実習に臨めるので安心です。</p>
+      </div>
+      {%- set trainings = [
+        {ttl: "臨床実習直前学内実習", img: "training-img02.jpg", txt: "臨床実習に行く直前に、学内の医療機器を使って現場さながらの実習を行う。"},
+        {ttl: "OSCE（オスキー）実習", img: "training-img03.jpg", txt: "現場を想定した課題で、手技だけでなく安全配慮・接遇・対応力なども客観評価する実技試験を実施。"},
+        {ttl: "生体機能代行技術学演習Ⅰ", img: "training-img04.jpg", txt: "実際の医療機器を使用しながら操作方法を学んでいく実習。"},
+        {ttl: "基礎医学実習", img: "training-img05.jpg", txt: "豚の肺や心臓を使用しながら、人体の臓器について学ぶ。"},
+        {ttl: "多職種コラボレーション実習", img: "training-img06.jpg", txt: "臨床実習を想定した、他学科との合同実習など他学科や多職種とのコラボ授業も多数！"},
+        {ttl: "国内研修旅行", img: "training-img07.jpg", txt: "日本屈指の設備や臨床の現場を見学。自由時間は友達との思い出を作ろう！"}
+      ] -%}
+      {%- for t in trainings %}
+      <div class="p-course__training-card" data-anim="fade-up">
+        <h4 class="title">{{ t.ttl }}</h4>
+        <p class="img"><img src="/asset/img/course/clinicalengineer/2026/{{ t.img }}" loading="lazy" alt="" width="153" height="153"></p>
+        <p>{{ t.txt }}</p>
+      </div>
+      {%- endfor %}
+    </div>
+  </div>
+
+  {#- VRを使った学び -#}
+  <div class="p-course__vr" data-anim="fade-up">
+    <p class="head-img"><img src="/asset/img/course/clinicalengineer/2026/learning-head-img.png" loading="lazy" alt="" width="327" height="81"></p>
+    <h4 class="head-title">リアルを追求！VRを使った学び</h4>
+    <p>まるで実際の臨床現場にいるかのようにさまざまな医療シーンに対処するスキルをトレーニングできます。臨床工学技士として問題に対する迅速な判断や解決する力、現場での協力スキルを身につけます。</p>
+    <p class="vr-title">体験型の学びで<br>スキルトレーニング！</p>
+    <div class="swiper p-course__slider" data-course-swiper data-anim="fade-up">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide p-course__vr-slide">
+          <img src="/asset/img/course/clinicalengineer/2026/training01-slide01.jpg" alt="" width="560" height="400" loading="lazy">
+          <p class="txt">VRを用いたバーチャル空間で現場では見学ができない角度から臨床工学技士の視野を学ぶ</p>
+        </div>
+        <div class="swiper-slide p-course__vr-slide">
+          <img src="/asset/img/course/clinicalengineer/2026/training01-slide02.jpg" alt="" width="560" height="400" loading="lazy">
+          <p class="txt">医療機器と模擬患者により現場を意識した実技練習＋シミュレータを使用して自主的に実技練習</p>
+        </div>
+        <div class="swiper-slide p-course__vr-slide">
+          <img src="/asset/img/course/clinicalengineer/2026/training01-slide03.jpg" alt="" width="560" height="400" loading="lazy">
+          <p class="txt"><ruby>OSCE<rt>オスキー</rt></ruby>（客観的臨床能力試験）臨床工学技士として必要な臨床技能や接遇マナーの修得</p>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <p class="tag" data-anim="stamp"><img src="/asset/img/course/clinicalengineer/2026/training-tag.png" alt="道内初！" width="72" height="25" loading="lazy"></p>
+    <p class="vr-title">VR実習Pick Up</p>
+    <ul class="p-course__vr-pickup" data-anim-group>
+      <li data-anim="fade-up">
+        <p class="title">VR心臓カテーテル<br>シミュレータ実習</p>
+        <p class="img"><img src="/asset/img/course/clinicalengineer/2026/pickup-list-img01.jpg" alt="" width="143" height="143" loading="lazy"></p>
+        <p>専用ゴーグルを装着すると出現するバーチャル空間は、実際の心臓カテーテル室と同じ。手術を思いのままに行うことができます。</p>
+      </li>
+      <li data-anim="fade-up">
+        <p class="title">海外の手術室が<br>わかる</p>
+        <p class="img"><img src="/asset/img/course/clinicalengineer/2026/pickup-list-img02.jpg" alt="" width="143" height="143" loading="lazy"></p>
+        <p>海外の手術現場を体感できます。設備の状況から、医師・看護師・臨床工学技士の動きまで把握できます。</p>
+      </li>
+      <li data-anim="fade-up">
+        <p class="title">災害医療<br>シミュレータ実習</p>
+        <p>過去の災害現場をVR体験することで、DMAT（災害派遣医療チーム）の基礎知識を修得できます。</p>
+      </li>
+      <li data-anim="fade-up">
+        <p class="title">透析<br>シミュレータ実習</p>
+        <p>透析業務の現場を“臨床工学技士の目線”で確認できるので、臨床実習における機器操作や見学時の重要ポイントを事前に学習できます。</p>
+      </li>
+    </ul>
+    <div class="p-course__panorama" data-anim="fade-up">
+      <p class="title"><span class="deco"><img src="/asset/img/course/clinicalengineer/2026/panorama-deco01.png" width="60" height="70" alt="" loading="lazy"></span><span class="txt"><span class="colored">どんな風に見えるのか</span><br><span class="l-txt">体験してみよう！</span></span><span class="deco"><img src="/asset/img/course/clinicalengineer/2026/panorama-deco02.png" width="60" height="70" alt="" loading="lazy"></span></p>
+      <p class="frame"><a href="https://www.snm.ac.jp/course/clinicalengineer/#panorama" target="_blank" rel="noopener">VRパノラマは本番サイトで体験できます<span class="arrow">→</span></a></p>
+      <p class="img"><img src="/asset/img/course/clinicalengineer/2026/training01-img01.png" width="199" height="94" alt="" loading="lazy"></p>
+    </div>
+  </div>
+</section>
+
+{#- 4. 国家試験対策 -#}
+<section class="p-course__section u-section" id="result">
+  <h3 class="p-course__block-title" data-anim="fade-up">
+    <span class="catch">[ 多彩なサポートで ]</span>
+    <span class="ttl">国家試験対策も万全</span>
+  </h3>
+  <p class="p-course__training-topimg" data-anim="fade-up"><img src="/asset/img/course/clinicalengineer/2026/learning02-head-img.png" alt="" width="320" height="80" loading="lazy"></p>
+  <div class="p-course__learning-group" data-anim="fade-up">
+    <h4 class="p-course__learning-title"><span class="icon"><img src="/asset/img/course/clinicalengineer/2026/learning-icon03.png" width="50" height="50" alt="" loading="lazy"></span>専任教員による強力なサポート</h4>
+    <p>「経験豊富」「距離が近い」「担任制」だから安心して国家試験合格を目指せます！</p>
+    {%- set supports = [
+      {id: "support01", img: "support-img01.png", modalImg: "support-modal-img01.jpg", name: "森本", catch: "海外の臨床工学技士も育成する<br>学生の憧れNo.1", detail: "18年間、心臓治療の最前線で多くの命と向き合いながら、学会発表やセミナー講師なども務め、全国で活躍。多くの認定士資格を持ち、変化の激しい医療業界において臨床工学技士の可能性を拡げるべく、MBA（経営学修士）を取得し、教育現場から医療を支える。"},
+      {id: "support02", img: "support-img02.png", modalImg: "support-modal-img02.jpg", name: "合田", catch: "医療と工学の知識を兼ね備えた<br>プロフェッショナル", detail: "透析技術認定士・呼吸療法認定士・急性期ケア専門士などの資格を持つ、様々な医療分野のエキスパート。工学分野の知識も豊富で、基礎からわかりやすい指導は評判。"},
+      {id: "support03", img: "support-img03.png", modalImg: "support-modal-img03.jpg", name: "中村", catch: "臨床経験豊富な明るい指導の<br>頼れる実力派", detail: "臨床経験19年。手術室勤務や透析病院など様々な臨床現場を経験しており、全身の症例に詳しいオールラウンダー。明るく親しみやすいキャラクターで学生から大人気。"},
+      {id: "support04", img: "support-img04.png", modalImg: "support-modal-img04.jpg", name: "藤吉", catch: "工学を、基本からしっかり教えます", detail: "臨床工学技士学科の教員歴21年。病院でのプログラマー経験があり、情報システムの一部構築と支援を行う「システムアドミニストレータ」や、医療機関における情報管理やトラブル解決する「医療情報技師」の資格を持つ。"}
+    ] -%}
+    <ul class="p-course__support-list" data-anim-group>
+      {%- for s in supports %}
+      <li data-anim="zoom">
+        <button type="button" data-modal-open="{{ s.id }}">
+          <span class="img"><img src="/asset/img/course/clinicalengineer/2026/{{ s.img }}" width="153" height="153" alt="" loading="lazy"></span>
+          <span class="name">{{ s.name }}<span class="small">先生</span></span>
+          <span class="more"><img src="/asset/img/course/clinicalengineer/2026/button-more.png" width="40" height="40" alt="MORE" loading="lazy"></span>
+        </button>
+      </li>
+      {%- endfor %}
+    </ul>
+    {%- for s in supports %}
+    <dialog class="p-course__modal" id="{{ s.id }}">
+      <p class="p-course__modal-img"><img src="/asset/img/course/clinicalengineer/2026/{{ s.modalImg }}" width="296" height="220" alt="" loading="lazy"></p>
+      <p class="p-course__modal-title">{{ s.name }}<span class="small">先生</span></p>
+      <p class="p-course__modal-sub">{{ s.catch | safe }}</p>
+      <p>{{ s.detail }}</p>
+    </dialog>
+    {%- endfor %}
+    <ul class="p-course__support-list is-static" data-anim-group>
+      <li data-anim="zoom"><p class="label">1年次から<br>国家試験対策</p><p class="img"><img src="/asset/img/course/clinicalengineer/2026/support-img05.jpg" width="153" height="153" alt="" loading="lazy"></p></li>
+      <li data-anim="zoom"><p class="label">全国共通模擬試験や<br>独自テキスト活用</p><p class="img"><img src="/asset/img/course/clinicalengineer/2026/support-img06.jpg" width="153" height="153" alt="" loading="lazy"></p></li>
+      <li data-anim="zoom"><p class="label">タブレットフル活用で<br>効率よく勉強</p><p class="img"><img src="/asset/img/course/clinicalengineer/2026/support-img07.jpg" width="153" height="153" alt="" loading="lazy"></p></li>
+      <li data-anim="zoom"><p class="label">グループワーク<br>学習</p><p class="img"><img src="/asset/img/course/clinicalengineer/2026/support-img08.jpg" width="153" height="153" alt="" loading="lazy"></p></li>
+    </ul>
+    <div class="p-course__pickup" data-anim="zoom">
+      <p class="catch-img"><img src="/asset/img/course/clinicalengineer/2026/support-catch-img.png" alt="さらに!" width="84" height="36" loading="lazy"></p>
+      <h4 class="title deco-title"><span class="deco"><img src="/asset/img/course/clinicalengineer/2026/img-deco01.png" loading="lazy" alt="" width="30" height="50"></span><span class="u-marker" data-marker>基礎学力対策講座</span><span class="deco"><img src="/asset/img/course/clinicalengineer/2026/img-deco02.png" loading="lazy" alt="" width="30" height="50"></span></h4>
+      <p>理系、文系関係なく、勉強が苦手な方でも臨床工学技士を目指せるように対策講座を開講しています。数学や化学、生物などの理系科目を基礎からわかりやすく、時間をかけて学ぶことができます。</p>
+    </div>
+  </div>
+</section>
+
+{#- 5. 卒業生紹介 -#}
+<section class="p-course__section u-section" id="voice">
+  <h3 class="p-course__block-title" data-anim="fade-up">
+    <span class="en">GRADUATE</span>
+    <span class="catch">[ 医療の最前線で活躍する ]</span>
+    <span class="ttl">卒業生紹介</span>
+  </h3>
+  <div class="p-course__voice-slide is-static" data-anim="fade-up">
+    <p class="catch-label">医療機器のサイバーセキュリティ対策でも貢献したい</p>
+    <p class="img"><img src="/asset/img/course/clinicalengineer/2026/voice-img01.jpg" loading="lazy" alt="" width="296" height="220"></p>
+    <p>日々の業務では、担当した患者さんに「あなたでよかった」と感謝されることにやりがいを感じています。今後は、医療機器のサイバーセキュリティ対策に力を入れ、医療の安全に貢献していきたいと考えています。</p>
+    <p class="name">武田さん <span class="small">医療法人社団東桑会 札幌北クリニック勤務<br>担当業務：透析室業務、シャントエコー、医療機器管理業務（根室高校出身）</span></p>
+  </div>
+  <div class="p-course__voice-slide is-static" data-anim="fade-up">
+    <p class="catch-label">全分野で活躍できる<br>臨床工学技士を目指して勉強中</p>
+    <p class="img"><img src="/asset/img/course/clinicalengineer/2026/voice-img02.jpg" loading="lazy" alt="" width="296" height="220"></p>
+    <p>幅広い業務ができる臨床工学技士の特性を生かすため、患者数も業務の種類も多いこの病院を選びました。現在は、全ての分野で活躍できる臨床工学技士を目指して日々勉強中。人工心肺業務を極めることが目標です。</p>
+    <p class="name">髙村さん <span class="small">砂川市立病院勤務<br>担当業務：手術室業務（岩見沢西高校出身）</span></p>
+  </div>
+  {%- set gVoices = [
+    {id: "voice-slide-modal01", slideImg: "voice-slide01.jpg", modalImg: "voice-modal01.jpg", name: "佐藤さん", com: "社会医療法人孝仁会 札幌孝仁会記念病院勤務<br>担当業務：人工心肺業務（江差高校出身）", txt: "人工心肺業務を中心にカテーテル業務や内視鏡業務などを行っています。人工心肺業務は、患者さんの循環を預かるため責任がある業務の一つです。その分、無事にICUへ患者さんを送り届けることができた時には達成感があります。難易度が高い手術の人工心肺を担当できるように、今後も精進していきたいです。<br>※ICU・・・集中治療室"},
+    {id: "voice-slide-modal02", slideImg: "voice-slide02.jpg", modalImg: "voice-modal02.jpg", name: "小川さん", com: "日本赤十字社 旭川赤十字病院勤務<br>担当業務：医療機器管理業務（美深高校出身）", txt: "何もできなかった私が、チーム医療の一員になれたと実感できる時がやりがいです。まだまだ知らない事やできない事が多いので今も成長途中ですが、できる事が増えていくのが嬉しいです！医療は常に進歩していて、新しい機器を使った治療も増えています。チーム医療の一員として、より信頼されるスタッフを目指していきます。"},
+    {id: "voice-slide-modal03", slideImg: "voice-slide03.jpg", modalImg: "voice-modal03.jpg", name: "益塚さん", com: "社会医療法人孝仁会 札幌孝仁会記念病院勤務<br>担当業務：透析室業務（札幌丘珠高校出身）", txt: "人工透析は患者さんとの関わりが深く、コミュニケーションがとても大切です。私は人と話すのが好きなので、毎日楽しく仕事に励んでいます。特に治療に不安を抱える患者さんの気持ちを和らげて元気になってもらえたときは非常にやりがいを感じます。"},
+    {id: "voice-slide-modal04", slideImg: "voice-slide04.jpg", modalImg: "voice-modal04.jpg", name: "榮さん", com: "弘前大学 医学部附属病院勤務<br>担当業務：手術室業務（札幌日本大学高校出身）", txt: "臨床工学技士として、生命維持管理装置の操作や管理のほか、心血管カテーテル業務や透析治療の対応、さらには手術にあたっての機器の準備やサポートなど幅広い業務を行っています。様々は経験を通して成長し、治療や手術に対して少なからず不安を抱いている患者さんに、少しでも安心感を抱いてもらえるような存在になるため、日々業務に励んでいます。"},
+    {id: "voice-slide-modal05", slideImg: "voice-slide05.jpg", modalImg: "voice-modal05.jpg", name: "泉田さん", com: "社会福祉法人 聖隷福祉事業団 総合病院 聖隷浜松病院勤務<br>担当業務：手術室業務（東海大学付属札幌高校出身）", txt: "整形外科の手術室では、透視装置の操作や、骨折治療に使うインプラントの準備、器械出し、外回りなど、様々な仕事をしてます。手術がスムーズに進むように、いつも先を読んで準備したり、看護師さんと密に連携を取ることを徹底しています。また、手術に不安を感じている患者さまが少しでもリラックスできて安心できるように、積極的に話しかけるように心がけてます。最初は「裏方」というイメージが強かったのですが、聖隷浜松病院では、臨床工学技士が自分の専門性を活かして、様々な分野で主体的に活躍しているのを見て、正直驚きました。医療チームの一員として信頼してもらえて、貢献できることが、この仕事の一番の魅力だと感じてます。"}
+  ] -%}
+  <div class="swiper p-course__slider" data-course-swiper data-slides="1.1" data-anim="fade-up">
+    <div class="swiper-wrapper">
+      {%- for v in gVoices %}
+      <div class="swiper-slide p-course__voice-slide">
+        <button type="button" class="p-course__voice-open" data-modal-open="{{ v.id }}">
+          <span class="img"><img src="/asset/img/course/clinicalengineer/2026/{{ v.slideImg }}" alt="" width="501" height="442" loading="lazy"></span>
+          <span class="name">{{ v.name }} <span class="small">{{ v.com | safe }}</span></span>
+        </button>
+      </div>
+      {%- endfor %}
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  {%- for v in gVoices %}
+  <dialog class="p-course__modal" id="{{ v.id }}">
+    <p class="p-course__modal-img"><img src="/asset/img/course/clinicalengineer/2026/{{ v.modalImg }}" width="276" height="184" alt="" loading="lazy"></p>
+    <p class="p-course__modal-name">{{ v.name }} <span class="small">{{ v.com | safe }}</span></p>
+    <p>{{ v.txt | safe }}</p>
+  </dialog>
+  {%- endfor %}
+</section>
+
+{#- 6. カリキュラム -#}
+<section class="p-course__section u-section" id="curriculum">
+  <h3 class="p-course__block-title" data-anim="fade-up">
+    <span class="en">CURRICULUM</span>
+    <span class="catch">[ 学びを深められる ]</span>
+    <span class="ttl">資格＋αのカリキュラム</span>
+  </h3>
+  <p class="p-course__block-lead" data-anim="fade-up">最先端のICT教育と豊富な実習で、次世代の臨床工学技士に必要な知識と技術を身につけます。</p>
+
+  <div class="c-tab p-course__year-tab" data-tabs data-anim="fade-up">
+    <div class="c-tab__list" role="tablist">
+      <button type="button" class="c-tab__btn" aria-selected="true"><span class="num">1</span>年次</button>
+      <button type="button" class="c-tab__btn" aria-selected="false"><span class="num">2</span>年次</button>
+      <button type="button" class="c-tab__btn" aria-selected="false"><span class="num">3</span>年次</button>
+    </div>
+    <div class="c-tab__panel">
+      <h4 class="p-course__year-title">最新のICT技術を活用した授業と<br>早期の実技実習<br>徹底した個別指導で<br>国家試験合格の基礎学力を作る</h4>
+      <p class="p-course__year-img"><img src="/asset/img/course/clinicalengineer/2026/curriculum-tab01.jpg" loading="lazy" alt="" width="696" height="240"></p>
+      <p>前期から現役の臨床工学技士や専任教員が臨床現場で必要な医療機器の操作方法などを指導するほか、シミュレーションセンター研修も実施。後期には病院見学を通じて臨床現場を体感します。また、国家試験合格を見据えて、個々の状況に応じて専任教員が徹底した苦手克服補習を行います。</p>
+      <div class="p-course__schedule">
+        <ol class="p-course__schedule-list">
+          <li><span class="month"><span class="en">4</span>月</span>シミュレーションセンター研修</li>
+          <li><span class="month"><span class="en">7</span>月</span>学年交流会</li>
+          <li><span class="month"><span class="en">9</span>月</span>病院見学</li>
+          <li><span class="month"><span class="en">1</span>月</span>現役臨床工学技士講話</li>
+          <li><span class="month"><span class="en">2</span>月</span>文章検定</li>
+        </ol>
+      </div>
+    </div>
+    <div class="c-tab__panel" hidden>
+      <h4 class="p-course__year-title">課題研究と多彩な学内実習を通して<br>技術力とコミュニケーションカを強化</h4>
+      <p class="p-course__year-img"><img src="/asset/img/course/clinicalengineer/2026/curriculum-tab02.jpg" loading="lazy" alt="" width="696" height="240"></p>
+      <p>約半年間の課題研究では、自ら課題を見つけ解決策を導く力とプレゼンテーション能力、またチーム医療の一員として患者さんや多職種との連携に必須なコミュニケーション能力を養います。さらにVRを活用した学内実習で、あらゆる臨床現場での臨床工学技士の動きを修得。<ruby>OSCE<rt>オスキー</rt></ruby>（客観的臨床能力試験）で患者さんへの応対スキルを磨き、3年次の臨床実習への土台を固めます。</p>
+      <div class="p-course__schedule">
+        <ol class="p-course__schedule-list">
+          <li><span class="month"><span class="en">9</span>月</span>第2種ME技術実力検定試験</li>
+          <li><span class="month"><span class="en">10</span>月〜</span>課題研究<br>学内実習<br>国内研修旅行</li>
+          <li><span class="month"><span class="en">11</span>月</span>課題研究発表会</li>
+          <li><span class="month"><span class="en">1</span>月</span>臨床実習Ⅰ（<ruby>OSCE<rt>オスキー</rt></ruby>）</li>
+        </ol>
+      </div>
+    </div>
+    <div class="c-tab__panel" hidden>
+      <h4 class="p-course__year-title">臨床で必要な自主性と行動力、<br>マネジメント力が高まる場を創出</h4>
+      <p class="p-course__year-img"><img src="/asset/img/course/clinicalengineer/2026/curriculum-tab03.jpg" loading="lazy" alt="" width="696" height="240"></p>
+      <p>複数の施設での臨床実習を通して、医療現場で必要とされる知識や技術を学びます。さまざまな現場で活躍する現役の臨床工学技士と接しながら、自分自身が目指す臨床工学技士像を具現化。さらに、全国のグループ校と共同開発した独自テキストや模擬試験を活用して、国家試験対策に取り組むほか、学年や学科を越えた交流の機会を生かし、マネジメント力の向上を図ります。</p>
+      <div class="p-course__schedule">
+        <ol class="p-course__schedule-list">
+          <li><span class="month"><span class="en">4</span>月</span>実習激励式</li>
+          <li><span class="month"><span class="en">5</span>月〜<span class="en">6</span>月</span>臨床実習Ⅱ（学外研修）</li>
+          <li><span class="month"><span class="en">7</span>月</span>臨床実習報告会</li>
+          <li><span class="month"><span class="en">10</span>月〜</span>国家試験対策</li>
+          <li><span class="month"><span class="en">12</span>月</span>学習成果発表会</li>
+          <li><span class="month"><span class="en">3</span>月</span>臨床工学技士国家試験</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-course__timetable" data-anim="fade-up">
+    <h4 class="p-course__border-title"><span>時間割の例</span></h4>
+    <p class="img"><img src="/asset/img/course/clinicalengineer/2026/curriculum-timetable.png" loading="lazy" alt="" width="702" height="582"></p>
+  </div>
+
+  <div class="p-course__qualification" data-anim="fade-up">
+    <h4 class="p-course__border-title"><span>目指せる資格</span></h4>
+    <ul class="p-course__dot-list">
+      <li>臨床工学技士<span class="small">（国家資格）</span></li>
+      <li>心電図検定</li>
+      <li>医療機器情報コミュニケータ<span class="small">（MDIC）</span>検定試験</li>
+      <li>第2種ME技術実力検定試験</li>
+      <li>第1種ME技術実力検定試験</li>
+    </ul>
+    <ul class="p-course__chart-list" data-anim-group>
+      <li data-anim="zoom">
+        <p class="img"><img src="/asset/img/course/clinicalengineer/2026/chart-img01.png" loading="lazy" alt="" width="274" height="274"></p>
+        <p class="note">（2024年3月卒業生実績）</p>
+      </li>
+      <li data-anim="zoom">
+        <p class="img"><img src="/asset/img/course/clinicalengineer/2026/chart-img02.png" loading="lazy" alt="" width="271" height="271"></p>
+        <p class="note">（2026年3月卒業生実績）<br>※北海道ハイテクノロジー専門学校からの累計実績</p>
+      </li>
+    </ul>
+  </div>
+
+  <div class="p-course__news" data-anim="fade-up">
+    <p class="p-course__news-catch"><img src="/asset/img/course/clinicalengineer/2026/news-catch.png" loading="lazy" alt="News" width="87" height="43"></p>
+    <p class="img"><img src="/asset/img/course/clinicalengineer/2026/news-img01.png" loading="lazy" alt="" width="218" height="84"></p>
+    <p class="title"><span class="u-marker" data-marker>大学卒業資格の取得「学士」</span><br>が可能に！</p>
+    <p>札幌看護医療に在籍中から星槎大学との併修が可能に。大学を卒業する（学士の学位を得る）ために必要な単位の一部が認定されます。学修はオンラインなどによる受講やテキスト学修のため自分のペースで学ぶことができます。<br>学費を抑えて学士を取得できるほか、+αの学びを修得することで将来の選択肢が広がるため、キャリアアップにもつながります。</p>
+    <p class="logo"><img src="/asset/img/course/nursing/2025/logo-seisa.jpg" loading="lazy" alt="" width="123" height="29"></p>
+    <p class="note">※ 希望者のみ</p>
+  </div>
+</section>
+
+{#- 7. 学科行事 -#}
+<section class="p-course__event u-section" data-anim="fade-up">
+  <h3 class="title"><img src="/asset/img/course/clinicalengineer/2026/event-title.png" loading="lazy" alt="学ぶだけじゃない！学科ならではの行事で仲が深まる！" width="296" height="54"></h3>
+  <p class="img"><img src="/asset/img/course/clinicalengineer/2026/event-img01.webp" loading="lazy" alt="" width="336" height="854"></p>
+</section>
+
+{#- 8. 他学科 -#}
+<section class="p-course__links u-section">
+  <h2 class="p-course__links-title" data-anim="fade-up"><span>他の学科も見る！</span></h2>
+  <div class="p-course__links-grid" data-anim-group>
+    <div class="p-course__links-item" data-anim="fade-up">
+      <a href="/course/nursing/"><img src="/asset/img/course/share/2026/course-ph-nursing.webp" loading="lazy" alt="" width="290" height="290"></a>
+      <p class="course">看護<span class="small">学科</span></p>
+    </div>
+    <div class="p-course__links-item" data-anim="fade-up">
+      <a href="/course/orthoptist/"><img src="/asset/img/course/share/2026/course-ph-orthoptist.webp" loading="lazy" alt="" width="290" height="290"></a>
+      <p class="course">視能訓練士<span class="small">学科</span></p>
+    </div>
+    <div class="p-course__links-item" data-anim="fade-up">
+      <a href="/course/dentalhygienists/"><img src="/asset/img/course/share/2026/course-ph-dentalhygienists.webp" loading="lazy" alt="" width="290" height="290"></a>
+      <p class="course">歯科衛生士<span class="small">学科</span></p>
+    </div>
+    <div class="p-course__links-item is-current" data-anim="fade-up">
+      <a href="/course/clinicalengineer/"><img src="/asset/img/course/share/2026/course-ph-clinicalengineer.webp" loading="lazy" alt="" width="290" height="290"></a>
+      <p class="course">臨床工学技士<span class="small">学科</span></p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,61 @@
+---
+layout: page.njk
+title: お知らせ
+description: 【看護師・視能訓練士・歯科衛生士・臨床工学技士】医療系に進むなら札幌看護医療専門学校！充実の設備×駅近×ICT教育で新たな医療を学ぶ。お知らせ一覧です。
+breadcrumb: [{label: お知らせ}]
+bodyClass: p-other p-other-news
+pageCss: /asset/css/pages/other.css
+permalink: /news/index.html
+---
+{#- ページMV -#}
+<section class="p-other__mv">
+  <div class="p-other__mv-bg"><img src="/asset/img/news/2025/mv.jpg" alt="" width="740" height="330"></div>
+  <h1 class="p-other__mv-title">
+    <span class="text-wrap">
+      <span class="en">NEWS</span>
+      <span class="ja">お知らせ</span>
+    </span>
+  </h1>
+</section>
+
+<div class="p-other__body">
+  <section class="p-other__box">
+    <h2 class="p-other__ttl" data-anim="fade-up">最新記事一覧</h2>
+    {%- set articles = [
+      {url: "https://www.snm.ac.jp/news/2026/19029/", date: "2026-07-16", dateLabel: "2026.07.16", labels: [{cat: "all_depts", name: "全学科"}, {cat: "information", name: "お知らせ"}, {cat: "event", name: "イベント情報"}], title: "私は看護師になれる…？進路に迷う高校生応援企画開催決定✨"},
+      {url: "https://www.snm.ac.jp/news/2026/18039/", date: "2026-07-15", dateLabel: "2026.07.15", labels: [{cat: "all_depts", name: "全学科"}, {cat: "information", name: "お知らせ"}, {cat: "event", name: "イベント情報"}], title: "【2026年8月】全道８地区で出張オープンキャンパス開催☆"},
+      {url: "https://www.snm.ac.jp/news/2026/18962/", date: "2026-07-13", dateLabel: "2026.07.13", labels: [{cat: "all_depts", name: "全学科"}, {cat: "event", name: "イベント情報"}], title: "7/25.26進路に迷ってる方必見★特別プログラム開催！"},
+      {url: "https://www.snm.ac.jp/news/2026/19084/", date: "2026-07-13", dateLabel: "2026.07.13", labels: [{cat: "orthoptist", name: "視能訓練士学科"}, {cat: "information", name: "お知らせ"}, {cat: "event", name: "イベント情報"}, {cat: "press-release", name: "プレスリリース"}], title: "7/25.26視能訓練士✕医療事務WライセンスSPイベント開催！"},
+      {url: "https://www.snm.ac.jp/news/2026/18904/", date: "2026-06-26", dateLabel: "2026.06.26", labels: [{cat: "all_depts", name: "全学科"}, {cat: "information", name: "お知らせ"}, {cat: "event", name: "イベント情報"}], title: "進路に迷う高３生必見！7/25.26限定の夏休み進路応援企画✨"},
+      {url: "https://www.snm.ac.jp/news/2026/18893/", date: "2026-06-24", dateLabel: "2026.06.24", labels: [{cat: "nursing", name: "看護学科"}, {cat: "event", name: "イベント情報"}], title: "8月夏祭りオーキャン開催決定✨"},
+      {url: "https://www.snm.ac.jp/news/2026/18432/", date: "2026-06-22", dateLabel: "2026.06.22", labels: [{cat: "information", name: "お知らせ"}, {cat: "event", name: "イベント情報"}], title: "【保護者・高校教員のための医療系進学相談会】開催決定！"},
+      {url: "https://www.snm.ac.jp/news/2026/18525/", date: "2026-06-21", dateLabel: "2026.06.21", labels: [{cat: "nursing", name: "看護学科"}, {cat: "orthoptist", name: "視能訓練士学科"}, {cat: "information", name: "お知らせ"}, {cat: "admission", name: "入試情報"}, {cat: "press-release", name: "プレスリリース"}], title: "視能訓練士を目指しながら医療事務の資格が取れる！"},
+      {url: "https://www.snm.ac.jp/news/2026/18407/", date: "2026-05-26", dateLabel: "2026.05.26", labels: [{cat: "all_depts", name: "全学科"}, {cat: "information", name: "お知らせ"}, {cat: "event", name: "イベント情報"}, {cat: "press-release", name: "プレスリリース"}, {cat: "region", name: "地域"}], title: "6月27日(土)札幌看護医療【学園祭・ウェルネスフェス】開催！"},
+      {url: "https://www.snm.ac.jp/news/2026/14409/", date: "2026-05-25", dateLabel: "2026.05.25", labels: [{cat: "all_depts", name: "全学科"}, {cat: "admission", name: "入試情報"}], title: "いよいよ2026AO入試スタート！"},
+      {url: "https://www.snm.ac.jp/news/2026/18308/", date: "2026-05-24", dateLabel: "2026.05.24", labels: [{cat: "all_depts", name: "全学科"}, {cat: "event", name: "イベント情報"}], title: "6/20(土)月に1度の特別プログラム開催決定！"},
+      {url: "https://www.snm.ac.jp/news/2026/5543/", date: "2026-05-11", dateLabel: "2026.05.11", labels: [{cat: "all_depts", name: "全学科"}, {cat: "information", name: "お知らせ"}, {cat: "event", name: "イベント情報"}], title: "☆高校訪問ガイダンススケジュールアップしました！"},
+      {url: "https://www.snm.ac.jp/news/2026/18306/", date: "2026-05-10", dateLabel: "2026.05.10", labels: [{cat: "all_depts", name: "全学科"}, {cat: "event", name: "イベント情報"}], title: "5/30(土)月に1度の特別プログラム開催決定！"},
+      {url: "https://www.snm.ac.jp/news/2026/17933/", date: "2026-05-08", dateLabel: "2026.05.08", labels: [{cat: "dentalhygienists", name: "歯科衛生士学科"}, {cat: "information", name: "お知らせ"}, {cat: "event", name: "イベント情報"}], title: "歯科衛生士学科に興味ある方必見✨《特別プログラム開催》"},
+      {url: "https://www.snm.ac.jp/news/2026/18022/", date: "2026-05-02", dateLabel: "2026.05.02", labels: [{cat: "all_depts", name: "全学科"}, {cat: "event", name: "イベント情報"}], title: "【5/10(日)開催】医療系が気になる男子学生全員集合🔥!!"}
+    ] -%}
+    <ul class="p-other__articles" data-anim-group>
+      {%- for a in articles %}
+      <li data-anim="fade-up">
+        <a href="{{ a.url }}" target="_blank" rel="noopener">
+          <ul class="p-other__labels">
+            {%- for l in a.labels %}
+            <li><span class="p-other__label" data-cat="{{ l.cat }}">{{ l.name }}</span></li>
+            {%- endfor %}
+          </ul>
+          <time class="p-other__article-date" datetime="{{ a.date }}">{{ a.dateLabel }}</time>
+          <p class="p-other__article-ttl">{{ a.title }}</p>
+        </a>
+      </li>
+      {%- endfor %}
+    </ul>
+    <div class="p-other__pagenav" data-anim="fade">
+      <p class="p-other__pagenav-note">過去のお知らせは本番サイトでご覧いただけます。</p>
+      <p class="p-other__btn-box"><a href="https://www.snm.ac.jp/news/" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">過去のお知らせ一覧へ</a></p>
+    </div>
+  </section>
+</div>

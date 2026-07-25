@@ -1,0 +1,324 @@
+/* ============ トップページ（.p-top 配下限定） ============ */
+
+/* ---- 1. メインビジュアル ---- */
+.p-top__mv { position: relative; overflow: hidden; }
+.p-top__mv-inner { position: relative; }
+.p-top__mv-bg img { display: block; width: 100%; height: auto; }
+.p-top__mv-title {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  translate: -50% 0;
+  width: min(78%, 518px);
+  z-index: 2;
+  filter: drop-shadow(0 2px 8px rgba(255, 255, 255, 0.6));
+}
+.p-top__mv-title img { width: 100%; height: auto; }
+html.js .p-top__mv-title { opacity: 0; translate: -50% 16px; transition: opacity var(--dur-hero) var(--ease-out-quart), translate var(--dur-hero) var(--ease-out-quart); }
+html.js .p-top__mv-title.is-inview { opacity: 1; translate: -50% 0; }
+.p-top__mv-circle {
+  position: absolute;
+  right: var(--space-4);
+  bottom: var(--space-5);
+  width: clamp(110px, 34vw, 150px);
+  aspect-ratio: 1;
+  z-index: 2;
+}
+.p-top__mv-circle a { display: block; position: relative; width: 100%; height: 100%; }
+.p-top__mv-circle .front,
+.p-top__mv-circle .back { position: absolute; inset: 0; }
+.p-top__mv-circle img { width: 100%; height: 100%; }
+.p-top__mv-circle .back { animation: p-top-spin 14s linear infinite; }
+.p-top__mv-circle a:hover { scale: 1.04; transition: scale var(--dur-fast) var(--ease-site); }
+@keyframes p-top-spin { to { rotate: 360deg; } }
+
+/* ---- 2. NEWSティッカー ---- */
+.p-top__ticker {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-5);
+  background: var(--color-bg-gray-1);
+  border-block: 1px solid var(--color-line);
+}
+.p-top__ticker-ttl {
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  white-space: nowrap;
+  padding-right: var(--space-3);
+  border-right: 1px solid var(--color-ink);
+}
+.p-top__ticker-ttl .en { font-family: var(--font-en); letter-spacing: var(--ls-wide); margin-left: 2px; }
+.p-top__ticker-list { position: relative; min-height: 1.5em; overflow: hidden; }
+.p-top__ticker-list li {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity var(--dur-slow) var(--ease-site);
+}
+.p-top__ticker-list li.is-active { opacity: 1; }
+.p-top__ticker-list a {
+  display: block;
+  font-size: var(--fs-sm);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ---- 3. バナー ---- */
+.p-top__banner-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+}
+.p-top__banner { display: block; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-soft); transition: translate var(--dur-fast) var(--ease-site), box-shadow var(--dur-fast) var(--ease-site); }
+.p-top__banner:hover { translate: 0 -3px; box-shadow: 0 6px 24px rgba(51, 51, 51, 0.18); }
+.p-top__banner img { display: block; width: 100%; height: auto; }
+
+/* ---- 4. オープンキャンパス ---- */
+.p-top__ictoc { background: var(--color-pastel-cream) url("../../img/top/2026/bg-pattern01.png"); }
+.p-top__ictoc-head { text-align: center; }
+.p-top__ictoc-catch img { width: min(100%, 400px); height: auto; }
+.p-top__ictoc-title { position: relative; display: grid; place-items: center; margin: var(--space-4) 0; }
+.p-top__ictoc-title .title {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-en);
+  font-weight: 800;
+  font-size: clamp(2.4rem, 12vw, 3.2rem);
+  line-height: 1.05;
+  letter-spacing: var(--ls-wide);
+}
+.p-top__ictoc-title .bg { position: absolute; inset: 0; display: grid; place-items: center; z-index: 0; }
+.p-top__ictoc-title .bg img { width: min(100%, 340px); height: auto; }
+.p-top__ictoc-lead { font-weight: 700; line-height: var(--lh-body); }
+
+.p-top__program {
+  margin-top: var(--space-6);
+  padding: var(--space-5) var(--space-4);
+  background: var(--color-bg);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+}
+.p-top__program-title {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--space-2);
+  font-weight: 700;
+  font-size: var(--fs-md);
+  margin-bottom: var(--space-4);
+}
+.p-top__program-slide { overflow: hidden; border-radius: var(--radius-md); }
+.p-top__program-slide .swiper-slide { width: 240px; }
+.p-top__program-slide img { display: block; width: 100%; height: auto; border-radius: var(--radius-md); }
+
+.p-top__ictoc-tab { margin-top: var(--space-6); }
+.p-top__ictoc-tab .c-tab__btn { background: var(--color-bg); }
+.p-top__ictoc-tab .small { font-size: 0.8em; }
+
+.p-top__fig-list { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); font-size: var(--fs-xs); margin-bottom: var(--space-4); }
+.p-top__fig-list li { display: inline-flex; align-items: center; gap: var(--space-1); }
+.p-top__fig-list li::before { content: ""; width: 12px; height: 12px; border-radius: var(--radius-full); background: var(--color-line); }
+.p-top__fig-list li.oc::before,        .p-top__cal-day.is-oc        { background: var(--color-brand-pink); }
+.p-top__fig-list li.bus::before,       .p-top__cal-day.is-bus       { background: var(--color-brand-green); }
+.p-top__fig-list li.guidance::before,  .p-top__cal-day.is-guidance  { background: var(--color-pastel-blue); }
+.p-top__fig-list li.sp_events::before, .p-top__cal-day.is-sp_events { background: var(--color-brand-yellow); }
+.p-top__fig-list li.special::before,   .p-top__cal-day.is-special   { background: #f2be63; }
+
+.p-top__calendar { background: var(--color-bg); border-radius: var(--radius-md); padding: var(--space-4); box-shadow: var(--shadow-soft); }
+.p-top__cal-nav { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: var(--space-3); margin-bottom: var(--space-3); }
+.p-top__cal-nav .label { text-align: center; font-weight: 700; font-family: var(--font-en); font-variant-numeric: tabular-nums; }
+.p-top__cal-nav button {
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-full);
+  background: var(--color-bg);
+  font-family: var(--font-en);
+  font-weight: 700;
+  transition: background var(--dur-fast);
+}
+.p-top__cal-nav button:hover:not(:disabled) { background: var(--color-brand-yellow); }
+.p-top__cal-nav button:disabled { opacity: 0.3; }
+.p-top__cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; text-align: center; font-size: var(--fs-xs); }
+.p-top__cal-grid .dow { font-weight: 700; padding: var(--space-1) 0; color: var(--color-ink-soft); }
+.p-top__cal-grid .dow.sun { color: var(--color-brand-pink); }
+.p-top__cal-grid .dow.sat { color: #5aa9d6; }
+.p-top__cal-day {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  border-radius: var(--radius-full);
+  font-variant-numeric: tabular-nums;
+}
+.p-top__cal-day:is(a) { font-weight: 700; color: var(--color-ink); transition: scale var(--dur-fast) var(--ease-spring); }
+.p-top__cal-day:is(a):hover { scale: 1.12; }
+.p-top__cal-day.is-guidance { color: var(--color-ink); }
+.p-top__calendar-more { margin-top: var(--space-3); text-align: center; font-size: var(--fs-sm); }
+.p-top__calendar-more a, .p-top__calendar-fallback a { text-decoration: underline; text-underline-offset: 3px; font-weight: 700; }
+
+.p-top__schedule { position: relative; padding: 0 40px; }
+.p-top__schedule .js-schedule-slider { overflow: hidden; }
+.p-top__schedule-item {
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  padding: var(--space-3) var(--space-2);
+  background: var(--color-bg);
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-md);
+  font-family: var(--font-en);
+  text-align: center;
+  transition: translate var(--dur-fast) var(--ease-site), box-shadow var(--dur-fast) var(--ease-site);
+}
+.p-top__schedule-item:hover { translate: -2px -2px; box-shadow: 3px 3px 0 0 var(--color-ink); }
+.p-top__schedule-item .year { font-size: var(--fs-xs); color: var(--color-ink-soft); }
+.p-top__schedule-item .month { font-weight: 700; font-size: var(--fs-md); line-height: 1.1; }
+.p-top__schedule-item .month .large { font-size: 1.6em; font-weight: 800; }
+.p-top__schedule-item .date { font-size: var(--fs-xs); font-weight: 700; letter-spacing: var(--ls-wide); }
+.p-top__schedule-item .date.sun, .p-top__schedule-item .date.holiday { color: var(--color-brand-pink); }
+.p-top__schedule-item .date.sat { color: #5aa9d6; }
+.p-top__schedule .swiper-button-prev,
+.p-top__schedule .swiper-button-next { width: 32px; height: 32px; border: 1px solid var(--color-ink); border-radius: var(--radius-full); background: var(--color-bg); }
+.p-top__schedule .swiper-button-prev::after,
+.p-top__schedule .swiper-button-next::after { font-size: 12px; color: var(--color-ink); font-weight: 700; }
+
+.p-top__ictoc-banner { margin-top: var(--space-7); }
+.p-top__event-title { margin-bottom: var(--space-5); text-align: center; }
+.p-top__event-title a { display: inline-grid; justify-items: center; gap: var(--space-1); }
+.p-top__event-title .img img { width: min(100%, 312px); height: auto; }
+.p-top__event-title .txt { font-family: var(--font-en); font-weight: 800; font-size: var(--fs-xl); letter-spacing: var(--ls-caps); }
+
+/* ---- 5. 英字マーキー ---- */
+.p-top__marquee { overflow: hidden; padding: var(--space-5) 0; }
+.p-top__marquee-track { display: flex; width: max-content; animation: p-top-marquee 80s linear infinite; }
+.p-top__marquee-track.is-right { animation-direction: reverse; }
+.p-top__marquee-row { display: flex; flex-shrink: 0; }
+.p-top__marquee-row li {
+  white-space: nowrap;
+  padding-right: 0.6em;
+  font-family: var(--font-en);
+  font-weight: 800;
+  font-size: clamp(2.4rem, 14vw, 3.6rem);
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(51, 51, 51, 0.35);
+}
+@keyframes p-top-marquee { to { translate: -50% 0; } }
+
+/* ---- 6. 4学科 ---- */
+.p-top__course-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
+.p-top__course-item { position: relative; display: block; border-radius: var(--radius-md); overflow: hidden; }
+.p-top__course-item .bg { display: block; }
+.p-top__course-item .bg img { display: block; width: 100%; height: auto; }
+.p-top__course-item .img { position: absolute; inset: 0; z-index: 1; transition: translate var(--dur-base) var(--ease-out-quart); }
+.p-top__course-item .img img { display: block; width: 100%; height: auto; }
+.p-top__course-item:hover .img { translate: 0 -6px; }
+.p-top__course-name {
+  position: absolute;
+  top: var(--space-3);
+  left: var(--space-3);
+  z-index: 2;
+  display: grid;
+  gap: 2px;
+  color: var(--color-ink);
+}
+.p-top__course-name .txt { font-size: var(--fs-xs); font-weight: 700; }
+.p-top__course-name .txt .number { font-family: var(--font-en); font-size: 1.5em; font-weight: 800; }
+.p-top__course-name .course { font-weight: 800; font-size: var(--fs-md); line-height: var(--lh-tight); }
+.p-top__course-name .course .small { font-size: 0.7em; }
+
+/* ---- 7. 選ばれる理由 ---- */
+.p-top__reason { background: var(--color-bg-gray-1); }
+.p-top__reason-list { display: grid; gap: var(--space-5); }
+.p-top__reason-card { display: grid; gap: var(--space-4); color: var(--color-ink); }
+.p-top__reason-head { display: grid; grid-template-columns: 60px 1fr; align-items: center; gap: var(--space-3); }
+.p-top__reason-head .number img { display: block; width: 100%; height: auto; }
+.p-top__reason-head .title { display: grid; gap: 2px; }
+.p-top__reason-head .txt { font-size: var(--fs-sm); font-weight: 700; }
+.p-top__reason-head .large-txt { font-size: var(--fs-lg); font-weight: 800; line-height: var(--lh-tight); }
+.p-top__reason-img { display: block; border-radius: var(--radius-md); overflow: hidden; }
+.p-top__reason-img img { display: block; width: 100%; height: auto; transition: scale var(--dur-slow) var(--ease-out-quart); }
+.p-top__reason-card:hover .p-top__reason-img img { scale: 1.04; }
+.p-top__reason-more { justify-self: end; display: inline-flex; align-items: center; gap: var(--space-2); font-weight: 700; font-size: var(--fs-sm); }
+.p-top__reason-more .arrow { font-family: var(--font-en); transition: translate var(--dur-fast); }
+.p-top__reason-card:hover .p-top__reason-more .arrow { translate: 4px 0; }
+
+/* ---- 8. Instagram ---- */
+.p-top__instagram { position: relative; overflow: hidden; }
+.p-top__ig-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-2); }
+.p-top__ig-ph { position: relative; display: block; overflow: hidden; border-radius: var(--radius-xs); }
+.p-top__ig-ph img { display: block; width: 100%; height: auto; transition: scale var(--dur-base) var(--ease-out-quart); }
+.p-top__ig-ph::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("../../img/top/2026/instagram-ph-filter.webp") center / cover no-repeat;
+  opacity: 0;
+  transition: opacity var(--dur-fast);
+  pointer-events: none;
+}
+.p-top__ig-ph:hover img { scale: 1.06; }
+.p-top__ig-ph:hover::after { opacity: 1; }
+.p-top__ig-circle {
+  position: relative;
+  width: 120px;
+  margin: var(--space-6) auto 0;
+  aspect-ratio: 1;
+}
+.p-top__ig-circle .front, .p-top__ig-circle .back { position: absolute; inset: 0; }
+.p-top__ig-circle img { width: 100%; height: 100%; }
+.p-top__ig-circle .back { animation: p-top-spin 14s linear infinite; }
+
+/* ---- 9. News ---- */
+.p-top__news-list { display: grid; }
+.p-top__news-list li { border-bottom: 1px dashed var(--color-line); }
+.p-top__news-list li:first-child { border-top: 1px dashed var(--color-line); }
+.p-top__news-list a { display: grid; gap: var(--space-1); padding: var(--space-4) var(--space-1); transition: background var(--dur-fast); }
+.p-top__news-list a:hover { background: var(--color-pastel-cream); }
+.p-top__news-list .date { font-family: var(--font-en); font-weight: 700; font-size: var(--fs-sm); color: var(--color-ink-soft); }
+.p-top__news-list .inner { display: grid; gap: var(--space-2); }
+.p-top__news-list .ttl { font-weight: 700; font-size: var(--fs-sm); line-height: var(--lh-tight); }
+.p-top__news-list .category { display: flex; flex-wrap: wrap; gap: var(--space-1); }
+.p-top__news-list .label {
+  display: inline-block;
+  padding: 2px var(--space-3);
+  border-radius: var(--radius-pill);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}
+.p-top__news-list .label.is-information { background: var(--color-pastel-blue); }
+.p-top__news-list .label.is-event { background: var(--color-pastel-pink); }
+
+/* ---- 10. Blog ---- */
+.p-top__blog { background: var(--color-bg-gray-1); }
+.p-top__article-grid { display: grid; gap: var(--space-5); }
+.p-top__article { overflow: hidden; }
+.p-top__article .img { display: block; margin: var(--space-3) var(--space-3) 0; border-radius: var(--radius-xs); overflow: hidden; }
+.p-top__article .img img { display: block; width: 100%; height: auto; transition: scale var(--dur-slow) var(--ease-out-quart); }
+.p-top__article:hover .img img { scale: 1.04; }
+.p-top__article .txt { display: grid; gap: var(--space-1); padding: var(--space-3) var(--space-4) var(--space-4); }
+.p-top__article .date { font-family: var(--font-en); font-weight: 700; font-size: var(--fs-sm); color: var(--color-ink-soft); }
+.p-top__article .ttl { font-weight: 700; font-size: var(--fs-sm); line-height: var(--lh-tight); }
+
+/* ---- 11. Youtube＋フォトマーキー ---- */
+.p-top__movie-grid { display: grid; gap: var(--space-5); }
+.p-top__movie .frame { position: relative; aspect-ratio: 16 / 9; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-soft); }
+.p-top__movie iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.p-top__movie .ttl { margin-top: var(--space-2); font-weight: 700; font-size: var(--fs-sm); }
+.p-top__ph-marquee { margin: var(--space-7) calc(-1 * var(--space-5)) 0; display: grid; gap: var(--space-2); overflow: hidden; }
+.p-top__ph-row { display: flex; flex-shrink: 0; }
+.p-top__ph-row li { flex-shrink: 0; }
+.p-top__ph-row img { display: block; width: min(1040px, 260vw); height: auto; }
+
+/* 共通ボタン行 */
+.p-top__btn-box { margin-top: var(--space-5); text-align: center; }
+
+/* reduced-motion: 独自アニメ全停止 */
+@media (prefers-reduced-motion: reduce) {
+  .p-top__mv-circle .back,
+  .p-top__ig-circle .back,
+  .p-top__marquee-track { animation: none; }
+}

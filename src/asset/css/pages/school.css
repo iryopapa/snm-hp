@@ -1,0 +1,605 @@
+/* ============ 学校案内セクション（.p-school 配下限定） ============ */
+
+/* ---- 共通: ページMV（ABOUT帯） ---- */
+.p-school__mv { position: relative; overflow: hidden; }
+.p-school__mv-bg img { display: block; width: 100%; height: auto; }
+.p-school__mv-title {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: var(--space-1);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.35);
+}
+.p-school__mv-title .eng {
+  font-family: var(--font-en);
+  font-weight: 800;
+  font-size: clamp(2rem, 10vw, 2.8rem);
+  letter-spacing: var(--ls-caps);
+  line-height: 1;
+}
+.p-school__mv-title .ja { font-weight: 700; font-size: var(--fs-md); }
+
+/* ---- 共通: リード・見出し・小物 ---- */
+.p-school .u-nowrap { display: inline-block; }
+.p-school__lead {
+  font-weight: 800;
+  font-size: var(--fs-xl);
+  line-height: 1.6;
+  margin-bottom: var(--space-4);
+}
+.p-school__ttl1 {
+  position: relative;
+  font-weight: 800;
+  font-size: var(--fs-lg);
+  line-height: var(--lh-tight);
+  padding-bottom: var(--space-2);
+  margin-bottom: var(--space-4);
+  background: var(--grad-marker);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+}
+.p-school section > .p-school__ttl1 { display: table; }
+.p-school__ttl2 {
+  font-weight: 700;
+  font-size: var(--fs-md);
+  line-height: var(--lh-tight);
+  padding-left: var(--space-3);
+  border-left: 4px solid var(--color-brand-yellow);
+  margin: var(--space-5) 0 var(--space-3);
+}
+.p-school__ttl3 { font-weight: 700; font-size: var(--fs-base); margin: var(--space-4) 0 var(--space-2); }
+.p-school__notes { margin-top: var(--space-2); font-size: var(--fs-xs); color: var(--color-ink-soft); }
+.p-school__notes li::before { content: "※"; margin-right: 2px; }
+.p-school p + p { margin-top: var(--space-3); }
+
+/* 学校長あいさつ */
+.p-school__headteacher { display: grid; gap: var(--space-4); margin: var(--space-4) 0; }
+.p-school__headteacher .img img { border-radius: var(--radius-md); }
+.p-school__headteacher .caption { margin-top: var(--space-2); font-size: var(--fs-xs); color: var(--color-ink-soft); }
+.p-school__headteacher .profile {
+  background: var(--color-pastel-cream);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  font-size: var(--fs-sm);
+}
+
+/* ============ /school/ ハブ ============ */
+.p-school-index__intro-txt + .p-school-index__intro-txt { margin-top: var(--space-3); }
+.p-school-index__note { margin-top: var(--space-3); color: var(--color-ink-soft); }
+.p-school-index__menu-list { display: grid; gap: var(--space-5); }
+.p-school-index__menu-card { overflow: hidden; }
+.p-school-index__menu-card .img { display: block; margin: var(--space-3) var(--space-3) 0; border-radius: var(--radius-xs); overflow: hidden; }
+.p-school-index__menu-card .img img { display: block; width: 100%; height: auto; transition: scale var(--dur-slow) var(--ease-out-quart); }
+.p-school-index__menu-card:hover .img img { scale: 1.04; }
+.p-school-index__menu-card .ttl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4) var(--space-4);
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  line-height: var(--lh-tight);
+}
+.p-school-index__menu-card .arrow { font-family: var(--font-en); transition: translate var(--dur-fast); }
+.p-school-index__menu-card:hover .arrow { translate: 4px 0; }
+
+/* ============ /school/study/ 選ばれる理由 ============ */
+.p-school-study__mv { position: relative; overflow: hidden; text-align: center; }
+.p-school-study__mv-bg img { display: block; width: 100%; height: auto; }
+.p-school-study__mv-img {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  translate: -50% 0;
+  width: 74%;
+  z-index: 1;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+}
+.p-school-study__mv-title {
+  position: absolute;
+  left: 50%;
+  bottom: 22%;
+  translate: -50% 0;
+  z-index: 2;
+  width: max-content;
+  max-width: 92%;
+  padding: var(--space-2) var(--space-5);
+  background: var(--color-bg);
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-pill);
+  box-shadow: 3px 3px 0 0 rgba(51, 51, 51, 0.25);
+  font-weight: 800;
+  font-size: var(--fs-md);
+  line-height: var(--lh-tight);
+}
+.p-school-study__mv-catch {
+  position: absolute;
+  left: 50%;
+  bottom: 6%;
+  translate: -50% 0;
+  z-index: 2;
+  width: min(70%, 420px);
+}
+.p-school-study__head { text-align: center; font-weight: 700; }
+
+/* アンカーメニュー */
+.p-school-study__anchor { padding: var(--space-6) var(--space-5); background: var(--color-pastel-cream); }
+.p-school-study__anchor-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-3);
+  font-weight: 800;
+  font-size: var(--fs-lg);
+  margin-bottom: var(--space-5);
+}
+.p-school-study__anchor-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-3); }
+.p-school-study__anchor-list a {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-1);
+  padding: var(--space-4) var(--space-3);
+  background: var(--color-bg);
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-md);
+  text-align: center;
+  transition: translate var(--dur-fast) var(--ease-site), box-shadow var(--dur-fast) var(--ease-site);
+}
+.p-school-study__anchor-list a:hover { translate: -2px -2px; box-shadow: 4px 4px 0 0 var(--color-ink); }
+.p-school-study__anchor-list .balloon {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  font-family: var(--font-en);
+  font-weight: 800;
+  color: var(--color-brand-pink);
+  letter-spacing: var(--ls-wide);
+  font-size: var(--fs-xs);
+}
+.p-school-study__anchor-list .balloon .large { font-size: 1.8em; line-height: 1; }
+.p-school-study__anchor-list .title { font-weight: 700; font-size: var(--fs-sm); }
+.p-school-study__anchor-list .title b { font-size: 1.2em; }
+.p-school-study__anchor-list .arrow { font-family: var(--font-en); font-weight: 700; color: var(--color-brand-pink); }
+
+/* ブロック見出し（Situation/Features/Facilitiy/Fun 共通） */
+.p-school-study__block-title { display: grid; justify-items: center; gap: var(--space-3); text-align: center; padding: var(--space-7) var(--space-5) var(--space-4); }
+.p-school-study__block-title .catch { display: grid; justify-items: center; gap: var(--space-1); }
+.p-school-study__block-title .catch .jp { font-weight: 700; font-size: var(--fs-sm); }
+.p-school-study__block-title .balloon {
+  position: relative;
+  display: inline-block;
+  padding: var(--space-1) var(--space-4);
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-pill);
+  background: var(--color-bg);
+  font-weight: 700;
+  font-size: var(--fs-sm);
+}
+.p-school-study__block-title .balloon::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  translate: -50% 0;
+  width: 8px;
+  height: 8px;
+  rotate: 45deg;
+  background: var(--color-bg);
+  border-right: 1px solid var(--color-ink);
+  border-bottom: 1px solid var(--color-ink);
+}
+.p-school-study__block-title .title-img img { width: min(100%, 466px); height: auto; }
+.p-school-study__text { padding: 0 var(--space-5); }
+.p-school-study__campus-map { margin-top: var(--space-5); }
+.p-school-study__campus-map img { display: block; width: 100%; height: auto; }
+
+/* カラーボックス（一人暮らし応援） */
+.p-school-study__color-box {
+  margin: var(--space-5);
+  padding: var(--space-4);
+  background: var(--color-pastel-pink);
+  border-radius: var(--radius-md);
+}
+.p-school-study__color-box .catch { font-weight: 800; font-size: var(--fs-md); margin-bottom: var(--space-2); }
+.p-school-study__color-box .inner { display: grid; grid-template-columns: 1fr auto; gap: var(--space-3); align-items: center; }
+.p-school-study__color-box .txt { font-size: var(--fs-sm); }
+.p-school-study__color-box .img img { width: 80px; height: auto; }
+
+/* エリアリスト */
+.p-school-study__area-list { counter-reset: area; display: grid; }
+.p-school-study__area { counter-increment: area; padding: var(--space-6) var(--space-5); }
+.p-school-study__area:nth-child(even) { background: var(--color-bg-gray-1); }
+.p-school-study__area-label {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+.p-school-study__area-label .num { position: relative; display: block; }
+.p-school-study__area-label .num img { display: block; width: 100%; height: auto; }
+.p-school-study__area-label .num b {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-family: var(--font-en);
+  font-weight: 800;
+  font-size: var(--fs-xl);
+}
+.p-school-study__area-label .catch { display: block; font-size: var(--fs-xs); font-weight: 700; color: var(--color-brand-pink); }
+.p-school-study__area-label .ttl { display: block; font-weight: 800; font-size: var(--fs-md); line-height: var(--lh-tight); }
+.p-school-study__area-ph { position: relative; margin-bottom: var(--space-4); border-radius: var(--radius-md); overflow: hidden; }
+.p-school-study__area-ph img { display: block; width: 100%; height: auto; }
+.p-school-study__area-ph .cap {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 2px var(--space-3);
+  background: rgba(51, 51, 51, 0.7);
+  color: #fff;
+  font-size: var(--fs-xs);
+}
+.p-school-study__area-ttl { margin: var(--space-4) 0 var(--space-2); font-weight: 800; font-size: var(--fs-md); }
+.p-school-study__area-ttl span { background: var(--grad-marker); background-repeat: no-repeat; background-size: 100% 100%; }
+.p-school-study__area-text { font-size: var(--fs-sm); }
+.p-school-study__area-txtimg { display: grid; grid-template-columns: 1fr 108px; gap: var(--space-3); align-items: start; font-size: var(--fs-sm); }
+.p-school-study__area-txtimg .img { position: relative; border-radius: var(--radius-xs); overflow: hidden; margin: 0; }
+.p-school-study__area-txtimg .img .cap { display: block; font-size: 10px; color: var(--color-ink-soft); margin-top: 2px; }
+
+/* 交通リスト */
+.p-school-study__traffic { margin-top: var(--space-5); padding: var(--space-4); }
+.p-school-study__traffic .title { text-align: center; font-weight: 800; font-size: var(--fs-sm); margin-bottom: var(--space-3); }
+.p-school-study__traffic .list { display: grid; gap: var(--space-3); }
+.p-school-study__traffic .list li { display: grid; grid-template-columns: 48px 1fr; align-items: center; gap: var(--space-3); }
+.p-school-study__traffic .text { font-weight: 700; font-size: var(--fs-sm); }
+.p-school-study__traffic .small { display: block; font-weight: 400; font-size: var(--fs-xs); color: var(--color-ink-soft); }
+
+/* Voice */
+.p-school-study__voice { margin: var(--space-5) 0; padding: var(--space-4); background: var(--color-pastel-cream); border-radius: var(--radius-md); }
+.p-school-study__voice .title img { width: 110px; height: auto; margin-bottom: var(--space-3); }
+.p-school-study__voice .inner { display: grid; grid-template-columns: 88px 1fr; gap: var(--space-3); align-items: start; }
+.p-school-study__voice .img img { border-radius: var(--radius-full); }
+.p-school-study__voice .txt { font-size: var(--fs-sm); }
+.p-school-study__voice .name { margin-top: var(--space-2); font-weight: 700; font-size: var(--fs-xs); }
+
+/* 学園祭 */
+.p-school-study__special {
+  position: relative;
+  margin-top: var(--space-6);
+  padding: var(--space-5) var(--space-4);
+  background: var(--color-pastel-blue);
+  border-radius: var(--radius-md);
+}
+.p-school-study__special .title { display: flex; justify-content: center; align-items: flex-start; gap: var(--space-2); font-weight: 800; font-size: var(--fs-xl); margin-bottom: var(--space-4); }
+.p-school-study__special .icon { position: relative; width: 110px; margin: 0 auto var(--space-3); aspect-ratio: 1; }
+.p-school-study__special .icon .front, .p-school-study__special .icon .bg { position: absolute; inset: 0; }
+.p-school-study__special .icon img { width: 100%; height: 100%; }
+.p-school-study__special .icon .bg { animation: p-school-spin 14s linear infinite; }
+.p-school-study__special .ph { border-radius: var(--radius-md); overflow: hidden; margin-bottom: var(--space-3); }
+.p-school-study__special .text { font-size: var(--fs-sm); font-weight: 700; }
+@keyframes p-school-spin { to { rotate: 360deg; } }
+
+/* 学びの特長 */
+.p-school-study__learning { position: relative; background: var(--color-pastel-cream); padding-bottom: var(--space-7); overflow: hidden; }
+.p-school-study__learning-bg { position: absolute; top: 0; left: 0; right: 0; z-index: 0; opacity: 0.5; }
+.p-school-study__learning-bg img { display: block; width: 100%; height: auto; }
+.p-school-study__learning > * { position: relative; z-index: 1; }
+.p-school-study__group { margin: var(--space-6) var(--space-5) 0; }
+.p-school-study__group-catch {
+  text-align: center;
+  font-weight: 800;
+  font-size: var(--fs-lg);
+  line-height: 1.6;
+  margin-bottom: var(--space-4);
+}
+.p-school-study__group-catch .large { font-size: 1.15em; }
+.p-school-study__group-catch .note { display: block; font-size: var(--fs-xs); font-weight: 400; color: var(--color-ink-soft); }
+.p-school-study__group-ttl { margin-bottom: var(--space-3); font-weight: 800; font-size: var(--fs-md); line-height: 1.5; }
+.p-school-study__group-ttl.center { text-align: center; }
+.p-school-study__group-ttl span { background: linear-gradient(transparent 62%, var(--color-brand-yellow) 62%); }
+.p-school-study__group-ttl .small { font-size: 0.75em; }
+.p-school-study__group .ph { border-radius: var(--radius-md); overflow: hidden; margin-bottom: var(--space-3); }
+.p-school-study__group .ph img { display: block; width: 100%; height: auto; }
+.p-school-study__group .text, .p-school-study__group .lead { font-size: var(--fs-sm); margin-bottom: var(--space-3); }
+.p-school-study__balloon-box {
+  padding: var(--space-4);
+  background: var(--color-bg);
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-md);
+  font-size: var(--fs-sm);
+  margin-bottom: var(--space-4);
+}
+.p-school-study__white-box { padding: var(--space-4); background: var(--color-bg); border-radius: var(--radius-md); box-shadow: var(--shadow-soft); margin-bottom: var(--space-4); }
+.p-school-study__point-list { display: grid; gap: var(--space-4); margin-top: var(--space-4); }
+.p-school-study__point-list .num { font-family: var(--font-en); font-weight: 800; color: var(--color-brand-pink); letter-spacing: var(--ls-wide); }
+.p-school-study__point-list .num b { font-size: 1.5em; }
+.p-school-study__point-list .ttl { font-weight: 800; font-size: var(--fs-base); margin-bottom: var(--space-1); }
+.p-school-study__point-list li p:last-child { font-size: var(--fs-sm); }
+.p-school-study__ict-item { font-size: var(--fs-sm); margin-bottom: var(--space-4); }
+.p-school-study__ict-item .sub-ttl { font-weight: 800; margin-top: var(--space-3); }
+.p-school-study__grad-ttl, .p-school-study__learning-list .grad-ttl, .p-school-study__ict-item .grad-ttl {
+  font-weight: 800;
+  margin-bottom: var(--space-1);
+}
+.p-school .grad-ttl span {
+  background: var(--grad-badge);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+}
+.p-school-study__learning-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
+.p-school-study__learning-list li { display: grid; align-content: start; gap: var(--space-2); font-size: var(--fs-xs); }
+.p-school-study__learning-list li.w100 { grid-column: 1 / -1; font-size: var(--fs-sm); }
+.p-school-study__learning-list .ph { border-radius: var(--radius-md); overflow: hidden; margin: 0; }
+.p-school-study__learning-list .ph img { display: block; width: 100%; height: auto; }
+.p-school-study__ict-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-3); margin-top: var(--space-5); text-align: center; }
+.p-school-study__ict-list .img img { width: 100%; height: auto; border-radius: var(--radius-full); }
+.p-school-study__ict-list .label { margin-top: var(--space-2); font-weight: 700; font-size: var(--fs-xs); line-height: var(--lh-tight); }
+.p-school-study__learning-box {
+  position: relative;
+  margin: var(--space-7) var(--space-5) 0;
+  padding: var(--space-7) var(--space-4) var(--space-5);
+  background: var(--color-bg);
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-md);
+}
+.p-school-study__learning-box .check-icon { position: absolute; top: -36px; left: 50%; translate: -50% 0; width: 72px; }
+.p-school-study__learning-box .box-title { text-align: center; font-weight: 800; font-size: var(--fs-md); margin-bottom: var(--space-4); }
+
+/* 設備・楽しさ */
+.p-school-study__facility { padding-bottom: var(--space-7); }
+.p-school-study__banner { margin: 0 var(--space-5) var(--space-4); }
+.p-school-study__banner a { display: block; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-soft); transition: translate var(--dur-fast) var(--ease-site), box-shadow var(--dur-fast) var(--ease-site); }
+.p-school-study__banner a:hover { translate: 0 -3px; box-shadow: 0 6px 24px rgba(51, 51, 51, 0.18); }
+.p-school-study__banner img { display: block; width: 100%; height: auto; }
+
+/* ============ /school/guide/ 進路選び ============ */
+.p-school-guide__mv { position: relative; overflow: hidden; }
+.p-school-guide__mv-bg { position: relative; }
+.p-school-guide__mv-bg > img { display: block; width: 100%; height: auto; }
+.p-school-guide__mv-bg .mv-img { position: absolute; width: 46%; }
+.p-school-guide__mv-bg .img01 { left: 0; bottom: 4%; }
+.p-school-guide__mv-bg .img02 { right: 0; bottom: 2%; }
+.p-school-guide__mv-ttl {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  translate: -50% 0;
+  z-index: 1;
+  width: min(82%, 604px);
+}
+.p-school-guide__balloon {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+.p-school-guide__balloon .icon { flex-shrink: 0; width: 60px; }
+.p-school-guide__balloon .txt {
+  position: relative;
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-md);
+  background: var(--color-bg);
+  font-weight: 700;
+  font-size: var(--fs-sm);
+}
+.p-school-guide__balloon .txt::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 50%;
+  translate: 0 -50%;
+  width: 8px;
+  height: 8px;
+  rotate: 45deg;
+  background: var(--color-bg);
+  border-left: 1px solid var(--color-ink);
+  border-bottom: 1px solid var(--color-ink);
+}
+.p-school-guide__catch {
+  position: relative;
+  font-weight: 800;
+  font-size: clamp(1.6rem, 8vw, 2rem);
+  line-height: 1.5;
+  margin-bottom: var(--space-4);
+}
+.p-school-guide__catch .small { font-size: 0.62em; }
+.p-school-guide__catch .deco { display: inline-block; vertical-align: super; }
+.p-school-guide__graph { margin-top: var(--space-5); padding: var(--space-4); background: var(--color-pastel-cream); border-radius: var(--radius-md); }
+.p-school-guide__graph .title { text-align: center; font-weight: 800; margin-bottom: var(--space-3); }
+.p-school-guide__graph .img { width: min(100%, 400px); margin-inline: auto; }
+
+/* アンカー */
+.p-school-guide__anchor { background: var(--color-bg-gray-1); }
+.p-school-guide__anchor-ttl { text-align: center; margin-bottom: var(--space-5); }
+.p-school-guide__anchor-ttl img { width: min(100%, 480px); margin-inline: auto; }
+.p-school-guide__anchor-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-3); }
+.p-school-guide__anchor-list a {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-2);
+  height: 100%;
+  padding: var(--space-4) var(--space-2);
+  background: var(--color-bg);
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-md);
+  text-align: center;
+  transition: translate var(--dur-fast) var(--ease-site), box-shadow var(--dur-fast) var(--ease-site);
+}
+.p-school-guide__anchor-list a:hover { translate: -2px -2px; box-shadow: 4px 4px 0 0 var(--color-ink); }
+.p-school-guide__anchor-list .case img { width: 100px; height: auto; }
+.p-school-guide__anchor-list .icon img { width: 60px; height: 60px; }
+.p-school-guide__anchor-list .txt { font-weight: 700; font-size: var(--fs-xs); line-height: 1.6; }
+.p-school-guide__anchor-list .arrow { font-family: var(--font-en); font-weight: 700; color: var(--color-brand-pink); }
+
+/* ケースブロック */
+.p-school-guide__case { padding-bottom: var(--space-6); }
+.p-school-guide__case:nth-of-type(even) { background: var(--color-bg-gray-1); }
+.p-school-guide__case-head { display: grid; justify-items: center; gap: var(--space-3); padding: var(--space-7) var(--space-5) var(--space-2); text-align: center; }
+.p-school-guide__case-head .case-ttl img { width: 170px; height: auto; margin-inline: auto; }
+.p-school-guide__case-head .catch-box { display: grid; justify-items: center; gap: var(--space-2); }
+.p-school-guide__case-head .icon img { width: 80px; height: 80px; }
+.p-school-guide__case-head .catch { font-weight: 800; font-size: var(--fs-md); line-height: 1.7; }
+.p-school-guide__case-body { padding: var(--space-2) var(--space-5) 0; }
+.p-school-guide__case-body .cont-catch { margin: var(--space-4) 0 var(--space-3); text-align: center; font-weight: 700; line-height: 1.7; }
+.p-school-guide__case-body .cont-catch b { font-size: 1.1em; background: var(--grad-marker); background-repeat: no-repeat; background-size: 100% 100%; }
+.p-school-guide__case-body .note { margin-top: var(--space-3); text-align: center; font-size: var(--fs-sm); }
+.p-school-guide__bnr { display: block; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-soft); }
+a.p-school-guide__bnr, .p-school-guide__bnr a { display: block; transition: translate var(--dur-fast) var(--ease-site), box-shadow var(--dur-fast) var(--ease-site); }
+.p-school-guide__bnr a:hover, a.p-school-guide__bnr:hover { translate: 0 -3px; box-shadow: 0 6px 24px rgba(51, 51, 51, 0.18); }
+.p-school-guide__bnr img { display: block; width: 100%; height: auto; margin-inline: auto; }
+.p-school-guide__blog-list { display: grid; gap: var(--space-4); }
+.p-school-guide__bottom img { display: block; width: 100%; height: auto; }
+
+/* ============ /school/access/ 交通アクセス ============ */
+.p-school-access__intro-ph { display: grid; grid-template-columns: 1fr 2fr; gap: var(--space-3); align-items: start; margin: var(--space-5) 0; }
+.p-school-access__intro-ph .ph { border-radius: var(--radius-md); overflow: hidden; }
+.p-school-access__intro-ph img { display: block; width: 100%; height: auto; }
+.p-school-access__map-img img { display: block; width: 100%; height: auto; border-radius: var(--radius-md); }
+.p-school-access__gmap { padding-top: 0; }
+.p-school-access__gmap .frame { position: relative; aspect-ratio: 4 / 3; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-soft); }
+.p-school-access__gmap iframe { position: absolute; inset: 0; width: 100%; height: 100%; }
+.p-school-access__route .img { margin: var(--space-3) 0; }
+.p-school-access__route .img img { display: block; width: 100%; height: auto; }
+.p-school-access__course { display: grid; grid-template-columns: auto 1fr; gap: var(--space-1) var(--space-3); align-items: start; margin-top: var(--space-3); font-size: var(--fs-sm); }
+.p-school-access__course dt {
+  grid-row: 1 / span 9;
+  align-self: start;
+  padding: 2px var(--space-3);
+  background: var(--color-brand-yellow);
+  border-radius: var(--radius-pill);
+  font-weight: 700;
+}
+.p-school-access__course dd { grid-column: 2; }
+.p-school-access__movies { display: grid; gap: var(--space-5); margin-top: var(--space-5); }
+.p-school-access__movies .thumb { position: relative; display: block; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-soft); }
+.p-school-access__movies .thumb > img { display: block; width: 100%; height: auto; transition: scale var(--dur-base) var(--ease-out-quart); }
+.p-school-access__movies .thumb:hover > img { scale: 1.04; }
+.p-school-access__movies .play { position: absolute; right: var(--space-3); bottom: var(--space-3); width: 72px; aspect-ratio: 1; }
+.p-school-access__movies .play .front, .p-school-access__movies .play .text { position: absolute; inset: 0; }
+.p-school-access__movies .play img { width: 100%; height: 100%; }
+.p-school-access__movies .play .text { animation: p-school-spin 14s linear infinite; }
+.p-school-access__tariff .table-wrap { display: grid; gap: var(--space-4); }
+.p-school-access__tariff-table { width: 100%; border-collapse: collapse; font-size: var(--fs-sm); background: var(--color-bg); }
+.p-school-access__tariff-table th, .p-school-access__tariff-table td { border: 1px solid var(--color-line); padding: var(--space-2) var(--space-3); }
+.p-school-access__tariff-table thead th { background: var(--color-brand-yellow); font-weight: 700; text-align: center; }
+.p-school-access__tariff-table tbody th { background: var(--color-bg-gray-1); font-weight: 700; text-align: left; width: 55%; }
+.p-school-access__tariff-table td { text-align: right; font-variant-numeric: tabular-nums; }
+.p-school-access__tariff-table tr.head td { text-align: left; background: var(--color-pastel-cream); font-size: var(--fs-sm); }
+.p-school-access__tariff-table tr.head .logo { display: inline-block; vertical-align: middle; width: 64px; margin-right: var(--space-2); }
+.p-school-access__tariff-table tr.head .logo img { width: 100%; height: auto; display: inline-block; }
+.p-school-access__car-list { display: grid; gap: var(--space-2); margin-bottom: var(--space-4); }
+.p-school-access__car-list li {
+  padding: var(--space-2) var(--space-4);
+  background: var(--color-pastel-cream);
+  border-radius: var(--radius-pill);
+  font-weight: 700;
+  font-size: var(--fs-sm);
+}
+.p-school-access__car-list li::before { content: "🚗"; margin-right: var(--space-2); }
+.p-school-access__car .img { margin-bottom: var(--space-3); }
+.p-school-access__car .img img { display: block; width: 100%; height: auto; border-radius: var(--radius-md); }
+
+/* ============ /school/philosophy/ 建学の理念 ============ */
+.p-school-philosophy__philosophy { background: var(--color-pastel-cream); }
+.p-school-philosophy__list { display: grid; gap: var(--space-4); margin-top: var(--space-4); }
+.p-school-philosophy__item dt { font-weight: 800; font-size: var(--fs-md); margin-bottom: var(--space-2); }
+.p-school-philosophy__item dd { font-size: var(--fs-sm); }
+.p-school-philosophy__img { margin-top: var(--space-5); }
+.p-school-philosophy__img img { display: block; width: 100%; height: auto; }
+.p-school-philosophy__trust-list { display: grid; gap: var(--space-4); margin-top: var(--space-4); }
+.p-school-philosophy__trust-list li { padding: var(--space-5) var(--space-4) var(--space-4); }
+.p-school-philosophy__trust-list .num { font-family: var(--font-en); font-weight: 800; font-size: var(--fs-lg); color: var(--color-brand-pink); line-height: 1; }
+.p-school-philosophy__trust-list .ttl { margin: var(--space-1) 0 var(--space-2); font-weight: 800; font-size: var(--fs-base); }
+.p-school-philosophy__trust-list .txt { font-size: var(--fs-sm); }
+.p-school-philosophy__history { background: var(--color-bg-gray-1); }
+.p-school-philosophy__history-dl { display: grid; grid-template-columns: auto 1fr; }
+.p-school-philosophy__history-dl dt {
+  position: relative;
+  padding: var(--space-3) var(--space-4) var(--space-3) var(--space-4);
+  font-family: var(--font-en);
+  font-weight: 700;
+  font-size: var(--fs-xs);
+  white-space: nowrap;
+  border-right: 2px solid var(--color-brand-pink);
+}
+.p-school-philosophy__history-dl dt::after {
+  content: "";
+  position: absolute;
+  right: -5px;
+  top: 1.35em;
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radius-full);
+  background: var(--color-brand-pink);
+}
+.p-school-philosophy__history-dl dd { padding: var(--space-3) 0 var(--space-3) var(--space-4); font-size: var(--fs-sm); }
+
+/* ============ /school/info/ 情報公開 ============ */
+.p-school-info__body { display: grid; gap: var(--space-7); }
+.p-school-info__anchor-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-2); }
+.p-school-info__anchor-list a {
+  display: block;
+  height: 100%;
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-bg);
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-xs);
+  font-weight: 700;
+  font-size: var(--fs-xs);
+  line-height: 1.5;
+  transition: translate var(--dur-fast) var(--ease-site), box-shadow var(--dur-fast) var(--ease-site);
+}
+.p-school-info__anchor-list a:hover { translate: -2px -2px; box-shadow: 3px 3px 0 0 var(--color-ink); }
+.p-school-info__box { scroll-margin-top: 80px; }
+.p-school-info__box .inner { margin-top: var(--space-5); }
+.p-school-info__box .inner + .inner { border-top: 1px dashed var(--color-line); padding-top: var(--space-5); }
+.p-school-info__box .img { margin-top: var(--space-3); }
+.p-school-info__box .img img { border-radius: var(--radius-md); }
+.p-school .link { text-decoration: underline; text-underline-offset: 3px; font-weight: 700; }
+.p-school .link:hover { color: var(--color-brand-pink); }
+.p-school-info__course {
+  margin-top: var(--space-4);
+  padding: var(--space-4);
+  background: var(--color-pastel-cream);
+  border-radius: var(--radius-md);
+  font-size: var(--fs-sm);
+}
+.p-school-info__course.slim { padding: var(--space-3) var(--space-4); }
+.p-school-info__course .course-ttl { display: flex; align-items: center; gap: var(--space-2); font-weight: 800; font-size: var(--fs-base); margin-bottom: var(--space-2); }
+.p-school-info__course .course-ttl .icon img { width: 20px; height: 20px; }
+.p-school-info__course .img { margin: var(--space-2) 0 var(--space-3); }
+.p-school-info__course .img img { border-radius: var(--radius-md); }
+.p-school-info__tbl { width: 100%; border-collapse: collapse; font-size: var(--fs-sm); }
+.p-school-info__tbl th, .p-school-info__tbl td { border: 1px solid var(--color-line); padding: var(--space-2) var(--space-3); }
+.p-school-info__tbl th { background: var(--color-bg-gray-1); text-align: left; width: 45%; font-weight: 700; }
+.p-school-info__disc { padding-left: 1.4em; list-style: disc; margin: var(--space-2) 0 var(--space-3); font-size: var(--fs-sm); }
+.p-school-info__disc li { list-style: disc; }
+.p-school-info__bnr { margin: var(--space-3) 0; }
+.p-school-info__bnr a { display: block; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-soft); }
+.p-school-info__bnr img { display: block; width: 100%; height: auto; }
+.p-school-info__facility { display: grid; gap: var(--space-4); margin-bottom: var(--space-3); }
+.p-school-info__facility figure { margin: 0; }
+.p-school-info__facility img { width: 100%; height: auto; border-radius: var(--radius-md); }
+.p-school-info__facility figcaption { margin-top: var(--space-1); font-weight: 700; font-size: var(--fs-sm); text-align: center; }
+.p-school-info__contact { font-size: var(--fs-sm); }
+
+/* アンカー先の余白（固定ヘッダー対策） */
+.p-school :is(#campus, #features, #facility, #fun, #anchor01, #anchor02, #anchor03, #anchor04, #anchor05, #anchor06) { scroll-margin-top: 72px; }
+
+/* reduced-motion: 独自アニメ全停止 */
+@media (prefers-reduced-motion: reduce) {
+  .p-school-study__special .icon .bg,
+  .p-school-access__movies .play .text { animation: none; }
+}

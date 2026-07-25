@@ -1,0 +1,290 @@
+---
+layout: page.njk
+title: オープンキャンパス
+description: 【看護師・視能訓練士・歯科衛生士・臨床工学技士】医療系に進むなら札幌看護医療専門学校！興味に合わせてセレクトできるオーキャン。学校や職業について何でも知れる！体験できる！
+breadcrumb: [{label: オープンキャンパス}]
+bodyClass: p-opencampus p-opencampus-index
+pageCss: /asset/css/pages/opencampus.css
+pageJs: /asset/js/pages/opencampus.js
+permalink: /opencampus/index.html
+---
+{#- MV -#}
+<section class="p-opencampus__mv is-top">
+  <h1 class="p-opencampus__mv-title"><img src="/asset/img/opencampus/top/2026/mv-title.webp" alt="オープンキャンパス" width="524" height="306"></h1>
+  <div class="p-opencampus__mv-bg"><img src="/asset/img/opencampus/top/2026/mv-bg.webp" alt="" width="670" height="744"></div>
+</section>
+
+{#- 概要 -#}
+<section class="p-opencampus__about u-section">
+  <div class="c-section-head" data-anim="fade-up">
+    <h2 class="p-opencampus__about-title"><span class="bg">スマホで選べる</span><span class="bg">あなただけのOPEN CAMPUS</span></h2>
+  </div>
+  <p class="p-opencampus__about-lead" data-anim="fade-up">30種類以上のプログラムから、興味のあるものだけを自由にセレクト！カスタマイズした自分だけの体験プログラムでオープンキャンパスに参加できるから、オープンキャンパスデビューにもおすすめ！<br>（当日、来校してからプログラムが選べます。）</p>
+  <p class="p-opencampus__about-img" data-anim="zoom"><img src="/asset/img/opencampus/top/2026/about-img.webp" loading="lazy" alt="" width="556" height="272"></p>
+  <div class="p-opencampus__banner-row" data-anim-group>
+    <a href="https://www.snm.ac.jp/news/2026/17955/" target="_blank" rel="noopener" class="p-opencampus__banner" data-anim="fade-up"><img src="/asset/img/share/2026/banner-examination.png" loading="lazy" alt="入試説明会" width="330" height="310"></a>
+    <a href="/opencampus/bus/" class="p-opencampus__banner" data-anim="fade-up"><img src="/asset/img/share/2025/banner-bus.png" loading="lazy" alt="無料送迎バスでオープンキャンパスに参加しよう！" width="305" height="288"></a>
+  </div>
+</section>
+
+{#- ページ内アンカー -#}
+<nav class="p-opencampus__anchor u-section" aria-label="ページ内メニュー">
+  <p class="p-opencampus__anchor-title" data-anim="fade"><span class="u-marker" data-marker>はじめて来ても、何回来ても楽しい<br>オープンキャンパス！</span></p>
+  <ul class="p-opencampus__anchor-list" data-anim-group>
+    <li data-anim="fade-up"><a href="#program">選べる30種類以上のプログラム<span class="arrow">→</span></a></li>
+    <li data-anim="fade-up"><a href="#schedule">1日の流れって？<span class="arrow">→</span></a></li>
+    <li data-anim="fade-up"><a href="#date">開催日程＆参加特典<span class="arrow">→</span></a></li>
+    <li data-anim="fade-up"><a href="#select">プログラムの選び方<span class="arrow">→</span></a></li>
+    <li data-anim="fade-up"><a href="https://www.snm.ac.jp/news/2025/14270/" target="_blank" rel="noopener">よくある質問<span class="arrow">→</span></a></li>
+  </ul>
+</nav>
+
+{#- 選べるプログラム（カテゴリフィルタ付きカード群） -#}
+<section class="p-opencampus__program u-section" id="program">
+  <div class="c-section-head" data-anim="fade-up">
+    <span class="c-badge"><span class="c-badge__label">Program</span></span>
+    <h2 class="c-section-head__catch">選べる30種類以上のプログラム！</h2>
+  </div>
+  <p class="p-opencampus__program-catch" data-anim="fade-up"><span class="u-marker" data-marker>「好き」</span><span class="u-marker" data-marker>「知りたい」</span>に合わせて、<br>自由にセレクトできる！</p>
+  <p class="p-opencampus__program-lead" data-anim="fade-up">「興味のあることだけしたい」「いろんな人とお話したい」そんなあなたにピッタリのセレクト型プログラム。はじめて来ても何回来ても、楽しいオープンキャンパスで、夢や目標を見つけよう！</p>
+
+  {%- set programCats = [
+    {id: "cat01", label: "色んな体験がしたい人"},
+    {id: "cat02", label: "学校のことや入試について知りたい人"},
+    {id: "cat03", label: "学科の内容やカリキュラムが知りたい人"},
+    {id: "cat04", label: "医療の仕事で何にするか悩んでいる人"},
+    {id: "cat05", label: "在校生とお話して色々聞きたい人"},
+    {id: "cat06", label: "特別プログラムに参加したい人"}
+  ] -%}
+  {%- set programItems = [
+    {cat: "cat01", img: "program01-ph01.webp", txt: "看護師のお仕事体験"},
+    {cat: "cat01", img: "program01-ph02.webp", txt: "自分の眼のカルテ作成"},
+    {cat: "cat01", img: "program01-ph03.webp", txt: "模擬血管に穿刺（針を刺してみよう）"},
+    {cat: "cat01", img: "program01-ph04.webp", txt: "視能訓練士のお仕事体験"},
+    {cat: "cat01", img: "program01-ph05.webp", txt: "歯科衛生士のお仕事体験"},
+    {cat: "cat01", img: "program01-ph06.webp", txt: "臨床工学技士のお仕事体験"},
+    {cat: "cat02", img: "program02-ph01.webp", txt: "学校・入試説明"},
+    {cat: "cat02", img: "program02-ph02.webp", txt: "医療のお仕事全部紹介"},
+    {cat: "cat02", img: "program02-ph03.webp", txt: "進路･学費･一人暮らし何でも相談"},
+    {cat: "cat03", img: "program03-ph01.webp", txt: "看護学科紹介"},
+    {cat: "cat03", img: "program03-ph02.webp", txt: "看護学科の学生とトーク"},
+    {cat: "cat03", img: "program03-ph03.webp", txt: "視能訓練士学科紹介"},
+    {cat: "cat03", img: "program03-ph04.webp", txt: "視能訓練士科の学生とトーク"},
+    {cat: "cat03", img: "program03-ph05.webp", txt: "歯科衛生士学科紹介"},
+    {cat: "cat03", img: "program03-ph06.webp", txt: "歯科衛生士科の学生とトーク"},
+    {cat: "cat03", img: "program03-ph07.webp", txt: "臨床工学技士学科紹介"},
+    {cat: "cat03", img: "program03-ph08.webp", txt: "臨床工学技士科の学生とトーク"},
+    {cat: "cat04", img: "program04-ph01.webp", txt: "医療のお仕事全部紹介"},
+    {cat: "cat04", img: "program04-ph02.webp", txt: "進路･学費･一人暮らし何でも相談"},
+    {cat: "cat05", img: "program05-ph01.webp", txt: "看護学科の学生とトーク"},
+    {cat: "cat05", img: "program05-ph02.webp", txt: "視能訓練士学科の学生とトーク"},
+    {cat: "cat05", img: "program05-ph03.webp", txt: "歯科衛生士学科の学生とトーク"},
+    {cat: "cat05", img: "program05-ph04.webp", txt: "臨床工学技士学科の学生とトーク"},
+    {cat: "cat06", img: "program06-ph01.webp", txt: "看護師いろいろ体験"},
+    {cat: "cat06", img: "program06-ph02.webp", txt: "審美歯科体験（ホワイトニング）"},
+    {cat: "cat06", img: "program06-ph03.webp", txt: "バーチャル医療解剖体験"},
+    {cat: "cat06", img: "program06-ph04.webp", txt: "スクラブ体験"}
+  ] -%}
+  <div class="p-opencampus__program-filter" data-program-filter role="group" aria-label="プログラム絞り込み" data-anim="fade-up">
+    <button type="button" data-cat="all" aria-pressed="true">すべて</button>
+    {%- for c in programCats %}
+    <button type="button" data-cat="{{ c.id }}" aria-pressed="false">{{ c.label }}</button>
+    {%- endfor %}
+  </div>
+  <p class="p-opencampus__program-special" data-program-item data-cat="cat06">
+    <span class="icon"><img src="/asset/img/opencampus/top/2026/icon-megaphone.png" loading="lazy" alt="" width="35" height="30"></span>その日限定のスペシャル体験も開催！
+  </p>
+  <div class="p-opencampus__program-grid" data-anim-group>
+    {%- for p in programItems %}
+    <figure class="p-opencampus__program-card c-frame-card" data-program-item data-cat="{{ p.cat }}" data-anim="fade-up">
+      <img src="/asset/img/opencampus/top/2026/{{ p.img }}" loading="lazy" alt="" width="303" height="303">
+      <figcaption>{{ p.txt }}</figcaption>
+    </figure>
+    {%- endfor %}
+  </div>
+  <p class="p-opencampus__program-note">特別プログラムの開催は随時お知らせいたします。</p>
+  <div class="p-opencampus__btn-group" data-anim="fade-up">
+    <p class="p-opencampus__btn-title"><span class="icon"><img src="/asset/img/opencampus/top/2026/icon-sparkling.png" loading="lazy" alt="" width="10" height="15"></span>自分の<span class="u-marker" data-marker>“やりたい”</span>に合わせて<br>たくさんのプログラムの中から自由に選ぼう！<span class="icon"><img src="/asset/img/opencampus/top/2026/icon-sparkling.png" loading="lazy" alt="" width="10" height="15"></span></p>
+    <a href="https://www.snm.ac.jp/form/event/" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込みフォームへ</a>
+    <a href="/opencampus/calendar/" class="c-btn c-btn--arrow">そのほかのイベントも見る</a>
+    <a href="https://www.snm.ac.jp/news/2025/14270/" target="_blank" rel="noopener" class="c-btn c-btn--arrow">Q &amp; A</a>
+  </div>
+</section>
+
+{#- 写真スライダー -#}
+<div class="p-opencampus__photo" aria-hidden="true">
+  <div class="swiper js-oc-photo-slide">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="/asset/img/opencampus/top/2026/ph-slide01.jpg" loading="lazy" alt="" width="3000" height="667"></div>
+      <div class="swiper-slide"><img src="/asset/img/opencampus/top/2026/ph-slide01.jpg" loading="lazy" alt="" width="3000" height="667"></div>
+      <div class="swiper-slide"><img src="/asset/img/opencampus/top/2026/ph-slide01.jpg" loading="lazy" alt="" width="3000" height="667"></div>
+    </div>
+  </div>
+</div>
+
+{#- 1日の流れ -#}
+<section class="p-opencampus__step u-section" id="schedule">
+  <div class="c-section-head" data-anim="fade-up">
+    <span class="c-badge"><span class="c-badge__label">Step</span></span>
+    <h2 class="c-section-head__catch">1日の流れって？</h2>
+    <p class="p-opencampus__step-deco"><img src="/asset/img/opencampus/top/2026/schedule-time.png" loading="lazy" alt="" width="240" height="48"></p>
+  </div>
+  {%- set steps = [
+    {no: "01", time: "12：00〜", icon: "schedule-time01.png", img: "schedule-img01.jpg", ttl: "在校生と校舎⾒学！", txt: "在校生と一緒にキレイな校舎を見学♪教室の設備や当日のプログラムを紹介します。"},
+    {no: "02", time: "12：20〜", icon: "schedule-time02.png", img: "schedule-img02.jpg", ttl: "プログラムをセレクト", txt: "アプリで参加したいプログラムをセレクト。自分の進路や「知りたい」に合わせて選んでね！"},
+    {no: "03", time: "12：40〜", icon: "schedule-time03.png", img: "schedule-img03.jpg", ttl: "選んだ会場へGO！", txt: "MY時間割が完成したら、時間に合わせて会場へ！途中でプログラム変更もOK★"},
+    {no: "04", time: "14：40〜", icon: "schedule-time04.png", img: "schedule-img04.jpg", ttl: "1日の振り返り", txt: "終了後は1日の振り返り♪未体験プログラムはまだまだたくさん。次回は別の時間割で参加してみよう！"}
+  ] -%}
+  <ol class="p-opencampus__step-list" data-anim-group>
+    {%- for s in steps %}
+    <li class="p-opencampus__step-item" data-anim="fade-up">
+      <div class="p-opencampus__step-img">
+        <p class="number">STEP<span class="large">{{ s.no }}</span></p>
+        <img src="/asset/img/opencampus/top/2026/{{ s.img }}" loading="lazy" alt="" width="280" height="260">
+        <p class="time"><span class="icon"><img src="/asset/img/opencampus/top/2026/{{ s.icon }}" loading="lazy" alt="" width="30" height="30"></span>{{ s.time }}</p>
+      </div>
+      <div class="p-opencampus__step-txt">
+        <h3>{{ s.ttl }}</h3>
+        <p>{{ s.txt }}</p>
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+  <div class="p-opencampus__btn-group" data-anim="fade-up">
+    <p class="p-opencampus__btn-title">さっそく参加してみよう！</p>
+    <a href="https://www.snm.ac.jp/form/event/" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込みフォームへ</a>
+    <a href="/opencampus/calendar/" class="c-btn c-btn--arrow">そのほかのイベントも見る</a>
+  </div>
+</section>
+
+{#- 開催日程 -#}
+<section class="p-opencampus__date u-section" id="date">
+  <div class="c-section-head" data-anim="fade-up">
+    <span class="c-badge"><span class="c-badge__label">Schedule</span></span>
+    <h2 class="c-section-head__catch">開催日程</h2>
+  </div>
+  <ul class="p-opencampus__fig-list" data-anim="fade">
+    <li class="oc">オープンキャンパス</li>
+    <li class="bus">無料送迎バス付オープンキャンパス</li>
+    <li class="guidance">個別相談</li>
+    <li class="sp_events">入試説明会</li>
+    <li class="special">出張相談会</li>
+  </ul>
+  <div class="p-opencampus__calendar" data-oc-calendar data-anim="fade-up">
+    <p class="p-opencampus__calendar-fallback"><a href="/opencampus/calendar/">開催日カレンダーを見る</a></p>
+  </div>
+  <div class="p-opencampus__check" data-anim="fade-up">
+    <p class="p-opencampus__btn-title">そのほかをチェック！</p>
+    <div class="p-opencampus__banner-row">
+      <div class="p-opencampus__banner-wrap">
+        <p class="balloon">遠方からご参加の方必見！</p>
+        <a href="/opencampus/bus/" class="p-opencampus__banner"><img src="/asset/img/share/2025/banner-bus.png" loading="lazy" alt="無料送迎バスでオープンキャンパスに参加しよう！" width="305" height="288"></a>
+      </div>
+      <div class="p-opencampus__banner-wrap">
+        <p class="balloon">先生と1対1でお話できる！</p>
+        <a href="/opencampus/session/" class="p-opencampus__banner"><img src="/asset/img/share/2026/banner-consultation.png" loading="lazy" alt="学校説明&amp;個別相談会" width="330" height="310"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{#- 参加特典 -#}
+<section class="p-opencampus__benefits u-section">
+  <div class="c-section-head" data-anim="fade-up">
+    <span class="c-badge"><span class="c-badge__label">Present</span></span>
+    <h2 class="c-section-head__catch">参加特典</h2>
+  </div>
+  <div class="p-opencampus__benefits-grid" data-anim-group>
+    <div class="c-frame-card p-opencampus__benefits-card" data-anim="fade-up">
+      <p class="label">特典<span class="num">1</span></p>
+      <div class="inner">
+        <p class="img"><img src="/asset/img/opencampus/top/2026/benefits-img01.jpg" loading="lazy" alt="" width="200" height="220"></p>
+        <div class="txt">
+          <p class="title">入試パーフェクトBOOK</p>
+          <p class="catch"><span class="u-marker" data-marker>2027年4月入学の入試対策</span>全てがわかる！</p>
+        </div>
+      </div>
+    </div>
+    <a href="/admission/ao/" class="c-frame-card p-opencampus__benefits-card" data-anim="fade-up">
+      <p class="label">特典<span class="num">2</span></p>
+      <div class="inner">
+        <p class="img"><img src="/asset/img/opencampus/top/2026/benefits-img02.jpg" loading="lazy" alt="" width="200" height="220"></p>
+        <div class="txt">
+          <p class="title">AOエントリー応募資格</p>
+          <p class="catch">オープンキャンパス参加でGET！</p>
+          <p class="more">VIEW MORE →</p>
+        </div>
+      </div>
+    </a>
+    <a href="/opencampus/subsidy_list/" class="c-frame-card p-opencampus__benefits-card" data-anim="fade-up">
+      <p class="label">特典<span class="num">3</span></p>
+      <div class="inner">
+        <p class="img"><img src="/asset/img/opencampus/top/2026/benefits-img03.jpg" loading="lazy" alt="" width="200" height="220"></p>
+        <div class="txt">
+          <p class="title">交通費補助の安心サポート</p>
+          <p class="catch"><span class="u-marker" data-marker>初めて参加の高校生全員</span>の<br>交通費を補助！</p>
+          <p class="more">VIEW MORE →</p>
+        </div>
+      </div>
+    </a>
+    <a href="/opencampus/bus/" class="c-frame-card p-opencampus__benefits-card" data-anim="fade-up">
+      <p class="label">特典<span class="num">4</span></p>
+      <div class="inner">
+        <p class="img"><img src="/asset/img/opencampus/top/2026/benefits-img04.jpg" loading="lazy" alt="" width="200" height="220"></p>
+        <div class="txt">
+          <p class="title">無料送迎バス運行</p>
+          <p class="catch">道内各地発！<br><span class="u-marker" data-marker>遠方からの参加も安心！</span></p>
+          <p class="more">VIEW MORE →</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</section>
+
+{#- プログラムの選び方 -#}
+<section class="p-opencampus__select u-section" id="select">
+  <div class="c-section-head" data-anim="fade-up">
+    <span class="c-badge"><span class="c-badge__label">How to</span></span>
+    <h2 class="c-section-head__catch">プログラムの選び方</h2>
+  </div>
+  <p class="p-opencampus__select-lead" data-anim="fade-up">自分の「好き」「知りたい」を自由にセレクトできるから、選び方は無限大！自分の夢や目標にまっすぐなプログラムを組もう！</p>
+  {%- set cases = [
+    {no: "1", ttlHtml: "<span class='large'>医療系進学</span>に悩むAさんの場合", select: "いろんなお仕事の話を聞いて体験できる", selectAfter: "プログラムをセレクト！", caseImg: "select01-img05.webp",
+     items: [
+       {time: "13:00", icon: "icon-clock01.png", txt: "医療のお仕事全部紹介",       img: "select01-img01.jpg"},
+       {time: "13:30", icon: "icon-clock02.png", txt: "視能訓練士のお仕事体験",     img: "select01-img02.jpg"},
+       {time: "14:00", icon: "icon-clock03.png", txt: "臨床工学技士のお仕事体験",   img: "select01-img03.jpg"},
+       {time: "14:30", icon: "icon-clock04.png", txt: "歯科衛生士のお仕事体験",     img: "select01-img04.jpg"}
+     ]},
+    {no: "2", ttlHtml: "<span class='large'>入試や学校の雰囲気が</span><br><span class='large'>知りたい</span>Bさんの場合", select: "しっかりといろんな説明を聞いて", selectAfter: "入試に備えるプログラムをセレクト！", caseImg: "select02-img05.webp",
+     items: [
+       {time: "13:00", icon: "icon-clock01.png", txt: "学校・入試説明",                     img: "select02-img01.jpg"},
+       {time: "13:30", icon: "icon-clock02.png", txt: "看護学科の学生とトーク",             img: "select02-img02.jpg"},
+       {time: "14:00", icon: "icon-clock03.png", txt: "看護学科紹介",                       img: "select02-img03.jpg"},
+       {time: "14:30", icon: "icon-clock04.png", txt: "進路・学費・1人暮らしなんでも相談", img: "select02-img04.jpg"}
+     ]}
+  ] -%}
+  {%- for c in cases %}
+  <div class="p-opencampus__case" data-anim="fade-up">
+    <div class="p-opencampus__case-head">
+      <p class="case-number">CASE<span class="num">{{ c.no }}</span></p>
+      <p class="title">{{ c.ttlHtml | safe }}</p>
+    </div>
+    <p class="p-opencampus__case-select"><span class="u-marker" data-marker>{{ c.select }}</span><br>{{ c.selectAfter }}</p>
+    <ol class="p-opencampus__case-list">
+      {%- for i in c.items %}
+      <li>
+        <p class="time"><span class="icon"><img src="/asset/img/opencampus/top/2026/{{ i.icon }}" loading="lazy" alt="" width="14" height="14"></span>{{ i.time }}</p>
+        <p class="txt">{{ i.txt }}</p>
+        <p class="ph"><img src="/asset/img/opencampus/top/2026/{{ i.img }}" loading="lazy" alt="" width="240" height="170"></p>
+      </li>
+      {%- endfor %}
+    </ol>
+    <p class="p-opencampus__case-img"><img src="/asset/img/opencampus/top/2026/{{ c.caseImg }}" loading="lazy" alt="" width="285" height="45"></p>
+  </div>
+  {%- endfor %}
+  <div class="p-opencampus__btn-group" data-anim="fade-up">
+    <p class="p-opencampus__case-button-img"><img src="/asset/img/opencampus/top/2026/case-button-img01.webp" loading="lazy" alt="" width="524" height="218"></p>
+    <a href="https://www.snm.ac.jp/form/event/" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">申し込みフォームへ</a>
+  </div>
+</section>
