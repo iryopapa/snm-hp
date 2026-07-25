@@ -1,8 +1,337 @@
 ---
 layout: base.njk
+description: 看護学科・視能訓練士学科・歯科衛生士学科・臨床工学技士学科。札幌看護医療専門学校は病院・地域と連携した学びで即戦力を育成。国家試験対策や就職支援も充実。未来の医療人をめざす高校生必見
 bodyClass: p-top
+pageCss: /asset/css/pages/top.css
+pageJs: /asset/js/pages/top.js
 permalink: /index.html
 ---
-<section class="u-section u-center">
-  <h1>トップページ（Phase 1 仮置き — 本実装は見本ページ工程で構築）</h1>
+{#- 1. メインビジュアル -#}
+<section class="p-top__mv">
+  <div class="p-top__mv-inner">
+    <h2 class="p-top__mv-title"><img src="/asset/img/top/2026/mv-title.webp" alt="Future is yours" width="518" height="202"></h2>
+    <div class="p-top__mv-circle">
+      <a href="https://webappform.jikei.com/entry/?sid=snm" target="_blank" rel="noopener noreferrer">
+        <span class="front"><img src="/asset/img/top/2025/mv-circle-front02.png" alt="AO エントリーはこちら" width="281" height="281"></span>
+        <span class="back"><img src="/asset/img/top/2025/mv-circle-back.png" alt="ONLINE APPLICATION" width="281" height="281"></span>
+      </a>
+    </div>
+    <div class="p-top__mv-bg"><img src="/asset/img/top/2026/mv-bg.webp" alt="" width="670" height="1040"></div>
+  </div>
+</section>
+
+{#- 2. 最新NEWSティッカー -#}
+<section class="p-top__ticker" data-anim="fade">
+  <h2 class="p-top__ticker-ttl">最新<span class="en">NEWS</span></h2>
+  <ul class="p-top__ticker-list" data-ticker>
+    <li class="is-active"><a href="https://www.snm.ac.jp/news/2026/19029/" target="_blank" rel="noopener">私は看護師になれる…？進路に迷う高校生応援企画開催決定✨</a></li>
+    <li><a href="https://www.snm.ac.jp/news/2026/18039/" target="_blank" rel="noopener">【2026年8月】全道８地区で出張オープンキャンパス開催☆</a></li>
+    <li><a href="https://www.snm.ac.jp/news/2026/18962/" target="_blank" rel="noopener">7/25.26進路に迷ってる方必見★特別プログラム開催！</a></li>
+  </ul>
+</section>
+
+{#- 3. トップバナー -#}
+<section class="p-top__banners u-section">
+  <h2 class="u-sr-only">ピックアップ</h2>
+  <div class="p-top__banner-grid" data-anim-group>
+    <a class="p-top__banner" href="/course/clinicalengineer/" data-anim="fade-up"><img src="/asset/img/share/2026/banner-clinicalengineer01.png" loading="lazy" alt="臨床工学技士学科" width="330" height="310"></a>
+    <a class="p-top__banner" href="/course/orthoptist/" data-anim="fade-up"><img src="/asset/img/share/2026/banner-orthoptist01.png" loading="lazy" alt="視能訓練士学科" width="330" height="310"></a>
+    <a class="p-top__banner" href="https://www.snm.ac.jp/news/2026/14409/" target="_blank" rel="noopener" data-anim="fade-up"><img src="/asset/img/share/2026/banner-aoentry.png" loading="lazy" alt="AO" width="330" height="310"></a>
+    <a class="p-top__banner" href="https://www.snm.ac.jp/news/2026/18039/" target="_blank" rel="noopener" data-anim="fade-up"><img src="/asset/img/share/2026/banner-trip-oc01.png" loading="lazy" alt="出張オープンキャンパス" width="330" height="310"></a>
+  </div>
+</section>
+
+{#- 4. オープンキャンパス -#}
+<section class="p-top__ictoc u-section">
+  <div class="p-top__ictoc-head" data-anim="fade-up">
+    <p class="p-top__ictoc-catch"><img src="/asset/img/top/2026/ictoc-catch.webp" loading="lazy" alt="医療系に興味のある方におすすめ！" width="550" height="51"></p>
+    <h2 class="p-top__ictoc-title">
+      <span class="title">OPEN<br>CAMPUS</span>
+      <span class="bg"><img src="/asset/img/top/2026/ictoc-title-bg.webp" loading="lazy" alt="" width="681" height="260"></span>
+    </h2>
+    <p class="p-top__ictoc-lead">選べるプログラムは<br><span class="u-marker" data-marker>全30種類</span>以上！自分に合う組み合わせを<br>来校してから選べるから、楽しくてためになる！</p>
+  </div>
+
+  <div class="p-top__program" data-anim="fade-up">
+    <h3 class="p-top__program-title">
+      <span class="title">選べるプログラム</span>
+      <span class="icon"><img src="/asset/img/top/2026/program-title-sparkle.png" loading="lazy" alt="" width="32" height="42"></span>
+    </h3>
+    <div class="swiper js-program-slide p-top__program-slide">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="/asset/img/top/2026/program-img01.jpg" loading="lazy" alt="" width="240" height="240"></div>
+        <div class="swiper-slide"><img src="/asset/img/top/2026/program-img02.jpg" loading="lazy" alt="" width="240" height="240"></div>
+        <div class="swiper-slide"><img src="/asset/img/top/2026/program-img03.jpg" loading="lazy" alt="" width="240" height="240"></div>
+        <div class="swiper-slide"><img src="/asset/img/top/2026/program-img04.jpg" loading="lazy" alt="" width="240" height="240"></div>
+      </div>
+    </div>
+    <p class="p-top__btn-box"><a href="/opencampus/" class="c-btn c-btn--yellow c-btn--arrow">詳細をチェック</a></p>
+  </div>
+
+  <div class="c-tab p-top__ictoc-tab" data-tabs data-anim="fade-up">
+    <div class="c-tab__list" role="tablist">
+      <button type="button" class="c-tab__btn" aria-selected="false">カレンダー<span class="small">から探す</span></button>
+      <button type="button" class="c-tab__btn" aria-selected="true">近日開催<span class="small">から選ぶ</span></button>
+    </div>
+    <div class="c-tab__panel p-top__calendar-panel" hidden>
+      <ul class="p-top__fig-list">
+        <li class="oc">オープンキャンパス</li>
+        <li class="bus">無料送迎バス付オープンキャンパス</li>
+        <li class="guidance">個別相談</li>
+        <li class="sp_events">入試説明会</li>
+        <li class="special">出張相談会</li>
+      </ul>
+      <div class="p-top__calendar" data-oc-calendar>
+        <p class="p-top__calendar-fallback"><a href="/opencampus/calendar/">開催日カレンダーを見る</a></p>
+      </div>
+    </div>
+    <div class="c-tab__panel p-top__schedule-panel">
+      {%- set schedule = [
+        {id: "2026-07-26", y: 2026, m: 7,  d: 26, w: "sun", holiday: false},
+        {id: "2026-08-01", y: 2026, m: 8,  d: 1,  w: "sat", holiday: false},
+        {id: "2026-08-02", y: 2026, m: 8,  d: 2,  w: "sun", holiday: false},
+        {id: "2026-08-08", y: 2026, m: 8,  d: 8,  w: "sat", holiday: false},
+        {id: "2026-08-15", y: 2026, m: 8,  d: 15, w: "sat", holiday: false},
+        {id: "2026-08-22", y: 2026, m: 8,  d: 22, w: "sat", holiday: false},
+        {id: "2026-08-23", y: 2026, m: 8,  d: 23, w: "sun", holiday: false},
+        {id: "2026-09-12", y: 2026, m: 9,  d: 12, w: "sat", holiday: false},
+        {id: "2026-09-20", y: 2026, m: 9,  d: 20, w: "sun", holiday: false},
+        {id: "2026-09-26", y: 2026, m: 9,  d: 26, w: "sat", holiday: false},
+        {id: "2026-10-10", y: 2026, m: 10, d: 10, w: "sat", holiday: false},
+        {id: "2026-10-17", y: 2026, m: 10, d: 17, w: "sat", holiday: false},
+        {id: "2026-11-03", y: 2026, m: 11, d: 3,  w: "tue", holiday: true},
+        {id: "2026-11-28", y: 2026, m: 11, d: 28, w: "sat", holiday: false},
+        {id: "2026-12-05", y: 2026, m: 12, d: 5,  w: "sat", holiday: false},
+        {id: "2026-12-13", y: 2026, m: 12, d: 13, w: "sun", holiday: false},
+        {id: "2026-12-19", y: 2026, m: 12, d: 19, w: "sat", holiday: false},
+        {id: "2027-01-09", y: 2027, m: 1,  d: 9,  w: "sat", holiday: false},
+        {id: "2027-01-24", y: 2027, m: 1,  d: 24, w: "sun", holiday: false},
+        {id: "2027-02-13", y: 2027, m: 2,  d: 13, w: "sat", holiday: false},
+        {id: "2027-02-27", y: 2027, m: 2,  d: 27, w: "sat", holiday: false},
+        {id: "2027-03-13", y: 2027, m: 3,  d: 13, w: "sat", holiday: false},
+        {id: "2027-03-21", y: 2027, m: 3,  d: 21, w: "sun", holiday: true},
+        {id: "2027-03-27", y: 2027, m: 3,  d: 27, w: "sat", holiday: false},
+        {id: "2027-03-28", y: 2027, m: 3,  d: 28, w: "sun", holiday: false}
+      ] -%}
+      <div class="p-top__schedule">
+        <div class="swiper js-schedule-slider">
+          <div class="swiper-wrapper">
+            {%- for s in schedule %}
+            <div class="swiper-slide">
+              <a href="/opencampus/calendar/#{{ s.id }}" class="p-top__schedule-item">
+                <span class="year">{{ s.y }}</span>
+                <span class="month">{{ s.m }}.<span class="large">{{ s.d }}</span></span>
+                <span class="date {{ s.w }}{% if s.holiday %} holiday{% endif %}">{{ s.w | upper }}</span>
+              </a>
+            </div>
+            {%- endfor %}
+          </div>
+        </div>
+        <button type="button" class="swiper-button-prev" aria-label="前へ"></button>
+        <button type="button" class="swiper-button-next" aria-label="次へ"></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="p-top__ictoc-banner" data-anim="fade-up">
+    <h3 class="p-top__event-title">
+      <a href="/opencampus/calendar/">
+        <span class="img"><img src="/asset/img/top/2026/event-sub-title.webp" loading="lazy" alt="その他のイベントをCHECK！" width="312" height="69"></span>
+        <span class="txt">EVENT</span>
+      </a>
+    </h3>
+    <div class="p-top__banner-grid" data-anim-group>
+      <a class="p-top__banner" href="https://www.snm.ac.jp/opencampus/bus/" target="_blank" rel="noopener" data-anim="fade-up"><img src="/asset/img/share/2026/banner-bus02.png" loading="lazy" alt="無料送迎バスでオープンキャンパスに参加しよう！" width="330" height="310"></a>
+      <a class="p-top__banner" href="https://www.snm.ac.jp/news/2026/18962/" target="_blank" rel="noopener" data-anim="fade-up"><img src="/asset/img/share/2026/banner-oc02.png" loading="lazy" alt="オープンキャンパス" width="330" height="310"></a>
+      <a class="p-top__banner" href="https://www.snm.ac.jp/news/2026/17673/" target="_blank" rel="noopener" data-anim="fade-up"><img src="/asset/img/share/2026/banner-scholarship03.png" loading="lazy" alt="実技特待生試験 対策講座" width="330" height="310"></a>
+      <a class="p-top__banner" href="https://www.snm.ac.jp/news/2026/18039/" target="_blank" rel="noopener" data-anim="fade-up"><img src="/asset/img/share/2026/banner-trip-oc01.png" loading="lazy" alt="出張オープンキャンパス" width="330" height="310"></a>
+    </div>
+  </div>
+</section>
+
+{#- 5. 英字マーキー -#}
+<div class="p-top__marquee" aria-hidden="true">
+  <div class="p-top__marquee-track">
+    <ul class="p-top__marquee-row">
+      <li>SAPPORO COLLEGE OF NURSING AND MEDICAL HEALTH.</li>
+      <li>SAPPORO COLLEGE OF NURSING AND MEDICAL HEALTH.</li>
+      <li>SAPPORO COLLEGE OF NURSING AND MEDICAL HEALTH.</li>
+    </ul>
+    <ul class="p-top__marquee-row">
+      <li>SAPPORO COLLEGE OF NURSING AND MEDICAL HEALTH.</li>
+      <li>SAPPORO COLLEGE OF NURSING AND MEDICAL HEALTH.</li>
+      <li>SAPPORO COLLEGE OF NURSING AND MEDICAL HEALTH.</li>
+    </ul>
+  </div>
+</div>
+
+{#- 6. 医療系4学科 -#}
+<section class="p-top__course u-section">
+  <div class="c-section-head" data-anim="fade-up">
+    <a href="/course/" class="c-badge"><span class="c-badge__label">Course</span></a>
+    <h2 class="c-section-head__catch"><img src="/asset/img/top/2026/course-catch.webp" loading="lazy" alt="未来を担う医療系4学科" width="245" height="28"></h2>
+  </div>
+  {%- set courses = [
+    {slug: "nursing",          name: "看護",         img: "course-img01.webp", bg: "course-bg01.webp"},
+    {slug: "orthoptist",       name: "視能訓練士",   img: "course-img02.webp", bg: "course-bg02.webp"},
+    {slug: "dentalhygienists", name: "歯科衛生士",   img: "course-img03.webp", bg: "course-bg03.webp"},
+    {slug: "clinicalengineer", name: "臨床工学技士", img: "course-img04.webp", bg: "course-bg04.webp"}
+  ] -%}
+  <div class="p-top__course-grid" data-anim-group>
+    {%- for c in courses %}
+    <a href="/course/{{ c.slug }}/" class="p-top__course-item is-{{ c.slug }}" data-anim="fade-up">
+      <span class="p-top__course-name">
+        <span class="txt"><span class="number">3</span>年制</span>
+        <span class="course">{{ c.name }}<span class="small">学科</span></span>
+      </span>
+      <span class="img"><img src="/asset/img/top/2026/{{ c.img }}" alt="" width="295" height="410" loading="lazy"></span>
+      <span class="bg"><img src="/asset/img/top/2026/{{ c.bg }}" alt="" width="295" height="410" loading="lazy"></span>
+    </a>
+    {%- endfor %}
+  </div>
+</section>
+
+{#- 7. 選ばれる理由 -#}
+<section class="p-top__reason u-section">
+  <div class="c-section-head" data-anim="fade-up">
+    <a href="/school/study/" class="c-badge"><span class="c-badge__label">Reason</span></a>
+    <h2 class="c-section-head__catch"><img src="/asset/img/top/2026/reason-catch.webp" loading="lazy" alt="札幌看護医療が選ばれる理由" width="287" height="28"></h2>
+  </div>
+  {%- set reasons = [
+    {href: "/school/study/#campus",   num: "reason-num01.webp", no: "01", tone: "pink",   txt: "進化を続ける副都心「新さっぽろ」", large: "まち全体がキャンパス", img: "reason-img01.webp"},
+    {href: "/school/study/#features", num: "reason-num02.webp", no: "02", tone: "blue",   txt: "ミライにつながる！",               large: "最先端の医療の学び",   img: "reason-img02.webp"},
+    {href: "/campuslife/facility/",   num: "reason-num03.webp", no: "03", tone: "yellow", txt: "毎日のまなびの場所",               large: "施設・設備紹介",       img: "reason-img03.webp"},
+    {href: "/campuslife/schedule/",   num: "reason-num04.webp", no: "04", tone: "green",  txt: "毎日が楽しい！",                   large: "キャンパスライフ",     img: "reason-img04.webp"}
+  ] -%}
+  <ol class="p-top__reason-list" data-anim-group>
+    {%- for r in reasons %}
+    <li data-anim="fade-up">
+      <a href="{{ r.href }}" class="c-num-card p-top__reason-card" data-tone="{{ r.tone }}">
+        <span class="p-top__reason-head">
+          <span class="number"><img src="/asset/img/top/2026/{{ r.num }}" loading="lazy" alt="{{ r.no }}" width="120" height="120"></span>
+          <span class="title"><span class="txt">{{ r.txt }}</span><span class="large-txt">{{ r.large }}</span></span>
+        </span>
+        <span class="p-top__reason-img"><img src="/asset/img/top/2026/{{ r.img }}" loading="lazy" alt="" width="572" height="620"></span>
+        <span class="p-top__reason-more">詳しく見る<span class="arrow">→</span></span>
+      </a>
+    </li>
+    {%- endfor %}
+  </ol>
+</section>
+
+{#- 8. Instagram -#}
+<section class="p-top__instagram u-section">
+  <div class="c-section-head" data-anim="fade-up">
+    <a href="https://www.instagram.com/sapporo_kango/" target="_blank" rel="noopener noreferrer" class="c-badge"><span class="c-badge__label">Instagram</span></a>
+    <h2 class="c-section-head__catch"><img src="/asset/img/top/2026/instagram-catch.webp" loading="lazy" alt="札幌看護医療の日常" width="343" height="55"></h2>
+  </div>
+  <div class="p-top__ig-grid" data-anim-group>
+    {%- for i in range(1, 10) %}
+    <a href="https://www.instagram.com/sapporo_kango/" target="_blank" rel="noopener noreferrer" class="p-top__ig-ph" data-anim="zoom"><img src="/asset/img/top/2026/instagram-ph0{{ i }}.jpg" loading="lazy" alt="" width="210" height="210"></a>
+    {%- endfor %}
+  </div>
+  <p class="p-top__btn-box" data-anim="fade-up"><a href="https://www.instagram.com/sapporo_kango/" target="_blank" rel="noopener noreferrer" class="c-btn c-btn--accent c-btn--arrow">@sapporo_kango</a></p>
+  <div class="p-top__ig-circle" aria-hidden="true">
+    <span class="front"><img src="/asset/img/top/2026/instagram-logo-front.webp" loading="lazy" alt="" width="241" height="241"></span>
+    <span class="back"><img src="/asset/img/top/2026/instagram-logo-back.webp" loading="lazy" alt="" width="241" height="241"></span>
+  </div>
+</section>
+
+{#- 9. News -#}
+<section class="p-top__news u-section">
+  <div class="c-section-head" data-anim="fade-up">
+    <a href="/news/" class="c-badge"><span class="c-badge__label">News</span></a>
+    <h2 class="c-section-head__catch"><img src="/asset/img/top/2026/news-catch.webp" loading="lazy" alt="最新の情報" width="133" height="27"></h2>
+  </div>
+  <ul class="p-top__news-list" data-anim-group>
+    <li data-anim="fade-up">
+      <a href="https://www.snm.ac.jp/news/2026/19029/" target="_blank" rel="noopener">
+        <span class="date">2026.07.16</span>
+        <span class="inner">
+          <span class="ttl">私は看護師になれる…？進路に迷う高校生応援企画開催決定✨</span>
+          <span class="category"><span class="label is-information">お知らせ</span><span class="label is-event">イベント情報</span></span>
+        </span>
+      </a>
+    </li>
+    <li data-anim="fade-up">
+      <a href="https://www.snm.ac.jp/news/2026/18039/" target="_blank" rel="noopener">
+        <span class="date">2026.07.15</span>
+        <span class="inner">
+          <span class="ttl">【2026年8月】全道８地区で出張オープンキャンパス開催☆</span>
+          <span class="category"><span class="label is-information">お知らせ</span><span class="label is-event">イベント情報</span></span>
+        </span>
+      </a>
+    </li>
+    <li data-anim="fade-up">
+      <a href="https://www.snm.ac.jp/news/2026/18962/" target="_blank" rel="noopener">
+        <span class="date">2026.07.13</span>
+        <span class="inner">
+          <span class="ttl">7/25.26進路に迷ってる方必見★特別プログラム開催！</span>
+          <span class="category"><span class="label is-event">イベント情報</span></span>
+        </span>
+      </a>
+    </li>
+  </ul>
+  <p class="p-top__btn-box" data-anim="fade-up"><a href="https://www.snm.ac.jp/news/" target="_blank" rel="noopener" class="c-btn c-btn--arrow">VIEW MORE</a></p>
+</section>
+
+{#- 10. Blog -#}
+<section class="p-top__blog u-section">
+  <div class="c-section-head" data-anim="fade-up">
+    <a href="/blog/" class="c-badge"><span class="c-badge__label">Blog</span></a>
+  </div>
+  <div class="p-top__article-grid" data-anim-group>
+    <a class="p-top__article c-frame-card" href="https://www.snm.ac.jp/blog/2026/19180/" target="_blank" rel="noopener" data-anim="fade-up">
+      <span class="img"><img src="https://www.snm.ac.jp/wp/wp-content/uploads/2026/07/46ba47fc37077306e872ee46f775c920-600x424.jpg" loading="lazy" alt="" width="600" height="424"></span>
+      <span class="txt">
+        <span class="date">2026.07.22</span>
+        <span class="ttl">東北から北海道へ進学を考えている高校生へ　～意外と近いぞ北海道！～</span>
+      </span>
+    </a>
+    <a class="p-top__article c-frame-card" href="https://www.snm.ac.jp/blog/2026/18991/" target="_blank" rel="noopener" data-anim="fade-up">
+      <span class="img"><img src="https://www.snm.ac.jp/wp/wp-content/uploads/2026/07/fc6927a4cd7fc6f068de9eb5d3ae4aff-600x424.jpg" loading="lazy" alt="" width="600" height="424"></span>
+      <span class="txt">
+        <span class="date">2026.07.01</span>
+        <span class="ttl">2026学園祭～ウェルネスフェス～</span>
+      </span>
+    </a>
+  </div>
+  <p class="p-top__btn-box" data-anim="fade-up"><a href="https://www.snm.ac.jp/blog" target="_blank" rel="noopener" class="c-btn c-btn--arrow">VIEW MORE</a></p>
+</section>
+
+{#- 11. Youtube＋フォトマーキー -#}
+<section class="p-top__ph u-section">
+  <div class="c-section-head" data-anim="fade-up">
+    <a href="https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww" target="_blank" rel="noopener" class="c-badge"><span class="c-badge__label">Youtube</span></a>
+  </div>
+  <div class="p-top__movie-grid" data-anim-group>
+    <div class="p-top__movie" data-anim="fade-up">
+      <div class="frame"><iframe src="https://www.youtube.com/embed/oiY9VC8NE8w" title="学園祭＆ウェルネスフェス開催" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+      <p class="ttl">学園祭＆ウェルネスフェス開催</p>
+    </div>
+    <div class="p-top__movie" data-anim="fade-up">
+      <div class="frame"><iframe src="https://www.youtube.com/embed/MFEUmrZmnk4" title="看護学科 戴帽式&在校生インタビュー" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div>
+      <p class="ttl">看護学科 戴帽式&amp;在校生インタビュー</p>
+    </div>
+  </div>
+  <p class="p-top__btn-box" data-anim="fade-up"><a href="https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww" target="_blank" rel="noopener" class="c-btn c-btn--arrow">VIEW MORE</a></p>
+
+  <div class="p-top__ph-marquee" aria-hidden="true">
+    <div class="p-top__marquee-track is-right">
+      <ul class="p-top__ph-row">
+        <li><img src="/asset/img/top/2026/ph-slide01.jpg" loading="lazy" alt="" width="1040" height="130"></li>
+      </ul>
+      <ul class="p-top__ph-row">
+        <li><img src="/asset/img/top/2026/ph-slide01.jpg" loading="lazy" alt="" width="1040" height="130"></li>
+      </ul>
+    </div>
+    <div class="p-top__marquee-track">
+      <ul class="p-top__ph-row">
+        <li><img src="/asset/img/top/2026/ph-slide02.jpg" loading="lazy" alt="" width="1040" height="130"></li>
+      </ul>
+      <ul class="p-top__ph-row">
+        <li><img src="/asset/img/top/2026/ph-slide02.jpg" loading="lazy" alt="" width="1040" height="130"></li>
+      </ul>
+    </div>
+  </div>
 </section>
