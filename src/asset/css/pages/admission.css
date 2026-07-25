@@ -351,9 +351,44 @@ p + .p-admission__notes { margin-top: var(--space-2); }
   background: var(--color-bg-gray-1);
 }
 
+/* ---- Phase 3: 出願フロー・ロードマップ描画（admission.jsがSVGレールを注入） ---- */
+.p-admission__flow.is-svg-rail::before { content: none; }
+.p-admission__flow-svg {
+  position: absolute;
+  left: 20px;
+  top: 12px;
+  width: 2px;
+  height: calc(100% - 24px);
+  overflow: visible;
+  pointer-events: none;
+}
+.p-admission__flow-svg line { stroke: var(--color-brand-pink); stroke-width: 2; }
+.p-admission__flow-svg .is-base { stroke-dasharray: 6 6; opacity: 0.3; }
+.p-admission__flow-svg .is-progress { stroke-linecap: round; }
+
+/* ステップ番号の点灯: 桃色オーバーレイをopacity/scaleで表示（transform/opacityのみ） */
+.p-admission__flow-num { isolation: isolate; }
+.p-admission__flow-num::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: var(--color-brand-pink);
+  opacity: 0;
+  scale: 0.5;
+  transition:
+    opacity var(--dur-base) var(--ease-out-quart),
+    scale var(--dur-base) var(--ease-spring);
+}
+.p-admission__flow-item.is-lit .p-admission__flow-num::after { opacity: 1; scale: 1; }
+.p-admission__flow-item.is-lit .p-admission__flow-num { color: #fff; }
+.p-admission__flow-item.is-plain.is-lit .p-admission__flow-num::before { color: #fff; }
+
 @media (prefers-reduced-motion: reduce) {
   .p-admission__menu-card img,
   .p-admission__menu-ttl .arrow,
   .p-admission__banner,
   .p-admission__banner-wide { transition: none; }
+  .p-admission__flow-num::after { transition: none; }
 }

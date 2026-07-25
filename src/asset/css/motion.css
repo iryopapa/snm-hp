@@ -17,6 +17,26 @@ html.js [data-anim].is-inview { opacity: 1; translate: 0 0; scale: 1; }
 html.js [data-anim="stamp"] { scale: 1.4; rotate: 4deg; transition-duration: var(--dur-base); transition-timing-function: var(--ease-spring); }
 html.js [data-anim="stamp"].is-inview { scale: 1; rotate: -4deg; }
 
+/* MPAページ遷移（対応ブラウザのみ・非対応は通常遷移） */
+@view-transition { navigation: auto; }
+::view-transition-old(root) { animation-duration: 0.22s; }
+::view-transition-new(root) { animation-duration: 0.32s; }
+
+/* きらめきスパークル（sparkle.jsが生成） */
+.c-sparkle {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  pointer-events: none;
+  z-index: var(--z-modal);
+  translate: -50% -50%;
+  animation: sparkle-fly 0.6s var(--ease-out-quart) forwards;
+}
+@keyframes sparkle-fly {
+  from { opacity: 1; transform: translate(0, 0) scale(0.4) rotate(0deg); }
+  to { opacity: 0; transform: translate(var(--dx), var(--dy)) scale(1) rotate(60deg); }
+}
+
 /* reduced-motion: 全演出を無効化して即時表示 */
 @media (prefers-reduced-motion: reduce) {
   html.js [data-anim] { opacity: 1 !important; translate: none !important; scale: none !important; rotate: none !important; transition: none !important; }

@@ -14,8 +14,7 @@
   filter: drop-shadow(0 2px 8px rgba(255, 255, 255, 0.6));
 }
 .p-top__mv-title img { width: 100%; height: auto; }
-html.js .p-top__mv-title { opacity: 0; translate: -50% 16px; transition: opacity var(--dur-hero) var(--ease-out-quart), translate var(--dur-hero) var(--ease-out-quart); }
-html.js .p-top__mv-title.is-inview { opacity: 1; translate: -50% 0; }
+/* タイトルの出現演出は motion/hero.js（clip-pathワイプ）が担当（CSS側で隠さない） */
 .p-top__mv-circle {
   position: absolute;
   right: var(--space-4);
