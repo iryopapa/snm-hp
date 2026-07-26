@@ -3,26 +3,22 @@
     <a class="c-footer__logo" href="/">
       <img src="/asset/img/share/logo.png" alt="{{ site.name }}" width="238" height="33" loading="lazy">
     </a>
-    <p class="c-footer__address">{{ site.address }}</p>
-    <p class="c-footer__tel">TEL <a href="tel:{{ site.tel }}">{{ site.tel }}</a>／フリーダイヤル <a href="tel:{{ site.freedial }}">{{ site.freedial }}</a></p>
+    <p class="c-footer__address">{{ site.address }}<br>TEL <a href="tel:{{ site.tel }}">{{ site.tel }}</a>／フリーダイヤル <a href="tel:{{ site.freedial }}">{{ site.freedial }}</a></p>
 
-    <nav class="c-footer__nav" aria-label="フッターナビゲーション">
-      {% for group in nav %}
-      <div class="c-footer__group">
-        <a class="c-footer__group-head" href="{{ group.path }}"><span>{{ group.en }}</span>{{ group.label }}</a>
-        <ul>
-          {% for item in group.children %}
-          <li><a href="{{ item.path }}">{{ item.label }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endfor %}
-    </nav>
+    <details class="c-footer__visitors">
+      <summary>訪問者別メニュー</summary>
+      <ul>
+        {% for v in visitors %}
+        <li><a href="{{ v.path }}"{% if v.external %} target="_blank" rel="noopener"{% endif %}>{{ v.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </details>
 
-    <ul class="c-footer__visitors">
-      {% for v in visitors %}
-      <li><a href="{{ v.path }}"{% if v.external %} target="_blank" rel="noopener"{% endif %}>{{ v.label }}</a></li>
-      {% endfor %}
+    <ul class="c-footer__sns">
+      <li><a href="{{ site.sns.instagram }}" target="_blank" rel="noopener" aria-label="Instagram"><img src="/asset/img/share/icon-instagram.png" alt="Instagram" width="44" height="44" loading="lazy"></a></li>
+      <li><a href="{{ site.sns.tiktok }}" target="_blank" rel="noopener" aria-label="TikTok"><img src="/asset/img/share/icon-tiktok.png" alt="TikTok" width="44" height="44" loading="lazy"></a></li>
+      <li><a href="{{ site.sns.youtube }}" target="_blank" rel="noopener" aria-label="YouTube"><img src="/asset/img/share/icon-youtube.png" alt="YouTube" width="44" height="44" loading="lazy"></a></li>
+      <li><a href="{{ site.sns.line }}" target="_blank" rel="noopener" aria-label="LINE"><img src="/asset/img/share/icon-line.png" alt="LINE" width="44" height="44" loading="lazy"></a></li>
     </ul>
 
     <ul class="c-footer__links">
@@ -35,14 +31,7 @@
       <li><a href="/privacy/">プライバシーポリシー</a></li>
       <li><a href="/socialpolicy/">ソーシャルメディアポリシー</a></li>
     </ul>
-
-    <ul class="c-footer__sns">
-      <li><a href="{{ site.sns.instagram }}" target="_blank" rel="noopener">Instagram</a></li>
-      <li><a href="{{ site.sns.tiktok }}" target="_blank" rel="noopener">TikTok</a></li>
-      <li><a href="{{ site.sns.youtube }}" target="_blank" rel="noopener">YouTube</a></li>
-      <li><a href="{{ site.sns.line }}" target="_blank" rel="noopener">LINE</a></li>
-    </ul>
-
-    <p class="c-footer__copyright"><small>&copy; Sapporo College of Nursing &amp; Medical Care.</small></p>
   </div>
+  <p class="c-footer__copyright"><small>&copy; 2025 Sapporo College of Nursing and Medical Health.</small></p>
+  <a class="c-footer__pagetop" href="#" aria-label="ページ上部へ戻る">PAGE TOP</a>
 </footer>
