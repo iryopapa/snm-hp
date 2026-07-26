@@ -7,6 +7,17 @@ bodyClass: p-article p-article-news
 pageCss: /asset/css/pages/article.css
 permalink: /news/2021/2849/index.html
 ---
+{#artfix:mv:start#}
+<section class="p-article__mv">
+  <div class="p-article__mv-bg"><img src="/asset/img/news/2025/mv.jpg" alt="" width="740" height="330"></div>
+  <div class="p-article__mv-title">
+    <span class="text-wrap">
+      <span class="en">NEWS</span>
+      <span class="ja">お知らせ</span>
+    </span>
+  </div>
+</section>
+{#artfix:mv:end#}
 <div class="p-article__inner">
   <article class="p-article__container">
     <header class="p-article__head" data-anim="fade-up">
@@ -61,4 +72,46 @@ permalink: /news/2021/2849/index.html
     </div>
     <p class="p-article__back"><a href="/news/" class="c-btn c-btn--yellow c-btn--arrow">お知らせ一覧へ戻る</a></p>
   </article>
-</div>
+    {#artfix:related:start#}
+    <aside class="p-article__related" data-anim="fade-up">
+      <h2 class="p-article__related-ttl">関連記事</h2>
+      <ul class="p-article__related-list">
+        <li><a href="/news/2026/19029/" class="p-article__related-item">
+          <div class="p-article__related-img"><img src="/asset/img/wp/noimage.png" alt="" width="260" height="150" loading="lazy"></div>
+          <div class="p-article__related-txt">
+            <time datetime="2026-07-16">2026.07.16</time>
+            <p class="p-article__related-name">私は看護師になれる…？進路に迷う高校生応援企画開催決定✨</p>
+            <ul class="p-article__labels"><li><span class="p-article__label" data-cat="all_depts">全学科</span></li><li><span class="p-article__label" data-cat="information">お知らせ</span></li><li><span class="p-article__label" data-cat="event">イベント情報</span></li></ul>
+          </div>
+        </a></li>
+        <li><a href="/news/2026/18039/" class="p-article__related-item">
+          <div class="p-article__related-img"><img src="/asset/img/wp/noimage.png" alt="" width="260" height="150" loading="lazy"></div>
+          <div class="p-article__related-txt">
+            <time datetime="2026-07-15">2026.07.15</time>
+            <p class="p-article__related-name">【2026年8月】全道８地区で出張オープンキャンパス開催☆</p>
+            <ul class="p-article__labels"><li><span class="p-article__label" data-cat="all_depts">全学科</span></li><li><span class="p-article__label" data-cat="information">お知らせ</span></li><li><span class="p-article__label" data-cat="event">イベント情報</span></li></ul>
+          </div>
+        </a></li>
+        <li><a href="/news/2026/18962/" class="p-article__related-item">
+          <div class="p-article__related-img"><img src="/asset/img/wp/noimage.png" alt="" width="260" height="150" loading="lazy"></div>
+          <div class="p-article__related-txt">
+            <time datetime="2026-07-13">2026.07.13</time>
+            <p class="p-article__related-name">7/25.26進路に迷ってる方必見★特別プログラム開催！</p>
+            <ul class="p-article__labels"><li><span class="p-article__label" data-cat="all_depts">全学科</span></li><li><span class="p-article__label" data-cat="event">イベント情報</span></li></ul>
+          </div>
+        </a></li>
+      </ul>
+    </aside>
+    {#artfix:related:end#}
+    {#artfix:school:start#}
+    <section class="p-article__school" data-anim="fade-up">
+      <p class="p-article__school-logo"><a href="/"><img src="/asset/img/share/logo.png" alt="札幌看護医療専門学校" width="476" height="80" loading="lazy"></a></p>
+      <p class="p-article__school-address">〒004-0051<br>札幌市厚別区厚別中央1条5丁目1番5号</p>
+      <p class="p-article__school-tel">TEL：011-801-8343（代表番号）<br>FAX：011-801-8345<br>フリーダイヤル：0120-37-8343</p>
+      <ul class="p-article__school-btns">
+        <li><a href="/form/inquiry/" class="c-btn c-btn--yellow c-btn--arrow">お問い合わせ</a></li>
+        <li><a href="/school/access/" class="c-btn c-btn--arrow">アクセス</a></li>
+      </ul>
+    </section>
+    {#artfix:school:end#}
+        </div>

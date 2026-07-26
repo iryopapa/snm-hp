@@ -7,6 +7,58 @@
   padding: var(--space-5) var(--space-4) var(--space-8);
 }
 
+/* ---------- ページMV（NEWS 見出し帯） ---------- */
+.p-article__mv {
+  position: relative;
+  overflow: hidden;
+}
+.p-article__mv-bg img {
+  width: 100%;
+  min-height: 150px;
+  object-fit: cover;
+}
+.p-article__mv-title {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding-inline: var(--space-5);
+}
+.p-article__mv-title .text-wrap {
+  display: inline-block;
+  background: var(--color-bg);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+  box-shadow: var(--shadow-soft);
+}
+.p-article__mv-title .en {
+  display: block;
+  font-family: var(--font-en);
+  font-weight: 800;
+  font-size: var(--fs-lg);
+  letter-spacing: var(--ls-caps);
+  background: var(--grad-script);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.p-article__mv-title .ja {
+  display: block;
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  margin-top: var(--space-1);
+}
+
+/* ---------- アイキャッチ ---------- */
+.p-article__eyecatch {
+  margin-bottom: var(--space-4);
+}
+.p-article__eyecatch img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-sm);
+}
+
 /* ---------- 記事ヘッダ ---------- */
 .p-article__head {
   padding-bottom: var(--space-4);
@@ -60,11 +112,13 @@
 /* ---------- 記事本文（WP由来HTMLの受け皿） ---------- */
 .p-article__body {
   font-size: var(--fs-base);
-  line-height: var(--lh-body);
+  line-height: 1.9;
   letter-spacing: var(--ls-base);
   overflow-wrap: anywhere;
 }
 .p-article__body > * + * { margin-top: var(--space-3); }
+.p-article__body p { margin-block: 1em; }
+.p-article__body p:first-child { margin-top: 0; }
 .p-article__body h2 {
   font-size: var(--fs-md);
   font-weight: 700;
@@ -102,10 +156,13 @@
   text-underline-offset: 2px;
 }
 .p-article__body img {
+  display: block;
+  margin-block: 1.5em;
   margin-inline: auto;
   height: auto;
   border-radius: var(--radius-xs);
 }
+.p-article__body a > img { margin-block: 1.5em; }
 .p-article__body center {
   display: block;
   text-align: center;
@@ -167,3 +224,98 @@
   text-align: center;
 }
 .p-article__back .c-btn { margin-inline: auto; }
+
+/* ---------- 関連記事 ---------- */
+.p-article__related {
+  margin-top: var(--space-8);
+}
+.p-article__related-ttl {
+  display: inline-block;
+  font-size: var(--fs-md);
+  font-weight: 700;
+  line-height: 1;
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-brand-yellow);
+  border-radius: var(--radius-xs);
+  margin-bottom: var(--space-4);
+}
+.p-article__related-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: var(--space-4);
+}
+.p-article__related-item {
+  display: flex;
+  gap: var(--space-3);
+  color: inherit;
+  text-decoration: none;
+}
+.p-article__related-img {
+  flex: 0 0 38%;
+}
+.p-article__related-img img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 26 / 15;
+  object-fit: cover;
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--color-line);
+}
+.p-article__related-txt { min-width: 0; }
+.p-article__related-txt time {
+  font-family: var(--font-en);
+  font-weight: 700;
+  font-size: var(--fs-xs);
+  color: var(--color-ink-soft);
+}
+.p-article__related-name {
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  line-height: var(--lh-tight);
+  margin-top: 4px;
+}
+.p-article__related-txt .p-article__labels { margin-top: var(--space-2); }
+@media (min-width: 768px) {
+  .p-article__related-list { grid-template-columns: repeat(3, 1fr); }
+  .p-article__related-item { flex-direction: column; }
+  .p-article__related-img { flex: none; }
+}
+
+/* ---------- 学校情報カード ---------- */
+.p-article__school {
+  margin-top: var(--space-7);
+  padding: var(--space-6) var(--space-4);
+  border: 2px solid var(--color-line);
+  border-radius: var(--radius-md);
+  background: var(--color-bg);
+  text-align: center;
+}
+.p-article__school-logo img {
+  width: min(320px, 82%);
+  height: auto;
+  margin-inline: auto;
+}
+.p-article__school-address {
+  margin-top: var(--space-4);
+  font-size: var(--fs-sm);
+  line-height: 1.8;
+}
+.p-article__school-tel {
+  margin-top: var(--space-2);
+  font-size: var(--fs-sm);
+  line-height: 1.8;
+}
+.p-article__school-btns {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-4) 0 0;
+  display: grid;
+  gap: var(--space-2);
+  justify-content: center;
+}
+.p-article__school-btns .c-btn { margin-inline: auto; }
+@media (min-width: 600px) {
+  .p-article__school-btns { grid-template-columns: auto auto; }
+}
