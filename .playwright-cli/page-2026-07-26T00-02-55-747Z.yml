@@ -1,0 +1,669 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "札幌看護医療専門学校" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e9]
+        - button "MENU" [ref=e10] [cursor=pointer]:
+          - generic [ref=e15]: MENU
+    - main [ref=e16]:
+      - navigation "パンくずリスト" [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "TOP" [ref=e20] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e21]:
+            - text: ›
+            - link "学科・専攻" [ref=e22] [cursor=pointer]:
+              - /url: /course/
+          - listitem [ref=e23]: ›視能訓練士学科
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - paragraph [ref=e26]:
+            - img "不安を和らげ“見える”を手助けする「眼」に関する専門職。" [ref=e27]
+          - generic [ref=e30]:
+            - heading "視能訓練士学科[3年制]" [level=2] [ref=e31]
+            - paragraph [ref=e32]: DEPARTMENT OF CERTIFIED ORTHOPTIST
+          - button "在校生VOICEを開く" [ref=e33] [cursor=pointer]:
+            - img "在校生VOICEを開く" [ref=e34]
+        - link "AO エントリーはこちら ONLINE APPLICATION" [ref=e36] [cursor=pointer]:
+          - /url: https://www.snm.ac.jp/news/2026/14409/
+          - img "AO エントリーはこちら" [ref=e38]
+          - img "ONLINE APPLICATION" [ref=e40]
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - paragraph [ref=e44]:
+            - img "眼の健康を支えるスペシャリスト" [ref=e45]
+          - heading "視能訓練士って何？" [level=3] [ref=e46]
+          - paragraph [ref=e47]: 子どもから高齢者までさまざまな世代の患者さんの大切な眼の健康をお手伝いするために、眼の検査・訓練を行う「眼」の健康を支えるプロフェッショナルです。
+        - generic [ref=e48]:
+          - heading "お仕事内容" [level=4] [ref=e49]:
+            - generic [ref=e50]: お仕事内容
+          - list [ref=e51]:
+            - listitem [ref=e52]:
+              - button "眼科一般検査 VIEW MORE＋" [ref=e53] [cursor=pointer]:
+                - generic [ref=e54]: 眼科一般検査
+                - generic [ref=e56]: VIEW MORE＋
+            - listitem [ref=e57]:
+              - button "視能訓練 （弱視・斜視など） VIEW MORE＋" [ref=e58] [cursor=pointer]:
+                - generic [ref=e59]:
+                  - text: 視能訓練
+                  - generic [ref=e60]: （弱視・斜視など）
+                - generic [ref=e62]: VIEW MORE＋
+            - listitem [ref=e63]:
+              - button "集団検診 VIEW MORE＋" [ref=e64] [cursor=pointer]:
+                - generic [ref=e65]: 集団検診
+                - generic [ref=e67]: VIEW MORE＋
+            - listitem [ref=e68]:
+              - button "ロービジョンケア VIEW MORE＋" [ref=e69] [cursor=pointer]:
+                - generic [ref=e70]: ロービジョンケア
+                - generic [ref=e72]: VIEW MORE＋
+        - generic [ref=e73]:
+          - heading "視能訓練士のおすすめPoint!" [level=3] [ref=e74]
+          - paragraph [ref=e75]
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "即戦力を目指す！ 最新を取り入れた学びの環境 →" [ref=e78] [cursor=pointer]:
+              - /url: "#learning"
+              - generic [ref=e79]: 即戦力を目指す！
+              - generic [ref=e80]: 最新を取り入れた学びの環境
+              - generic [ref=e81]: →
+          - listitem [ref=e82]:
+            - link "道内初の養成校 資格・就職実績 →" [ref=e83] [cursor=pointer]:
+              - /url: "#result"
+              - generic [ref=e84]: 道内初の養成校
+              - generic [ref=e85]: 資格・就職実績
+              - generic [ref=e86]: →
+          - listitem [ref=e87]:
+            - link "万全の体制でサポート 資格＋αのカリキュラム →" [ref=e88] [cursor=pointer]:
+              - /url: "#curriculum"
+              - generic [ref=e89]: 万全の体制でサポート
+              - generic [ref=e90]: 資格＋αのカリキュラム
+              - generic [ref=e91]: →
+          - listitem [ref=e92]:
+            - link "さまざまな勤務地で働く OG・OB VOICE →" [ref=e93] [cursor=pointer]:
+              - /url: "#voice"
+              - generic [ref=e94]: さまざまな勤務地で働く
+              - generic [ref=e95]: OG・OB VOICE
+              - generic [ref=e96]: →
+      - generic [ref=e97]:
+        - heading "ORIGINAL DEPARTMENT [ 即戦力を目指す！ ] 最新を取り入れた学びの環境" [level=3] [ref=e98]:
+          - generic [ref=e99]: ORIGINAL DEPARTMENT
+          - generic [ref=e100]: "[ 即戦力を目指す！ ]"
+          - generic [ref=e101]: 最新を取り入れた学びの環境
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - paragraph [ref=e104]
+            - heading "電子視力表" [level=4] [ref=e105]
+            - paragraph [ref=e106]: 視力検査は、主に“C” マークが並んだ視力表を用いて測ります。電子視力表では、従来表示できなかった大きな視標やマーク、文字が表示できます。
+          - generic [ref=e107]:
+            - paragraph [ref=e108]
+            - heading "タブレットで効率よく勉強！" [level=4] [ref=e109]
+            - paragraph [ref=e110]: 電子教科書を導入し、いつでもどこでも勉強できます！また、授業資料の共有などもでき、勉強が圧倒的に効率化します。
+          - generic [ref=e111]:
+            - paragraph [ref=e112]
+            - heading "動的量的視野検査" [level=4] [ref=e113]
+            - paragraph [ref=e114]: 緑内障や頭蓋内疾患などには不可欠な検査で、検査テクニックが結果に大きく影響します。ベテランの先生が一人ひとり細かく指導します。
+          - generic [ref=e115]:
+            - paragraph [ref=e116]
+            - heading "3D眼底カメラ" [level=4] [ref=e117]
+            - paragraph [ref=e118]: 瞳孔の奥にある血管、網膜、視神経を検査する最も重要な機器です。失明に至る疾患の早期発見などに不可欠な役割を担っています。
+      - generic [ref=e119]:
+        - heading "ACHIEVEMENTS [ 道内初の養成校 ] 資格・就業実績" [level=3] [ref=e120]:
+          - generic [ref=e121]: ACHIEVEMENTS
+          - generic [ref=e122]: "[ 道内初の養成校 ]"
+          - generic [ref=e123]: 資格・就業実績
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - heading "就職率" [level=4] [ref=e126]:
+              - generic [ref=e128]: 就職率
+            - paragraph [ref=e129]:
+              - text: 33年連続
+              - superscript [ref=e130]: ※
+            - paragraph [ref=e131]: 0%
+            - paragraph [ref=e132]:
+              - text: （2026年3月卒業生実績）
+              - text: ※北海道ハイテクノロジー専門学校からの累計実績
+            - paragraph [ref=e133]:
+              - button "その理由は？ ＋" [ref=e134] [cursor=pointer]:
+                - text: その理由は？
+                - generic [ref=e135]: ＋
+          - generic [ref=e136]:
+            - heading "視能訓練士国家試験合格率" [level=4] [ref=e137]:
+              - generic [ref=e139]: 視能訓練士国家試験合格率
+            - paragraph [ref=e140]:
+              - text: 全国平均
+              - superscript [ref=e141]: ※
+              - text: 96.1%
+            - paragraph [ref=e142]: 0%
+            - paragraph [ref=e143]:
+              - text: （2026年3月卒業生実績）
+              - text: ※2025年厚生労働省「学校別合格状況」による
+            - paragraph [ref=e144]:
+              - button "その理由は？ ＋" [ref=e145] [cursor=pointer]:
+                - text: その理由は？
+                - generic [ref=e146]: ＋
+      - list [ref=e148]:
+        - listitem [ref=e149]:
+          - link "オープンキャンパス" [ref=e150] [cursor=pointer]:
+            - /url: /opencampus/
+            - img "オープンキャンパス" [ref=e151]
+        - listitem [ref=e152]:
+          - link "個別相談会" [ref=e153] [cursor=pointer]:
+            - /url: /opencampus/session/
+            - img "個別相談会" [ref=e154]
+      - generic [ref=e155]:
+        - heading "CURRICULUM [ 学びを深められる ] 資格＋αのカリキュラム" [level=3] [ref=e156]:
+          - generic [ref=e157]: CURRICULUM
+          - generic [ref=e158]: "[ 学びを深められる ]"
+          - generic [ref=e159]: 資格＋αのカリキュラム
+        - paragraph [ref=e160]: 最先端の検査機器やICTを活用した環境で、最新の眼科医療を学習。選択制のステップアップゼミで資格＋αの技術と知識を身につけます。
+        - generic [ref=e161]:
+          - tablist [ref=e162]:
+            - tab "1年次" [selected] [ref=e163] [cursor=pointer]
+            - tab "2年次" [ref=e164] [cursor=pointer]
+            - tab "3年次" [ref=e165] [cursor=pointer]
+          - generic [ref=e166]:
+            - heading "一般教養と専門基礎知識の修得" [level=4] [ref=e167]
+            - paragraph [ref=e168]
+            - paragraph [ref=e169]: 医療の一般的な基礎知識を学ぶとともに、社会人マナーを身につけます。また、多種多様な機器を用いた学内実習や施設見学等を通して専門的な知識と技術を高めます。
+            - list [ref=e171]:
+              - listitem [ref=e172]:
+                - generic [ref=e173]: 4月
+                - text: 新入生歓迎会
+              - listitem [ref=e174]:
+                - generic [ref=e175]: 8月
+                - text: 学年交流会
+              - listitem [ref=e176]:
+                - generic [ref=e177]: 10月
+                - text: 盲導犬実習
+              - listitem [ref=e178]:
+                - generic [ref=e179]: 11月
+                - text: 保育園実習
+        - generic [ref=e180]:
+          - heading "時間割の例" [level=4] [ref=e181]:
+            - generic [ref=e182]: 時間割の例
+          - paragraph [ref=e183]
+        - generic [ref=e184]:
+          - paragraph [ref=e185]:
+            - img "Pick Up!" [ref=e186]
+          - paragraph [ref=e187]: 医療事務の資格も取れる！
+          - heading "ダブルライセンス で 選ばれる視能訓練士を 目指そう！" [level=4] [ref=e188]:
+            - text: ダブルライセンス で
+            - text: 選ばれる視能訓練士を
+            - text: 目指そう！
+          - paragraph [ref=e189]
+          - paragraph [ref=e190]:
+            - text: 通常カリキュラムの学びの中で、医療事務の専門スキルも修得できる！
+            - text: 医療事務の知識・技術は、医療現場で働くうえで知っておきたいことばかり。
+            - text: +αの強みを持った、選ばれる視能訓練士を目指そう!
+      - generic [ref=e191]:
+        - heading "[ さまざまな経験ができる ] 実習・研修の学び" [level=3] [ref=e192]:
+          - generic [ref=e193]: "[ さまざまな経験ができる ]"
+          - generic [ref=e194]: 実習・研修の学び
+        - paragraph [ref=e195]: 実習と一口に言っても、さまざまな施設や内容を体験できるのが大きな特長。実習を行う提携施設は80以上！それぞれの実習で得た経験は臨床現場でも大いに役立ちます。
+        - generic [ref=e196]:
+          - generic [ref=e197]:
+            - heading "心肺蘇生・AED実習" [level=4] [ref=e198]
+            - generic [ref=e199]:
+              - generic [ref=e200]:
+                - group "1 / 2" [ref=e201]
+                - group "2 / 2" [ref=e202]
+              - generic [ref=e203]:
+                - button "Go to slide 1" [ref=e204] [cursor=pointer]
+                - button "Go to slide 2" [ref=e205] [cursor=pointer]
+            - paragraph [ref=e206]: 姉妹校の救急救命士学科とのコラボ授業。応急手当の体験を通して、医療従事者としての基本を身につけます。
+          - generic [ref=e207]:
+            - heading "同行援護実習盲導犬実習" [level=4] [ref=e208]
+            - generic [ref=e209]:
+              - generic [ref=e210]:
+                - group "1 / 2" [ref=e211]
+                - group "2 / 2" [ref=e212]
+              - generic [ref=e213]:
+                - button "Go to slide 1" [ref=e214] [cursor=pointer]
+                - button "Go to slide 2" [ref=e215] [cursor=pointer]
+            - paragraph [ref=e216]: 視覚障がい者の方の協力のもと、実践的な実技実習を体験。リハビリテーションを担う盲導犬の活躍について学びます。
+          - generic [ref=e217]:
+            - heading "臨床実習" [level=4] [ref=e218]
+            - paragraph [ref=e219]
+            - paragraph [ref=e220]: 3年次に3つの病院で5週間ずつ実習し、臨床現場を通して知識や技術の向上と医療人としての責任感を養います。
+          - generic [ref=e221]:
+            - heading "子どもの眼の検査・ 保育園実習" [level=4] [ref=e222]:
+              - text: 子どもの眼の検査・
+              - text: 保育園実習
+            - generic [ref=e223]:
+              - generic [ref=e224]:
+                - group "1 / 2" [ref=e225]
+                - group "2 / 2" [ref=e226]
+              - generic [ref=e227]:
+                - button "Go to slide 1" [ref=e228] [cursor=pointer]
+                - button "Go to slide 2" [ref=e229] [cursor=pointer]
+            - paragraph [ref=e230]: 来校した保育園児に検査を実施したり、保育園での実習もあります。子どもたちの眼の検査は優しく！素早く！が鉄則です。
+          - generic [ref=e231]:
+            - heading "小児検診" [level=4] [ref=e232]
+            - generic [ref=e233]:
+              - generic [ref=e234]:
+                - group "1 / 3" [ref=e235]
+                - group "2 / 3" [ref=e236]
+                - group "3 / 3" [ref=e237]
+              - generic [ref=e238]:
+                - button "Go to slide 1" [ref=e239] [cursor=pointer]
+                - button "Go to slide 2" [ref=e240] [cursor=pointer]
+                - button "Go to slide 3" [ref=e241] [cursor=pointer]
+            - paragraph [ref=e242]: 眼科クリニックの院長と年中・年長を対象とした視力ケアを開催。臨床を通して地域の子どもの「視える」を支えます。
+          - generic [ref=e243]:
+            - paragraph
+          - generic [ref=e244]:
+            - heading "その他の実習" [level=4] [ref=e245]
+            - paragraph [ref=e246]
+            - list [ref=e247]:
+              - listitem [ref=e248]: ・高齢者施設実習
+              - listitem [ref=e249]: ・眼鏡店実習
+              - listitem [ref=e250]: ・ゼミ体験授業（青少年科学館・サンピアザ水族館）
+              - listitem [ref=e251]: ・日本視能矯正学会参加など
+        - generic [ref=e252]:
+          - heading "国内研修旅行" [level=4] [ref=e253]:
+            - img "国内研修旅行" [ref=e254]
+          - paragraph [ref=e255]: 視能訓練士の学びを深める「日本視能矯正学会」に参加するため、岡山県へ！周辺観光やテーマパークで友だちとの思い出もたくさんつくりました♡
+          - paragraph [ref=e256]: （※行き先は毎年異なります）
+          - paragraph [ref=e257]
+        - generic [ref=e258]:
+          - paragraph [ref=e259]:
+            - img "Pick Up!" [ref=e260]
+          - heading "徽章 きしょう 授与式" [level=4] [ref=e261]:
+            - generic [ref=e263]:
+              - text: 徽章
+              - generic [ref=e264]: きしょう
+            - text: 授与式
+          - paragraph [ref=e266]: 病院実習前に行う徽章授与式では、気持ちがより引き締まります！
+          - list [ref=e267]:
+            - listitem [ref=e268]
+            - listitem [ref=e269]
+            - listitem [ref=e270]
+      - generic [ref=e271]:
+        - paragraph [ref=e272]
+        - heading "YOUR CHOICES [ 選べる！ ] STEP UPゼミで 資格＋αの学び" [level=3] [ref=e273]:
+          - generic [ref=e274]: YOUR CHOICES
+          - generic [ref=e275]: "[ 選べる！ ]"
+          - generic [ref=e276]:
+            - text: STEP UPゼミで
+            - text: 資格＋αの学び
+        - paragraph [ref=e277]:
+          - text: 自分の「学びたい」に合わせてゼミを選択♪
+          - text: ＋αの力を身につけた視能訓練士を目指そう！
+        - generic [ref=e278]:
+          - paragraph [ref=e279]: スキルアップ
+          - heading "前期ゼミ" [level=4] [ref=e280]
+          - paragraph [ref=e281]:
+            - img "気になるゼミをTAP!" [ref=e282]
+          - list [ref=e283]:
+            - listitem [ref=e284]:
+              - button "OCTゼミ" [ref=e285] [cursor=pointer]:
+                - generic [ref=e287]: OCTゼミ
+            - listitem [ref=e288]:
+              - button "眼鏡ゼミ" [ref=e289] [cursor=pointer]:
+                - generic [ref=e291]: 眼鏡ゼミ
+            - listitem [ref=e292]:
+              - button "同行援護ゼミ" [ref=e293] [cursor=pointer]:
+                - generic [ref=e295]: 同行援護ゼミ
+            - listitem [ref=e296]:
+              - button "コンタクトレンズ ゼミ" [ref=e297] [cursor=pointer]:
+                - generic [ref=e299]:
+                  - text: コンタクトレンズ
+                  - text: ゼミ
+            - listitem [ref=e300]:
+              - button "手話ゼミ" [ref=e301] [cursor=pointer]:
+                - generic [ref=e303]: 手話ゼミ
+        - generic [ref=e304]:
+          - paragraph [ref=e305]: 自分磨き
+          - heading "後期ゼミ" [level=4] [ref=e306]
+          - list [ref=e307]:
+            - listitem [ref=e308]:
+              - button "札幌学院大学 心理ゼミ" [ref=e309] [cursor=pointer]:
+                - generic [ref=e311]:
+                  - text: 札幌学院大学
+                  - text: 心理ゼミ
+            - listitem [ref=e312]:
+              - button "色彩ゼミ" [ref=e313] [cursor=pointer]:
+                - generic [ref=e315]: 色彩ゼミ
+            - listitem [ref=e316]:
+              - button "ヨガ・ ピラティスゼミ" [ref=e317] [cursor=pointer]:
+                - generic [ref=e319]:
+                  - text: ヨガ・
+                  - text: ピラティスゼミ
+            - listitem [ref=e320]:
+              - button "アロマ・ ヘアメイクゼミ" [ref=e321] [cursor=pointer]:
+                - generic [ref=e323]:
+                  - text: アロマ・
+                  - text: ヘアメイクゼミ
+      - generic [ref=e324]:
+        - heading "EXPERIENCE [ さまざまな勤務地で働く ] OB・OG VOICE" [level=3] [ref=e325]:
+          - generic [ref=e326]: EXPERIENCE
+          - generic [ref=e327]: "[ さまざまな勤務地で働く ]"
+          - generic [ref=e328]: OB・OG VOICE
+        - generic [ref=e329]:
+          - heading "全道で活躍する卒業生の割合" [level=4] [ref=e330]
+          - paragraph [ref=e331]: 0施設
+          - paragraph [ref=e332]: （道内約232施設中）
+          - generic [ref=e333]:
+            - paragraph [ref=e334]: 道内の眼科等施設のうち
+            - paragraph [ref=e335]: 約0%
+            - paragraph [ref=e336]: で卒業生が活躍！
+          - paragraph [ref=e337]
+        - heading "卒業生VOICE" [level=4] [ref=e338]:
+          - generic [ref=e339]: 卒業生VOICE
+        - generic [ref=e340]:
+          - generic [ref=e341]:
+            - group "1 / 6" [ref=e342]:
+              - paragraph [ref=e343]:
+                - img "総合病院で働く" [ref=e344]
+              - paragraph [ref=e345]
+              - paragraph [ref=e346]: 國坂さん 市立室蘭総合病院勤務（苫小牧西高校出身）
+              - paragraph [ref=e347]: 主に、眼科一般検査や手術の術前検査などを行っています。在学中は、検査を説明する練習が多かったので「説明が分かりやすくて安心する」とよく言っていただけるのが、嬉しいです。
+            - group "2 / 6" [ref=e348]:
+              - paragraph [ref=e349]:
+                - img "講師として働く" [ref=e350]
+              - paragraph [ref=e351]
+              - paragraph [ref=e352]: 今泉さん 札幌看護医療専門学校勤務（美唄東高校出身）
+              - paragraph [ref=e353]: 視能訓練士の楽しさとやりがいを伝えたくて講師として働いています。視能訓練士は、決して楽な仕事ではありませんが、患者さんとの関わりの中に、たくさんのやりがいを見つけられる仕事だと思っています。将来、学生がそんな喜びを実感できるよう、私も日々努力しています。
+            - group "3 / 6" [ref=e354]:
+              - paragraph [ref=e355]:
+                - img "眼科病院で働く" [ref=e356]
+              - paragraph [ref=e357]
+              - paragraph [ref=e358]: 澤田さん 社会医療法人 秀眸会 大塚眼科病院 勤務（深川西高校出身）
+              - paragraph [ref=e359]: 眼科で、患者さんの視力や眼圧などさまざまな検査を行っています。眼鏡合わせでは、患者さんが不便に感じているところなど、一人ひとりの思いをくみ取りながら調整し、度数を合わせます。「今までよりも見やすくなった」と笑顔で言われた時に、やりがいを感じます。
+            - group "4 / 6" [ref=e360]:
+              - paragraph [ref=e361]:
+                - img "大学病院で働く" [ref=e362]
+              - paragraph [ref=e363]
+              - paragraph [ref=e364]: 西山さん 国立大学法人北海道大学 北海道大学病院 勤務（札幌第一高校出身）
+              - paragraph [ref=e365]: 視能訓練士の主任として、部下の統括管理業務や大学病院ならではの臨床研究活動も行います。研究で得られた結果を患者さんに還元し、役に立てた時に喜びを感じます。
+            - group "5 / 6" [ref=e366]:
+              - paragraph [ref=e367]:
+                - img "大学病院で働く" [ref=e368]
+              - paragraph [ref=e369]
+              - paragraph [ref=e370]: 福田さん 国立大学法人北海道大学 北海道大学病院 勤務（帯広南商業高校出身）
+              - paragraph [ref=e371]: 重い疾患や珍しい症例の患者さんと関わることも多く、医師の診断に必要な血管や臓器の状態を見る精密な検査も行います。職場には、正確で迅速な検査を行うスキルの高い先輩がたくさんいます。尊敬できる人たちがいる現場で、目の健康を支えるこの仕事に誇りを持って働いています。
+            - group "6 / 6" [ref=e372]:
+              - paragraph [ref=e373]:
+                - img "クリニックで働く" [ref=e374]
+              - paragraph [ref=e375]
+              - paragraph [ref=e376]: 多治見さん 医療法人社団翔勇会 まつお眼科 勤務（恵庭北高校出身）
+              - paragraph [ref=e377]: 視機能の改善を通じて生活の質向上に貢献できることに、大きなやりがいを感じています。眼鏡調整で患者さんが視界の鮮明さに感動される瞬間や、子どもたちの成長を間近で見守れることが何よりの喜びです。最新機器の導入も糧に知識を深め、幅広い世代に寄り添う姿勢を大切にしています。
+          - generic [ref=e378]:
+            - button "Go to slide 1" [ref=e379] [cursor=pointer]
+            - button "Go to slide 2" [ref=e380] [cursor=pointer]
+            - button "Go to slide 3" [ref=e381] [cursor=pointer]
+            - button "Go to slide 4" [ref=e382] [cursor=pointer]
+            - button "Go to slide 5" [ref=e383] [cursor=pointer]
+            - button "Go to slide 6" [ref=e384] [cursor=pointer]
+      - iframe [ref=e387]
+      - generic [ref=e388]:
+        - heading "他の学科も見る！" [level=2] [ref=e389]
+        - generic [ref=e390]:
+          - generic [ref=e391]:
+            - link [ref=e392] [cursor=pointer]:
+              - /url: /course/nursing/
+            - paragraph [ref=e393]: 看護学科
+          - generic [ref=e394]:
+            - link:
+              - /url: /course/orthoptist/
+            - paragraph [ref=e395]: 視能訓練士学科
+          - generic [ref=e396]:
+            - link [ref=e397] [cursor=pointer]:
+              - /url: /course/dentalhygienists/
+            - paragraph [ref=e398]: 歯科衛生士学科
+          - generic [ref=e399]:
+            - link [ref=e400] [cursor=pointer]:
+              - /url: /course/clinicalengineer/
+            - paragraph [ref=e401]: 臨床工学技士学科
+    - contentinfo [ref=e402]:
+      - generic [ref=e403]:
+        - link "札幌看護医療専門学校" [ref=e404] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e405]
+        - paragraph [ref=e406]: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+        - paragraph [ref=e407]:
+          - text: TEL
+          - link "011-801-8343" [ref=e408] [cursor=pointer]:
+            - /url: tel:011-801-8343
+          - text: ／フリーダイヤル
+          - link "0120-37-8343" [ref=e409] [cursor=pointer]:
+            - /url: tel:0120-37-8343
+        - navigation "フッターナビゲーション" [ref=e410]:
+          - generic [ref=e411]:
+            - link "ABOUT 学校案内" [ref=e412] [cursor=pointer]:
+              - /url: /school/
+              - generic [ref=e413]: ABOUT
+              - text: 学校案内
+            - list [ref=e414]:
+              - listitem [ref=e415]:
+                - link "学校案内 トップ" [ref=e416] [cursor=pointer]:
+                  - /url: /school/
+              - listitem [ref=e417]:
+                - link "札幌看護医療が選ばれる理由" [ref=e418] [cursor=pointer]:
+                  - /url: /school/study/
+              - listitem [ref=e419]:
+                - link "高校1・2年生のための進路選び" [ref=e420] [cursor=pointer]:
+                  - /url: /school/guide/
+              - listitem [ref=e421]:
+                - link "交通・アクセス" [ref=e422] [cursor=pointer]:
+                  - /url: /school/access/
+              - listitem [ref=e423]:
+                - link "建学の理念" [ref=e424] [cursor=pointer]:
+                  - /url: /school/philosophy/
+              - listitem [ref=e425]:
+                - link "情報公開（職業実践専門課程）" [ref=e426] [cursor=pointer]:
+                  - /url: /school/info/
+          - generic [ref=e427]:
+            - link "COURSE 学科・専攻" [ref=e428] [cursor=pointer]:
+              - /url: /course/
+              - generic [ref=e429]: COURSE
+              - text: 学科・専攻
+            - list [ref=e430]:
+              - listitem [ref=e431]:
+                - link "学科・専攻 トップ" [ref=e432] [cursor=pointer]:
+                  - /url: /course/
+              - listitem [ref=e433]:
+                - link "看護学科" [ref=e434] [cursor=pointer]:
+                  - /url: /course/nursing/
+              - listitem [ref=e435]:
+                - link "視能訓練士学科" [ref=e436] [cursor=pointer]:
+                  - /url: /course/orthoptist/
+              - listitem [ref=e437]:
+                - link "歯科衛生士学科 ホワイトニング・デンタルエステ専攻" [ref=e438] [cursor=pointer]:
+                  - /url: /course/dentalhygienists/
+              - listitem [ref=e439]:
+                - link "臨床工学技士学科" [ref=e440] [cursor=pointer]:
+                  - /url: /course/clinicalengineer/
+          - generic [ref=e441]:
+            - link "CAREER 資格・就職" [ref=e442] [cursor=pointer]:
+              - /url: /career/
+              - generic [ref=e443]: CAREER
+              - text: 資格・就職
+            - list [ref=e444]:
+              - listitem [ref=e445]:
+                - link "資格・就職 トップ" [ref=e446] [cursor=pointer]:
+                  - /url: /career/
+              - listitem [ref=e447]:
+                - link "資格サポート" [ref=e448] [cursor=pointer]:
+                  - /url: /career/license_support/
+              - listitem [ref=e449]:
+                - link "就職サポート" [ref=e450] [cursor=pointer]:
+                  - /url: /career/job_result/
+          - generic [ref=e451]:
+            - link "CAMPUS LIFE 学校生活・施設" [ref=e452] [cursor=pointer]:
+              - /url: /campuslife/
+              - generic [ref=e453]: CAMPUS LIFE
+              - text: 学校生活・施設
+            - list [ref=e454]:
+              - listitem [ref=e455]:
+                - link "学校生活・施設 トップ" [ref=e456] [cursor=pointer]:
+                  - /url: /campuslife/
+              - listitem [ref=e457]:
+                - link "キャンパスライフ" [ref=e458] [cursor=pointer]:
+                  - /url: /campuslife/schedule/
+              - listitem [ref=e459]:
+                - link "施設紹介" [ref=e460] [cursor=pointer]:
+                  - /url: /campuslife/facility/
+          - generic [ref=e461]:
+            - link "ADMISSION 入試・学費" [ref=e462] [cursor=pointer]:
+              - /url: /admission/
+              - generic [ref=e463]: ADMISSION
+              - text: 入試・学費
+            - list [ref=e464]:
+              - listitem [ref=e465]:
+                - link "入試・学費 トップ" [ref=e466] [cursor=pointer]:
+                  - /url: /admission/
+              - listitem [ref=e467]:
+                - link "募集要項" [ref=e468] [cursor=pointer]:
+                  - /url: /admission/application/
+              - listitem [ref=e469]:
+                - link "AO入試エントリー・出願方法" [ref=e470] [cursor=pointer]:
+                  - /url: /admission/ao/
+              - listitem [ref=e471]:
+                - link "推薦・一般入試 出願方法" [ref=e472] [cursor=pointer]:
+                  - /url: /admission/applicationflow/
+              - listitem [ref=e473]:
+                - link "学費・奨学金制度" [ref=e474] [cursor=pointer]:
+                  - /url: /admission/expenses/
+              - listitem [ref=e475]:
+                - link "特待生＆減免制度" [ref=e476] [cursor=pointer]:
+                  - /url: /admission/scholarship/
+          - generic [ref=e477]:
+            - link "OPEN CAMPUS オープンキャンパス" [ref=e478] [cursor=pointer]:
+              - /url: /opencampus/
+              - generic [ref=e479]: OPEN CAMPUS
+              - text: オープンキャンパス
+            - list [ref=e480]:
+              - listitem [ref=e481]:
+                - link "オープンキャンパスとは" [ref=e482] [cursor=pointer]:
+                  - /url: /opencampus/
+              - listitem [ref=e483]:
+                - link "イベント全日程一覧" [ref=e484] [cursor=pointer]:
+                  - /url: /opencampus/calendar/
+              - listitem [ref=e485]:
+                - link "学校説明・個別相談会" [ref=e486] [cursor=pointer]:
+                  - /url: /opencampus/session/
+              - listitem [ref=e487]:
+                - link "無料送迎バス" [ref=e488] [cursor=pointer]:
+                  - /url: /opencampus/bus/
+              - listitem [ref=e489]:
+                - link "交通費補助" [ref=e490] [cursor=pointer]:
+                  - /url: /opencampus/subsidy_list/
+        - list [ref=e491]:
+          - listitem [ref=e492]:
+            - link "卒業生の方へ" [ref=e493] [cursor=pointer]:
+              - /url: /visit_graduate/
+          - listitem [ref=e494]:
+            - link "高等学校の先生方へ" [ref=e495] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9888/
+          - listitem [ref=e496]:
+            - link "中学校の先生方へ" [ref=e497] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9891/
+          - listitem [ref=e498]:
+            - link "社会人・大学生・短大生の方へ" [ref=e499] [cursor=pointer]:
+              - /url: /visit_society/
+          - listitem [ref=e500]:
+            - link "企業の方へ" [ref=e501] [cursor=pointer]:
+              - /url: /visit_company/
+          - listitem [ref=e502]:
+            - link "職員募集につきまして" [ref=e503] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e504]:
+            - link "産官学連携にご協力いただける企業・自治体の方へ" [ref=e505] [cursor=pointer]:
+              - /url: /visit_municipality/
+        - list [ref=e506]:
+          - listitem [ref=e507]:
+            - link "お問い合わせ" [ref=e508] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/inquiry/
+          - listitem [ref=e509]:
+            - link "交通・アクセス" [ref=e510] [cursor=pointer]:
+              - /url: /school/access/
+          - listitem [ref=e511]:
+            - link "情報公開（職業実践専門課程）" [ref=e512] [cursor=pointer]:
+              - /url: /school/info/
+          - listitem [ref=e513]:
+            - link "施設(教室)利用貸出につきまして" [ref=e514] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/facility/
+          - listitem [ref=e515]:
+            - link "採用情報" [ref=e516] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e517]:
+            - link "サイトマップ" [ref=e518] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e519]:
+            - link "プライバシーポリシー" [ref=e520] [cursor=pointer]:
+              - /url: /privacy/
+          - listitem [ref=e521]:
+            - link "ソーシャルメディアポリシー" [ref=e522] [cursor=pointer]:
+              - /url: /socialpolicy/
+        - list [ref=e523]:
+          - listitem [ref=e524]:
+            - link "Instagram" [ref=e525] [cursor=pointer]:
+              - /url: https://www.instagram.com/sapporo_kango/
+          - listitem [ref=e526]:
+            - link "TikTok" [ref=e527] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@sapporo_kango
+          - listitem [ref=e528]:
+            - link "YouTube" [ref=e529] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+          - listitem [ref=e530]:
+            - link "LINE" [ref=e531] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/914/
+        - paragraph [ref=e532]: © Sapporo College of Nursing & Medical Care.
+  - generic [ref=e534]:
+    - group [ref=e535]:
+      - generic "訪問者別メニュー ▾" [ref=e536] [cursor=pointer]
+    - paragraph [ref=e537]:
+      - link "情報公開（職業実践専門課程）" [ref=e538] [cursor=pointer]:
+        - /url: /school/info/
+      - text: ／
+      - link "施設(教室)利用貸出につきまして" [ref=e539] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/facility/
+    - generic [ref=e540]:
+      - link "資料請求" [ref=e541] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/document/
+        - generic [ref=e543]: 資料請求
+      - link "イベント 全日程一覧" [ref=e544] [cursor=pointer]:
+        - /url: /opencampus/calendar/
+        - generic [ref=e546]:
+          - text: イベント
+          - text: 全日程一覧
+      - link "LINEなんでも 相談" [ref=e547] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/news/2023/914/
+        - generic [ref=e549]:
+          - text: LINEなんでも
+          - text: 相談
+    - list [ref=e550]:
+      - listitem [ref=e551]:
+        - link "夢がふくらむ、目標が見つかる！ オープンキャンパス" [ref=e552] [cursor=pointer]:
+          - /url: /opencampus/
+          - generic [ref=e553]: 夢がふくらむ、目標が見つかる！
+          - generic [ref=e554]: オープンキャンパス
+          - generic [ref=e555]: →
+      - listitem [ref=e556]:
+        - link "REASON 札幌看護医療専門学校が選ばれる理由" [ref=e557] [cursor=pointer]:
+          - /url: /school/study/
+          - generic [ref=e558]: REASON
+          - generic [ref=e559]: 札幌看護医療専門学校が選ばれる理由
+          - generic [ref=e560]: →
+      - listitem [ref=e561]:
+        - link "COURSE ミライを担う医療系4学科" [ref=e562] [cursor=pointer]:
+          - /url: /course/
+          - generic [ref=e563]: COURSE
+          - generic [ref=e564]: ミライを担う医療系4学科
+          - generic [ref=e565]: →
+      - listitem [ref=e566]:
+        - link "ADMISSION 入試・学費" [ref=e567] [cursor=pointer]:
+          - /url: /admission/
+          - generic [ref=e568]: ADMISSION
+          - generic [ref=e569]: 入試・学費
+          - generic [ref=e570]: →
+      - listitem [ref=e571]:
+        - link "FACILITY 施設紹介" [ref=e572] [cursor=pointer]:
+          - /url: /campuslife/facility/
+          - generic [ref=e573]: FACILITY
+          - generic [ref=e574]: 施設紹介
+          - generic [ref=e575]: →

@@ -1,0 +1,632 @@
+/* ============================================================
+   other.css — その他10ページ共用
+   (/news/ /blog/ /privacy/ /socialpolicy/ /sitemap/ /recruit/
+    /visit_graduate/ /visit_society/ /visit_company/ /visit_municipality/)
+   prefix: .p-other（共通） / .p-visit（訪問者別ページ）
+   ============================================================ */
+
+/* ---------- ページMV ---------- */
+.p-other__mv {
+  position: relative;
+  overflow: hidden;
+}
+.p-other__mv-bg img {
+  width: 100%;
+  min-height: 150px;
+  object-fit: cover;
+}
+.p-other__mv-title {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding-inline: var(--space-5);
+}
+.p-other__mv-title .text-wrap {
+  display: inline-block;
+  background: var(--color-bg);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+  box-shadow: var(--shadow-soft);
+}
+.p-other__mv-title .en {
+  display: block;
+  font-family: var(--font-en);
+  font-weight: 800;
+  font-size: var(--fs-lg);
+  letter-spacing: var(--ls-caps);
+  background: var(--grad-script);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.p-other__mv-title .ja {
+  display: block;
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  margin-top: var(--space-1);
+}
+
+/* ---------- 本文共通 ---------- */
+.p-other__body {
+  padding: var(--space-6) var(--space-4) var(--space-8);
+}
+.p-other__box { margin-bottom: var(--space-7); }
+.p-other__box:last-child { margin-bottom: 0; }
+.p-other__box > p { margin-bottom: var(--space-3); }
+.p-other__box > p:last-child { margin-bottom: 0; }
+
+.p-other__ttl {
+  font-size: var(--fs-md);
+  font-weight: 700;
+  line-height: var(--lh-tight);
+  padding-bottom: var(--space-2);
+  margin-bottom: var(--space-4);
+  border-bottom: 3px solid var(--color-brand-yellow);
+}
+.p-other__ttl2 {
+  font-size: var(--fs-base);
+  font-weight: 700;
+  line-height: var(--lh-tight);
+  padding-left: var(--space-3);
+  border-left: 4px solid var(--color-brand-yellow);
+  margin: var(--space-5) 0 var(--space-3);
+}
+.p-other__ttl3 {
+  font-weight: 700;
+  margin: var(--space-4) 0 var(--space-2);
+}
+.p-other__inner { margin-bottom: var(--space-4); }
+.p-other__inner:last-child { margin-bottom: 0; }
+.p-other__txt-right { text-align: right; }
+.p-other__lead {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: var(--space-5);
+  line-height: 2;
+}
+.inline-block { display: inline-block; }
+
+/* 丸数字リスト（ol）・定義リスト（dl） */
+.p-other__num-list,
+.p-other__num-dl { counter-reset: numc; }
+.p-other__num-list li,
+.p-other__num-dl dt {
+  counter-increment: numc;
+  position: relative;
+  padding-left: 34px;
+  font-weight: 700;
+  margin-top: var(--space-3);
+}
+.p-other__num-list li::before,
+.p-other__num-dl dt::before {
+  content: counter(numc);
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-full);
+  background: var(--color-brand-yellow);
+  font-family: var(--font-en);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+}
+.p-other__num-dl dd {
+  padding-left: 34px;
+  margin-top: var(--space-1);
+}
+
+/* 英字連番リスト（a. b. c.） */
+.p-other__alpha-list { counter-reset: alp; }
+.p-other__alpha-list li {
+  counter-increment: alp;
+  position: relative;
+  padding-left: 1.8em;
+  margin-top: var(--space-2);
+}
+.p-other__alpha-list li::before {
+  content: counter(alp, lower-alpha) ".";
+  position: absolute;
+  left: 0.3em;
+  font-family: var(--font-en);
+  font-weight: 700;
+}
+
+/* ドット・ディスク・注記リスト */
+.p-other__dot-list li,
+.p-other__disc-list li {
+  position: relative;
+  padding-left: 1.2em;
+  margin-top: var(--space-1);
+}
+.p-other__dot-list li::before {
+  content: "";
+  position: absolute;
+  left: 0.1em;
+  top: 0.7em;
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radius-full);
+  background: var(--color-brand-yellow);
+}
+.p-other__disc-list li::before {
+  content: "";
+  position: absolute;
+  left: 0.2em;
+  top: 0.75em;
+  width: 6px;
+  height: 6px;
+  border-radius: var(--radius-full);
+  background: var(--color-ink);
+}
+.p-other__notes li {
+  position: relative;
+  padding-left: 1.4em;
+  font-size: var(--fs-sm);
+  color: var(--color-ink-soft);
+  margin-top: var(--space-1);
+}
+.p-other__notes li::before {
+  content: "※";
+  position: absolute;
+  left: 0;
+}
+.p-other__link { text-decoration: underline; text-underline-offset: 3px; }
+
+/* 問い合わせ・連絡先 */
+.p-other__contact-list li { margin-top: var(--space-2); }
+.p-other__info-box {
+  background: var(--color-bg-gray-1);
+  border-radius: var(--radius-md);
+  padding: var(--space-5) var(--space-4);
+}
+.p-other__info-box p { margin-bottom: var(--space-2); }
+.p-other__info-box p:last-child { margin-bottom: 0; }
+.p-other__logo-box { margin-bottom: var(--space-3); }
+.p-other__btn-box {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-5);
+}
+
+/* ---------- お知らせ・ブログ一覧 ---------- */
+.p-other__articles { border-top: 1px solid var(--color-line); }
+.p-other__articles > li { border-bottom: 1px solid var(--color-line); }
+.p-other__articles a {
+  display: block;
+  padding: var(--space-4) var(--space-1);
+  transition: background-color 0.25s;
+}
+.p-other__articles a:hover { background: var(--color-pastel-cream); }
+.p-other__article-date {
+  font-family: var(--font-en);
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  color: var(--color-ink-soft);
+}
+.p-other__labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+  margin-bottom: var(--space-2);
+}
+.p-other__label {
+  display: inline-block;
+  font-size: var(--fs-xs);
+  line-height: 1;
+  padding: 4px 8px;
+  border: 1px solid currentColor;
+  border-radius: var(--radius-xs);
+  background: var(--color-bg);
+  color: var(--color-ink-soft);
+}
+.p-other__label[data-cat="nursing"] { color: #d1568a; }
+.p-other__label[data-cat="orthoptist"] { color: #2f9ed4; }
+.p-other__label[data-cat="dentalhygienists"] { color: #9a6bc9; }
+.p-other__label[data-cat="clinicalengineer"] { color: #52a416; }
+.p-other__label[data-cat="information"] { color: #b98a00; }
+.p-other__label[data-cat="event"] { color: #e0704d; }
+.p-other__article-ttl {
+  font-size: var(--fs-base);
+  font-weight: 700;
+  line-height: 1.6;
+  margin-top: var(--space-1);
+}
+.p-other__pagenav {
+  text-align: center;
+  margin-top: var(--space-6);
+}
+.p-other__pagenav-note {
+  font-size: var(--fs-sm);
+  color: var(--color-ink-soft);
+  margin-bottom: var(--space-3);
+}
+
+/* ---------- サイトマップ ---------- */
+.p-other__map-category {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  font-size: var(--fs-md);
+  font-weight: 700;
+  padding-bottom: var(--space-2);
+  margin-bottom: var(--space-3);
+  border-bottom: 3px solid var(--color-brand-yellow);
+}
+.p-other__map-category .en {
+  font-family: var(--font-en);
+  font-size: var(--fs-xs);
+  letter-spacing: var(--ls-caps);
+  color: var(--color-ink-soft);
+}
+.p-other__map-category a { transition: opacity 0.25s; }
+.p-other__map-category a:hover { opacity: 0.7; }
+.p-other__map-list li {
+  position: relative;
+  padding-left: 1.1em;
+  margin-top: var(--space-2);
+}
+.p-other__map-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.62em;
+  width: 6px;
+  height: 6px;
+  border-top: 2px solid var(--color-brand-pink);
+  border-right: 2px solid var(--color-brand-pink);
+  transform: rotate(45deg);
+}
+.p-other__map-list a { transition: opacity 0.25s; }
+.p-other__map-list a:hover { opacity: 0.7; }
+.p-other__map-list small { font-size: var(--fs-xs); }
+
+/* ---------- 採用情報 ---------- */
+.p-other__ph-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+}
+.p-other__ph-row img { border-radius: var(--radius-md); width: 100%; }
+
+/* ============================================================
+   訪問者別ページ .p-visit
+   ============================================================ */
+
+/* News小箱（卒業生） */
+.p-visit__news-box {
+  background: var(--color-pastel-cream);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+}
+.p-visit__news-box .tag {
+  display: inline-block;
+  font-family: var(--font-en);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  background: var(--color-brand-yellow);
+  border-radius: var(--radius-xs);
+  padding: 2px 8px;
+  margin-right: var(--space-2);
+}
+.p-visit__news-box h3 { font-size: var(--fs-base); margin-bottom: var(--space-2); }
+
+/* STEPフロー（証明書発行） */
+.p-visit__flow { counter-reset: step; }
+.p-visit__flow > li {
+  background: var(--color-bg-gray-1);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  margin-top: var(--space-3);
+}
+.p-visit__flow-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-2);
+}
+.p-visit__flow-head .num {
+  counter-increment: step;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  background: var(--color-brand-yellow);
+  font-family: var(--font-en);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.1;
+}
+.p-visit__flow-head .num::after { content: counter(step); display: block; font-size: var(--fs-md); }
+.p-visit__flow-head h3 { font-size: var(--fs-base); }
+.p-visit__flow .item-name { font-weight: 700; margin-top: var(--space-2); }
+
+/* お知らせ枠・バナー・ボタン */
+.p-visit__information {
+  border: 2px solid var(--color-brand-yellow);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  margin-top: var(--space-5);
+}
+.p-visit__information .title { font-weight: 700; margin-bottom: var(--space-2); }
+.p-visit__banner-box { margin-top: var(--space-4); }
+.p-visit__banner-box img {
+  width: 100%;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+}
+.p-visit__tel-btn {
+  display: block;
+  text-align: center;
+  background: var(--color-brand-yellow);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+  font-weight: 700;
+  line-height: 1.7;
+  margin-top: var(--space-3);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+.p-visit__tel-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-soft); }
+
+/* 求人票PDF */
+.p-visit__pdf-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+}
+.p-visit__pdf-list a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-2);
+  height: 100%;
+  background: var(--color-bg-gray-1);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  text-align: center;
+  transition: background-color 0.25s;
+}
+.p-visit__pdf-list a:hover { background: var(--color-pastel-cream); }
+.p-visit__pdf-list .image img { margin-inline: auto; width: 48px; }
+
+/* ---------- 社会人・大学生・短大生（visit_society） ---------- */
+.p-visit__head-title {
+  text-align: center;
+  font-size: var(--fs-md);
+  font-weight: 700;
+  line-height: 2.1;
+  margin-bottom: var(--space-4);
+}
+.p-visit__head-title .bg {
+  background: var(--grad-marker);
+  padding-inline: 0.2em;
+}
+.p-visit__support-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+.p-visit__support-row .img-box img { border-radius: var(--radius-md); width: 100%; }
+.p-visit__support-row .txt-box {
+  font-size: var(--fs-xs);
+  text-align: center;
+  margin-top: var(--space-1);
+  line-height: 1.5;
+}
+.p-visit__support-row .txt-box .large {
+  display: block;
+  font-size: var(--fs-base);
+  font-weight: 700;
+}
+
+/* 4職種リンク */
+.p-visit__jobs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4) var(--space-3);
+}
+.p-visit__jobs img {
+  border-radius: var(--radius-full);
+  width: 100%;
+  transition: transform 0.3s;
+}
+.p-visit__jobs a:hover img { transform: scale(1.04); }
+.p-visit__jobs .course {
+  text-align: center;
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  margin-top: var(--space-2);
+}
+.color-nursing { color: #d1568a; }
+.color-orthoptist { color: #2f9ed4; }
+.color-dentalhygienists { color: #9a6bc9; }
+.color-clinicalengineer { color: #52a416; }
+
+/* 職種紹介ボックス */
+.p-visit__job {
+  background: var(--color-bg-gray-1);
+  border-radius: var(--radius-md);
+  padding: var(--space-5) var(--space-4);
+  margin-top: var(--space-5);
+  scroll-margin-top: var(--space-6);
+}
+.p-visit__job .img-box img { margin-inline: auto; width: 130px; }
+.p-visit__job-catch {
+  text-align: center;
+  font-weight: 700;
+  font-size: var(--fs-md);
+  margin: var(--space-3) 0;
+}
+.p-visit__job-catch .large { font-size: var(--fs-lg); background: var(--grad-marker); padding-inline: 0.1em; }
+.p-visit__job-title {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  background: var(--color-brand-yellow);
+  border-radius: var(--radius-pill);
+  padding: var(--space-1) var(--space-4);
+  margin: var(--space-4) 0 var(--space-2);
+}
+
+/* こんな方にオススメ */
+.p-visit__add-box {
+  border: 2px dashed var(--color-brand-pink);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+.p-visit__add-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: var(--fs-md);
+  margin-bottom: var(--space-3);
+}
+.p-visit__add-title .marker,
+.p-visit__point-title .marker { background: var(--grad-marker); padding-inline: 0.1em; }
+
+/* Point */
+.p-visit__points > li { margin-top: var(--space-6); }
+.p-visit__points .number img { width: 64px; margin-bottom: var(--space-2); }
+.p-visit__points .img-box img {
+  border-radius: var(--radius-md);
+  width: min(100%, 330px);
+  margin-inline: auto;
+}
+.p-visit__point-title {
+  font-size: var(--fs-md);
+  font-weight: 700;
+  margin: var(--space-3) 0 var(--space-2);
+}
+
+/* Voice（CSSのみのラジオタブ） */
+.p-visit__voice-inner { margin-top: var(--space-4); }
+.p-visit__voice-input { position: absolute; opacity: 0; pointer-events: none; }
+.p-visit__voice-label {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  width: calc((100% - var(--space-4)) / 3);
+  margin-right: var(--space-1);
+  padding: var(--space-2) var(--space-1);
+  border-radius: var(--radius-md);
+  border: 2px solid var(--color-line);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.4;
+  cursor: pointer;
+  vertical-align: top;
+  transition: border-color 0.25s, background-color 0.25s;
+}
+.p-visit__voice-label img { border-radius: var(--radius-full); width: 64px; }
+.p-visit__voice-input:checked + .p-visit__voice-label {
+  border-color: var(--color-brand-yellow);
+  background: var(--color-pastel-cream);
+}
+.p-visit__voice-input:focus-visible + .p-visit__voice-label {
+  outline: 2px solid var(--color-brand-pink);
+  outline-offset: 2px;
+}
+.p-visit__voice-content { display: none; padding-top: var(--space-4); }
+.p-visit__voice-input:checked + .p-visit__voice-label + .p-visit__voice-content { display: block; }
+/* コンテンツはラベル行の後ろへ回す */
+.p-visit__voice-inner { display: flex; flex-wrap: wrap; }
+.p-visit__voice-content { width: 100%; order: 10; }
+
+.p-visit__voice-profile .ph-box img { border-radius: var(--radius-md); width: 100%; }
+.p-visit__voice-catch {
+  font-weight: 700;
+  font-size: var(--fs-md);
+  margin-top: var(--space-3);
+}
+.p-visit__voice-name { margin-top: var(--space-1); color: var(--color-ink-soft); font-size: var(--fs-sm); }
+.p-visit__voice-name .course { margin-right: var(--space-2); }
+.p-visit__voice-name .name { font-size: var(--fs-md); font-weight: 700; color: var(--color-ink); }
+.p-visit__voice-text { margin-top: var(--space-4); }
+.p-visit__voice-text .question {
+  font-weight: 700;
+  color: #d1568a;
+  margin-bottom: var(--space-1);
+}
+.p-visit__voice-img { margin-top: var(--space-4); }
+.p-visit__voice-img img { border-radius: var(--radius-md); width: 100%; }
+.p-visit__voice-img .caption { font-size: var(--fs-sm); color: var(--color-ink-soft); margin-top: var(--space-1); }
+.p-visit__voice .sub-title {
+  text-align: center;
+  font-size: var(--fs-md);
+  font-weight: 700;
+  line-height: 2.1;
+  margin-bottom: var(--space-2);
+}
+.p-visit__voice .sub-title .marker { background: var(--grad-marker); padding-inline: 0.15em; }
+.p-visit__voice .sub-title .en {
+  font-family: var(--font-en);
+  font-size: var(--fs-lg);
+  margin-left: var(--space-1);
+}
+
+/* 就職率・資格 */
+.p-visit__result {
+  background: var(--color-pastel-cream);
+  border-radius: var(--radius-md);
+  padding: var(--space-5) var(--space-4);
+  text-align: center;
+}
+.p-visit__result .result-title { font-size: var(--fs-md); font-weight: 700; }
+.p-visit__result .dot-title { font-size: var(--fs-sm); color: var(--color-ink-soft); }
+.p-visit__result .number-main {
+  font-family: var(--font-en);
+  font-size: var(--fs-4xl, 3rem);
+  font-weight: 800;
+  line-height: 1.2;
+  margin: var(--space-2) 0;
+}
+.p-visit__result .number-main .c-counter { font-size: 3.2rem; }
+.p-visit__result .number-list {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-5);
+}
+.p-visit__result .number-list .title { font-size: var(--fs-sm); color: var(--color-ink-soft); }
+.p-visit__result .number-list .number { font-family: var(--font-en); font-size: var(--fs-xl); font-weight: 700; }
+
+.p-visit__license-group { margin-top: var(--space-5); }
+.p-visit__license-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--fs-base);
+  font-weight: 700;
+  padding-bottom: var(--space-1);
+  margin-bottom: var(--space-2);
+  border-bottom: 2px solid var(--color-line);
+}
+.p-visit__license-group.nursing .p-visit__license-title { border-color: #d1568a; }
+.p-visit__license-group.orthoptist .p-visit__license-title { border-color: #2f9ed4; }
+.p-visit__license-group.dentalhygienists .p-visit__license-title { border-color: #9a6bc9; }
+.p-visit__license-group.clinicalengineer .p-visit__license-title { border-color: #52a416; }
+.p-visit__note-list li {
+  font-size: var(--fs-sm);
+  color: var(--color-ink-soft);
+  margin-top: var(--space-1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .p-other__articles a,
+  .p-visit__tel-btn,
+  .p-visit__jobs img,
+  .p-visit__voice-label { transition: none; }
+}

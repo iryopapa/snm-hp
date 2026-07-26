@@ -1,0 +1,324 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "札幌看護医療専門学校" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e9]
+        - button "MENU" [ref=e10] [cursor=pointer]:
+          - generic [ref=e15]: MENU
+    - main [ref=e16]:
+      - navigation "パンくずリスト" [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "TOP" [ref=e20] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e21]: ›採用情報
+      - heading "RECRUIT 採用情報" [level=1] [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]: RECRUIT
+          - generic [ref=e27]: 採用情報
+      - generic [ref=e28]:
+        - paragraph [ref=e30]:
+          - text: 札幌看護医療専門学校では
+          - generic [ref=e31]:
+            - text: 教員・非常勤講師を
+            - generic [ref=e32]: 募集しています。
+          - text: 学校の運営や教育現場に
+          - generic [ref=e33]: 興味のある方は、
+          - generic [ref=e34]: ご応募下さい。
+        - generic [ref=e40]:
+          - heading "募集職種" [level=2] [ref=e41]
+          - list [ref=e42]:
+            - listitem [ref=e43]: 看護学科専任教員（契約職員・正職員）
+            - listitem [ref=e44]: 歯科衛生士学科専任教員（契約職員・正職員）
+            - listitem [ref=e45]: 臨床工学技士学科専任教員（契約職員・正職員）
+            - listitem [ref=e46]: 視能訓練士学科専任教員（契約職員・正職員）
+        - generic [ref=e47]:
+          - heading "応募資格" [level=2] [ref=e48]
+          - paragraph [ref=e49]: （全学科共通）次世代の医療を支える人材を育成する熱意のある方。本校が推進しているICT教育に興味と理解のある方。
+          - list [ref=e50]:
+            - listitem [ref=e51]: （看護学科）看護師の資格を有し、5年以上の実務経験を持つ方。
+            - listitem [ref=e52]: （歯科衛生士学科）歯科衛生士の資格を有し、5年以上の実務経験を持つ方。
+            - listitem [ref=e53]: （臨床工学技士学科）臨床工学技士の資格を有し、5年以上の実務経験を持つ方。
+            - listitem [ref=e54]: （視能訓練士学科）視能訓練士の資格を有し、5年以上の実務経験を持つ方。
+        - generic [ref=e55]:
+          - heading "採用人数" [level=2] [ref=e56]
+          - paragraph [ref=e57]: 若干名
+        - generic [ref=e58]:
+          - heading "勤務時間等" [level=2] [ref=e59]
+          - paragraph [ref=e61]:
+            - text: ①②③④（専任教員）
+            - text: 8:40～17:40
+            - generic [ref=e62]: （8:20～17:20等のシフトパターン有）
+          - generic [ref=e63]:
+            - paragraph [ref=e64]:
+              - text: 【休日】
+              - text: 1.土・日・祝日 2.年末年始 3.夏期休暇 他
+            - list [ref=e65]:
+              - listitem [ref=e66]: ※ シフト制（オープンキャンパス等の対応で土日祝勤務の場合は他の勤務日と振り替え）
+          - paragraph [ref=e68]:
+            - text: 【給与】
+            - text: 当校規定により、能力・経験等を考慮し、個別に決定いたします。
+        - generic [ref=e69]:
+          - heading "応募方法・書類提出先" [level=2] [ref=e70]
+          - list [ref=e71]:
+            - listitem [ref=e72]: ※ 書留郵便とし、封筒には「教員応募書類在中」とご記入下さい。
+            - listitem [ref=e73]: ※ ご提出いただいた書類は、本校の規定に従い適切に管理し、採用選考の目的以外には使用いたしません。
+        - generic [ref=e75]:
+          - heading "札幌看護医療専門学校" [level=3] [ref=e76]
+          - paragraph [ref=e77]: 履歴書・職務経歴書を下記へ郵送ください。書類選考後、面接日を連絡いたします。
+          - paragraph [ref=e78]:
+            - text: 〒004-0051 札幌市厚別区厚別中央1条5丁目1-5
+            - generic [ref=e79]: 札幌看護医療専門学校
+          - paragraph [ref=e80]: 採用人事担当 担当 中西
+          - paragraph [ref=e81]: 連絡先： 011-801-8343
+    - contentinfo [ref=e82]:
+      - generic [ref=e83]:
+        - link "札幌看護医療専門学校" [ref=e84] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e85]
+        - paragraph [ref=e86]: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+        - paragraph [ref=e87]:
+          - text: TEL
+          - link "011-801-8343" [ref=e88] [cursor=pointer]:
+            - /url: tel:011-801-8343
+          - text: ／フリーダイヤル
+          - link "0120-37-8343" [ref=e89] [cursor=pointer]:
+            - /url: tel:0120-37-8343
+        - navigation "フッターナビゲーション" [ref=e90]:
+          - generic [ref=e91]:
+            - link "ABOUT 学校案内" [ref=e92] [cursor=pointer]:
+              - /url: /school/
+              - generic [ref=e93]: ABOUT
+              - text: 学校案内
+            - list [ref=e94]:
+              - listitem [ref=e95]:
+                - link "学校案内 トップ" [ref=e96] [cursor=pointer]:
+                  - /url: /school/
+              - listitem [ref=e97]:
+                - link "札幌看護医療が選ばれる理由" [ref=e98] [cursor=pointer]:
+                  - /url: /school/study/
+              - listitem [ref=e99]:
+                - link "高校1・2年生のための進路選び" [ref=e100] [cursor=pointer]:
+                  - /url: /school/guide/
+              - listitem [ref=e101]:
+                - link "交通・アクセス" [ref=e102] [cursor=pointer]:
+                  - /url: /school/access/
+              - listitem [ref=e103]:
+                - link "建学の理念" [ref=e104] [cursor=pointer]:
+                  - /url: /school/philosophy/
+              - listitem [ref=e105]:
+                - link "情報公開（職業実践専門課程）" [ref=e106] [cursor=pointer]:
+                  - /url: /school/info/
+          - generic [ref=e107]:
+            - link "COURSE 学科・専攻" [ref=e108] [cursor=pointer]:
+              - /url: /course/
+              - generic [ref=e109]: COURSE
+              - text: 学科・専攻
+            - list [ref=e110]:
+              - listitem [ref=e111]:
+                - link "学科・専攻 トップ" [ref=e112] [cursor=pointer]:
+                  - /url: /course/
+              - listitem [ref=e113]:
+                - link "看護学科" [ref=e114] [cursor=pointer]:
+                  - /url: /course/nursing/
+              - listitem [ref=e115]:
+                - link "視能訓練士学科" [ref=e116] [cursor=pointer]:
+                  - /url: /course/orthoptist/
+              - listitem [ref=e117]:
+                - link "歯科衛生士学科 ホワイトニング・デンタルエステ専攻" [ref=e118] [cursor=pointer]:
+                  - /url: /course/dentalhygienists/
+              - listitem [ref=e119]:
+                - link "臨床工学技士学科" [ref=e120] [cursor=pointer]:
+                  - /url: /course/clinicalengineer/
+          - generic [ref=e121]:
+            - link "CAREER 資格・就職" [ref=e122] [cursor=pointer]:
+              - /url: /career/
+              - generic [ref=e123]: CAREER
+              - text: 資格・就職
+            - list [ref=e124]:
+              - listitem [ref=e125]:
+                - link "資格・就職 トップ" [ref=e126] [cursor=pointer]:
+                  - /url: /career/
+              - listitem [ref=e127]:
+                - link "資格サポート" [ref=e128] [cursor=pointer]:
+                  - /url: /career/license_support/
+              - listitem [ref=e129]:
+                - link "就職サポート" [ref=e130] [cursor=pointer]:
+                  - /url: /career/job_result/
+          - generic [ref=e131]:
+            - link "CAMPUS LIFE 学校生活・施設" [ref=e132] [cursor=pointer]:
+              - /url: /campuslife/
+              - generic [ref=e133]: CAMPUS LIFE
+              - text: 学校生活・施設
+            - list [ref=e134]:
+              - listitem [ref=e135]:
+                - link "学校生活・施設 トップ" [ref=e136] [cursor=pointer]:
+                  - /url: /campuslife/
+              - listitem [ref=e137]:
+                - link "キャンパスライフ" [ref=e138] [cursor=pointer]:
+                  - /url: /campuslife/schedule/
+              - listitem [ref=e139]:
+                - link "施設紹介" [ref=e140] [cursor=pointer]:
+                  - /url: /campuslife/facility/
+          - generic [ref=e141]:
+            - link "ADMISSION 入試・学費" [ref=e142] [cursor=pointer]:
+              - /url: /admission/
+              - generic [ref=e143]: ADMISSION
+              - text: 入試・学費
+            - list [ref=e144]:
+              - listitem [ref=e145]:
+                - link "入試・学費 トップ" [ref=e146] [cursor=pointer]:
+                  - /url: /admission/
+              - listitem [ref=e147]:
+                - link "募集要項" [ref=e148] [cursor=pointer]:
+                  - /url: /admission/application/
+              - listitem [ref=e149]:
+                - link "AO入試エントリー・出願方法" [ref=e150] [cursor=pointer]:
+                  - /url: /admission/ao/
+              - listitem [ref=e151]:
+                - link "推薦・一般入試 出願方法" [ref=e152] [cursor=pointer]:
+                  - /url: /admission/applicationflow/
+              - listitem [ref=e153]:
+                - link "学費・奨学金制度" [ref=e154] [cursor=pointer]:
+                  - /url: /admission/expenses/
+              - listitem [ref=e155]:
+                - link "特待生＆減免制度" [ref=e156] [cursor=pointer]:
+                  - /url: /admission/scholarship/
+          - generic [ref=e157]:
+            - link "OPEN CAMPUS オープンキャンパス" [ref=e158] [cursor=pointer]:
+              - /url: /opencampus/
+              - generic [ref=e159]: OPEN CAMPUS
+              - text: オープンキャンパス
+            - list [ref=e160]:
+              - listitem [ref=e161]:
+                - link "オープンキャンパスとは" [ref=e162] [cursor=pointer]:
+                  - /url: /opencampus/
+              - listitem [ref=e163]:
+                - link "イベント全日程一覧" [ref=e164] [cursor=pointer]:
+                  - /url: /opencampus/calendar/
+              - listitem [ref=e165]:
+                - link "学校説明・個別相談会" [ref=e166] [cursor=pointer]:
+                  - /url: /opencampus/session/
+              - listitem [ref=e167]:
+                - link "無料送迎バス" [ref=e168] [cursor=pointer]:
+                  - /url: /opencampus/bus/
+              - listitem [ref=e169]:
+                - link "交通費補助" [ref=e170] [cursor=pointer]:
+                  - /url: /opencampus/subsidy_list/
+        - list [ref=e171]:
+          - listitem [ref=e172]:
+            - link "卒業生の方へ" [ref=e173] [cursor=pointer]:
+              - /url: /visit_graduate/
+          - listitem [ref=e174]:
+            - link "高等学校の先生方へ" [ref=e175] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9888/
+          - listitem [ref=e176]:
+            - link "中学校の先生方へ" [ref=e177] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9891/
+          - listitem [ref=e178]:
+            - link "社会人・大学生・短大生の方へ" [ref=e179] [cursor=pointer]:
+              - /url: /visit_society/
+          - listitem [ref=e180]:
+            - link "企業の方へ" [ref=e181] [cursor=pointer]:
+              - /url: /visit_company/
+          - listitem [ref=e182]:
+            - link "職員募集につきまして" [ref=e183] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e184]:
+            - link "産官学連携にご協力いただける企業・自治体の方へ" [ref=e185] [cursor=pointer]:
+              - /url: /visit_municipality/
+        - list [ref=e186]:
+          - listitem [ref=e187]:
+            - link "お問い合わせ" [ref=e188] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/inquiry/
+          - listitem [ref=e189]:
+            - link "交通・アクセス" [ref=e190] [cursor=pointer]:
+              - /url: /school/access/
+          - listitem [ref=e191]:
+            - link "情報公開（職業実践専門課程）" [ref=e192] [cursor=pointer]:
+              - /url: /school/info/
+          - listitem [ref=e193]:
+            - link "施設(教室)利用貸出につきまして" [ref=e194] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/facility/
+          - listitem [ref=e195]:
+            - link "採用情報" [ref=e196] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e197]:
+            - link "サイトマップ" [ref=e198] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e199]:
+            - link "プライバシーポリシー" [ref=e200] [cursor=pointer]:
+              - /url: /privacy/
+          - listitem [ref=e201]:
+            - link "ソーシャルメディアポリシー" [ref=e202] [cursor=pointer]:
+              - /url: /socialpolicy/
+        - list [ref=e203]:
+          - listitem [ref=e204]:
+            - link "Instagram" [ref=e205] [cursor=pointer]:
+              - /url: https://www.instagram.com/sapporo_kango/
+          - listitem [ref=e206]:
+            - link "TikTok" [ref=e207] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@sapporo_kango
+          - listitem [ref=e208]:
+            - link "YouTube" [ref=e209] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+          - listitem [ref=e210]:
+            - link "LINE" [ref=e211] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/914/
+        - paragraph [ref=e212]: © Sapporo College of Nursing & Medical Care.
+  - generic [ref=e214]:
+    - group [ref=e215]:
+      - generic "訪問者別メニュー ▾" [ref=e216] [cursor=pointer]
+    - paragraph [ref=e217]:
+      - link "情報公開（職業実践専門課程）" [ref=e218] [cursor=pointer]:
+        - /url: /school/info/
+      - text: ／
+      - link "施設(教室)利用貸出につきまして" [ref=e219] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/facility/
+    - generic [ref=e220]:
+      - link "資料請求" [ref=e221] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/document/
+        - generic [ref=e223]: 資料請求
+      - link "イベント 全日程一覧" [ref=e224] [cursor=pointer]:
+        - /url: /opencampus/calendar/
+        - generic [ref=e226]:
+          - text: イベント
+          - text: 全日程一覧
+      - link "LINEなんでも 相談" [ref=e227] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/news/2023/914/
+        - generic [ref=e229]:
+          - text: LINEなんでも
+          - text: 相談
+    - list [ref=e230]:
+      - listitem [ref=e231]:
+        - link "夢がふくらむ、目標が見つかる！ オープンキャンパス" [ref=e232] [cursor=pointer]:
+          - /url: /opencampus/
+          - generic [ref=e233]: 夢がふくらむ、目標が見つかる！
+          - generic [ref=e234]: オープンキャンパス
+          - generic [ref=e235]: →
+      - listitem [ref=e236]:
+        - link "REASON 札幌看護医療専門学校が選ばれる理由" [ref=e237] [cursor=pointer]:
+          - /url: /school/study/
+          - generic [ref=e238]: REASON
+          - generic [ref=e239]: 札幌看護医療専門学校が選ばれる理由
+          - generic [ref=e240]: →
+      - listitem [ref=e241]:
+        - link "COURSE ミライを担う医療系4学科" [ref=e242] [cursor=pointer]:
+          - /url: /course/
+          - generic [ref=e243]: COURSE
+          - generic [ref=e244]: ミライを担う医療系4学科
+          - generic [ref=e245]: →
+      - listitem [ref=e246]:
+        - link "ADMISSION 入試・学費" [ref=e247] [cursor=pointer]:
+          - /url: /admission/
+          - generic [ref=e248]: ADMISSION
+          - generic [ref=e249]: 入試・学費
+          - generic [ref=e250]: →
+      - listitem [ref=e251]:
+        - link "FACILITY 施設紹介" [ref=e252] [cursor=pointer]:
+          - /url: /campuslife/facility/
+          - generic [ref=e253]: FACILITY
+          - generic [ref=e254]: 施設紹介
+          - generic [ref=e255]: →

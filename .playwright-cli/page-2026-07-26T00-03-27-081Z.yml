@@ -1,0 +1,590 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "札幌看護医療専門学校" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e9]
+        - button "MENU" [ref=e10] [cursor=pointer]:
+          - generic [ref=e15]: MENU
+    - main [ref=e16]:
+      - navigation "パンくずリスト" [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "TOP" [ref=e20] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e21]:
+            - text: ›
+            - link "学科・専攻" [ref=e22] [cursor=pointer]:
+              - /url: /course/
+          - listitem [ref=e23]: ›歯科衛生士学科
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - paragraph [ref=e26]:
+            - img "最先端の歯科医療を学び、輝く笑顔をサポート。" [ref=e27]
+          - generic [ref=e30]:
+            - heading "歯科衛生士学科[3年制]" [level=2] [ref=e31]
+            - paragraph [ref=e32]: DEPARTMENT OF DENTAL HYGIENIST
+          - button "在校生VOICEを開く" [ref=e33] [cursor=pointer]:
+            - img "在校生VOICEを開く" [ref=e34]
+        - link "AO エントリーはこちら ONLINE APPLICATION" [ref=e36] [cursor=pointer]:
+          - /url: https://www.snm.ac.jp/news/2026/14409/
+          - img "AO エントリーはこちら" [ref=e38]
+          - img "ONLINE APPLICATION" [ref=e40]
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - heading "歯科衛生士って どんなシゴト？" [level=3] [ref=e44]:
+            - text: 歯科衛生士って
+            - text: どんなシゴト？
+          - paragraph [ref=e45]: 歯科衛生士は、歯科疾患の予防や口腔衛生の向上のため、歯や口腔をはじめとした健康づくりをサポートする専門職です。いつまでも健康にイキイキと過ごすためには、トータル的な歯科疾患の予防や口腔衛生の向上が必要。歯科衛生士はそのサポートをする重要な仕事です。患者さんの口腔内に触れる医療行為ができるので、国家資格の取得が必要になります。
+        - list [ref=e46]:
+          - listitem [ref=e47]:
+            - link "札幌看護医療だけの専攻 ホワイトニング＆デンタルエステ →" [ref=e48] [cursor=pointer]:
+              - /url: "#feature"
+              - generic [ref=e49]: 札幌看護医療だけの専攻
+              - generic [ref=e50]: ホワイトニング＆デンタルエステ
+              - generic [ref=e51]: →
+          - listitem [ref=e52]:
+            - link "歯科衛生士学科でできる！ 最先端×楽しい学び →" [ref=e53] [cursor=pointer]:
+              - /url: "#learning"
+              - generic [ref=e54]: 歯科衛生士学科でできる！
+              - generic [ref=e55]: 最先端×楽しい学び
+              - generic [ref=e56]: →
+          - listitem [ref=e57]:
+            - link "とにかく充実！ 「オンリーワンの学び」と「楽しい学校行事」 →" [ref=e58] [cursor=pointer]:
+              - /url: "#campuslife"
+              - generic [ref=e59]: とにかく充実！
+              - generic [ref=e60]: 「オンリーワンの学び」と「楽しい学校行事」
+              - generic [ref=e61]: →
+          - listitem [ref=e62]:
+            - link "学びを深められる 資格＋αのカリキュラム →" [ref=e63] [cursor=pointer]:
+              - /url: "#curriculum"
+              - generic [ref=e64]: 学びを深められる
+              - generic [ref=e65]: 資格＋αのカリキュラム
+              - generic [ref=e66]: →
+      - generic [ref=e67]:
+        - heading "ORIGINAL DEPARTMENT [ 札幌看護医療だけの専攻 ] ホワイトニング＆デンタルエステ" [level=3] [ref=e68]:
+          - generic [ref=e69]: ORIGINAL DEPARTMENT
+          - generic [ref=e70]: "[ 札幌看護医療だけの専攻 ]"
+          - generic [ref=e71]: ホワイトニング＆デンタルエステ
+        - generic [ref=e72]:
+          - link "ホワイトニング" [ref=e73] [cursor=pointer]:
+            - /url: "#feature01"
+            - img "ホワイトニング" [ref=e74]
+          - generic [ref=e75]: ×
+          - link "デンタルエステ" [ref=e76] [cursor=pointer]:
+            - /url: "#feature02"
+            - img "デンタルエステ" [ref=e77]
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - heading "ホワイトニング・デンタルエステ専攻 ホワイトニング" [level=4] [ref=e80]:
+              - generic [ref=e82]:
+                - generic [ref=e83]: ホワイトニング・デンタルエステ専攻
+                - generic [ref=e84]: ホワイトニング
+            - paragraph [ref=e85]
+            - paragraph [ref=e87]: 「審美ゼミ」として3年間で、ホワイトニング技術の修得はもちろん、患者さんに合わせたカウンセリングができる対応力も学ぶことができます。
+          - generic [ref=e88]:
+            - generic [ref=e89]:
+              - paragraph [ref=e90]: 豊富なホワイトニング実習！
+              - heading "ホワイトニングを段階的に学べるのはココだけ！" [level=4] [ref=e91]
+              - paragraph [ref=e92]: 現場でのホワイトニングは多様なため、じっくり時間をかけてあらゆる知識、技術を身につけます。就職後、即戦力として活躍できるだけでなく、在学中に自分の歯もきれいにホワイトニングができます。
+            - generic [ref=e93]:
+              - paragraph [ref=e94]: スタート
+              - generic [ref=e95]:
+                - heading "ホワイトニングの基礎講習" [level=4] [ref=e96]
+                - paragraph [ref=e97]: ホワイトニングの基礎知識や様々な症例を学びます。
+                - paragraph [ref=e98]
+              - text: ▼
+            - generic [ref=e99]:
+              - paragraph [ref=e100]: 1年次
+              - generic [ref=e101]:
+                - heading "セルフホワイトニング実習" [level=4] [ref=e102]
+                - paragraph [ref=e103]: まずは簡単なホワイトニングを実体験！施術の理論と使用法を学び、効果的な導入法を学びます。
+                - paragraph [ref=e104]
+              - generic [ref=e105]:
+                - heading "オフィスホワイトニング体験" [level=4] [ref=e106]
+                - paragraph [ref=e107]: 実際の歯科クリニックに近い環境でゲスト体験！先輩から専門的なホワイトニング施術を受けられます。
+                - paragraph [ref=e108]
+              - generic [ref=e109]:
+                - heading "ホームホワイトニング実習" [level=4] [ref=e110]
+                - paragraph [ref=e111]: 自身の歯形にぴったり合った専用のマウスピースを作成し、ホワイトニングジェルを使って継続的に実施します。
+                - paragraph [ref=e112]
+              - text: ▼
+            - generic [ref=e113]:
+              - paragraph [ref=e114]: 2年次
+              - generic [ref=e115]:
+                - heading "オフィスホワイトニング実習" [level=4] [ref=e116]
+                - paragraph [ref=e117]: 実際の薬剤の処方、器材の取り扱い方法を学んだあと、学生同士でホワイトニング相互実習を行います。
+                - paragraph [ref=e118]
+              - text: ▼
+            - generic [ref=e119]:
+              - paragraph [ref=e120]: 3年次
+              - generic [ref=e121]:
+                - heading "オフィスホワイトニング患者対応実習" [level=4] [ref=e122]
+                - paragraph [ref=e123]: 現場で行われる専門的なホワイトニング施術を想定して実施。審美歯科で必要とされる患者さんへの対応を実践します。
+                - paragraph [ref=e124]
+              - text: ▼
+            - generic [ref=e125]:
+              - paragraph [ref=e126]:
+                - img "Pick up" [ref=e127]
+              - heading "即戦力の学び" [level=4] [ref=e128]
+              - paragraph [ref=e129]:
+                - text: 色々なホワイトニングを学んで
+                - text: 自分の歯もきれいに！
+              - paragraph [ref=e130]: 臨床現場で実際に行われている多様なホワイトニングを3年間を通して段階的に学ぶことができます。施術だけではなくホワイトニングのカウンセリングもできる力が身につきます。
+              - paragraph [ref=e131]
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - heading "ホワイトニング・デンタルエステ専攻 デンタルエステ" [level=4] [ref=e134]:
+              - generic [ref=e136]:
+                - generic [ref=e137]: ホワイトニング・デンタルエステ専攻
+                - generic [ref=e138]: デンタルエステ
+            - paragraph [ref=e139]
+            - paragraph [ref=e140]: 歯科医院で行うエステのことでお口の中の健康や美容を目的としています。技術だけではなく、患者さんとのコミュニケーションや接遇マナーについても学ぶことができます。
+          - generic [ref=e141]:
+            - button "株式会社シェルクレール 佐藤 朱美 講師（歯科衛生士） MORE" [ref=e143] [cursor=pointer]:
+              - generic [ref=e144]:
+                - text: 株式会社シェルクレール
+                - generic [ref=e145]: 佐藤 朱美 講師（歯科衛生士）
+              - img "MORE" [ref=e147]
+            - generic [ref=e148]:
+              - heading "デンタルエステの技術と接遇マナー" [level=4] [ref=e149]
+              - paragraph [ref=e150]: が身につく15回の講義と実習
+            - generic [ref=e151]:
+              - generic [ref=e152]:
+                - heading "接遇・マナー講座" [level=4] [ref=e153]
+                - paragraph [ref=e154]: 患者さんに好感を与える丁寧な挨拶、所作や言葉遣いを学びます。
+                - paragraph [ref=e155]
+              - generic [ref=e156]:
+                - heading "患者対応実習" [level=4] [ref=e157]
+                - paragraph [ref=e158]: 患者さんのご案内からお見送りまでの対応を実践します。
+                - paragraph [ref=e159]
+              - generic [ref=e160]:
+                - heading "歯肉マッサージリップエステ" [level=4] [ref=e161]
+                - paragraph [ref=e162]: リップエステや歯肉マッサージの方法を学び、自分の口で練習します。
+                - paragraph [ref=e163]
+              - generic [ref=e164]:
+                - heading "デンタルエステ相互実習" [level=4] [ref=e165]
+                - paragraph [ref=e166]: 実際に歯肉マッサージの施術に挑戦します。
+                - paragraph [ref=e167]
+            - generic [ref=e168]:
+              - paragraph [ref=e169]:
+                - img "Pick up" [ref=e170]
+              - heading "ココだけの学び" [level=4] [ref=e171]
+              - paragraph [ref=e172]: 現役歯科衛生士が授業をサポート！
+              - paragraph [ref=e173]: 全国の歯科医院から現役の歯科衛生士が集結し、デンタルエステの学びをサポート。学生一人ひとりに寄り添ったサポートで、学生のモチベーションもアップします！
+              - paragraph [ref=e174]
+      - generic [ref=e175]:
+        - paragraph [ref=e176]
+        - heading "LATEST × FUN 歯科衛生士学科でできる！ 最先端×楽しい学び" [level=3] [ref=e177]:
+          - generic [ref=e178]: LATEST × FUN
+          - generic [ref=e179]:
+            - text: 歯科衛生士学科でできる！
+            - text: 最先端×楽しい学び
+        - generic [ref=e180]:
+          - generic [ref=e181]:
+            - heading "最新のICT教育" [level=4] [ref=e182]
+            - generic [ref=e183]:
+              - generic [ref=e184]:
+                - group "1 / 2" [ref=e185]
+                - group "2 / 2" [ref=e186]
+              - generic [ref=e187]:
+                - button "Go to slide 1" [ref=e188] [cursor=pointer]
+                - button "Go to slide 2" [ref=e189] [cursor=pointer]
+            - paragraph [ref=e190]: 各実習室には最新のモニターを設置。授業で行う先生のデモンストレーションを確認しながら練習ができるので、安心して実習に臨めます。
+          - generic [ref=e191]:
+            - heading "子どもとの実習" [level=4] [ref=e192]
+            - paragraph [ref=e193]
+            - paragraph [ref=e194]: 子どもとの関わり方を学びます。子どもたちに歯みがきの大切さを知ってもらうため、実際に保育園や小学校に訪問して実習します。
+          - generic [ref=e195]:
+            - heading "レクリエーション(ヨガ)" [level=4] [ref=e196]
+            - paragraph [ref=e197]
+            - paragraph [ref=e198]: 自分自身もキレイになれるレクリエーション(ヨガ)を体験できます。リラックス効果もあり、心身の健康維持にも役立ちます。
+          - generic [ref=e199]:
+            - heading "メイク講座" [level=4] [ref=e200]
+            - paragraph [ref=e201]
+            - paragraph [ref=e202]: 医療現場にふさわしいナチュラルメイクやヘアセットを学び、プロ意識の高い歯科衛生士を目指します。
+          - generic [ref=e203]:
+            - heading "口のトレーニング講座" [level=4] [ref=e204]
+            - paragraph [ref=e205]
+            - paragraph [ref=e206]: 口と口周りの筋力を高めるトレーニングを行うことで、口を通した健康の基盤作りをすることができます。
+          - generic [ref=e207]:
+            - heading "臨床実習激励式" [level=4] [ref=e208]
+            - paragraph [ref=e209]
+            - paragraph [ref=e210]: 臨地・臨床実習に行く前にクラス全員が有意義で充実した実習にすることを決意する式典です。
+          - generic [ref=e211]:
+            - heading "臨地・臨床実習" [level=4] [ref=e212]
+            - paragraph [ref=e213]
+            - paragraph [ref=e214]: 保育園や高齢者施設実習のほかに２・３年次には６つの歯科医院で実習し、知識や技術の向上と患者さんとのコミュニケーション能力を身につけます。
+          - generic [ref=e215]:
+            - heading "タブレットが学習ツール" [level=4] [ref=e216]
+            - paragraph [ref=e217]
+            - paragraph [ref=e218]: 授業資料の共有や、動画を確認しながら実技練習やフィードバックも受けることができ、効率的に学びを進めることができます。
+          - generic [ref=e219]:
+            - heading "コラボ・交流実習" [level=4] [ref=e220]
+            - paragraph [ref=e221]
+            - paragraph [ref=e222]: 姉妹校の救急救命士学科や他学科との実習を実施。3年次には大切な人を患者さん役として招待し、総仕上げ実習を行います。
+        - paragraph [ref=e223]
+      - generic [ref=e224]:
+        - paragraph [ref=e225]
+        - heading [level=4] [ref=e226]
+        - generic [ref=e227]:
+          - paragraph [ref=e228]
+          - paragraph [ref=e229]
+          - paragraph [ref=e230]
+          - paragraph [ref=e231]
+          - paragraph [ref=e232]
+          - paragraph [ref=e233]
+          - paragraph [ref=e234]
+          - paragraph [ref=e235]
+          - paragraph [ref=e236]
+          - paragraph [ref=e237]
+        - generic [ref=e238]:
+          - generic [ref=e239]:
+            - heading "就職率" [level=4] [ref=e240]:
+              - generic [ref=e241]: 就職率
+            - paragraph [ref=e242]: 0％
+            - paragraph [ref=e243]: （2026年3月卒業生実績）
+          - generic [ref=e244]:
+            - heading "国家試験合格率" [level=4] [ref=e245]:
+              - generic [ref=e246]: 国家試験合格率
+            - paragraph [ref=e247]: 0％
+            - paragraph [ref=e248]: （2026年3月卒業生実績）
+          - generic [ref=e249]:
+            - heading "選べる" [level=4] [ref=e250]:
+              - generic [ref=e252]: 選べる
+            - paragraph [ref=e254]: 国内研修 or 海外研修！
+            - paragraph [ref=e255]: 学びたい内容に合わせて行き先を選べる♪
+        - paragraph [ref=e256]
+      - generic [ref=e257]:
+        - heading "CURRICULUM [ 学びを深められる ] 資格＋αのカリキュラム" [level=3] [ref=e258]:
+          - generic [ref=e259]: CURRICULUM
+          - generic [ref=e260]: "[ 学びを深められる ]"
+          - generic [ref=e261]: 資格＋αのカリキュラム
+        - paragraph [ref=e262]: 歯科医院同様の最先端設備での実習やデジタルツールを使った学びを実践。また、審美歯科についても学ぶことができ、治療や予防だけでなく今求められている付加価値を兼ね備えた歯科衛生士を目指すことができます。
+        - generic [ref=e263]:
+          - tablist [ref=e264]:
+            - tab "1年次" [selected] [ref=e265] [cursor=pointer]
+            - tab "2年次" [ref=e266] [cursor=pointer]
+            - tab "3年次" [ref=e267] [cursor=pointer]
+          - generic [ref=e268]:
+            - heading "専門基礎知識の修得と 医療人としての意識の確立" [level=4] [ref=e269]:
+              - text: 専門基礎知識の修得と
+              - text: 医療人としての意識の確立
+            - paragraph [ref=e270]
+            - paragraph [ref=e271]: 歯科衛生士に必要な専門基礎知識と基本的な接遇・マナーを学び医療人として必要な人間関係の構築ができる力を身につけます。
+            - list [ref=e273]:
+              - listitem [ref=e274]:
+                - generic [ref=e275]: 4月
+                - text: オリエンテーション
+              - listitem [ref=e276]:
+                - generic [ref=e277]: 5月
+                - text: セルフホワイトニング実習
+              - listitem [ref=e278]:
+                - generic [ref=e279]: 6月
+                - text: 学年交流会（バーベキュー・レク）
+              - listitem [ref=e280]:
+                - generic [ref=e281]: 9月
+                - text: 保育園見学実習
+              - listitem [ref=e282]:
+                - generic [ref=e283]: 11月〜
+                - text: ホームホワイトニング実習
+        - generic [ref=e284]:
+          - heading "時間割の例" [level=4] [ref=e285]:
+            - generic [ref=e286]: 時間割の例
+          - paragraph [ref=e287]
+          - paragraph [ref=e288]
+          - paragraph [ref=e289]
+        - generic [ref=e290]:
+          - paragraph [ref=e291]:
+            - img "道内初！" [ref=e292]
+          - heading "2026年4月から 週4日登校に!" [level=4] [ref=e293]:
+            - text: 2026年4月から
+            - generic [ref=e295]: 週4日登校に!
+          - paragraph [ref=e297]: メリハリのあるスケジュールでキャンパスライフもプライベートも充実♪
+        - generic [ref=e298]:
+          - heading "卒業生VOICE" [level=3] [ref=e299]:
+            - img "卒業生VOICE" [ref=e300]
+          - generic [ref=e301]:
+            - generic [ref=e302]:
+              - group "1 / 3" [ref=e303]:
+                - button "遠藤さん 独立行政法人国立病院機構 北海道がんセンター勤務（恵庭北高校出身）" [ref=e304] [cursor=pointer]:
+                  - generic [ref=e306]: 遠藤さん 独立行政法人国立病院機構 北海道がんセンター勤務（恵庭北高校出身）
+              - group "2 / 3" [ref=e307]:
+                - button "齊藤さん 医療法人東札幌三輪デンタルクリニック勤務（札幌白石高校出身）" [ref=e308] [cursor=pointer]:
+                  - generic [ref=e310]: 齊藤さん 医療法人東札幌三輪デンタルクリニック勤務（札幌白石高校出身）
+              - group "3 / 3" [ref=e311]:
+                - button "濱松さん 三好プリベント歯科勤務（別海高校出身）" [ref=e312] [cursor=pointer]:
+                  - generic [ref=e314]: 濱松さん 三好プリベント歯科勤務（別海高校出身）
+            - generic [ref=e315]:
+              - button "Go to slide 1" [ref=e316] [cursor=pointer]
+              - button "Go to slide 2" [ref=e317] [cursor=pointer]
+              - button "Go to slide 3" [ref=e318] [cursor=pointer]
+      - generic [ref=e319]:
+        - heading "他の学科も見る！" [level=2] [ref=e320]
+        - generic [ref=e321]:
+          - generic [ref=e322]:
+            - link [ref=e323] [cursor=pointer]:
+              - /url: /course/nursing/
+            - paragraph [ref=e324]: 看護学科
+          - generic [ref=e325]:
+            - link [ref=e326] [cursor=pointer]:
+              - /url: /course/orthoptist/
+            - paragraph [ref=e327]: 視能訓練士学科
+          - generic [ref=e328]:
+            - link:
+              - /url: /course/dentalhygienists/
+            - paragraph [ref=e329]: 歯科衛生士学科
+          - generic [ref=e330]:
+            - link [ref=e331] [cursor=pointer]:
+              - /url: /course/clinicalengineer/
+            - paragraph [ref=e332]: 臨床工学技士学科
+    - contentinfo [ref=e333]:
+      - generic [ref=e334]:
+        - link "札幌看護医療専門学校" [ref=e335] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e336]
+        - paragraph [ref=e337]: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+        - paragraph [ref=e338]:
+          - text: TEL
+          - link "011-801-8343" [ref=e339] [cursor=pointer]:
+            - /url: tel:011-801-8343
+          - text: ／フリーダイヤル
+          - link "0120-37-8343" [ref=e340] [cursor=pointer]:
+            - /url: tel:0120-37-8343
+        - navigation "フッターナビゲーション" [ref=e341]:
+          - generic [ref=e342]:
+            - link "ABOUT 学校案内" [ref=e343] [cursor=pointer]:
+              - /url: /school/
+              - generic [ref=e344]: ABOUT
+              - text: 学校案内
+            - list [ref=e345]:
+              - listitem [ref=e346]:
+                - link "学校案内 トップ" [ref=e347] [cursor=pointer]:
+                  - /url: /school/
+              - listitem [ref=e348]:
+                - link "札幌看護医療が選ばれる理由" [ref=e349] [cursor=pointer]:
+                  - /url: /school/study/
+              - listitem [ref=e350]:
+                - link "高校1・2年生のための進路選び" [ref=e351] [cursor=pointer]:
+                  - /url: /school/guide/
+              - listitem [ref=e352]:
+                - link "交通・アクセス" [ref=e353] [cursor=pointer]:
+                  - /url: /school/access/
+              - listitem [ref=e354]:
+                - link "建学の理念" [ref=e355] [cursor=pointer]:
+                  - /url: /school/philosophy/
+              - listitem [ref=e356]:
+                - link "情報公開（職業実践専門課程）" [ref=e357] [cursor=pointer]:
+                  - /url: /school/info/
+          - generic [ref=e358]:
+            - link "COURSE 学科・専攻" [ref=e359] [cursor=pointer]:
+              - /url: /course/
+              - generic [ref=e360]: COURSE
+              - text: 学科・専攻
+            - list [ref=e361]:
+              - listitem [ref=e362]:
+                - link "学科・専攻 トップ" [ref=e363] [cursor=pointer]:
+                  - /url: /course/
+              - listitem [ref=e364]:
+                - link "看護学科" [ref=e365] [cursor=pointer]:
+                  - /url: /course/nursing/
+              - listitem [ref=e366]:
+                - link "視能訓練士学科" [ref=e367] [cursor=pointer]:
+                  - /url: /course/orthoptist/
+              - listitem [ref=e368]:
+                - link "歯科衛生士学科 ホワイトニング・デンタルエステ専攻" [ref=e369] [cursor=pointer]:
+                  - /url: /course/dentalhygienists/
+              - listitem [ref=e370]:
+                - link "臨床工学技士学科" [ref=e371] [cursor=pointer]:
+                  - /url: /course/clinicalengineer/
+          - generic [ref=e372]:
+            - link "CAREER 資格・就職" [ref=e373] [cursor=pointer]:
+              - /url: /career/
+              - generic [ref=e374]: CAREER
+              - text: 資格・就職
+            - list [ref=e375]:
+              - listitem [ref=e376]:
+                - link "資格・就職 トップ" [ref=e377] [cursor=pointer]:
+                  - /url: /career/
+              - listitem [ref=e378]:
+                - link "資格サポート" [ref=e379] [cursor=pointer]:
+                  - /url: /career/license_support/
+              - listitem [ref=e380]:
+                - link "就職サポート" [ref=e381] [cursor=pointer]:
+                  - /url: /career/job_result/
+          - generic [ref=e382]:
+            - link "CAMPUS LIFE 学校生活・施設" [ref=e383] [cursor=pointer]:
+              - /url: /campuslife/
+              - generic [ref=e384]: CAMPUS LIFE
+              - text: 学校生活・施設
+            - list [ref=e385]:
+              - listitem [ref=e386]:
+                - link "学校生活・施設 トップ" [ref=e387] [cursor=pointer]:
+                  - /url: /campuslife/
+              - listitem [ref=e388]:
+                - link "キャンパスライフ" [ref=e389] [cursor=pointer]:
+                  - /url: /campuslife/schedule/
+              - listitem [ref=e390]:
+                - link "施設紹介" [ref=e391] [cursor=pointer]:
+                  - /url: /campuslife/facility/
+          - generic [ref=e392]:
+            - link "ADMISSION 入試・学費" [ref=e393] [cursor=pointer]:
+              - /url: /admission/
+              - generic [ref=e394]: ADMISSION
+              - text: 入試・学費
+            - list [ref=e395]:
+              - listitem [ref=e396]:
+                - link "入試・学費 トップ" [ref=e397] [cursor=pointer]:
+                  - /url: /admission/
+              - listitem [ref=e398]:
+                - link "募集要項" [ref=e399] [cursor=pointer]:
+                  - /url: /admission/application/
+              - listitem [ref=e400]:
+                - link "AO入試エントリー・出願方法" [ref=e401] [cursor=pointer]:
+                  - /url: /admission/ao/
+              - listitem [ref=e402]:
+                - link "推薦・一般入試 出願方法" [ref=e403] [cursor=pointer]:
+                  - /url: /admission/applicationflow/
+              - listitem [ref=e404]:
+                - link "学費・奨学金制度" [ref=e405] [cursor=pointer]:
+                  - /url: /admission/expenses/
+              - listitem [ref=e406]:
+                - link "特待生＆減免制度" [ref=e407] [cursor=pointer]:
+                  - /url: /admission/scholarship/
+          - generic [ref=e408]:
+            - link "OPEN CAMPUS オープンキャンパス" [ref=e409] [cursor=pointer]:
+              - /url: /opencampus/
+              - generic [ref=e410]: OPEN CAMPUS
+              - text: オープンキャンパス
+            - list [ref=e411]:
+              - listitem [ref=e412]:
+                - link "オープンキャンパスとは" [ref=e413] [cursor=pointer]:
+                  - /url: /opencampus/
+              - listitem [ref=e414]:
+                - link "イベント全日程一覧" [ref=e415] [cursor=pointer]:
+                  - /url: /opencampus/calendar/
+              - listitem [ref=e416]:
+                - link "学校説明・個別相談会" [ref=e417] [cursor=pointer]:
+                  - /url: /opencampus/session/
+              - listitem [ref=e418]:
+                - link "無料送迎バス" [ref=e419] [cursor=pointer]:
+                  - /url: /opencampus/bus/
+              - listitem [ref=e420]:
+                - link "交通費補助" [ref=e421] [cursor=pointer]:
+                  - /url: /opencampus/subsidy_list/
+        - list [ref=e422]:
+          - listitem [ref=e423]:
+            - link "卒業生の方へ" [ref=e424] [cursor=pointer]:
+              - /url: /visit_graduate/
+          - listitem [ref=e425]:
+            - link "高等学校の先生方へ" [ref=e426] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9888/
+          - listitem [ref=e427]:
+            - link "中学校の先生方へ" [ref=e428] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9891/
+          - listitem [ref=e429]:
+            - link "社会人・大学生・短大生の方へ" [ref=e430] [cursor=pointer]:
+              - /url: /visit_society/
+          - listitem [ref=e431]:
+            - link "企業の方へ" [ref=e432] [cursor=pointer]:
+              - /url: /visit_company/
+          - listitem [ref=e433]:
+            - link "職員募集につきまして" [ref=e434] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e435]:
+            - link "産官学連携にご協力いただける企業・自治体の方へ" [ref=e436] [cursor=pointer]:
+              - /url: /visit_municipality/
+        - list [ref=e437]:
+          - listitem [ref=e438]:
+            - link "お問い合わせ" [ref=e439] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/inquiry/
+          - listitem [ref=e440]:
+            - link "交通・アクセス" [ref=e441] [cursor=pointer]:
+              - /url: /school/access/
+          - listitem [ref=e442]:
+            - link "情報公開（職業実践専門課程）" [ref=e443] [cursor=pointer]:
+              - /url: /school/info/
+          - listitem [ref=e444]:
+            - link "施設(教室)利用貸出につきまして" [ref=e445] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/facility/
+          - listitem [ref=e446]:
+            - link "採用情報" [ref=e447] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e448]:
+            - link "サイトマップ" [ref=e449] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e450]:
+            - link "プライバシーポリシー" [ref=e451] [cursor=pointer]:
+              - /url: /privacy/
+          - listitem [ref=e452]:
+            - link "ソーシャルメディアポリシー" [ref=e453] [cursor=pointer]:
+              - /url: /socialpolicy/
+        - list [ref=e454]:
+          - listitem [ref=e455]:
+            - link "Instagram" [ref=e456] [cursor=pointer]:
+              - /url: https://www.instagram.com/sapporo_kango/
+          - listitem [ref=e457]:
+            - link "TikTok" [ref=e458] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@sapporo_kango
+          - listitem [ref=e459]:
+            - link "YouTube" [ref=e460] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+          - listitem [ref=e461]:
+            - link "LINE" [ref=e462] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/914/
+        - paragraph [ref=e463]: © Sapporo College of Nursing & Medical Care.
+  - generic [ref=e465]:
+    - group [ref=e466]:
+      - generic "訪問者別メニュー ▾" [ref=e467] [cursor=pointer]
+    - paragraph [ref=e468]:
+      - link "情報公開（職業実践専門課程）" [ref=e469] [cursor=pointer]:
+        - /url: /school/info/
+      - text: ／
+      - link "施設(教室)利用貸出につきまして" [ref=e470] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/facility/
+    - generic [ref=e471]:
+      - link "資料請求" [ref=e472] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/document/
+        - generic [ref=e474]: 資料請求
+      - link "イベント 全日程一覧" [ref=e475] [cursor=pointer]:
+        - /url: /opencampus/calendar/
+        - generic [ref=e477]:
+          - text: イベント
+          - text: 全日程一覧
+      - link "LINEなんでも 相談" [ref=e478] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/news/2023/914/
+        - generic [ref=e480]:
+          - text: LINEなんでも
+          - text: 相談
+    - list [ref=e481]:
+      - listitem [ref=e482]:
+        - link "夢がふくらむ、目標が見つかる！ オープンキャンパス" [ref=e483] [cursor=pointer]:
+          - /url: /opencampus/
+          - generic [ref=e484]: 夢がふくらむ、目標が見つかる！
+          - generic [ref=e485]: オープンキャンパス
+          - generic [ref=e486]: →
+      - listitem [ref=e487]:
+        - link "REASON 札幌看護医療専門学校が選ばれる理由" [ref=e488] [cursor=pointer]:
+          - /url: /school/study/
+          - generic [ref=e489]: REASON
+          - generic [ref=e490]: 札幌看護医療専門学校が選ばれる理由
+          - generic [ref=e491]: →
+      - listitem [ref=e492]:
+        - link "COURSE ミライを担う医療系4学科" [ref=e493] [cursor=pointer]:
+          - /url: /course/
+          - generic [ref=e494]: COURSE
+          - generic [ref=e495]: ミライを担う医療系4学科
+          - generic [ref=e496]: →
+      - listitem [ref=e497]:
+        - link "ADMISSION 入試・学費" [ref=e498] [cursor=pointer]:
+          - /url: /admission/
+          - generic [ref=e499]: ADMISSION
+          - generic [ref=e500]: 入試・学費
+          - generic [ref=e501]: →
+      - listitem [ref=e502]:
+        - link "FACILITY 施設紹介" [ref=e503] [cursor=pointer]:
+          - /url: /campuslife/facility/
+          - generic [ref=e504]: FACILITY
+          - generic [ref=e505]: 施設紹介
+          - generic [ref=e506]: →

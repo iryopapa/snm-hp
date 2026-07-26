@@ -1,0 +1,681 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "札幌看護医療専門学校" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e9]
+        - button "MENU" [ref=e10] [cursor=pointer]:
+          - generic [ref=e15]: MENU
+    - main [ref=e16]:
+      - navigation "パンくずリスト" [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "TOP" [ref=e20] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e21]:
+            - text: ›
+            - link "学科・専攻" [ref=e22] [cursor=pointer]:
+              - /url: /course/
+          - listitem [ref=e23]: ›看護学科
+      - generic [ref=e25]:
+        - paragraph [ref=e26]:
+          - img "患者さんに寄り添い心と身体の元気をサポート。" [ref=e27]
+        - generic [ref=e30]:
+          - heading "看護学科[3年制]" [level=2] [ref=e31]
+          - paragraph [ref=e32]: DEPARTMENT OF NURSING
+        - button "在校生VOICEを開く" [ref=e33] [cursor=pointer]:
+          - img "在校生VOICEを開く" [ref=e34]
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - heading "札幌看護医療で 看護師を目指す！" [level=3] [ref=e38]:
+            - text: 札幌看護医療で
+            - text: 看護師を目指す！
+          - paragraph [ref=e39]:
+            - text: 最新のICT教育を導入し、
+            - text: 臨床現場に即した体験型教育を展開。
+            - text: 指導者間の連携による万全のサポート体制で、
+            - text: 学生一人ひとりに合わせて指導します。
+        - list [ref=e40]:
+          - listitem [ref=e41]:
+            - link "学びを深められる 資格＋αのカリキュラム →" [ref=e42] [cursor=pointer]:
+              - /url: "#curriculum"
+              - generic [ref=e43]: 学びを深められる
+              - generic [ref=e44]: 資格＋αのカリキュラム
+              - generic [ref=e45]: →
+          - listitem [ref=e46]:
+            - link "数字でわかる 札幌看護医療の看護学科 →" [ref=e47] [cursor=pointer]:
+              - /url: "#result"
+              - generic [ref=e48]: 数字でわかる
+              - generic [ref=e49]: 札幌看護医療の看護学科
+              - generic [ref=e50]: →
+          - listitem [ref=e51]:
+            - link "もっと学びやすく 看護学科の授業をPickUp！ →" [ref=e52] [cursor=pointer]:
+              - /url: "#learning"
+              - generic [ref=e53]: もっと学びやすく
+              - generic [ref=e54]: 看護学科の授業をPickUp！
+              - generic [ref=e55]: →
+          - listitem [ref=e56]:
+            - link "万全の体制でサポート 臨地実習の流れ →" [ref=e57] [cursor=pointer]:
+              - /url: "#training"
+              - generic [ref=e58]: 万全の体制でサポート
+              - generic [ref=e59]: 臨地実習の流れ
+              - generic [ref=e60]: →
+          - listitem [ref=e61]:
+            - link "入学前に不安を解消 在校生Q＆A →" [ref=e62] [cursor=pointer]:
+              - /url: "#qa"
+              - generic [ref=e63]: 入学前に不安を解消
+              - generic [ref=e64]: 在校生Q＆A
+              - generic [ref=e65]: →
+      - generic [ref=e66]:
+        - heading "CURRICULUM [ 学びを深められる ] 資格＋αのカリキュラム" [level=3] [ref=e67]:
+          - generic [ref=e68]: CURRICULUM
+          - generic [ref=e69]: "[ 学びを深められる ]"
+          - generic [ref=e70]: 資格＋αのカリキュラム
+        - paragraph [ref=e71]: 最新のICT教育を導入し、臨床現場に即した体験型教育を展開。臨地実習では指導者と連携し、学生一人ひとりに合わせた指導を行います。
+        - generic [ref=e72]:
+          - tablist [ref=e73]:
+            - tab "1年次" [selected] [ref=e74] [cursor=pointer]
+            - tab "2年次" [ref=e75] [cursor=pointer]
+            - tab "3年次" [ref=e76] [cursor=pointer]
+          - generic [ref=e77]:
+            - heading "医療と看護の基礎を学ぶ" [level=4] [ref=e78]
+            - paragraph [ref=e79]
+            - paragraph [ref=e80]: 医療と看護の基礎を学び、日常生活における安全・安楽な援助を提供するための看護技術を身につけます。臨地実習では、患者さんの状態に合わせた援助方法を学んでいきます。
+            - generic [ref=e81]:
+              - list [ref=e82]:
+                - listitem [ref=e83]:
+                  - generic [ref=e84]: 8月
+                  - text: 学年交流会
+                - listitem [ref=e85]:
+                  - generic [ref=e86]: 9月
+                  - text: 多職種連携
+                  - text: （救急法、退院支援、退院調整）
+                - listitem [ref=e87]:
+                  - generic [ref=e88]: 10月
+                  - text: 戴帽式、基礎看護学実習Ⅰ（1週間）
+                - listitem [ref=e89]:
+                  - generic [ref=e90]: 2月
+                  - text: 基礎看護学実習Ⅱ（4週間）
+              - paragraph [ref=e91]:
+                - generic [ref=e92]: 実習期間
+                - text: 5週間
+              - paragraph [ref=e93]: 基礎看護学実習Ⅰでは主に患者さんや病院施設を理解します。基礎看護学実習Ⅱでは、安全・安楽な入院生活が送れるよう日常生活援助を実践します。
+        - generic [ref=e94]:
+          - heading "時間割の例" [level=4] [ref=e95]:
+            - generic [ref=e96]: 時間割の例
+          - paragraph [ref=e97]
+        - generic [ref=e98]:
+          - heading "卒業生VOICE" [level=3] [ref=e99]:
+            - img "卒業生VOICE" [ref=e100]
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - group "1 / 2" [ref=e103]:
+                - paragraph [ref=e104]
+                - group [ref=e105]:
+                  - generic "丹羽さん（北海高校出身） JCHO北海道病院 NICU（新生児集中治療室）勤務" [ref=e106] [cursor=pointer]:
+                    - generic [ref=e107]:
+                      - text: 丹羽さん（北海高校出身）
+                      - text: JCHO北海道病院 NICU（新生児集中治療室）勤務
+              - group "2 / 2" [ref=e108]:
+                - paragraph [ref=e109]
+                - group [ref=e110]:
+                  - generic "本間さん 社会医療法人社団カレスサッポロカレス記念病院勤務" [ref=e111] [cursor=pointer]:
+                    - generic [ref=e112]:
+                      - text: 本間さん
+                      - text: 社会医療法人社団カレスサッポロカレス記念病院勤務
+            - generic [ref=e113]:
+              - button "Go to slide 1" [ref=e114] [cursor=pointer]
+              - button "Go to slide 2" [ref=e115] [cursor=pointer]
+      - list [ref=e117]:
+        - listitem [ref=e118]:
+          - link "オープンキャンパス" [ref=e119] [cursor=pointer]:
+            - /url: /opencampus/
+            - img "オープンキャンパス" [ref=e120]
+        - listitem [ref=e121]:
+          - link "臨床工学技士学科" [ref=e122] [cursor=pointer]:
+            - /url: /course/clinicalengineer/
+            - img "臨床工学技士学科" [ref=e123]
+      - generic [ref=e124]:
+        - heading "ACHIEVEMENTS [ 数字でわかる ] 札幌看護医療の看護学科" [level=3] [ref=e125]:
+          - generic [ref=e126]: ACHIEVEMENTS
+          - generic [ref=e127]: "[ 数字でわかる ]"
+          - generic [ref=e128]: 札幌看護医療の看護学科
+        - generic [ref=e129]:
+          - generic [ref=e130]:
+            - heading "実習先の病院数" [level=4] [ref=e131]:
+              - generic [ref=e133]: 実習先の病院数
+            - paragraph [ref=e134]: 約0院
+            - paragraph [ref=e135]:
+              - text: 夜間実習も実施！
+              - text: 実習先が就職につながることも！
+            - paragraph [ref=e136]:
+              - text: 保育園・介護施設
+              - text: 訪問介護ステーション等を含む
+            - paragraph [ref=e137]:
+              - button "主な実習先 ＋" [ref=e138] [cursor=pointer]:
+                - text: 主な実習先
+                - generic [ref=e139]: ＋
+          - generic [ref=e140]:
+            - heading "就職実績" [level=4] [ref=e141]:
+              - generic [ref=e143]: 就職実績
+            - paragraph [ref=e144]:
+              - text: 32年連続
+              - superscript [ref=e145]: ※
+            - paragraph [ref=e146]: 0%
+            - paragraph [ref=e147]:
+              - text: ※2026年3月卒業生実績
+              - text: ※北海道ハイテクノロジー専門学校からの累計実績
+            - paragraph [ref=e148]:
+              - button "就職先 ＋" [ref=e149] [cursor=pointer]:
+                - text: 就職先
+                - generic [ref=e150]: ＋
+          - generic [ref=e151]:
+            - heading "看護師 国家試験合格率" [level=4] [ref=e152]:
+              - generic [ref=e154]:
+                - text: 看護師
+                - text: 国家試験合格率
+            - paragraph [ref=e155]: 全国平均 94.1%
+            - paragraph [ref=e156]: 0%
+            - paragraph [ref=e157]: ※2025年3月卒業生実績
+          - generic [ref=e158]:
+            - heading "実習時間 3年間合計" [level=4] [ref=e159]:
+              - generic [ref=e161]:
+                - text: 実習時間
+                - generic [ref=e162]: 3年間合計
+            - paragraph [ref=e163]: 0時間
+            - paragraph [ref=e164]:
+              - text: 実習中は先生が
+              - text: 1日中ついているから
+              - text: 安心！
+          - generic [ref=e165]:
+            - heading "看護師 国家資格取得者" [level=4] [ref=e166]:
+              - generic [ref=e168]:
+                - text: 看護師
+                - text: 国家資格取得者
+            - paragraph [ref=e169]: 0名
+            - paragraph [ref=e170]:
+              - text: ※開校以来累計
+              - text: ※北海道ハイテクノロジー専門学校からの累計実績
+          - generic [ref=e171]:
+            - heading "求人件数" [level=4] [ref=e172]:
+              - generic [ref=e174]: 求人件数
+            - paragraph [ref=e175]: 0件
+            - paragraph [ref=e176]: 0人
+            - paragraph [ref=e177]: 全国で就職が可能！
+            - paragraph [ref=e178]: （2025年12月現在）
+      - generic [ref=e179]:
+        - heading "PICK UP [ もっと学びやすく ] 看護学科の授業を紹介！" [level=3] [ref=e180]:
+          - generic [ref=e181]: PICK UP
+          - generic [ref=e182]: "[ もっと学びやすく ]"
+          - generic [ref=e183]: 看護学科の授業を紹介！
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - group "1 / 2" [ref=e187]
+              - group "2 / 2" [ref=e188]
+            - generic [ref=e189]:
+              - button "Go to slide 1" [ref=e190] [cursor=pointer]
+              - button "Go to slide 2" [ref=e191] [cursor=pointer]
+          - heading "多職種連携ハイブリッド シミュレータで、リアルな臨床現場を 想定した質の高い学内実習を実施" [level=4] [ref=e192]:
+            - text: 多職種連携ハイブリッド
+            - text: シミュレータで、リアルな臨床現場を
+            - text: 想定した質の高い学内実習を実施
+          - paragraph [ref=e193]: 性別や年齢設定など豊富な機能を活用して、さまざまなシナリオを設定できるシミュレータを導入。臨床現場の状況に合わせた処置ができるように、学内実習で取り組んでいきます。
+          - generic [ref=e195]:
+            - group "1 / 4" [ref=e196]:
+              - paragraph [ref=e197]: 顔色の変化
+            - group "2 / 4" [ref=e198]:
+              - paragraph [ref=e199]: 年齢や性別の変更
+            - group "3 / 4" [ref=e200]:
+              - paragraph [ref=e201]: 救急対応
+            - group "4 / 4" [ref=e202]:
+              - paragraph [ref=e203]: 臨場感を出すアイテム
+        - generic [ref=e204]:
+          - paragraph [ref=e205]
+          - heading "最新のICT教育でもっと学びやすく！" [level=4] [ref=e206]
+          - paragraph [ref=e207]: コンピュータの基礎知識から学び、看護のICT活用に応用できるように学びます。また、授業資料や記録をデータ化して教員・学生間で共有していきます。
+        - generic [ref=e208]:
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - group "1 / 2" [ref=e211]
+              - group "2 / 2" [ref=e212]
+            - generic [ref=e213]:
+              - button "Go to slide 1" [ref=e214] [cursor=pointer]
+              - button "Go to slide 2" [ref=e215] [cursor=pointer]
+          - heading "姉妹校や他学科の学生と学ぶ 多職種連携" [level=4] [ref=e216]:
+            - text: 姉妹校や他学科の学生と学ぶ
+            - text: 多職種連携
+          - paragraph [ref=e217]: 姉妹校の救急救命士学科と「救急法」を学んだり、学内他学科と合同でケーススタディを行い「チーム医療」を学びます。
+        - generic [ref=e218]:
+          - paragraph [ref=e219]
+          - generic [ref=e220]:
+            - generic [ref=e221]:
+              - paragraph [ref=e222]: 電子教科書
+              - paragraph [ref=e223]
+              - paragraph [ref=e224]: ICTや最新設備を活用して効率的に学びます。書き込みもでき資料がかさばらないので学習しやすいです。
+            - generic [ref=e225]:
+              - paragraph [ref=e226]: 小児看護学
+              - paragraph [ref=e227]
+              - paragraph [ref=e228]: 1歳児を想定した全身型シミュレーターでバイタルサイン測定や身体診察のトレーニングができます。
+            - generic [ref=e229]:
+              - paragraph [ref=e230]: 精神看護学
+              - paragraph [ref=e231]
+              - paragraph [ref=e232]: 何かを深く表現したり遊んだりすることを通して行う心理療法の「箱庭療法」など実践的に学んでいきます。
+            - generic [ref=e233]:
+              - paragraph [ref=e234]: 地域在宅看護論
+              - paragraph [ref=e235]
+              - paragraph [ref=e236]:
+                - text: 地域で生活している人々の健康支援について学びます。
+                - generic [ref=e237]: また、
+                - text: 訪問看護に必要な知識、技術、姿勢を学んでいきます。
+      - generic [ref=e238]:
+        - paragraph [ref=e239]:
+          - img "News" [ref=e240]
+        - generic [ref=e241]:
+          - paragraph [ref=e242]:
+            - generic [ref=e243]: （ダブルスクール）※1
+            - text: 大学併修制度により、本校で学びながら
+          - paragraph [ref=e244]:
+            - text: 大学卒業資格「学士」 が
+            - text: 取得可能に！
+        - generic [ref=e245]:
+          - paragraph [ref=e246]: 大学併修制度（ダブルスクール）のメリット
+          - list [ref=e247]:
+            - listitem [ref=e248]: ・本校の学費＋約35万円と学費を抑えて大学卒業資格（学士）が取得可能
+            - listitem [ref=e249]: ・専門学校在籍中に併修できるので、大学卒業（学士取得）の単位数（学修量）を分散できる
+            - listitem [ref=e250]: ・学士取得とあわせて「教育に関する科目」を修得することで、看護師養成所専任教員を目指すことができる
+          - paragraph [ref=e251]
+        - paragraph [ref=e252]: ※1 希望者のみ
+      - generic [ref=e253]:
+        - paragraph [ref=e254]: OUR CAMPUS LIFE
+        - heading "看護学科の1日" [level=3] [ref=e255]
+        - paragraph [ref=e256]
+        - generic [ref=e257]:
+          - paragraph [ref=e258]: 臨地実習は多くの医療機関の協力のもと、教員による事前・事後学習、実習指導などを通して学生の成長をあらゆる角度から支援しています。
+          - generic [ref=e259]:
+            - heading "事前学習" [level=4] [ref=e260]
+            - generic [ref=e261]:
+              - heading "最新のシミュレータを活用し 基礎から臨床を意識して学びます！" [level=5] [ref=e262]:
+                - text: 最新のシミュレータを活用し
+                - text: 基礎から臨床を意識して学びます！
+              - paragraph [ref=e263]: 最新のハイブリッドシミュレータを導入。臨床を意識して繰り返し学べる環境で実習に必要な知識と技術を基礎からしっかりと学ぶことができます。
+            - generic [ref=e264]:
+              - heading "教育用電子カルテを使った 看護体験で演習や学習の効果をアップ！" [level=5] [ref=e265]:
+                - text: 教育用電子カルテを使った
+                - text: 看護体験で演習や学習の効果をアップ！
+              - generic [ref=e266]:
+                - paragraph [ref=e267]
+                - paragraph [ref=e268]: 豊富な症例数が用意された電子カルテから情報を収集。入院日や入院経過数などを設定し、体験を通してリアルな看護過程を学びます。
+            - generic [ref=e269]:
+              - heading "教員との個人面談で 実習での目標を明確に！" [level=5] [ref=e270]:
+                - text: 教員との個人面談で
+                - text: 実習での目標を明確に！
+              - generic [ref=e271]:
+                - paragraph [ref=e272]
+                - paragraph [ref=e273]: 実習の前後はマンツーマンで面談があります。教員が実習での学びのポイントなどを丁寧に教えてくれるため、やるべきことが明確になります。
+          - generic [ref=e274]:
+            - paragraph [ref=e275]
+            - paragraph [ref=e276]:
+              - generic [ref=e278]:
+                - text: 実習中も学生4人に対して
+                - text: 1人の教員がサポートします
+            - paragraph [ref=e280]: 実習中は担当教員が実習先に引率または巡回し、実習指導および不安の解消を行います。困った時は教員に相談できるから安心です。
+          - generic [ref=e281]:
+            - heading "実習の1日" [level=4] [ref=e282]
+            - list [ref=e283]:
+              - listitem [ref=e284]:
+                - paragraph [ref=e285]: 9:00
+                - generic [ref=e286]:
+                  - paragraph [ref=e287]: 午前の実習開始
+                  - paragraph [ref=e288]: 実習病棟で1日の行動計画について指導を受け、担当する患者さんの環境整備や看護援助を行います。
+              - listitem [ref=e289]:
+                - paragraph [ref=e290]: 13:30
+                - generic [ref=e291]:
+                  - paragraph [ref=e292]: 午後の実習
+                  - paragraph [ref=e293]: 担当する患者さんとコミュニケーションを取りながら情報収集や看護援助を行います。
+              - listitem [ref=e294]:
+                - paragraph [ref=e295]: 15:00
+                - generic [ref=e296]:
+                  - paragraph [ref=e297]: 1日の振り返り
+                  - paragraph [ref=e298]: 学生、臨床指導者、教員で1日の援助内容について振り返り、実施した援助についての疑問点や課題点を明確にします。
+              - listitem [ref=e299]:
+                - paragraph [ref=e300]: 16:00
+                - paragraph [ref=e302]: 実習終了
+          - generic [ref=e303]:
+            - heading "臨地実習を経験して" [level=4] [ref=e304]:
+              - generic [ref=e305]: 臨地実習を経験して
+            - paragraph [ref=e306]
+            - paragraph [ref=e307]: 岡部さん （札幌東商業高校出身）
+            - paragraph [ref=e309]: 3年間の臨地実習を通して、患者さんの問題点や強みを捉えながら個別性に合わせた看護の大切さについて学ぶことが出来ました！卒業後は救急救命に携わる看護師になり、1人でも多くの人の命を助けられるようこれからも日々勉学に励みたいと思います！
+          - paragraph [ref=e310]
+          - generic [ref=e311]:
+            - heading "学校での1日" [level=4] [ref=e312]
+            - list [ref=e313]:
+              - listitem [ref=e314]:
+                - paragraph [ref=e315]:
+                  - generic [ref=e316]: 9:30
+                  - generic [ref=e317]: 授業開始
+                - paragraph [ref=e318]
+                - paragraph [ref=e319]: タブレットや電子黒板を使った授業！初めて勉強する専門的な内容も先生がわかりやすく丁寧に教えてくれるので安心。
+              - listitem [ref=e320]:
+                - paragraph [ref=e321]:
+                  - generic [ref=e322]: 12:40
+                  - generic [ref=e323]: ランチタイム
+                - paragraph [ref=e324]
+                - paragraph [ref=e325]: 2階のキャンパスカフェでランチ！お弁当を持ってくる人が多いよ。隣の大学の学食でランチすることもできるよl
+              - listitem [ref=e326]:
+                - paragraph [ref=e327]:
+                  - generic [ref=e328]: 13:30
+                  - generic [ref=e329]: 午後の授業
+                - paragraph [ref=e330]
+                - paragraph [ref=e331]: 実習着に着替えて実習授業！実際の病院と同じ設備や最新機器を使って、実践力を身に付けられるよ！はじめてのことばかりでも、先生や友達とたくさん練習するから大丈夫！
+              - listitem [ref=e332]:
+                - paragraph [ref=e333]:
+                  - generic [ref=e334]: 16:40
+                  - generic [ref=e335]: 授業終了
+                - paragraph [ref=e336]
+                - paragraph [ref=e337]: 授業中にわからなかったことは、先生がわかるまで教えてくれるから安心！学校生活の悩み事もなんでも相談できるから心強い！
+            - generic [ref=e338]:
+              - paragraph [ref=e339]
+              - paragraph [ref=e340]: パウダールームで身だしなみを整えてから帰れるから、放課後も楽しめる！
+              - paragraph [ref=e341]
+      - generic [ref=e342]:
+        - heading "QUESTION [ 入学前に不安を解消 ] 在校生Q＆A" [level=3] [ref=e343]:
+          - generic [ref=e344]: QUESTION
+          - generic [ref=e345]: "[ 入学前に不安を解消 ]"
+          - generic [ref=e346]: 在校生Q＆A
+        - generic [ref=e347]:
+          - group [ref=e348]:
+            - generic "Q 髪は染めていますか？ ＋" [ref=e349] [cursor=pointer]
+          - group [ref=e350]:
+            - generic "Q アルバイトはしていますか？両立はできますか？ ＋" [ref=e351] [cursor=pointer]
+          - group [ref=e352]:
+            - generic "Q 札幌看護医療の学校生活はどうですか？ ＋" [ref=e353] [cursor=pointer]
+          - group [ref=e354]:
+            - generic "Q 一人暮らしはどうですか？ ＋" [ref=e355] [cursor=pointer]
+          - group [ref=e356]:
+            - generic "Q 実習先はどうやって決めるんですか？ ＋" [ref=e357] [cursor=pointer]
+          - group [ref=e358]:
+            - generic "Q 勉強はどうですか？ ＋" [ref=e359] [cursor=pointer]
+          - group [ref=e360]:
+            - generic "Q 入学後一番の思い出は何ですか？ ＋" [ref=e361] [cursor=pointer]
+          - group [ref=e362]:
+            - generic "Q テストは難しいですか？ ＋" [ref=e363] [cursor=pointer]
+          - group [ref=e364]:
+            - generic "Q 実習先はどうですか？ ＋" [ref=e365] [cursor=pointer]
+        - paragraph [ref=e366]
+      - generic [ref=e367]:
+        - iframe [ref=e369]
+        - generic [ref=e370]:
+          - heading "戴帽式とは" [level=4] [ref=e371]:
+            - generic [ref=e372]: 戴帽式とは
+          - paragraph [ref=e373]: 実習前の【看護師になる】という決意を新たにする大事な式典。先輩の実習への想いを見ることができます。
+      - generic [ref=e374]:
+        - heading "他の学科も見る！" [level=2] [ref=e375]
+        - generic [ref=e376]:
+          - generic [ref=e377]:
+            - link:
+              - /url: /course/nursing/
+            - paragraph [ref=e378]: 看護学科
+          - generic [ref=e379]:
+            - link [ref=e380] [cursor=pointer]:
+              - /url: /course/orthoptist/
+            - paragraph [ref=e381]: 視能訓練士学科
+          - generic [ref=e382]:
+            - link [ref=e383] [cursor=pointer]:
+              - /url: /course/dentalhygienists/
+            - paragraph [ref=e384]: 歯科衛生士学科
+          - generic [ref=e385]:
+            - link [ref=e386] [cursor=pointer]:
+              - /url: /course/clinicalengineer/
+            - paragraph [ref=e387]: 臨床工学技士学科
+    - contentinfo [ref=e388]:
+      - generic [ref=e389]:
+        - link "札幌看護医療専門学校" [ref=e390] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e391]
+        - paragraph [ref=e392]: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+        - paragraph [ref=e393]:
+          - text: TEL
+          - link "011-801-8343" [ref=e394] [cursor=pointer]:
+            - /url: tel:011-801-8343
+          - text: ／フリーダイヤル
+          - link "0120-37-8343" [ref=e395] [cursor=pointer]:
+            - /url: tel:0120-37-8343
+        - navigation "フッターナビゲーション" [ref=e396]:
+          - generic [ref=e397]:
+            - link "ABOUT 学校案内" [ref=e398] [cursor=pointer]:
+              - /url: /school/
+              - generic [ref=e399]: ABOUT
+              - text: 学校案内
+            - list [ref=e400]:
+              - listitem [ref=e401]:
+                - link "学校案内 トップ" [ref=e402] [cursor=pointer]:
+                  - /url: /school/
+              - listitem [ref=e403]:
+                - link "札幌看護医療が選ばれる理由" [ref=e404] [cursor=pointer]:
+                  - /url: /school/study/
+              - listitem [ref=e405]:
+                - link "高校1・2年生のための進路選び" [ref=e406] [cursor=pointer]:
+                  - /url: /school/guide/
+              - listitem [ref=e407]:
+                - link "交通・アクセス" [ref=e408] [cursor=pointer]:
+                  - /url: /school/access/
+              - listitem [ref=e409]:
+                - link "建学の理念" [ref=e410] [cursor=pointer]:
+                  - /url: /school/philosophy/
+              - listitem [ref=e411]:
+                - link "情報公開（職業実践専門課程）" [ref=e412] [cursor=pointer]:
+                  - /url: /school/info/
+          - generic [ref=e413]:
+            - link "COURSE 学科・専攻" [ref=e414] [cursor=pointer]:
+              - /url: /course/
+              - generic [ref=e415]: COURSE
+              - text: 学科・専攻
+            - list [ref=e416]:
+              - listitem [ref=e417]:
+                - link "学科・専攻 トップ" [ref=e418] [cursor=pointer]:
+                  - /url: /course/
+              - listitem [ref=e419]:
+                - link "看護学科" [ref=e420] [cursor=pointer]:
+                  - /url: /course/nursing/
+              - listitem [ref=e421]:
+                - link "視能訓練士学科" [ref=e422] [cursor=pointer]:
+                  - /url: /course/orthoptist/
+              - listitem [ref=e423]:
+                - link "歯科衛生士学科 ホワイトニング・デンタルエステ専攻" [ref=e424] [cursor=pointer]:
+                  - /url: /course/dentalhygienists/
+              - listitem [ref=e425]:
+                - link "臨床工学技士学科" [ref=e426] [cursor=pointer]:
+                  - /url: /course/clinicalengineer/
+          - generic [ref=e427]:
+            - link "CAREER 資格・就職" [ref=e428] [cursor=pointer]:
+              - /url: /career/
+              - generic [ref=e429]: CAREER
+              - text: 資格・就職
+            - list [ref=e430]:
+              - listitem [ref=e431]:
+                - link "資格・就職 トップ" [ref=e432] [cursor=pointer]:
+                  - /url: /career/
+              - listitem [ref=e433]:
+                - link "資格サポート" [ref=e434] [cursor=pointer]:
+                  - /url: /career/license_support/
+              - listitem [ref=e435]:
+                - link "就職サポート" [ref=e436] [cursor=pointer]:
+                  - /url: /career/job_result/
+          - generic [ref=e437]:
+            - link "CAMPUS LIFE 学校生活・施設" [ref=e438] [cursor=pointer]:
+              - /url: /campuslife/
+              - generic [ref=e439]: CAMPUS LIFE
+              - text: 学校生活・施設
+            - list [ref=e440]:
+              - listitem [ref=e441]:
+                - link "学校生活・施設 トップ" [ref=e442] [cursor=pointer]:
+                  - /url: /campuslife/
+              - listitem [ref=e443]:
+                - link "キャンパスライフ" [ref=e444] [cursor=pointer]:
+                  - /url: /campuslife/schedule/
+              - listitem [ref=e445]:
+                - link "施設紹介" [ref=e446] [cursor=pointer]:
+                  - /url: /campuslife/facility/
+          - generic [ref=e447]:
+            - link "ADMISSION 入試・学費" [ref=e448] [cursor=pointer]:
+              - /url: /admission/
+              - generic [ref=e449]: ADMISSION
+              - text: 入試・学費
+            - list [ref=e450]:
+              - listitem [ref=e451]:
+                - link "入試・学費 トップ" [ref=e452] [cursor=pointer]:
+                  - /url: /admission/
+              - listitem [ref=e453]:
+                - link "募集要項" [ref=e454] [cursor=pointer]:
+                  - /url: /admission/application/
+              - listitem [ref=e455]:
+                - link "AO入試エントリー・出願方法" [ref=e456] [cursor=pointer]:
+                  - /url: /admission/ao/
+              - listitem [ref=e457]:
+                - link "推薦・一般入試 出願方法" [ref=e458] [cursor=pointer]:
+                  - /url: /admission/applicationflow/
+              - listitem [ref=e459]:
+                - link "学費・奨学金制度" [ref=e460] [cursor=pointer]:
+                  - /url: /admission/expenses/
+              - listitem [ref=e461]:
+                - link "特待生＆減免制度" [ref=e462] [cursor=pointer]:
+                  - /url: /admission/scholarship/
+          - generic [ref=e463]:
+            - link "OPEN CAMPUS オープンキャンパス" [ref=e464] [cursor=pointer]:
+              - /url: /opencampus/
+              - generic [ref=e465]: OPEN CAMPUS
+              - text: オープンキャンパス
+            - list [ref=e466]:
+              - listitem [ref=e467]:
+                - link "オープンキャンパスとは" [ref=e468] [cursor=pointer]:
+                  - /url: /opencampus/
+              - listitem [ref=e469]:
+                - link "イベント全日程一覧" [ref=e470] [cursor=pointer]:
+                  - /url: /opencampus/calendar/
+              - listitem [ref=e471]:
+                - link "学校説明・個別相談会" [ref=e472] [cursor=pointer]:
+                  - /url: /opencampus/session/
+              - listitem [ref=e473]:
+                - link "無料送迎バス" [ref=e474] [cursor=pointer]:
+                  - /url: /opencampus/bus/
+              - listitem [ref=e475]:
+                - link "交通費補助" [ref=e476] [cursor=pointer]:
+                  - /url: /opencampus/subsidy_list/
+        - list [ref=e477]:
+          - listitem [ref=e478]:
+            - link "卒業生の方へ" [ref=e479] [cursor=pointer]:
+              - /url: /visit_graduate/
+          - listitem [ref=e480]:
+            - link "高等学校の先生方へ" [ref=e481] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9888/
+          - listitem [ref=e482]:
+            - link "中学校の先生方へ" [ref=e483] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9891/
+          - listitem [ref=e484]:
+            - link "社会人・大学生・短大生の方へ" [ref=e485] [cursor=pointer]:
+              - /url: /visit_society/
+          - listitem [ref=e486]:
+            - link "企業の方へ" [ref=e487] [cursor=pointer]:
+              - /url: /visit_company/
+          - listitem [ref=e488]:
+            - link "職員募集につきまして" [ref=e489] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e490]:
+            - link "産官学連携にご協力いただける企業・自治体の方へ" [ref=e491] [cursor=pointer]:
+              - /url: /visit_municipality/
+        - list [ref=e492]:
+          - listitem [ref=e493]:
+            - link "お問い合わせ" [ref=e494] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/inquiry/
+          - listitem [ref=e495]:
+            - link "交通・アクセス" [ref=e496] [cursor=pointer]:
+              - /url: /school/access/
+          - listitem [ref=e497]:
+            - link "情報公開（職業実践専門課程）" [ref=e498] [cursor=pointer]:
+              - /url: /school/info/
+          - listitem [ref=e499]:
+            - link "施設(教室)利用貸出につきまして" [ref=e500] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/facility/
+          - listitem [ref=e501]:
+            - link "採用情報" [ref=e502] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e503]:
+            - link "サイトマップ" [ref=e504] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e505]:
+            - link "プライバシーポリシー" [ref=e506] [cursor=pointer]:
+              - /url: /privacy/
+          - listitem [ref=e507]:
+            - link "ソーシャルメディアポリシー" [ref=e508] [cursor=pointer]:
+              - /url: /socialpolicy/
+        - list [ref=e509]:
+          - listitem [ref=e510]:
+            - link "Instagram" [ref=e511] [cursor=pointer]:
+              - /url: https://www.instagram.com/sapporo_kango/
+          - listitem [ref=e512]:
+            - link "TikTok" [ref=e513] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@sapporo_kango
+          - listitem [ref=e514]:
+            - link "YouTube" [ref=e515] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+          - listitem [ref=e516]:
+            - link "LINE" [ref=e517] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/914/
+        - paragraph [ref=e518]: © Sapporo College of Nursing & Medical Care.
+  - generic [ref=e520]:
+    - group [ref=e521]:
+      - generic "訪問者別メニュー ▾" [ref=e522] [cursor=pointer]
+    - paragraph [ref=e523]:
+      - link "情報公開（職業実践専門課程）" [ref=e524] [cursor=pointer]:
+        - /url: /school/info/
+      - text: ／
+      - link "施設(教室)利用貸出につきまして" [ref=e525] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/facility/
+    - generic [ref=e526]:
+      - link "資料請求" [ref=e527] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/document/
+        - generic [ref=e529]: 資料請求
+      - link "イベント 全日程一覧" [ref=e530] [cursor=pointer]:
+        - /url: /opencampus/calendar/
+        - generic [ref=e532]:
+          - text: イベント
+          - text: 全日程一覧
+      - link "LINEなんでも 相談" [ref=e533] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/news/2023/914/
+        - generic [ref=e535]:
+          - text: LINEなんでも
+          - text: 相談
+    - list [ref=e536]:
+      - listitem [ref=e537]:
+        - link "夢がふくらむ、目標が見つかる！ オープンキャンパス" [ref=e538] [cursor=pointer]:
+          - /url: /opencampus/
+          - generic [ref=e539]: 夢がふくらむ、目標が見つかる！
+          - generic [ref=e540]: オープンキャンパス
+          - generic [ref=e541]: →
+      - listitem [ref=e542]:
+        - link "REASON 札幌看護医療専門学校が選ばれる理由" [ref=e543] [cursor=pointer]:
+          - /url: /school/study/
+          - generic [ref=e544]: REASON
+          - generic [ref=e545]: 札幌看護医療専門学校が選ばれる理由
+          - generic [ref=e546]: →
+      - listitem [ref=e547]:
+        - link "COURSE ミライを担う医療系4学科" [ref=e548] [cursor=pointer]:
+          - /url: /course/
+          - generic [ref=e549]: COURSE
+          - generic [ref=e550]: ミライを担う医療系4学科
+          - generic [ref=e551]: →
+      - listitem [ref=e552]:
+        - link "ADMISSION 入試・学費" [ref=e553] [cursor=pointer]:
+          - /url: /admission/
+          - generic [ref=e554]: ADMISSION
+          - generic [ref=e555]: 入試・学費
+          - generic [ref=e556]: →
+      - listitem [ref=e557]:
+        - link "FACILITY 施設紹介" [ref=e558] [cursor=pointer]:
+          - /url: /campuslife/facility/
+          - generic [ref=e559]: FACILITY
+          - generic [ref=e560]: 施設紹介
+          - generic [ref=e561]: →

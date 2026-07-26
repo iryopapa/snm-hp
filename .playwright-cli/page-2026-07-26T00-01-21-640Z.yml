@@ -1,0 +1,448 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "札幌看護医療専門学校" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e9]
+        - button "MENU" [ref=e10] [cursor=pointer]:
+          - generic [ref=e15]: MENU
+    - main [ref=e16]:
+      - navigation "パンくずリスト" [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "TOP" [ref=e20] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e21]:
+            - text: ›
+            - link "学校案内" [ref=e22] [cursor=pointer]:
+              - /url: /school/
+          - listitem [ref=e23]: ›建学の理念
+      - heading "ABOUT 建学の理念" [level=1] [ref=e25]:
+        - generic [ref=e26]: ABOUT
+        - generic [ref=e27]: 建学の理念
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - paragraph [ref=e31]:
+            - text: 札幌看護医療専門学校は
+            - generic [ref=e32]: 職業人教育を通して
+            - generic [ref=e33]: 社会に貢献します
+          - paragraph [ref=e34]: 札幌看護医療専門学校開校は、全国に81の教育機関を展開する滋慶学園グループを母体組織として、「職業教育を通じて社会に貢献する」ことをミッションに掲げ、「建学の理念」と「4つの信頼」を大切に、学生の夢をかなえるサポートに取り組んでいます。
+        - heading "建学の理念" [level=2] [ref=e35]
+        - heading "学校長 あいさつ" [level=3] [ref=e36]
+        - generic [ref=e37]:
+          - figure "学校法人 滋慶学園 札幌看護医療専門学校 学校長 佐々木 孝（ささき たかし）" [ref=e38]:
+            - generic [ref=e39]:
+              - text: 学校法人 滋慶学園
+              - text: 札幌看護医療専門学校
+              - generic [ref=e40]: 学校長 佐々木 孝（ささき たかし）
+          - paragraph [ref=e42]:
+            - text: ＜プロフィール＞
+            - text: 医師・医学博士
+            - text: 日本胸部外科学会指導医、心臓血管外科名誉専門医、日本医師会認定産業医を歴任し、現役の医師として長年に渡り心臓血管外科や循環器医療に尽力しています。
+        - paragraph [ref=e43]:
+          - text: 札幌看護医療専門学校は、本校で学ぶ人々が医療人として求められる豊かな人間性を育み、将来の地域医療を支える人材となる能力を養うことを念頭に運営しております。
+          - text: 医療の世界で仕事をしていくために大切なことは、人への思いやりですが、その心を育むために学内には「今日も笑顔であいさつを」の標語を掲げ人間教育を行なっています。
+          - text: 本校の特長は先端医療機関との連携や地域との産官学連携を通して、ICTを駆使して現場に近い臨場感あふれる教育を実施していることです。
+          - text: 私共はこのような環境で地域医療を支える人材育成を継続して行い、社会に貢献して参ります。
+      - generic [ref=e44]:
+        - heading "3つの建学の理念" [level=3] [ref=e45]
+        - paragraph [ref=e46]: 3つの教育を通して、各業界で即戦力として活躍できる人材を育成しています。
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - term [ref=e49]: 実学教育
+            - definition [ref=e50]: スペシャリストの時代に即し、産業界に直結した専門学校として知識、技術、ビジネスマインドを持った業界が求める即戦力の人材を育成します。
+          - generic [ref=e51]:
+            - term [ref=e52]: 国際教育
+            - definition [ref=e53]: 日本人としてのアイデンティティを明確に持ち、価値観や文化の違いを尊重して、より広い視野でものを見ることができるよう、真の国際的な感性を養います。
+          - generic [ref=e54]:
+            - term [ref=e55]: 人間教育
+            - definition [ref=e56]: 「今日も笑顔で挨拶を」を標語に掲げ、思いやりの気持ち、コミュニケーションの大切さを学び、自立した社会人としての人間力（身構え、気構え、心構え）を身につけます。
+      - generic [ref=e58]:
+        - heading "4つの信頼" [level=3] [ref=e59]
+        - paragraph [ref=e60]: 4つの信頼を得ることを目指して日々、教育に取り組んでいます。
+        - list [ref=e61]:
+          - listitem [ref=e62]:
+            - paragraph [ref=e63]: "01"
+            - heading "学生・保護者からの信頼" [level=4] [ref=e64]
+            - paragraph [ref=e65]: 目指す業界への国家試験や就職試験などのハードルを越え、それぞれの夢の実現を確実にサポートすることで、学生・保護者から信頼される学園を常に目指します。
+          - listitem [ref=e66]:
+            - paragraph [ref=e67]: "02"
+            - heading "高等学校からの信頼" [level=4] [ref=e68]
+            - paragraph [ref=e69]: この業界でこの仕事を目指すなら本学園と勧めてもらえるように、就職などの確かな実績を築くことで、高等学校の先生から信頼される学園を常に目指します。
+          - listitem [ref=e70]:
+            - paragraph [ref=e71]: "03"
+            - heading "業界からの信頼" [level=4] [ref=e72]
+            - paragraph [ref=e73]: 業界が望む技術、知識、マナーなどの習得と必要な国家資格の100%合格を目標に、即戦力となる人材を育成することで、各業界から信頼される学園を常に目指します。
+          - listitem [ref=e74]:
+            - paragraph [ref=e75]: "04"
+            - heading "地域からの信頼" [level=4] [ref=e76]
+            - paragraph [ref=e77]: 日頃の学生・教職員の活動や態度を通して地域に受け入れられ、地域密着の学園づくりをすることで、地域の方々と産業界から信頼される学園を常に目指します。
+      - generic [ref=e78]:
+        - heading "沿革" [level=2] [ref=e79]
+        - generic [ref=e80]:
+          - term [ref=e81]: 1987年9月
+          - definition [ref=e82]: 学校法人産業技術学園設立、北海道ハイテクノロジー専門学校設置を北海道知事に申請
+          - term [ref=e83]: 1987年12月
+          - definition [ref=e84]: 北海道知事により認可(学事第702号)
+          - term [ref=e85]: 1988年2月
+          - definition [ref=e86]: 第1校舎竣工
+          - term [ref=e87]: 1988年4月
+          - definition [ref=e88]:
+            - text: 開校
+            - text: 生命工学技術科・医用電子科・人工知能科・秘書科の4学科を開設
+          - term [ref=e89]: 1989年4月
+          - definition [ref=e90]: 薬業科を開設
+          - term [ref=e91]: 1989年6月
+          - definition [ref=e92]:
+            - text: 第2校舎竣工
+            - text: ピラミッド型実習温室竣工
+          - term [ref=e93]: 1990年4月
+          - definition [ref=e94]: 園芸工学技術科・情報処理科開設
+          - term [ref=e95]: 1991年4月
+          - definition [ref=e96]: 視能訓練士学科(厚生大臣指定学科)開設
+          - term [ref=e97]: 1992年1月
+          - definition [ref=e98]: 第3校舎竣工
+          - term [ref=e99]: 1992年4月
+          - definition [ref=e100]: 看護学科(厚生大臣指定学科)、救急救命士学科(厚生大臣指定学科)開設
+          - term [ref=e101]: 1993年4月
+          - definition [ref=e102]: 情報処理にゲームクリエイターコース、医療秘書科に医療福祉コースを開設
+          - term [ref=e103]: 1994年3月
+          - definition [ref=e104]: 第4校舎竣工
+          - term [ref=e105]: 1994年4月
+          - definition [ref=e106]: 保育福祉科(近畿大学九州短期大学と併修)を開設
+          - term [ref=e107]: 1995年4月
+          - definition [ref=e108]: 土木工学技術科(建設大臣認定)開設、視能訓練士学科が近畿大学九州短期大学との併修を開始
+          - term [ref=e109]: 1996年4月
+          - definition [ref=e110]: 救急救命士学科の定員を40名から50名に変更
+          - term [ref=e111]: 1997年1月
+          - definition [ref=e112]: 第5校舎取得
+          - term [ref=e113]: 1997年4月
+          - definition [ref=e114]: 救急救命士学科を3年制へ、さらに定員を50名から80名に変更
+          - term [ref=e115]: 1998年4月
+          - definition [ref=e116]: ペットビジネス科・臨床工学技士学科(厚生大臣指定学科)・歯科衛生士学科(厚生大臣指定学科)の3学科を開設
+          - term [ref=e117]: 2001年4月
+          - definition [ref=e118]: 歯科衛生士学科を男女共学に変更
+          - term [ref=e119]: 2001年11月
+          - definition [ref=e120]: エコ校舎、第6校舎竣工
+          - term [ref=e121]: 2002年4月
+          - definition [ref=e122]:
+            - text: 柔道整復師学科(厚生労働大臣指定学科)、鍼灸学科(厚生労働大臣指定学科)を開設
+            - text: 救急救命士学科の定員80名から100名に変更
+            - text: 臨床工学技士学科の定員30名から40名に変更
+          - term [ref=e123]: 2003年4月
+          - definition [ref=e124]:
+            - text: 北海道エコ・コミュニケーション専門学校を開校(ペットビジネス科を北海道エコ・コミュニケーション専門学校開校に伴い移管)
+            - text: 柔道整復師学科(厚生労働大臣指定学科)、鍼灸学科(厚生労働大臣指定学科)夜間部を開設
+            - text: 保育福祉科 精神保健福祉士コース開講
+            - text: 視能訓練士学科定員を30名から40名に変更
+          - term [ref=e125]: 2003年9月
+          - definition [ref=e126]: 第7校舎竣工
+          - term [ref=e127]: 2004年4月
+          - definition [ref=e128]:
+            - text: 歯科衛生士学科を3年制へ
+            - text: 診療情報管理士専攻科を開設
+          - term [ref=e129]: 2005年4月
+          - definition [ref=e130]: 情報システム科3コースより5コースに変更
+          - term [ref=e131]: 2006年4月
+          - definition [ref=e132]:
+            - text: 第8校舎竣工
+            - text: インドア・スタジアム竣工、同時に北海道ハイテク・アスリートクラブ結成
+            - text: 義肢装具士学科(厚生労働大臣指定学科)開設
+            - text: 鍼灸学科卒業生編入学開始
+            - text: アウトドア学科を観光サービス学科へ改称(北海道エコ・コミュニケーション専門学校)
+            - text: ペットビジネス学科にペットビジネス専攻科を開設(北海道エコ・コミュニケーション専門学校)
+          - term [ref=e133]: 2007年10月
+          - definition [ref=e134]: 学生レストランをラ・デュース恵み野(介護付有料老人ホーム)内に開設
+          - term [ref=e135]: 2008年4月
+          - definition [ref=e136]:
+            - text: バイオテクノロジー科4年制を開設
+            - text: 日本語学科を開設(北海道エコ・コミュニケーション専門学校)
+          - term [ref=e137]: 2008年8月
+          - definition [ref=e138]: 北海道ハイテク・アスリートクラブより福島千里が北京オリンピックに日本代表として出場(女子100M)
+          - term [ref=e139]: 2010年12月
+          - definition [ref=e140]: インドア・アリーナ竣工
+          - term [ref=e141]: 2011年4月
+          - definition [ref=e142]:
+            - text: スポーツ学科を開設
+            - text: キャリアデザイン・公務員学科を開設
+            - text: ペット学科を開設(北海道エコ・コミュニケーション専門学校)
+            - text: 動物看護師学科を開設(北海道エコ・コミュニケーション専門学校)
+            - text: 動物自然学科を開設(北海道エコ・コミュニケーション専門学校)
+          - term [ref=e143]: 2012年4月
+          - definition [ref=e144]:
+            - text: 北海道エコ・コミュニケーション専門学校が北海道エコ・動物自然専門学校に改称
+            - text: 北海道エコ・コミュニケーション専門学校日本語学科を、北海道ハイテクノロジー専門学校に移管
+          - term [ref=e145]: 2012年7月
+          - definition [ref=e146]: 北海道ハイテク・アスリートクラブより福島千里がロンドンオリンピックに日本代表として出場
+          - term [ref=e147]: 2013年4月
+          - definition [ref=e148]: 北海道ハイテクノロジー専門学校スポーツ学科、柔道整復師学科、鍼灸学科の3学科が北海道メディカル・スポーツ専門学校として分離独立
+          - term [ref=e149]: 2013年7月
+          - definition [ref=e150]: バイオテクノロジー学科実習室をリニューアル
+          - term [ref=e151]: 2014年3月
+          - definition [ref=e152]: 北海道ハイテクノロジー専門学校11学科が文部科学省より「職業実践専門課程」に認定
+          - term [ref=e153]: 2014年4月
+          - definition [ref=e154]:
+            - text: 北海道ハイテクノロジー専門学校バイオテクノロジー学科（4年制）が動物科学科に改称
+            - text: 本校が指定管理者となり子育て支援施設「フーレめぐみの」開設
+          - term [ref=e155]: 2017年4月
+          - definition [ref=e156]:
+            - text: 道内初のeスポーツプロフェッショナルゲーマー専攻、プロジェクションマッピング専攻を新設。
+            - text: ITメディア学科ゲーム実習室を新設
+          - term [ref=e157]: 2018年4月
+          - definition [ref=e158]: 道内初のドローン専攻を新設
+          - term [ref=e159]: 2018年4月
+          - definition [ref=e160]: 医療シミュレーションセンター新設
+          - term [ref=e161]: 2019年4月
+          - definition [ref=e162]: 学校法人滋慶学園に変更
+          - term [ref=e163]: 2021年4月
+          - definition [ref=e164]: 札幌看護医療専門学校開校
+    - contentinfo [ref=e165]:
+      - generic [ref=e166]:
+        - link "札幌看護医療専門学校" [ref=e167] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e168]
+        - paragraph [ref=e169]: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+        - paragraph [ref=e170]:
+          - text: TEL
+          - link "011-801-8343" [ref=e171] [cursor=pointer]:
+            - /url: tel:011-801-8343
+          - text: ／フリーダイヤル
+          - link "0120-37-8343" [ref=e172] [cursor=pointer]:
+            - /url: tel:0120-37-8343
+        - navigation "フッターナビゲーション" [ref=e173]:
+          - generic [ref=e174]:
+            - link "ABOUT 学校案内" [ref=e175] [cursor=pointer]:
+              - /url: /school/
+              - generic [ref=e176]: ABOUT
+              - text: 学校案内
+            - list [ref=e177]:
+              - listitem [ref=e178]:
+                - link "学校案内 トップ" [ref=e179] [cursor=pointer]:
+                  - /url: /school/
+              - listitem [ref=e180]:
+                - link "札幌看護医療が選ばれる理由" [ref=e181] [cursor=pointer]:
+                  - /url: /school/study/
+              - listitem [ref=e182]:
+                - link "高校1・2年生のための進路選び" [ref=e183] [cursor=pointer]:
+                  - /url: /school/guide/
+              - listitem [ref=e184]:
+                - link "交通・アクセス" [ref=e185] [cursor=pointer]:
+                  - /url: /school/access/
+              - listitem [ref=e186]:
+                - link "建学の理念" [ref=e187] [cursor=pointer]:
+                  - /url: /school/philosophy/
+              - listitem [ref=e188]:
+                - link "情報公開（職業実践専門課程）" [ref=e189] [cursor=pointer]:
+                  - /url: /school/info/
+          - generic [ref=e190]:
+            - link "COURSE 学科・専攻" [ref=e191] [cursor=pointer]:
+              - /url: /course/
+              - generic [ref=e192]: COURSE
+              - text: 学科・専攻
+            - list [ref=e193]:
+              - listitem [ref=e194]:
+                - link "学科・専攻 トップ" [ref=e195] [cursor=pointer]:
+                  - /url: /course/
+              - listitem [ref=e196]:
+                - link "看護学科" [ref=e197] [cursor=pointer]:
+                  - /url: /course/nursing/
+              - listitem [ref=e198]:
+                - link "視能訓練士学科" [ref=e199] [cursor=pointer]:
+                  - /url: /course/orthoptist/
+              - listitem [ref=e200]:
+                - link "歯科衛生士学科 ホワイトニング・デンタルエステ専攻" [ref=e201] [cursor=pointer]:
+                  - /url: /course/dentalhygienists/
+              - listitem [ref=e202]:
+                - link "臨床工学技士学科" [ref=e203] [cursor=pointer]:
+                  - /url: /course/clinicalengineer/
+          - generic [ref=e204]:
+            - link "CAREER 資格・就職" [ref=e205] [cursor=pointer]:
+              - /url: /career/
+              - generic [ref=e206]: CAREER
+              - text: 資格・就職
+            - list [ref=e207]:
+              - listitem [ref=e208]:
+                - link "資格・就職 トップ" [ref=e209] [cursor=pointer]:
+                  - /url: /career/
+              - listitem [ref=e210]:
+                - link "資格サポート" [ref=e211] [cursor=pointer]:
+                  - /url: /career/license_support/
+              - listitem [ref=e212]:
+                - link "就職サポート" [ref=e213] [cursor=pointer]:
+                  - /url: /career/job_result/
+          - generic [ref=e214]:
+            - link "CAMPUS LIFE 学校生活・施設" [ref=e215] [cursor=pointer]:
+              - /url: /campuslife/
+              - generic [ref=e216]: CAMPUS LIFE
+              - text: 学校生活・施設
+            - list [ref=e217]:
+              - listitem [ref=e218]:
+                - link "学校生活・施設 トップ" [ref=e219] [cursor=pointer]:
+                  - /url: /campuslife/
+              - listitem [ref=e220]:
+                - link "キャンパスライフ" [ref=e221] [cursor=pointer]:
+                  - /url: /campuslife/schedule/
+              - listitem [ref=e222]:
+                - link "施設紹介" [ref=e223] [cursor=pointer]:
+                  - /url: /campuslife/facility/
+          - generic [ref=e224]:
+            - link "ADMISSION 入試・学費" [ref=e225] [cursor=pointer]:
+              - /url: /admission/
+              - generic [ref=e226]: ADMISSION
+              - text: 入試・学費
+            - list [ref=e227]:
+              - listitem [ref=e228]:
+                - link "入試・学費 トップ" [ref=e229] [cursor=pointer]:
+                  - /url: /admission/
+              - listitem [ref=e230]:
+                - link "募集要項" [ref=e231] [cursor=pointer]:
+                  - /url: /admission/application/
+              - listitem [ref=e232]:
+                - link "AO入試エントリー・出願方法" [ref=e233] [cursor=pointer]:
+                  - /url: /admission/ao/
+              - listitem [ref=e234]:
+                - link "推薦・一般入試 出願方法" [ref=e235] [cursor=pointer]:
+                  - /url: /admission/applicationflow/
+              - listitem [ref=e236]:
+                - link "学費・奨学金制度" [ref=e237] [cursor=pointer]:
+                  - /url: /admission/expenses/
+              - listitem [ref=e238]:
+                - link "特待生＆減免制度" [ref=e239] [cursor=pointer]:
+                  - /url: /admission/scholarship/
+          - generic [ref=e240]:
+            - link "OPEN CAMPUS オープンキャンパス" [ref=e241] [cursor=pointer]:
+              - /url: /opencampus/
+              - generic [ref=e242]: OPEN CAMPUS
+              - text: オープンキャンパス
+            - list [ref=e243]:
+              - listitem [ref=e244]:
+                - link "オープンキャンパスとは" [ref=e245] [cursor=pointer]:
+                  - /url: /opencampus/
+              - listitem [ref=e246]:
+                - link "イベント全日程一覧" [ref=e247] [cursor=pointer]:
+                  - /url: /opencampus/calendar/
+              - listitem [ref=e248]:
+                - link "学校説明・個別相談会" [ref=e249] [cursor=pointer]:
+                  - /url: /opencampus/session/
+              - listitem [ref=e250]:
+                - link "無料送迎バス" [ref=e251] [cursor=pointer]:
+                  - /url: /opencampus/bus/
+              - listitem [ref=e252]:
+                - link "交通費補助" [ref=e253] [cursor=pointer]:
+                  - /url: /opencampus/subsidy_list/
+        - list [ref=e254]:
+          - listitem [ref=e255]:
+            - link "卒業生の方へ" [ref=e256] [cursor=pointer]:
+              - /url: /visit_graduate/
+          - listitem [ref=e257]:
+            - link "高等学校の先生方へ" [ref=e258] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9888/
+          - listitem [ref=e259]:
+            - link "中学校の先生方へ" [ref=e260] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9891/
+          - listitem [ref=e261]:
+            - link "社会人・大学生・短大生の方へ" [ref=e262] [cursor=pointer]:
+              - /url: /visit_society/
+          - listitem [ref=e263]:
+            - link "企業の方へ" [ref=e264] [cursor=pointer]:
+              - /url: /visit_company/
+          - listitem [ref=e265]:
+            - link "職員募集につきまして" [ref=e266] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e267]:
+            - link "産官学連携にご協力いただける企業・自治体の方へ" [ref=e268] [cursor=pointer]:
+              - /url: /visit_municipality/
+        - list [ref=e269]:
+          - listitem [ref=e270]:
+            - link "お問い合わせ" [ref=e271] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/inquiry/
+          - listitem [ref=e272]:
+            - link "交通・アクセス" [ref=e273] [cursor=pointer]:
+              - /url: /school/access/
+          - listitem [ref=e274]:
+            - link "情報公開（職業実践専門課程）" [ref=e275] [cursor=pointer]:
+              - /url: /school/info/
+          - listitem [ref=e276]:
+            - link "施設(教室)利用貸出につきまして" [ref=e277] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/facility/
+          - listitem [ref=e278]:
+            - link "採用情報" [ref=e279] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e280]:
+            - link "サイトマップ" [ref=e281] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e282]:
+            - link "プライバシーポリシー" [ref=e283] [cursor=pointer]:
+              - /url: /privacy/
+          - listitem [ref=e284]:
+            - link "ソーシャルメディアポリシー" [ref=e285] [cursor=pointer]:
+              - /url: /socialpolicy/
+        - list [ref=e286]:
+          - listitem [ref=e287]:
+            - link "Instagram" [ref=e288] [cursor=pointer]:
+              - /url: https://www.instagram.com/sapporo_kango/
+          - listitem [ref=e289]:
+            - link "TikTok" [ref=e290] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@sapporo_kango
+          - listitem [ref=e291]:
+            - link "YouTube" [ref=e292] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+          - listitem [ref=e293]:
+            - link "LINE" [ref=e294] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/914/
+        - paragraph [ref=e295]: © Sapporo College of Nursing & Medical Care.
+  - generic [ref=e297]:
+    - group [ref=e298]:
+      - generic "訪問者別メニュー ▾" [ref=e299] [cursor=pointer]
+    - paragraph [ref=e300]:
+      - link "情報公開（職業実践専門課程）" [ref=e301] [cursor=pointer]:
+        - /url: /school/info/
+      - text: ／
+      - link "施設(教室)利用貸出につきまして" [ref=e302] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/facility/
+    - generic [ref=e303]:
+      - link "資料請求" [ref=e304] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/document/
+        - generic [ref=e306]: 資料請求
+      - link "イベント 全日程一覧" [ref=e307] [cursor=pointer]:
+        - /url: /opencampus/calendar/
+        - generic [ref=e309]:
+          - text: イベント
+          - text: 全日程一覧
+      - link "LINEなんでも 相談" [ref=e310] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/news/2023/914/
+        - generic [ref=e312]:
+          - text: LINEなんでも
+          - text: 相談
+    - list [ref=e313]:
+      - listitem [ref=e314]:
+        - link "夢がふくらむ、目標が見つかる！ オープンキャンパス" [ref=e315] [cursor=pointer]:
+          - /url: /opencampus/
+          - generic [ref=e316]: 夢がふくらむ、目標が見つかる！
+          - generic [ref=e317]: オープンキャンパス
+          - generic [ref=e318]: →
+      - listitem [ref=e319]:
+        - link "REASON 札幌看護医療専門学校が選ばれる理由" [ref=e320] [cursor=pointer]:
+          - /url: /school/study/
+          - generic [ref=e321]: REASON
+          - generic [ref=e322]: 札幌看護医療専門学校が選ばれる理由
+          - generic [ref=e323]: →
+      - listitem [ref=e324]:
+        - link "COURSE ミライを担う医療系4学科" [ref=e325] [cursor=pointer]:
+          - /url: /course/
+          - generic [ref=e326]: COURSE
+          - generic [ref=e327]: ミライを担う医療系4学科
+          - generic [ref=e328]: →
+      - listitem [ref=e329]:
+        - link "ADMISSION 入試・学費" [ref=e330] [cursor=pointer]:
+          - /url: /admission/
+          - generic [ref=e331]: ADMISSION
+          - generic [ref=e332]: 入試・学費
+          - generic [ref=e333]: →
+      - listitem [ref=e334]:
+        - link "FACILITY 施設紹介" [ref=e335] [cursor=pointer]:
+          - /url: /campuslife/facility/
+          - generic [ref=e336]: FACILITY
+          - generic [ref=e337]: 施設紹介
+          - generic [ref=e338]: →

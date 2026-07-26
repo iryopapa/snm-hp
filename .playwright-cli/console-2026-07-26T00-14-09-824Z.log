@@ -1,0 +1,5 @@
+[     203ms] [LOG] refer: @ https://webform-js.jikeigroup.net/KoikeciaScript/js/web/v1/koikecia.js:23
+[     203ms] [LOG] {aid: 4046dc7.6577879aa4b13, gid: GA1.3.399032413.1785024810, refer: , request_url: https://www.snm.ac.jp/admission/ao/, page_title: AO入試（ネットエントリー）｜"Future is yours." 最先端の医療教育を実践できる新さっぽろの専門学校} @ https://webform-js.jikeigroup.net/KoikeciaScript/js/web/v1/koikecia.js:33
+[     286ms] [WARNING] [Meta pixel] 852095438646700 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more. @ https://connect.facebook.net/en_US/fbevents.js:187
+[     866ms] [LOG]  @ https://webform-js.jikeigroup.net/KoikeciaScript/js/web/v1/koikecia.js:96
+[     866ms] [LOG] 通信に成功しました。 @ https://webform-js.jikeigroup.net/KoikeciaScript/js/web/v1/koikecia.js:97

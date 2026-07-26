@@ -1,0 +1,790 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "札幌看護医療専門学校" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e7]
+        - button "MENU" [ref=e8] [cursor=pointer]:
+          - generic [ref=e13]: MENU
+    - main [ref=e14]:
+      - navigation "パンくずリスト" [ref=e15]:
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "TOP" [ref=e18] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e19]:
+            - text: ›
+            - link "学科・専攻" [ref=e20] [cursor=pointer]:
+              - /url: /course/
+          - listitem [ref=e21]: ›臨床工学技士学科
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - paragraph [ref=e24]:
+            - img "医療機器でいのちを支えるメディカルエンジニア。" [ref=e25]
+          - generic [ref=e28]:
+            - heading "臨床工学技士学科3年制" [level=2] [ref=e29]
+            - paragraph [ref=e30]: DEPARTMENT OF CERTIFIED ORTHOPTIST
+          - button "在校生VOICEを開く" [ref=e31] [cursor=pointer]:
+            - img "在校生VOICEを開く" [ref=e32]
+        - link "AO エントリーはこちら ONLINE APPLICATION" [ref=e34] [cursor=pointer]:
+          - /url: https://www.snm.ac.jp/news/2026/14409/
+          - img "AO エントリーはこちら" [ref=e36]
+          - img "ONLINE APPLICATION" [ref=e38]
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - paragraph [ref=e42]:
+            - img "可能性が広がる注目の医療職種！" [ref=e43]
+          - heading "臨床工学技士は どんなシゴト？" [level=3] [ref=e44]:
+            - text: 臨床工学技士は
+            - text: どんなシゴト？
+          - paragraph [ref=e45]: 医療職の中で最も医療機器に精通した職種として、他の医療スタッフとともに患者さんの命を守る現代のチーム医療に欠かせない重要な職種です。
+        - generic [ref=e46]:
+          - heading "業務内容" [level=4] [ref=e47]:
+            - generic [ref=e48]: 業務内容
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - button "集中治療業務 VIEW MORE＋" [ref=e51] [cursor=pointer]:
+                - generic [ref=e52]: 集中治療業務
+                - generic [ref=e54]: VIEW MORE＋
+            - listitem [ref=e55]:
+              - button "人工心肺業務 VIEW MORE＋" [ref=e56] [cursor=pointer]:
+                - generic [ref=e57]: 人工心肺業務
+                - generic [ref=e59]: VIEW MORE＋
+            - listitem [ref=e60]:
+              - button "血液浄化業務 VIEW MORE＋" [ref=e61] [cursor=pointer]:
+                - generic [ref=e62]: 血液浄化業務
+                - generic [ref=e64]: VIEW MORE＋
+            - listitem [ref=e65]:
+              - button "呼吸治療業務 VIEW MORE＋" [ref=e66] [cursor=pointer]:
+                - generic [ref=e67]: 呼吸治療業務
+                - generic [ref=e69]: VIEW MORE＋
+          - generic [ref=e70]:
+            - heading "その他の業務" [level=3] [ref=e71]:
+              - generic [ref=e72]: その他の業務
+            - generic [ref=e73]:
+              - heading "医療機器管理業務" [level=4] [ref=e74]
+              - paragraph [ref=e75]: 医療施設で使用される医療機器が安全で機器の性能が維持できるように保守・点検を行う。
+            - generic [ref=e76]:
+              - heading "手術室業務" [level=4] [ref=e77]
+              - paragraph [ref=e78]: 手術が円滑かつ安全に行われるよう手術室内の広範な多種多様の医療機器の操作や事前の管理を行う。
+            - list [ref=e79]:
+              - listitem [ref=e80]: ・高気圧酸素業務
+              - listitem [ref=e81]: ・心血管カテーテル業務
+              - listitem [ref=e82]: ・ペースメーカー／ICD業務 など
+        - generic [ref=e83]:
+          - heading "活躍できる場所" [level=4] [ref=e84]:
+            - generic [ref=e85]: 活躍できる場所
+          - list [ref=e86]:
+            - listitem [ref=e87]: ・大学病院
+            - listitem [ref=e88]: ・医療機器メーカー
+            - listitem [ref=e89]: ・病院
+            - listitem [ref=e90]: ・教育研究機関
+            - listitem [ref=e91]: ・クリニック
+            - listitem [ref=e92]: ・海外NPO、NGO
+        - generic [ref=e93]:
+          - heading "医師・看護師など多職種が一目置く 「臨床工学技士」の存在" [level=3] [ref=e94]:
+            - generic [ref=e96]:
+              - text: 医師・看護師など多職種が一目置く
+              - text: 「臨床工学技士」の存在
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - heading "医師 × 臨床工学技士" [level=4] [ref=e100]:
+                - generic [ref=e101]: 医師 × 臨床工学技士
+              - paragraph [ref=e102]:
+                - text: 高い専門性を発揮して患者さんを救う、
+                - text: 必要不可欠のパートナー
+              - paragraph [ref=e103]:
+                - button "その理由は？ ＋" [ref=e104] [cursor=pointer]:
+                  - text: その理由は？
+                  - generic [ref=e105]: ＋
+            - generic [ref=e106]:
+              - heading "看護師 × 臨床工学技士" [level=4] [ref=e107]:
+                - generic [ref=e108]: 看護師 × 臨床工学技士
+              - paragraph [ref=e109]: 看護師では関われない治療に携わる心強い存在
+              - paragraph [ref=e110]:
+                - button "その理由は？ ＋" [ref=e111] [cursor=pointer]:
+                  - text: その理由は？
+                  - generic [ref=e112]: ＋
+        - generic [ref=e113]:
+          - paragraph [ref=e114]:
+            - img "Start!" [ref=e115]
+          - heading "タスクシフト／シェア のスタートで 「臨床工学技士」の存在がより重要に" [level=4] [ref=e116]:
+            - generic [ref=e118]:
+              - img "タスクシフト／シェア" [ref=e120]
+              - text: のスタートで
+              - text: 「臨床工学技士」の存在がより重要に
+          - paragraph [ref=e122]: 2024年4月から始まったタスクシフト／シェアの担い手として特に注目されているのは他の医療専門職にはない“医学と工学” 両方の知識を併せ持っているからです。
+          - paragraph [ref=e123]:
+            - text: これまでの業務に加え、人工透析業務における「動脈
+            - generic [ref=e124]:
+              - text: 穿刺
+              - generic [ref=e125]: せんし
+            - text: 」や手術や集中治療室業務における「静脈
+            - generic [ref=e126]:
+              - text: 穿刺
+              - generic [ref=e127]: せんし
+            - text: 」、医師の指示のもと行う「電気的刺激」、「内視鏡手術のカメラ操作」業務にあたることが可能になり臨床工学技士へのニーズは高まる一方です。
+          - paragraph [ref=e128]:
+            - text: ※
+            - generic [ref=e129]:
+              - text: 穿刺
+              - generic [ref=e130]: せんし
+            - text: ：診断や治療を目的として、針を体に刺す医療行為のこと。
+          - list [ref=e131]:
+            - listitem [ref=e132]:
+              - paragraph [ref=e133]: 内視鏡手術のカメラ操作
+            - listitem [ref=e134]:
+              - paragraph [ref=e135]:
+                - text: 静脈
+                - generic [ref=e136]:
+                  - text: 穿刺
+                  - generic [ref=e137]: せんし
+        - list [ref=e138]:
+          - listitem [ref=e139]:
+            - link "オープンキャンパス" [ref=e140] [cursor=pointer]:
+              - /url: /opencampus/
+              - img "オープンキャンパス" [ref=e141]
+          - listitem [ref=e142]:
+            - link "AO" [ref=e143] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2026/14409/
+              - img "AO" [ref=e144]
+        - generic [ref=e145]:
+          - paragraph [ref=e146]:
+            - img "札幌看護医療だからできる" [ref=e147]
+          - paragraph [ref=e148]:
+            - img "4つのポイント" [ref=e149]
+        - list [ref=e150]:
+          - listitem [ref=e151]:
+            - link "現場に近い“リアル”な学びで 不安を“強み”に変える →" [ref=e152] [cursor=pointer]:
+              - /url: "#learning"
+              - generic [ref=e153]: 現場に近い“リアル”な学びで
+              - generic [ref=e154]: 不安を“強み”に変える
+              - generic [ref=e155]: →
+          - listitem [ref=e156]:
+            - link "多彩なサポートで 国家試験対策も万全 →" [ref=e157] [cursor=pointer]:
+              - /url: "#result"
+              - generic [ref=e158]: 多彩なサポートで
+              - generic [ref=e159]: 国家試験対策も万全
+              - generic [ref=e160]: →
+          - listitem [ref=e161]:
+            - link "医療の最前線で活躍する 卒業生紹介 →" [ref=e162] [cursor=pointer]:
+              - /url: "#voice"
+              - generic [ref=e163]: 医療の最前線で活躍する
+              - generic [ref=e164]: 卒業生紹介
+              - generic [ref=e165]: →
+          - listitem [ref=e166]:
+            - link "学びを深められる 資格＋αのカリキュラム →" [ref=e167] [cursor=pointer]:
+              - /url: "#curriculum"
+              - generic [ref=e168]: 学びを深められる
+              - generic [ref=e169]: 資格＋αのカリキュラム
+              - generic [ref=e170]: →
+      - generic [ref=e171]:
+        - heading "LEANING 現場に近い“リアル”な学びで 不安を“強み”に変える" [level=3] [ref=e172]:
+          - generic [ref=e173]: LEANING
+          - generic [ref=e174]:
+            - text: 現場に近い“リアル”な学びで
+            - text: 不安を“強み”に変える
+        - generic [ref=e175]:
+          - heading "札幌看護医療なら “40名以上の最強講師陣”から学べる" [level=4] [ref=e176]:
+            - text: 札幌看護医療なら
+            - text: “40名以上の最強講師陣”から学べる
+          - paragraph [ref=e178]: 現役の臨床工学技士をはじめ、医師や看護師、薬剤師、臨床検査技師、医療機器メーカースタッフ、医療系Youtuberなどから直接、医療現場の今をリアルに学べます。
+          - list [ref=e179]:
+            - listitem [ref=e180]:
+              - paragraph [ref=e181]:
+                - generic [ref=e182]:
+                  - text: 多方面で活躍する
+                  - text: 現役総合診療医
+              - paragraph [ref=e183]:
+                - text: （株）WeLa 代表取締役
+                - text: 舛森 悠（Dr.マンデリン） 先生
+            - listitem [ref=e184]:
+              - paragraph [ref=e185]:
+                - generic [ref=e186]:
+                  - text: 世界を舞台に働く
+                  - text: 人工心肺のエキスパート
+              - paragraph [ref=e187]:
+                - text: フロリダ大学 勤務
+                - text: 四井田 英樹 先生
+            - listitem [ref=e188]:
+              - paragraph [ref=e189]:
+                - generic [ref=e190]:
+                  - text: 優しく寄り添う
+                  - text: 丁寧な指導で人気
+              - paragraph [ref=e191]:
+                - text: 医療法人社団群仁会
+                - text: 保坂内科クリニック 勤務
+                - text: 佐藤 友美 先生
+            - listitem [ref=e192]:
+              - paragraph [ref=e193]:
+                - generic [ref=e194]:
+                  - text: 災害派遣医療の
+                  - text: スペシャリスト
+              - paragraph [ref=e195]:
+                - text: 医療法人渓仁会
+                - text: 手稲渓仁会病院 勤務
+                - text: 菅原 誠一 先生
+            - listitem [ref=e196]:
+              - paragraph [ref=e197]:
+                - generic [ref=e198]:
+                  - text: 熱意あふれる
+                  - text: パワフルな実習担当
+              - paragraph [ref=e199]:
+                - text: 医療法人徳洲会
+                - text: 札幌徳洲会病院 勤務
+                - text: 安藤 偉子 先生
+            - listitem [ref=e200]:
+              - paragraph [ref=e201]:
+                - generic [ref=e202]:
+                  - text: 分かりやすい説明
+                  - text: が定評
+              - paragraph [ref=e203]:
+                - text: 札幌医科大学附属病院 勤務
+                - text: 岸本 万寿実 先生
+            - listitem [ref=e204]:
+              - paragraph [ref=e205]:
+                - generic [ref=e206]:
+                  - text: 勉強方法の
+                  - text: アドバイスも的確
+              - paragraph [ref=e207]:
+                - text: 医療法人社団
+                - text: よしだ内科循環器クリニック勤務
+                - text: 吉田 行宏 先生
+            - listitem [ref=e208]:
+              - button "他にも！ 日本全国の第一線で活躍する現役の臨床工学技士が授業を担当。 在学中から多くの現役臨床工学技士に出会える! VIEW MORE＋" [ref=e209] [cursor=pointer]:
+                - img "他にも！" [ref=e211]
+                - generic [ref=e212]:
+                  - text: 日本全国の第一線で活躍する現役の臨床工学技士が授業を担当。
+                  - text: 在学中から多くの現役臨床工学技士に出会える!
+                - generic [ref=e213]: VIEW MORE＋
+          - text: ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■ ■
+        - generic [ref=e214]:
+          - heading "最新の医療機器で、 実践的な実習・授業を実施！" [level=4] [ref=e215]:
+            - text: 最新の医療機器で、
+            - text: 実践的な実習・授業を実施！
+          - paragraph [ref=e217]: 豚の心臓を使った実習や、多職種コラボレーション実習、さらに全国から指名の絶えない臨床工学技士による実習など幅広く実践的な実習で医療機器のスペシャリストを目指します！
+          - generic [ref=e218]:
+            - generic [ref=e219]:
+              - heading "実習施設は道内外70ケ所 道外への実習は宿泊サポートも" [level=4] [ref=e220]:
+                - text: 実習施設は道内外70ケ所
+                - text: 道外への実習は宿泊サポートも
+              - generic [ref=e221]:
+                - generic [ref=e222]:
+                  - group "1 / 2" [ref=e223]
+                  - group "2 / 2" [ref=e224]
+                - generic [ref=e225]:
+                  - button "Go to slide 1" [ref=e226] [cursor=pointer]
+                  - button "Go to slide 2" [ref=e227] [cursor=pointer]
+              - paragraph [ref=e228]: 多数の実習施設の中から自分の希望に合わせて実習先が選べるほか、臨床（病院）実習前に学内実習でのシミュレーションで技術を修得してから実習に臨めるので安心です。
+            - generic [ref=e229]:
+              - heading "臨床実習直前学内実習" [level=4] [ref=e230]
+              - paragraph [ref=e231]
+              - paragraph [ref=e232]: 臨床実習に行く直前に、学内の医療機器を使って現場さながらの実習を行う。
+            - generic [ref=e233]:
+              - heading "OSCE（オスキー）実習" [level=4] [ref=e234]
+              - paragraph [ref=e235]
+              - paragraph [ref=e236]: 現場を想定した課題で、手技だけでなく安全配慮・接遇・対応力なども客観評価する実技試験を実施。
+            - generic [ref=e237]:
+              - heading "生体機能代行技術学演習Ⅰ" [level=4] [ref=e238]
+              - paragraph [ref=e239]
+              - paragraph [ref=e240]: 実際の医療機器を使用しながら操作方法を学んでいく実習。
+            - generic [ref=e241]:
+              - heading "基礎医学実習" [level=4] [ref=e242]
+              - paragraph [ref=e243]
+              - paragraph [ref=e244]: 豚の肺や心臓を使用しながら、人体の臓器について学ぶ。
+            - generic [ref=e245]:
+              - heading "多職種コラボレーション実習" [level=4] [ref=e246]
+              - paragraph [ref=e247]
+              - paragraph [ref=e248]: 臨床実習を想定した、他学科との合同実習など他学科や多職種とのコラボ授業も多数！
+            - generic [ref=e249]:
+              - heading "国内研修旅行" [level=4] [ref=e250]
+              - paragraph [ref=e251]
+              - paragraph [ref=e252]: 日本屈指の設備や臨床の現場を見学。自由時間は友達との思い出を作ろう！
+        - generic [ref=e253]:
+          - paragraph [ref=e254]
+          - heading "リアルを追求！VRを使った学び" [level=4] [ref=e255]
+          - paragraph [ref=e256]: まるで実際の臨床現場にいるかのようにさまざまな医療シーンに対処するスキルをトレーニングできます。臨床工学技士として問題に対する迅速な判断や解決する力、現場での協力スキルを身につけます。
+          - paragraph [ref=e257]:
+            - text: 体験型の学びで
+            - text: スキルトレーニング！
+          - generic [ref=e258]:
+            - generic [ref=e259]:
+              - group "1 / 3" [ref=e260]:
+                - paragraph [ref=e261]: VRを用いたバーチャル空間で現場では見学ができない角度から臨床工学技士の視野を学ぶ
+              - group "2 / 3" [ref=e262]:
+                - paragraph [ref=e263]: 医療機器と模擬患者により現場を意識した実技練習＋シミュレータを使用して自主的に実技練習
+              - group "3 / 3" [ref=e264]:
+                - paragraph [ref=e265]:
+                  - generic [ref=e266]:
+                    - text: OSCE
+                    - generic [ref=e267]: オスキー
+                  - text: （客観的臨床能力試験）臨床工学技士として必要な臨床技能や接遇マナーの修得
+            - generic [ref=e268]:
+              - button "Go to slide 1" [ref=e269] [cursor=pointer]
+              - button "Go to slide 2" [ref=e270] [cursor=pointer]
+              - button "Go to slide 3" [ref=e271] [cursor=pointer]
+          - paragraph [ref=e272]:
+            - img "道内初！" [ref=e273]
+          - paragraph [ref=e274]: VR実習Pick Up
+          - list [ref=e275]:
+            - listitem [ref=e276]:
+              - paragraph [ref=e277]:
+                - text: VR心臓カテーテル
+                - text: シミュレータ実習
+              - paragraph [ref=e278]
+              - paragraph [ref=e279]: 専用ゴーグルを装着すると出現するバーチャル空間は、実際の心臓カテーテル室と同じ。手術を思いのままに行うことができます。
+            - listitem [ref=e280]:
+              - paragraph [ref=e281]:
+                - text: 海外の手術室が
+                - text: わかる
+              - paragraph [ref=e282]
+              - paragraph [ref=e283]: 海外の手術現場を体感できます。設備の状況から、医師・看護師・臨床工学技士の動きまで把握できます。
+            - listitem [ref=e284]:
+              - paragraph [ref=e285]:
+                - text: 災害医療
+                - text: シミュレータ実習
+              - paragraph [ref=e286]: 過去の災害現場をVR体験することで、DMAT（災害派遣医療チーム）の基礎知識を修得できます。
+            - listitem [ref=e287]:
+              - paragraph [ref=e288]:
+                - text: 透析
+                - text: シミュレータ実習
+              - paragraph [ref=e289]: 透析業務の現場を“臨床工学技士の目線”で確認できるので、臨床実習における機器操作や見学時の重要ポイントを事前に学習できます。
+          - generic [ref=e290]:
+            - paragraph [ref=e291]:
+              - generic [ref=e293]:
+                - text: どんな風に見えるのか
+                - text: 体験してみよう！
+            - paragraph [ref=e295]:
+              - link "VRパノラマは本番サイトで体験できます →" [ref=e296] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/course/clinicalengineer/#panorama
+                - text: VRパノラマは本番サイトで体験できます
+                - generic [ref=e297]: →
+            - paragraph [ref=e298]
+      - generic [ref=e299]:
+        - heading "[ 多彩なサポートで ] 国家試験対策も万全" [level=3] [ref=e300]:
+          - generic [ref=e301]: "[ 多彩なサポートで ]"
+          - generic [ref=e302]: 国家試験対策も万全
+        - paragraph [ref=e303]
+        - generic [ref=e304]:
+          - heading "専任教員による強力なサポート" [level=4] [ref=e305]: 専任教員による強力なサポート
+          - paragraph [ref=e307]: 「経験豊富」「距離が近い」「担任制」だから安心して国家試験合格を目指せます！
+          - list [ref=e308]:
+            - listitem [ref=e309]:
+              - button "森本先生 MORE" [ref=e310] [cursor=pointer]:
+                - generic [ref=e311]: 森本先生
+                - img "MORE" [ref=e313]
+            - listitem [ref=e314]:
+              - button "合田先生 MORE" [ref=e315] [cursor=pointer]:
+                - generic [ref=e316]: 合田先生
+                - img "MORE" [ref=e318]
+            - listitem [ref=e319]:
+              - button "中村先生 MORE" [ref=e320] [cursor=pointer]:
+                - generic [ref=e321]: 中村先生
+                - img "MORE" [ref=e323]
+            - listitem [ref=e324]:
+              - button "藤吉先生 MORE" [ref=e325] [cursor=pointer]:
+                - generic [ref=e326]: 藤吉先生
+                - img "MORE" [ref=e328]
+          - list [ref=e329]:
+            - listitem [ref=e330]:
+              - paragraph [ref=e331]:
+                - text: 1年次から
+                - text: 国家試験対策
+              - paragraph [ref=e332]
+            - listitem [ref=e333]:
+              - paragraph [ref=e334]:
+                - text: 全国共通模擬試験や
+                - text: 独自テキスト活用
+              - paragraph [ref=e335]
+            - listitem [ref=e336]:
+              - paragraph [ref=e337]:
+                - text: タブレットフル活用で
+                - text: 効率よく勉強
+              - paragraph [ref=e338]
+            - listitem [ref=e339]:
+              - paragraph [ref=e340]:
+                - text: グループワーク
+                - text: 学習
+              - paragraph [ref=e341]
+          - generic [ref=e342]:
+            - paragraph [ref=e343]:
+              - img "さらに!" [ref=e344]
+            - heading "基礎学力対策講座" [level=4] [ref=e345]:
+              - generic [ref=e347]: 基礎学力対策講座
+            - paragraph [ref=e349]: 理系、文系関係なく、勉強が苦手な方でも臨床工学技士を目指せるように対策講座を開講しています。数学や化学、生物などの理系科目を基礎からわかりやすく、時間をかけて学ぶことができます。
+      - generic [ref=e350]:
+        - heading "GRADUATE [ 医療の最前線で活躍する ] 卒業生紹介" [level=3] [ref=e351]:
+          - generic [ref=e352]: GRADUATE
+          - generic [ref=e353]: "[ 医療の最前線で活躍する ]"
+          - generic [ref=e354]: 卒業生紹介
+        - generic [ref=e355]:
+          - paragraph [ref=e356]: 医療機器のサイバーセキュリティ対策でも貢献したい
+          - paragraph [ref=e357]
+          - paragraph [ref=e358]: 日々の業務では、担当した患者さんに「あなたでよかった」と感謝されることにやりがいを感じています。今後は、医療機器のサイバーセキュリティ対策に力を入れ、医療の安全に貢献していきたいと考えています。
+          - paragraph [ref=e359]:
+            - text: 武田さん
+            - generic [ref=e360]:
+              - text: 医療法人社団東桑会 札幌北クリニック勤務
+              - text: 担当業務：透析室業務、シャントエコー、医療機器管理業務（根室高校出身）
+        - generic [ref=e361]:
+          - paragraph [ref=e362]:
+            - text: 全分野で活躍できる
+            - text: 臨床工学技士を目指して勉強中
+          - paragraph [ref=e363]
+          - paragraph [ref=e364]: 幅広い業務ができる臨床工学技士の特性を生かすため、患者数も業務の種類も多いこの病院を選びました。現在は、全ての分野で活躍できる臨床工学技士を目指して日々勉強中。人工心肺業務を極めることが目標です。
+          - paragraph [ref=e365]:
+            - text: 髙村さん
+            - generic [ref=e366]:
+              - text: 砂川市立病院勤務
+              - text: 担当業務：手術室業務（岩見沢西高校出身）
+        - generic [ref=e367]:
+          - generic [ref=e368]:
+            - group "1 / 5" [ref=e369]:
+              - button "佐藤さん 社会医療法人孝仁会 札幌孝仁会記念病院勤務 担当業務：人工心肺業務（江差高校出身）" [ref=e370] [cursor=pointer]:
+                - generic [ref=e372]:
+                  - text: 佐藤さん
+                  - generic [ref=e373]:
+                    - text: 社会医療法人孝仁会 札幌孝仁会記念病院勤務
+                    - text: 担当業務：人工心肺業務（江差高校出身）
+            - group "2 / 5" [ref=e374]:
+              - button "小川さん 日本赤十字社 旭川赤十字病院勤務 担当業務：医療機器管理業務（美深高校出身）" [ref=e375] [cursor=pointer]:
+                - generic [ref=e377]:
+                  - text: 小川さん
+                  - generic [ref=e378]:
+                    - text: 日本赤十字社 旭川赤十字病院勤務
+                    - text: 担当業務：医療機器管理業務（美深高校出身）
+            - group "3 / 5" [ref=e379]:
+              - button "益塚さん 社会医療法人孝仁会 札幌孝仁会記念病院勤務 担当業務：透析室業務（札幌丘珠高校出身）" [ref=e380] [cursor=pointer]:
+                - generic [ref=e382]:
+                  - text: 益塚さん
+                  - generic [ref=e383]:
+                    - text: 社会医療法人孝仁会 札幌孝仁会記念病院勤務
+                    - text: 担当業務：透析室業務（札幌丘珠高校出身）
+            - group "4 / 5" [ref=e384]:
+              - button "榮さん 弘前大学 医学部附属病院勤務 担当業務：手術室業務（札幌日本大学高校出身）" [ref=e385] [cursor=pointer]:
+                - generic [ref=e387]:
+                  - text: 榮さん
+                  - generic [ref=e388]:
+                    - text: 弘前大学 医学部附属病院勤務
+                    - text: 担当業務：手術室業務（札幌日本大学高校出身）
+            - group "5 / 5" [ref=e389]:
+              - button "泉田さん 社会福祉法人 聖隷福祉事業団 総合病院 聖隷浜松病院勤務 担当業務：手術室業務（東海大学付属札幌高校出身）" [ref=e390] [cursor=pointer]:
+                - generic [ref=e392]:
+                  - text: 泉田さん
+                  - generic [ref=e393]:
+                    - text: 社会福祉法人 聖隷福祉事業団 総合病院 聖隷浜松病院勤務
+                    - text: 担当業務：手術室業務（東海大学付属札幌高校出身）
+          - generic [ref=e394]:
+            - button "Go to slide 1" [ref=e395] [cursor=pointer]
+            - button "Go to slide 2" [ref=e396] [cursor=pointer]
+            - button "Go to slide 3" [ref=e397] [cursor=pointer]
+            - button "Go to slide 4" [ref=e398] [cursor=pointer]
+            - button "Go to slide 5" [ref=e399] [cursor=pointer]
+      - generic [ref=e400]:
+        - heading "CURRICULUM [ 学びを深められる ] 資格＋αのカリキュラム" [level=3] [ref=e401]:
+          - generic [ref=e402]: CURRICULUM
+          - generic [ref=e403]: "[ 学びを深められる ]"
+          - generic [ref=e404]: 資格＋αのカリキュラム
+        - paragraph [ref=e405]: 最先端のICT教育と豊富な実習で、次世代の臨床工学技士に必要な知識と技術を身につけます。
+        - generic [ref=e406]:
+          - tablist [ref=e407]:
+            - tab "1年次" [selected] [ref=e408] [cursor=pointer]
+            - tab "2年次" [ref=e409] [cursor=pointer]
+            - tab "3年次" [ref=e410] [cursor=pointer]
+          - generic [ref=e411]:
+            - heading "最新のICT技術を活用した授業と 早期の実技実習 徹底した個別指導で 国家試験合格の基礎学力を作る" [level=4] [ref=e412]:
+              - text: 最新のICT技術を活用した授業と
+              - text: 早期の実技実習
+              - text: 徹底した個別指導で
+              - text: 国家試験合格の基礎学力を作る
+            - paragraph [ref=e413]
+            - paragraph [ref=e414]: 前期から現役の臨床工学技士や専任教員が臨床現場で必要な医療機器の操作方法などを指導するほか、シミュレーションセンター研修も実施。後期には病院見学を通じて臨床現場を体感します。また、国家試験合格を見据えて、個々の状況に応じて専任教員が徹底した苦手克服補習を行います。
+            - list [ref=e416]:
+              - listitem [ref=e417]:
+                - generic [ref=e418]: 4月
+                - text: シミュレーションセンター研修
+              - listitem [ref=e419]:
+                - generic [ref=e420]: 7月
+                - text: 学年交流会
+              - listitem [ref=e421]:
+                - generic [ref=e422]: 9月
+                - text: 病院見学
+              - listitem [ref=e423]:
+                - generic [ref=e424]: 1月
+                - text: 現役臨床工学技士講話
+              - listitem [ref=e425]:
+                - generic [ref=e426]: 2月
+                - text: 文章検定
+        - generic [ref=e427]:
+          - heading "時間割の例" [level=4] [ref=e428]:
+            - generic [ref=e429]: 時間割の例
+          - paragraph [ref=e430]
+        - generic [ref=e431]:
+          - heading "目指せる資格" [level=4] [ref=e432]:
+            - generic [ref=e433]: 目指せる資格
+          - list [ref=e434]:
+            - listitem [ref=e435]: ・臨床工学技士（国家資格）
+            - listitem [ref=e436]: ・心電図検定
+            - listitem [ref=e437]: ・医療機器情報コミュニケータ（MDIC）検定試験
+            - listitem [ref=e438]: ・第2種ME技術実力検定試験
+            - listitem [ref=e439]: ・第1種ME技術実力検定試験
+          - list [ref=e440]:
+            - listitem [ref=e441]:
+              - paragraph [ref=e442]
+              - paragraph [ref=e443]: （2024年3月卒業生実績）
+            - listitem [ref=e444]:
+              - paragraph [ref=e445]
+              - paragraph [ref=e446]:
+                - text: （2026年3月卒業生実績）
+                - text: ※北海道ハイテクノロジー専門学校からの累計実績
+        - generic [ref=e447]:
+          - paragraph [ref=e448]:
+            - img "News" [ref=e449]
+          - paragraph [ref=e450]
+          - paragraph [ref=e451]:
+            - text: 大学卒業資格の取得「学士」
+            - text: が可能に！
+          - paragraph [ref=e452]:
+            - text: 札幌看護医療に在籍中から星槎大学との併修が可能に。大学を卒業する（学士の学位を得る）ために必要な単位の一部が認定されます。学修はオンラインなどによる受講やテキスト学修のため自分のペースで学ぶことができます。
+            - text: 学費を抑えて学士を取得できるほか、+αの学びを修得することで将来の選択肢が広がるため、キャリアアップにもつながります。
+          - paragraph [ref=e453]
+          - paragraph [ref=e454]: ※ 希望者のみ
+      - generic [ref=e455]:
+        - heading "学ぶだけじゃない！学科ならではの行事で仲が深まる！" [level=3] [ref=e456]:
+          - img "学ぶだけじゃない！学科ならではの行事で仲が深まる！" [ref=e457]
+        - paragraph [ref=e458]
+      - generic [ref=e459]:
+        - heading "他の学科も見る！" [level=2] [ref=e460]
+        - generic [ref=e461]:
+          - generic [ref=e462]:
+            - link [ref=e463] [cursor=pointer]:
+              - /url: /course/nursing/
+            - paragraph [ref=e464]: 看護学科
+          - generic [ref=e465]:
+            - link [ref=e466] [cursor=pointer]:
+              - /url: /course/orthoptist/
+            - paragraph [ref=e467]: 視能訓練士学科
+          - generic [ref=e468]:
+            - link [ref=e469] [cursor=pointer]:
+              - /url: /course/dentalhygienists/
+            - paragraph [ref=e470]: 歯科衛生士学科
+          - generic [ref=e471]:
+            - link:
+              - /url: /course/clinicalengineer/
+            - paragraph [ref=e472]: 臨床工学技士学科
+    - contentinfo [ref=e473]:
+      - generic [ref=e474]:
+        - link "札幌看護医療専門学校" [ref=e475] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e476]
+        - paragraph [ref=e477]: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+        - paragraph [ref=e478]:
+          - text: TEL
+          - link "011-801-8343" [ref=e479] [cursor=pointer]:
+            - /url: tel:011-801-8343
+          - text: ／フリーダイヤル
+          - link "0120-37-8343" [ref=e480] [cursor=pointer]:
+            - /url: tel:0120-37-8343
+        - navigation "フッターナビゲーション" [ref=e481]:
+          - generic [ref=e482]:
+            - link "ABOUT 学校案内" [ref=e483] [cursor=pointer]:
+              - /url: /school/
+              - generic [ref=e484]: ABOUT
+              - text: 学校案内
+            - list [ref=e485]:
+              - listitem [ref=e486]:
+                - link "学校案内 トップ" [ref=e487] [cursor=pointer]:
+                  - /url: /school/
+              - listitem [ref=e488]:
+                - link "札幌看護医療が選ばれる理由" [ref=e489] [cursor=pointer]:
+                  - /url: /school/study/
+              - listitem [ref=e490]:
+                - link "高校1・2年生のための進路選び" [ref=e491] [cursor=pointer]:
+                  - /url: /school/guide/
+              - listitem [ref=e492]:
+                - link "交通・アクセス" [ref=e493] [cursor=pointer]:
+                  - /url: /school/access/
+              - listitem [ref=e494]:
+                - link "建学の理念" [ref=e495] [cursor=pointer]:
+                  - /url: /school/philosophy/
+              - listitem [ref=e496]:
+                - link "情報公開（職業実践専門課程）" [ref=e497] [cursor=pointer]:
+                  - /url: /school/info/
+          - generic [ref=e498]:
+            - link "COURSE 学科・専攻" [ref=e499] [cursor=pointer]:
+              - /url: /course/
+              - generic [ref=e500]: COURSE
+              - text: 学科・専攻
+            - list [ref=e501]:
+              - listitem [ref=e502]:
+                - link "学科・専攻 トップ" [ref=e503] [cursor=pointer]:
+                  - /url: /course/
+              - listitem [ref=e504]:
+                - link "看護学科" [ref=e505] [cursor=pointer]:
+                  - /url: /course/nursing/
+              - listitem [ref=e506]:
+                - link "視能訓練士学科" [ref=e507] [cursor=pointer]:
+                  - /url: /course/orthoptist/
+              - listitem [ref=e508]:
+                - link "歯科衛生士学科 ホワイトニング・デンタルエステ専攻" [ref=e509] [cursor=pointer]:
+                  - /url: /course/dentalhygienists/
+              - listitem [ref=e510]:
+                - link "臨床工学技士学科" [ref=e511] [cursor=pointer]:
+                  - /url: /course/clinicalengineer/
+          - generic [ref=e512]:
+            - link "CAREER 資格・就職" [ref=e513] [cursor=pointer]:
+              - /url: /career/
+              - generic [ref=e514]: CAREER
+              - text: 資格・就職
+            - list [ref=e515]:
+              - listitem [ref=e516]:
+                - link "資格・就職 トップ" [ref=e517] [cursor=pointer]:
+                  - /url: /career/
+              - listitem [ref=e518]:
+                - link "資格サポート" [ref=e519] [cursor=pointer]:
+                  - /url: /career/license_support/
+              - listitem [ref=e520]:
+                - link "就職サポート" [ref=e521] [cursor=pointer]:
+                  - /url: /career/job_result/
+          - generic [ref=e522]:
+            - link "CAMPUS LIFE 学校生活・施設" [ref=e523] [cursor=pointer]:
+              - /url: /campuslife/
+              - generic [ref=e524]: CAMPUS LIFE
+              - text: 学校生活・施設
+            - list [ref=e525]:
+              - listitem [ref=e526]:
+                - link "学校生活・施設 トップ" [ref=e527] [cursor=pointer]:
+                  - /url: /campuslife/
+              - listitem [ref=e528]:
+                - link "キャンパスライフ" [ref=e529] [cursor=pointer]:
+                  - /url: /campuslife/schedule/
+              - listitem [ref=e530]:
+                - link "施設紹介" [ref=e531] [cursor=pointer]:
+                  - /url: /campuslife/facility/
+          - generic [ref=e532]:
+            - link "ADMISSION 入試・学費" [ref=e533] [cursor=pointer]:
+              - /url: /admission/
+              - generic [ref=e534]: ADMISSION
+              - text: 入試・学費
+            - list [ref=e535]:
+              - listitem [ref=e536]:
+                - link "入試・学費 トップ" [ref=e537] [cursor=pointer]:
+                  - /url: /admission/
+              - listitem [ref=e538]:
+                - link "募集要項" [ref=e539] [cursor=pointer]:
+                  - /url: /admission/application/
+              - listitem [ref=e540]:
+                - link "AO入試エントリー・出願方法" [ref=e541] [cursor=pointer]:
+                  - /url: /admission/ao/
+              - listitem [ref=e542]:
+                - link "推薦・一般入試 出願方法" [ref=e543] [cursor=pointer]:
+                  - /url: /admission/applicationflow/
+              - listitem [ref=e544]:
+                - link "学費・奨学金制度" [ref=e545] [cursor=pointer]:
+                  - /url: /admission/expenses/
+              - listitem [ref=e546]:
+                - link "特待生＆減免制度" [ref=e547] [cursor=pointer]:
+                  - /url: /admission/scholarship/
+          - generic [ref=e548]:
+            - link "OPEN CAMPUS オープンキャンパス" [ref=e549] [cursor=pointer]:
+              - /url: /opencampus/
+              - generic [ref=e550]: OPEN CAMPUS
+              - text: オープンキャンパス
+            - list [ref=e551]:
+              - listitem [ref=e552]:
+                - link "オープンキャンパスとは" [ref=e553] [cursor=pointer]:
+                  - /url: /opencampus/
+              - listitem [ref=e554]:
+                - link "イベント全日程一覧" [ref=e555] [cursor=pointer]:
+                  - /url: /opencampus/calendar/
+              - listitem [ref=e556]:
+                - link "学校説明・個別相談会" [ref=e557] [cursor=pointer]:
+                  - /url: /opencampus/session/
+              - listitem [ref=e558]:
+                - link "無料送迎バス" [ref=e559] [cursor=pointer]:
+                  - /url: /opencampus/bus/
+              - listitem [ref=e560]:
+                - link "交通費補助" [ref=e561] [cursor=pointer]:
+                  - /url: /opencampus/subsidy_list/
+        - list [ref=e562]:
+          - listitem [ref=e563]:
+            - link "卒業生の方へ" [ref=e564] [cursor=pointer]:
+              - /url: /visit_graduate/
+          - listitem [ref=e565]:
+            - link "高等学校の先生方へ" [ref=e566] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9888/
+          - listitem [ref=e567]:
+            - link "中学校の先生方へ" [ref=e568] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9891/
+          - listitem [ref=e569]:
+            - link "社会人・大学生・短大生の方へ" [ref=e570] [cursor=pointer]:
+              - /url: /visit_society/
+          - listitem [ref=e571]:
+            - link "企業の方へ" [ref=e572] [cursor=pointer]:
+              - /url: /visit_company/
+          - listitem [ref=e573]:
+            - link "職員募集につきまして" [ref=e574] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e575]:
+            - link "産官学連携にご協力いただける企業・自治体の方へ" [ref=e576] [cursor=pointer]:
+              - /url: /visit_municipality/
+        - list [ref=e577]:
+          - listitem [ref=e578]:
+            - link "お問い合わせ" [ref=e579] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/inquiry/
+          - listitem [ref=e580]:
+            - link "交通・アクセス" [ref=e581] [cursor=pointer]:
+              - /url: /school/access/
+          - listitem [ref=e582]:
+            - link "情報公開（職業実践専門課程）" [ref=e583] [cursor=pointer]:
+              - /url: /school/info/
+          - listitem [ref=e584]:
+            - link "施設(教室)利用貸出につきまして" [ref=e585] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/facility/
+          - listitem [ref=e586]:
+            - link "採用情報" [ref=e587] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e588]:
+            - link "サイトマップ" [ref=e589] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e590]:
+            - link "プライバシーポリシー" [ref=e591] [cursor=pointer]:
+              - /url: /privacy/
+          - listitem [ref=e592]:
+            - link "ソーシャルメディアポリシー" [ref=e593] [cursor=pointer]:
+              - /url: /socialpolicy/
+        - list [ref=e594]:
+          - listitem [ref=e595]:
+            - link "Instagram" [ref=e596] [cursor=pointer]:
+              - /url: https://www.instagram.com/sapporo_kango/
+          - listitem [ref=e597]:
+            - link "TikTok" [ref=e598] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@sapporo_kango
+          - listitem [ref=e599]:
+            - link "YouTube" [ref=e600] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+          - listitem [ref=e601]:
+            - link "LINE" [ref=e602] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/914/
+        - paragraph [ref=e603]: © Sapporo College of Nursing & Medical Care.
+    - generic [ref=e604]:
+      - link "資料請求" [ref=e605] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/document/
+        - generic [ref=e606]: 資料請求
+      - link "イベント 全日程一覧" [ref=e607] [cursor=pointer]:
+        - /url: /opencampus/calendar/
+        - generic [ref=e608]:
+          - text: イベント
+          - text: 全日程一覧
+      - link "AO エントリー" [ref=e609] [cursor=pointer]:
+        - /url: https://webappform.jikei.com/entry/?sid=snm
+        - generic [ref=e610]:
+          - text: AO
+          - text: エントリー
+      - link "LINEなんでも 相談" [ref=e611] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/news/2023/914/
+        - generic [ref=e612]:
+          - text: LINEなんでも
+          - text: 相談
+  - text: ▾ → → → → →

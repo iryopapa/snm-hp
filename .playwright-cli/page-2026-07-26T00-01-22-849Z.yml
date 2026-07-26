@@ -1,0 +1,707 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "札幌看護医療専門学校" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e9]
+        - button "MENU" [ref=e10] [cursor=pointer]:
+          - generic [ref=e15]: MENU
+    - main [ref=e16]:
+      - navigation "パンくずリスト" [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "TOP" [ref=e20] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e21]:
+            - text: ›
+            - link "学校案内" [ref=e22] [cursor=pointer]:
+              - /url: /school/
+          - listitem [ref=e23]: ›情報公開
+      - heading "ABOUT 情報公開" [level=1] [ref=e25]:
+        - generic [ref=e26]: ABOUT
+        - generic [ref=e27]: 情報公開
+      - generic [ref=e29]:
+        - navigation "情報公開メニュー" [ref=e30]:
+          - list [ref=e31]:
+            - listitem [ref=e32]:
+              - link "（1）学校の概要、目標及び計画" [ref=e33] [cursor=pointer]:
+                - /url: "#content01"
+            - listitem [ref=e34]:
+              - link "（2）各学科等の教育" [ref=e35] [cursor=pointer]:
+                - /url: "#content02"
+            - listitem [ref=e36]:
+              - link "（3）教職員" [ref=e37] [cursor=pointer]:
+                - /url: "#content03"
+            - listitem [ref=e38]:
+              - link "（4）キャリア教育・実践的職業教育" [ref=e39] [cursor=pointer]:
+                - /url: "#content04"
+            - listitem [ref=e40]:
+              - link "（5）様々な教育活動･教育環境" [ref=e41] [cursor=pointer]:
+                - /url: "#content05"
+            - listitem [ref=e42]:
+              - link "（6）学生の生活支援" [ref=e43] [cursor=pointer]:
+                - /url: "#content06"
+            - listitem [ref=e44]:
+              - link "（7）学生納付金・修学支援" [ref=e45] [cursor=pointer]:
+                - /url: "#content07"
+            - listitem [ref=e46]:
+              - link "（8）法人の財務" [ref=e47] [cursor=pointer]:
+                - /url: "#content08"
+            - listitem [ref=e48]:
+              - link "（9）学校評価" [ref=e49] [cursor=pointer]:
+                - /url: "#content09"
+            - listitem [ref=e50]:
+              - link "（10）国際連携の状況" [ref=e51] [cursor=pointer]:
+                - /url: "#content10"
+            - listitem [ref=e52]:
+              - link "（11）その他" [ref=e53] [cursor=pointer]:
+                - /url: "#content11"
+        - generic [ref=e54]:
+          - heading "（1）学校の概要、目標及び計画" [level=2] [ref=e55]
+          - generic [ref=e56]:
+            - heading "基本情報" [level=3] [ref=e57]
+            - paragraph [ref=e58]:
+              - text: 学校名：札幌看護医療専門学校
+              - text: 連絡先：0120-37-8343（フリーダイアル）／
+              - link "info@snm.ac.jp" [ref=e59] [cursor=pointer]:
+                - /url: mailto:info@snm.ac.jp
+          - generic [ref=e61]:
+            - heading "開校の目的" [level=3] [ref=e62]
+            - paragraph [ref=e63]: 本校は令和3年4月1日より実学教育・人間教育・国際教育を建学の理念に、業界と直結した職業教育を行うことを使命として開校致しました。
+            - paragraph [ref=e64]: たえず時代の変化と社会のニーズを見つめながら、医療に関わる人材を養成し、人間教育として、キャリアに対する意識の形成や将来のキャリア設計をフローとしてとらえた「キャリア教育」、さらにグローバル人材の育成に力を注いでおり、常に社会から求められる高度医療専門職業人の育成のカリキュラムを目指しています。
+            - paragraph [ref=e65]: また『4つの信頼』として掲げている「学生・保護者からの信頼」「高等学校からの信頼」「業界からの信頼」「地域からの信頼」を得ることを目指し、職業教育を通じて新たな知識・技術・人間性を創造し伝承・発展させ、人材を育成することを通じて社会の進歩と社会の発展に貢献するという使命をもっています。
+            - heading "建学の理念" [level=4] [ref=e66]
+            - paragraph [ref=e67]:
+              - strong [ref=e68]: ①実学教育
+              - text: スペシャリストの時代に即し、産業界に直結した専門学校として知識、技術、ビジネスマインドを持った業界が求める即戦力の人材を育成します。
+            - paragraph [ref=e69]:
+              - strong [ref=e70]: ②人間教育
+              - text: 「今日も笑顔で挨拶を」を標語に掲げ、思いやりの気持ち、コミュニケーションの大切さを学び、自立した社会人としての人間力（身構え、気構え、心構え）を身につけます。
+            - paragraph [ref=e71]:
+              - strong [ref=e72]: ③国際教育
+              - text: 日本人としてのアイデンティティを明確に持ち、価値観や文化の違いを尊重して、より広い視野でものを見ることができるよう、真の国際的な感性を養います。
+          - generic [ref=e74]:
+            - heading "建学の理念、沿革、学校長略歴・挨拶" [level=3] [ref=e75]
+            - paragraph [ref=e76]:
+              - text: 建学の理念、沿革、学校長略歴・挨拶は
+              - link "こちら" [ref=e77] [cursor=pointer]:
+                - /url: /school/philosophy/
+            - paragraph [ref=e78]:
+              - link "1.滋慶学園2025年度決算理事会事業報告（PDF）" [ref=e79] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/business-report.pdf?date=2026
+            - paragraph [ref=e80]:
+              - link "2.滋慶学園役員名簿2026" [ref=e81] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/board-members.pdf?date=2026
+          - generic [ref=e82]:
+            - heading "教育目標" [level=3] [ref=e83]
+            - paragraph [ref=e84]:
+              - text: 本校建学の精神は、本校教育の憲法とも言うべきもので、つぎの3本の柱で構成されています。
+              - text: 第1は実学教育、第2は人間教育、第3は国際教育です。
+              - text: 専門学校教育の使命は、3年の教育課程の中で、社会、産業構造の変革、進展に応じて要望される即戦力の人材を養成するもので、特徴として実習、校外研修を十分に取り入れた実践的な教育をすることが、第1の眼目です。しかし単に技術、知識に優れていても、日本人・社会人・業界人として、身構え・気構え・心構えを身につけた、心豊かな人材でなければ社会のニーズには応えられません。さらに時代が求める「国際化を意識した幅広い視野」を持ち得た人材育成のためにその一つの手段として、海外との学術交流・海外研修旅行など積極的に取り組んでいます。
+              - text: 又、本校の卒業生は、医療業界という直接人間、健康、生命に直結する職業人となるわけですから、その重要性を十分自覚させ、患者さん中心の医療の提供と、信念のある人間に育てることを目標としています。
+        - generic [ref=e85]:
+          - heading "（2）各学科等の教育" [level=2] [ref=e86]
+          - paragraph [ref=e87]: 各学科の養成目的、教育目標、カリキュラム、取得目標資格は以下よりご覧下さい。
+          - generic [ref=e88]:
+            - heading "看護学科" [level=3] [ref=e89]: 看護学科
+            - paragraph [ref=e92]:
+              - strong [ref=e93]: 1．養成目的（ディプロマポリシー）
+              - text: 1．生命の尊厳を基盤とした豊かな人間性をもち、専門職業人として必要な知識・技術・態度を身につけ、看護を実践できる能力が備わっている
+              - text: 2．保健・医療・福祉チームの一員として責務を果たそうとする意欲と、専門職業人としての自覚をもち、継続して学習する姿勢を身につけ、変化する社会に対応できる能力が備わっている
+            - paragraph [ref=e94]:
+              - strong [ref=e95]: 2．教育目標（カリキュラムポリシー）
+              - text: 1．生命の尊厳と個人の尊重を基盤とした、心の豊かさを身につけた人間の育成を図るカリキュラム
+              - text: 2．看護者としての知識・技術および態度を養い、科学的根拠と倫理的判断力をあわせもった看護を実践する基礎的能力を育成するカリキュラム
+              - text: 3．専門職業人としての使命と責任を自覚し、保健・医療・福祉と連携・協働しながら地域・社会に広く貢献できる能力を備えた人材の育成を図るカリキュラム
+            - paragraph [ref=e96]:
+              - strong [ref=e97]: 3．入学者受け入れ方針（アドミッションポリシー）
+              - text: 1．社会、地域に貢献する意欲のある人
+              - text: 2．目指す分野で活躍するために、知識・技術を修得する意欲のある人
+              - text: 3．勤労観、職業観を備えている人
+            - paragraph [ref=e98]:
+              - strong [ref=e99]: 4．取得目標資格
+              - link "取得目標資格はこちらから" [ref=e100] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/abm00018004.pdf
+            - paragraph [ref=e101]:
+              - strong [ref=e102]: 5．カリキュラム（4号様式参照）
+              - link "札幌看護医療専門学校看護学科別紙様式4" [ref=e103] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/appended-form4-nursing.pdf?date=2026
+          - generic [ref=e104]:
+            - heading "視能訓練士学科" [level=3] [ref=e105]: 視能訓練士学科
+            - paragraph [ref=e108]:
+              - strong [ref=e109]: 1．養成目的（ディプロマポリシー）
+              - text: 1．臨床現場で役立つ基礎知識・眼科専門知識・専門技術を身に付け、また、応用へと発展できる力を身につけている。
+              - text: 2．眼科医療チームにおける視能訓練士の役割を理解し、社会に貢献できる身構え・気構え・心構えを身につけている。
+            - paragraph [ref=e110]:
+              - strong [ref=e111]: 2．教育目標（カリキュラムポリシー）
+              - text: 1．基本的な知識・技術を基に、専門性の高い能力を身に付けるカリキュラム
+              - text: 2．対象者の全体像を的確に捉え、柔軟に対応できる能力を育成するカリキュラム
+              - text: 3．コミュニケーション力や社会性を養い向上させるカリキュラム
+            - paragraph [ref=e112]:
+              - strong [ref=e113]: 3．入学者受け入れ方針（アドミッションポリシー）
+              - text: 1．社会、地域に貢献する意欲のある人
+              - text: 2．目指す分野で活躍するために、知識・技術を修得する意欲のある人
+              - text: 3．勤労観、職業観を備えている人
+            - paragraph [ref=e114]:
+              - strong [ref=e115]: 4．取得目標資格
+              - link "取得目標資格はこちらから" [ref=e116] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/abm00018008.pdf
+            - paragraph [ref=e117]:
+              - strong [ref=e118]: 5．カリキュラム（4号様式参照）
+              - link "札幌看護医療専門学校視能訓練士学科別紙様式4" [ref=e119] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/appended-form4-orthoptist.pdf?date=2026
+          - generic [ref=e120]:
+            - heading "歯科衛生士学科" [level=3] [ref=e121]: 歯科衛生士学科
+            - paragraph [ref=e124]:
+              - strong [ref=e125]: 1．養成目的（ディプロマポリシー）
+              - text: 1．歯科衛生士としての知識・技術及び態度を身につけ、口腔の健康の保持を通して保健・医療・福祉に貢献できる能力が備わっている。
+              - text: 2．社会の一員としての使命と責任を自覚し、相手の人格を尊重できる心の豊かさが身についている。
+              - text: 3．歯科衛生士活動について広い視野を持ち、地域・社会に貢献できる高い実践能力が備わっている。
+            - paragraph [ref=e126]:
+              - strong [ref=e127]: 2．教育目標（カリキュラムポリシー）
+              - text: 1．歯科保健・医療を取巻く社会の変化によるニーズの多様化に対応できるカリキュラム
+              - text: 2．人間性豊かな人材の養成を目標とするカリキュラム
+            - paragraph [ref=e128]:
+              - strong [ref=e129]: 3．入学者受け入れ方針（アドミッションポリシー）
+              - text: 1．社会、地域に貢献する意欲のある人
+              - text: 2．目指す分野で活躍するために、知識・技術を修得する意欲のある人
+              - text: 3．勤労観、職業観を備えている人
+            - paragraph [ref=e130]:
+              - strong [ref=e131]: 4．取得目標資格
+              - link "取得目標資格はこちらから" [ref=e132] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/abm00017999.pdf
+            - paragraph [ref=e133]:
+              - strong [ref=e134]: 5．カリキュラム（4号様式参照）
+              - link "札幌看護医療専門学校歯科衛生士学科別紙様式4" [ref=e135] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/appended-form4-dentalhygienists.pdf?date=2026
+          - generic [ref=e136]:
+            - heading "臨床工学技士学科" [level=3] [ref=e137]: 臨床工学技士学科
+            - paragraph [ref=e140]:
+              - strong [ref=e141]: 1．養成目的（ディプロマポリシー）
+              - text: 1．学内外の教育プログラムを通じて医療機器を含めた医療全体の安全確保・チーム医療の一員として、質の向上に寄与すべく自ら考え行動する力が身についている。
+              - text: 2．医業界との連携により、人間力と職業に必要な知識・技術・社会人基礎力が身についている。
+              - text: 3．卒業後も臨床工学技士のスペシャリストとしてキャリアアップを続ける意欲がある。
+            - paragraph [ref=e142]:
+              - strong [ref=e143]: 2．教育目標（カリキュラムポリシー）
+              - text: 1．ICT(Information and Communication Technology)と医療安全をつなげるプログラム
+              - text: 2．人間的成長とキャリア設計を支援するカリキュラム
+              - text: 3．早期から専門性に触れ、自ら学ぶ意識を高めるカリキュラム
+              - text: 4．基礎学力と社会人基礎力の向上を図るカリキュラム
+            - paragraph [ref=e144]:
+              - strong [ref=e145]: 3．入学者受け入れ方針（アドミッションポリシー）
+              - text: 1．社会、地域に貢献する意欲のある人
+              - text: 2．目指す分野で活躍するために、知識・技術を修得する意欲のある人
+              - text: 3．勤労観、職業観を備えている人
+            - paragraph [ref=e146]:
+              - strong [ref=e147]: 4．取得目標資格
+              - link "取得目標資格はこちらから" [ref=e148] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/abm00018009.pdf
+            - paragraph [ref=e149]:
+              - strong [ref=e150]: 5．カリキュラム（4号様式参照）
+              - link "札幌看護医療専門学校臨床工学技士学科別紙様式4" [ref=e151] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/appended-form4-clinicalengineer.pdf?date=2026
+        - generic [ref=e152]:
+          - heading "（3）教職員" [level=2] [ref=e153]
+          - generic [ref=e154]:
+            - heading "学校長 あいさつ" [level=3] [ref=e155]
+            - generic [ref=e156]:
+              - figure "学校法人 滋慶学園 札幌看護医療専門学校 学校長 佐々木 孝（ささき たかし）" [ref=e157]:
+                - generic [ref=e158]:
+                  - text: 学校法人 滋慶学園
+                  - text: 札幌看護医療専門学校
+                  - generic [ref=e159]: 学校長 佐々木 孝（ささき たかし）
+              - paragraph [ref=e161]:
+                - text: ＜プロフィール＞
+                - text: 医師・医学博士
+                - text: 日本胸部外科学会指導医、心臓血管外科名誉専門医、日本医師会認定産業医を歴任し、現役の医師として長年に渡り心臓血管外科や循環器医療に尽力しています。
+            - paragraph [ref=e162]:
+              - text: 札幌看護医療専門学校は、本校で学ぶ人々が医療人として求められる豊かな人間性を育み、将来の地域医療を支える人材となる能力を養うことを念頭に運営しております。
+              - text: 医療の世界で仕事をしていくために大切なことは、人への思いやりですが、その心を育むために学内には「今日も笑顔であいさつを」の標語を掲げ人間教育を行なっています。
+              - text: 本校の特長は先端医療機関との連携や地域との産官学連携を通して、ICTを駆使して現場に近い臨場感あふれる教育を実施していることです。
+              - text: 私共はこのような環境で地域医療を支える人材育成を継続して行い、社会に貢献して参ります。
+          - generic [ref=e163]:
+            - heading "教職員数" [level=3] [ref=e164]
+            - table [ref=e165]:
+              - rowgroup [ref=e166]:
+                - row "学校長 1名" [ref=e167]:
+                  - rowheader "学校長" [ref=e168]
+                  - cell "1名" [ref=e169]
+                - row "副校長 1名" [ref=e170]:
+                  - rowheader "副校長" [ref=e171]
+                  - cell "1名" [ref=e172]
+                - row "教員 （本務者） 36名" [ref=e173]:
+                  - rowheader "教員 （本務者）" [ref=e174]:
+                    - text: 教員
+                    - generic [ref=e175]: （本務者）
+                  - cell "36名" [ref=e176]
+                - row "教員 （兼務者） 202名" [ref=e177]:
+                  - rowheader "教員 （兼務者）" [ref=e178]:
+                    - text: 教員
+                    - generic [ref=e179]: （兼務者）
+                  - cell "202名" [ref=e180]
+                - row "事務職員・ 学校医 9名" [ref=e181]:
+                  - rowheader "事務職員・ 学校医" [ref=e182]:
+                    - text: 事務職員・
+                    - generic [ref=e183]: 学校医
+                  - cell "9名" [ref=e184]
+        - generic [ref=e185]:
+          - heading "（4）キャリア教育・実践的職業教育" [level=2] [ref=e186]
+          - generic [ref=e187]:
+            - heading "キャリア教育への取り組み" [level=3] [ref=e188]
+            - paragraph [ref=e189]: 本校の職業人教育は、知識と技術の習得に必要な『専門教育』と人を育てる『キャリア教育』を複合的に実践していきます。また、『国際教育』を通じて国際的視野と語学力を養い、グローバルに活躍できる人材を育成します。
+            - paragraph [ref=e190]:
+              - text: 職業人教育は「入学前」「在学中」「卒業後」とフロー形式で行います。
+              - text: 自分が何を目指したいのか（＝自己発見）、そのために何をするか（＝自己変革）、目標を形にした後、そこからどうしたいのか（＝自己実現）。それぞれの段階で目的を見出し、学生たちは自分に必要な技術や知識の習得を目指します。
+          - generic [ref=e192]:
+            - heading "臨地実習の紹介" [level=3] [ref=e193]
+            - paragraph [ref=e194]: 実際の仕事の現場を経験することができる臨地実習は、職業に対する意識を高め、自分の将来像をイメージする貴重な体験となります。本学園では、これまでに培った実績と信頼をもとに医療機関にご協力いただき、数多くの臨地実習を可能としています。
+          - generic [ref=e195]:
+            - heading "就職支援の取り組み" [level=3] [ref=e196]
+            - paragraph [ref=e197]:
+              - text: 就職支援の取り組みは
+              - link "こちら" [ref=e198] [cursor=pointer]:
+                - /url: /career/job_result/
+        - generic [ref=e199]:
+          - heading "（5）様々な教育活動･教育環境" [level=2] [ref=e200]
+          - generic [ref=e201]:
+            - heading "教育関連イベント・学生支援システム" [level=3] [ref=e202]
+            - heading "各種学生支援システム" [level=4] [ref=e203]
+            - paragraph [ref=e204]:
+              - strong [ref=e205]: 入学事前学習システム
+              - text: 入学が決定した学生を対象に、入学をスムーズに学習を進められるよう各学科の内容に沿ったプログラムを用意しています。医療系の基礎知識となる生物や化学、解剖生理などの資料を送って自宅学習を可能にし、コンピューター上で動画のレクチャーやCBT（コンピューター上での模擬試験）なども受講することができます。高校で履修していない科目がある場合にも入学前にフォロー、基本的なスキルを統一して入学び備えます。
+            - paragraph [ref=e206]:
+              - link "入学予定者の皆さんへ E-ラーニング J-WEB" [ref=e207] [cursor=pointer]:
+                - /url: http://jweb-pre.jgx.jp/
+                - img "入学予定者の皆さんへ E-ラーニング J-WEB" [ref=e208]
+            - paragraph [ref=e209]:
+              - strong [ref=e210]: PC遠隔教育
+              - text: 本校に入学する来年4月迄に、入学後の学習の理解を早める意味で自己学習教材を使っていただきます。この教材を使えば、自宅にいても学習を進めることができます。また、学習を進める上での疑問や質問は、本校の教員にメールやブログを使って質問をすることもできます。AOセミナー、オープンキャンパスなどで親しくなった友人との情報交換も可能です。
+              - text: AO特待生入学事前学習eラーニングのメリットとして
+            - list [ref=e211]:
+              - listitem [ref=e212]: 自宅で時間にとらわれず学習ができる。
+              - listitem [ref=e213]: 習熟度、到達点がリアルタイムに確認でき、学習意欲が向上する。
+              - listitem [ref=e214]: 簡単なことでも不明点があれば気軽に質問し回答を得ることができる。
+            - paragraph [ref=e215]:
+              - strong [ref=e216]: 国家試験サポートシステム
+              - text: 医療を目指す職業においては、国家資格なければその仕事をすることが出来ません。本校では、在学中に万が一、国家試験に不合格になった場合は、卒業後も次回試験に向けて合格をサポートするシステムを設けています。校内で行われる講習などに参加して指導を受けられるほか、本学園から教材を提供し、郵送での添削にも対応するなど、さまざまな試験対策を無償で行います。また、遠方の卒業生などのために学生寮を開放し、学習環境の面からもサポートします。
+            - paragraph [ref=e217]:
+              - strong [ref=e218]: 新入生研修システム
+              - text: 合同の新入生研修を実施している。これは、医療人を目指す学生としての自覚を促がす内容の研修を行っています。また、将来、目指す業界の現場を見学する機械を設け、目的を確認し、これから学んでいく為の動機付けも図ります。
+              - text: クラスや学科のチーム意識を高める為に、各学科で趣向を凝らしたグループワークが催され、3年後の国家試験合格と就職を目指して、有意義な学生生活を送るよう心構えを身につけさせる研修です。
+            - paragraph [ref=e219]:
+              - strong [ref=e220]: マナー教育システム
+              - text: 挨拶運動
+              - text: 教職員による朝の挨拶運動を実施しています。教職員全員が新入生を迎えるつもりで「おはようございます」の声掛けを行い、この時期に目的意識の確認、ルール、規律等を指導しています。
+            - paragraph [ref=e221]:
+              - strong [ref=e222]: 社会貢献システム
+              - text: 本学園は、地域の方々から信頼を得ることを基本理念の一つにしています。この基本理念の実践として、社会貢献の機会を積極的に設け、学生たちは地域清掃などのボランティアや地域で行われるイベントなどに積極的に参加します。また、各専門分野の教員が講師役となって開催する一般市民を対象とした地域セミナーや社会貢献の役割を果たします。
+            - paragraph [ref=e223]:
+              - strong [ref=e224]: 同窓会勉強会システム
+              - text: 学科ごとに同窓会を組織し、定期的に会合を行って親睦を図る一方で、それぞれの業界での真のリーダーになることを目的にした勉強会を行っています。各専門分野の知識・技術をさらに深める研修のほかに、業界の最新情報や求人に関する情報などを交換し合い、現場での仕事に活用しています。卒業生の活躍の場は全国各地に及んでいるため、参加できない同窓生にも情報を発信しようと、各学科で同窓会誌も発行しています。
+            - paragraph [ref=e225]:
+              - link "客観的指標の算出方法（PDF）" [ref=e226] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/abm20190701-2.pdf
+            - paragraph [ref=e227]:
+              - link "卒業の認定に関する方針（PDF）" [ref=e228] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/abm20190701-3.pdf?v2
+          - generic [ref=e229]:
+            - heading "実務経験のある教員等による授業科目" [level=3] [ref=e230]
+            - paragraph [ref=e231]:
+              - text: 実務経験のある教員等による授業科目は
+              - link "こちら" [ref=e232] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/business-education.pdf?date=202606
+          - generic [ref=e233]:
+            - heading "授業計画（実務教育科目のシラバス）" [level=3] [ref=e234]
+            - generic [ref=e235]:
+              - heading "看護学科" [level=4] [ref=e236]: 看護学科
+              - paragraph [ref=e238]:
+                - link "看護学科シラバス（PDF）" [ref=e239] [cursor=pointer]:
+                  - /url: https://www.snm.ac.jp/asset/doc/school/info/syllabus-nursing.pdf?date=2026
+            - generic [ref=e240]:
+              - heading "視能訓練士学科" [level=4] [ref=e241]: 視能訓練士学科
+              - paragraph [ref=e243]:
+                - link "視能訓練士学科シラバス（PDF）" [ref=e244] [cursor=pointer]:
+                  - /url: https://www.snm.ac.jp/asset/doc/school/info/syllabus-orthoptist.pdf?date=2026
+            - generic [ref=e245]:
+              - heading "歯科衛生士学科" [level=4] [ref=e246]: 歯科衛生士学科
+              - paragraph [ref=e248]:
+                - link "歯科衛生士学科シラバス（PDF）" [ref=e249] [cursor=pointer]:
+                  - /url: https://www.snm.ac.jp/asset/doc/school/info/syllabus-dentalhygienists.pdf?date=2026
+            - generic [ref=e250]:
+              - heading "臨床工学技士学科" [level=4] [ref=e251]: 臨床工学技士学科
+              - paragraph [ref=e253]:
+                - link "臨床工学技士学科シラバス（PDF）" [ref=e254] [cursor=pointer]:
+                  - /url: https://www.snm.ac.jp/asset/doc/school/info/syllabus-clinicalengineer.pdf?date=2026
+          - generic [ref=e255]:
+            - heading "学校設備状況" [level=3] [ref=e256]
+            - generic [ref=e257]:
+              - figure "図書キャリアセンター" [ref=e258]:
+                - generic [ref=e259]: 図書キャリアセンター
+              - figure "アクティブラーニングルーム" [ref=e260]:
+                - generic [ref=e261]: アクティブラーニングルーム
+              - figure "歯科ファントム実習室" [ref=e262]:
+                - generic [ref=e263]: 歯科ファントム実習室
+            - paragraph [ref=e264]:
+              - text: 施設・設備の詳細は
+              - link "こちら" [ref=e265] [cursor=pointer]:
+                - /url: /campuslife/facility/
+        - generic [ref=e266]:
+          - heading "（6）学生の生活支援" [level=2] [ref=e267]
+          - generic [ref=e268]:
+            - heading "高等教育の修学支援制度" [level=3] [ref=e269]
+            - paragraph [ref=e270]: 令和元年5月10日の「大学等における修学の支援に関する法律」の制定を受け、わが校では社会で自立し活躍することができる人材を育成するため経済的負担を軽減し、真に支援が必要な方への支援について積極的に取り組みを行います。
+          - generic [ref=e271]:
+            - heading "新入学生支援システム" [level=4] [ref=e272]
+            - paragraph [ref=e273]: 一人暮らしを始めるためのマニュアル制作、周辺の地域から寄せられるアル バイト情報を発信するアルバイト支援デスクなど、多方面から学生の毎日をサポートするシステムを整備しています。さらに、学生生活のさまざまな悩みについて相談できる学生相談室を開設。臨床心理士の専門カウンセラーが来校し、相談者のプライバシーを最大限に尊重しながら、問題解決のためのアドバイスを行います。また、個別に将来の夢や学生生活での希望などを聞き、在学中に必要な全ての諸費用を学費相談員（ファイナンシャルアドバイザー）の見識から算出していきます。その上で、最も理想的な学費プランをご提案し、活用していただきます。心強い資金面のサポートとして、入学前は、もちろん、入学後も学費に関するアドバイスを行っていきます。
+            - heading "健康管理システム" [level=4] [ref=e274]
+            - paragraph [ref=e275]:
+              - text: 学生の健康管理のために、年1回の健康診断4月上旬に実施しています。診断の結果、再検査を5月の下旬に実施し、その結果、要治療となった学生は、データをもとにスムーズに治療を受けることができます。
+              - text: 再検査を、5月下旬に実施。（判定がDの項目のみ）
+              - text: 検査項目は、以下の通り
+              - text: 問診、身長、体重、BMI、血圧、視力、聴力、肝機能（BOT、GPT、γ-GTP）、脂質（総コレステロール、中性脂肪、HDLコレステロール）、
+              - text: 尿検査（糖、蛋白、潜血、ウロビリノーゲン）、血液一般（赤血球数、ヘマトクリット、血色素量、白血球数、血小板数）、心電図、胸部Ｘ線
+              - text: その他学科特性により臨床実習や就職のために追加検査を実施する
+        - generic [ref=e276]:
+          - heading "（7）学生納付金・修学支援" [level=2] [ref=e277]
+          - paragraph [ref=e278]:
+            - text: 当校の納付金は募集要項に定めにより入学前より確認することができます。
+            - text: また、様々な学費支援制度を完備しております。
+          - generic [ref=e279]:
+            - heading "学費" [level=3] [ref=e280]
+            - paragraph [ref=e281]:
+              - text: 学費・奨学金制度は
+              - link "こちら" [ref=e282] [cursor=pointer]:
+                - /url: /admission/expenses/
+          - generic [ref=e283]:
+            - heading "大学等における修学支援に関する法律第7条2項に基づく確認申請書" [level=3] [ref=e284]
+            - paragraph [ref=e285]:
+              - link "確認申請書（様式第2号 2026札幌看護医療専門学校）" [ref=e286] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/confirmation-application.pdf?date=202607
+        - generic [ref=e287]:
+          - heading "（8）法人の財務" [level=2] [ref=e288]
+          - generic [ref=e289]:
+            - heading "学校法人滋慶学園決算書" [level=3] [ref=e290]
+            - paragraph [ref=e291]:
+              - link "4.滋慶学園2025年度決算書" [ref=e292] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/financial-statement.pdf?date=2026
+          - generic [ref=e293]:
+            - heading "監査報告書" [level=3] [ref=e294]
+            - paragraph [ref=e295]:
+              - link "5.2025年度滋慶学園監査報告書" [ref=e296] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/audit-report.pdf?date=2026
+        - generic [ref=e297]:
+          - heading "（9）学校評価" [level=2] [ref=e298]
+          - generic [ref=e299]:
+            - heading "自己点検評価・学校関係者評価書" [level=3] [ref=e300]
+            - paragraph [ref=e301]:
+              - link "2026年度実施自己点検・自己評価（2025年度分）札看医" [ref=e302] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/self-evaluation-table.pdf?date=2026
+          - generic [ref=e303]:
+            - heading "学校関係者評価委員会報告書" [level=3] [ref=e304]
+            - paragraph [ref=e305]:
+              - link "2026.5.25学校関係者評価委員会報告書" [ref=e306] [cursor=pointer]:
+                - /url: https://www.snm.ac.jp/asset/doc/school/info/evaluation-committee-report.pdf?date=2026
+        - generic [ref=e307]:
+          - heading "（10）国際連携の状況" [level=2] [ref=e308]
+          - paragraph [ref=e309]: 各学科の専門性を考慮した海外研修を行っています。自らが目指す世界の最先端に触れることにより、世界的視野を持った職業人の養成を目指しています。専門英語の学習のみならず日本人としてのアイデンティティの確立にも力を入れています。
+          - generic [ref=e310]:
+            - heading "海外研修" [level=3] [ref=e311]
+            - heading "海外提携大学特別講演システム" [level=4] [ref=e312]
+            - paragraph [ref=e313]: 本学園は、幅広い視野を持ったスペシャリストを育てる事を目標 に、海外の教育機関と提携して国際交流に力を入れています。その一環として、本学園と医療分野の教育を展開している提携大学から講師を招き、講演会･セミナーなどを開催して学生たちの興味や関心を広げています。海外の情報にふれる貴重な機会として、講演会には卒業生や地域の方々も参加可能していただいています。
+            - heading "語学修得システム" [level=4] [ref=e314]
+            - paragraph [ref=e315]: 授業以外にこれからの社会で活躍するための不可欠な語学の修得を支援する自由参加型のラーニングシステムです。各学科では必要とする専門英語やコミュニケーションとしての英語がカリキュラムに組み込まれており、業界で必要な英語力を修得します。
+            - heading "海外留学支援システム" [level=4] [ref=e316]
+            - paragraph [ref=e317]: 本学園が勧める国際交流の一環として、海外留学のシステムを用意しており、海外の提携大学への留学の道も開かれており、事前の情報提供や相談などにもキメ細かに対応するほか、短期または長期プログラムの場合も本学園に在学しながら留学することが可能です。
+        - generic [ref=e318]:
+          - heading "（11）その他" [level=2] [ref=e319]
+          - heading "災害非常時の対応" [level=3] [ref=e320]
+          - paragraph [ref=e321]: 平成23年3月11日の東日本大震災では、その後発生した巨大津波により、広い範囲で甚大な被害が発生した教訓から、学生並びに関係者に下記の対応マニュアルを作成、周知しています。
+          - generic [ref=e322]:
+            - heading "＜災害非常時マニュアル＞ 平成27年4月1日より運用" [level=4] [ref=e323]:
+              - text: ＜災害非常時マニュアル＞
+              - generic [ref=e324]: 平成27年4月1日より運用
+            - paragraph [ref=e325]: 1 地震発生の場合
+            - list [ref=e326]:
+              - listitem [ref=e327]: 授業中の場合は、講師の指示に基づき、机の下等に身を寄せ、落下物から身を守ると共に使用中の火気器具などの始末を行い、出入り口を確保すること。
+              - listitem [ref=e328]: 休憩中の場合は、周囲に落下物の無い場所で身を伏せ（ガラス戸棚・窓ガラス付近は避ける）、校内放送による指示を待つこと。
+              - listitem [ref=e329]: 校舎外への避難開始は、周囲の状況にもよるが原則として、教職員からの指示に従い、揺れがおさまるまでそのまま待ち、落下物があるので慌てて外に飛び出さないこと。
+            - paragraph [ref=e330]: 2 安否確認システムの登録について
+            - paragraph [ref=e331]:
+              - text: 学校所在地の都道府県で、震度5以上の地震が発生した場合、携帯メールで災害情報と共に無事を問い合わせるメールを配信します。この「安否確認システム」に返答することで、安否情報を確認します。
+              - strong [ref=e332]: 全員必ず登録をして、安否確認メールが届いたら返信すること。
+              - text: ※登録をすると、学校からの安否確認メールのほか、緊急連絡システムにも自動的に登録されます。
+            - paragraph [ref=e333]: 3 火災発生の場合
+            - list [ref=e334]:
+              - listitem [ref=e335]: 使用中の教室で火災が発生した場合は、電気器具等の使用はすぐ中止する。
+              - listitem [ref=e336]: 火災を発見したら、すぐ近くの火災報知機のベルを押すこと。
+              - listitem [ref=e337]: 避難は非常放送及び教職員の指示に従って落ち着いて行動すること。
+              - listitem [ref=e338]: 火災発生の場合は、すみやかに屋内、屋外の各非常階段から避難すること。
+              - listitem [ref=e339]: 火災発生時は、エレベーターは絶対に使用しないこと。
+            - paragraph [ref=e340]: 4 防災訓練・防災知識
+            - paragraph [ref=e341]:
+              - text: 学校では、定期的に防災訓練を実施しています。
+              - text: 訓練の機会を通して防災意識を高め、将来仕事に就いた際には、プロとして人命を守る立場になることを意識してください。
+              - text: 判断力や体力のある皆さんは、災害時に地域防災に貢献することもできます。卒業後の職場でもリーダーとして活躍が出来るようAEDの使用方法を身につける、防災士資格を取得するなど、より専門的な知識や技術を学ぶことにぜひチャレンジしてください。
+            - list [ref=e342]:
+              - listitem [ref=e343]: 消火器の使い方を知っていますか？
+              - listitem [ref=e344]: 消火栓の扱い方を知っていますか？
+              - listitem [ref=e345]: 火災による煙を避けた避難方法を知っていますか？
+              - listitem [ref=e346]: AEDの使い方を知っていますか？
+              - listitem [ref=e347]: 止血の方法を知っていますか？
+              - listitem [ref=e348]: 骨折時の応急処置方法を知っていますか？
+          - paragraph [ref=e349]:
+            - text: 【担当者窓口】
+            - text: 札幌看護医療専門学校
+            - text: 学生支援事務局
+            - text: TEL 011-801-8343
+            - text: FAX 011-801-8345
+    - contentinfo [ref=e350]:
+      - generic [ref=e351]:
+        - link "札幌看護医療専門学校" [ref=e352] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e353]
+        - paragraph [ref=e354]: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+        - paragraph [ref=e355]:
+          - text: TEL
+          - link "011-801-8343" [ref=e356] [cursor=pointer]:
+            - /url: tel:011-801-8343
+          - text: ／フリーダイヤル
+          - link "0120-37-8343" [ref=e357] [cursor=pointer]:
+            - /url: tel:0120-37-8343
+        - navigation "フッターナビゲーション" [ref=e358]:
+          - generic [ref=e359]:
+            - link "ABOUT 学校案内" [ref=e360] [cursor=pointer]:
+              - /url: /school/
+              - generic [ref=e361]: ABOUT
+              - text: 学校案内
+            - list [ref=e362]:
+              - listitem [ref=e363]:
+                - link "学校案内 トップ" [ref=e364] [cursor=pointer]:
+                  - /url: /school/
+              - listitem [ref=e365]:
+                - link "札幌看護医療が選ばれる理由" [ref=e366] [cursor=pointer]:
+                  - /url: /school/study/
+              - listitem [ref=e367]:
+                - link "高校1・2年生のための進路選び" [ref=e368] [cursor=pointer]:
+                  - /url: /school/guide/
+              - listitem [ref=e369]:
+                - link "交通・アクセス" [ref=e370] [cursor=pointer]:
+                  - /url: /school/access/
+              - listitem [ref=e371]:
+                - link "建学の理念" [ref=e372] [cursor=pointer]:
+                  - /url: /school/philosophy/
+              - listitem [ref=e373]:
+                - link "情報公開（職業実践専門課程）" [ref=e374] [cursor=pointer]:
+                  - /url: /school/info/
+          - generic [ref=e375]:
+            - link "COURSE 学科・専攻" [ref=e376] [cursor=pointer]:
+              - /url: /course/
+              - generic [ref=e377]: COURSE
+              - text: 学科・専攻
+            - list [ref=e378]:
+              - listitem [ref=e379]:
+                - link "学科・専攻 トップ" [ref=e380] [cursor=pointer]:
+                  - /url: /course/
+              - listitem [ref=e381]:
+                - link "看護学科" [ref=e382] [cursor=pointer]:
+                  - /url: /course/nursing/
+              - listitem [ref=e383]:
+                - link "視能訓練士学科" [ref=e384] [cursor=pointer]:
+                  - /url: /course/orthoptist/
+              - listitem [ref=e385]:
+                - link "歯科衛生士学科 ホワイトニング・デンタルエステ専攻" [ref=e386] [cursor=pointer]:
+                  - /url: /course/dentalhygienists/
+              - listitem [ref=e387]:
+                - link "臨床工学技士学科" [ref=e388] [cursor=pointer]:
+                  - /url: /course/clinicalengineer/
+          - generic [ref=e389]:
+            - link "CAREER 資格・就職" [ref=e390] [cursor=pointer]:
+              - /url: /career/
+              - generic [ref=e391]: CAREER
+              - text: 資格・就職
+            - list [ref=e392]:
+              - listitem [ref=e393]:
+                - link "資格・就職 トップ" [ref=e394] [cursor=pointer]:
+                  - /url: /career/
+              - listitem [ref=e395]:
+                - link "資格サポート" [ref=e396] [cursor=pointer]:
+                  - /url: /career/license_support/
+              - listitem [ref=e397]:
+                - link "就職サポート" [ref=e398] [cursor=pointer]:
+                  - /url: /career/job_result/
+          - generic [ref=e399]:
+            - link "CAMPUS LIFE 学校生活・施設" [ref=e400] [cursor=pointer]:
+              - /url: /campuslife/
+              - generic [ref=e401]: CAMPUS LIFE
+              - text: 学校生活・施設
+            - list [ref=e402]:
+              - listitem [ref=e403]:
+                - link "学校生活・施設 トップ" [ref=e404] [cursor=pointer]:
+                  - /url: /campuslife/
+              - listitem [ref=e405]:
+                - link "キャンパスライフ" [ref=e406] [cursor=pointer]:
+                  - /url: /campuslife/schedule/
+              - listitem [ref=e407]:
+                - link "施設紹介" [ref=e408] [cursor=pointer]:
+                  - /url: /campuslife/facility/
+          - generic [ref=e409]:
+            - link "ADMISSION 入試・学費" [ref=e410] [cursor=pointer]:
+              - /url: /admission/
+              - generic [ref=e411]: ADMISSION
+              - text: 入試・学費
+            - list [ref=e412]:
+              - listitem [ref=e413]:
+                - link "入試・学費 トップ" [ref=e414] [cursor=pointer]:
+                  - /url: /admission/
+              - listitem [ref=e415]:
+                - link "募集要項" [ref=e416] [cursor=pointer]:
+                  - /url: /admission/application/
+              - listitem [ref=e417]:
+                - link "AO入試エントリー・出願方法" [ref=e418] [cursor=pointer]:
+                  - /url: /admission/ao/
+              - listitem [ref=e419]:
+                - link "推薦・一般入試 出願方法" [ref=e420] [cursor=pointer]:
+                  - /url: /admission/applicationflow/
+              - listitem [ref=e421]:
+                - link "学費・奨学金制度" [ref=e422] [cursor=pointer]:
+                  - /url: /admission/expenses/
+              - listitem [ref=e423]:
+                - link "特待生＆減免制度" [ref=e424] [cursor=pointer]:
+                  - /url: /admission/scholarship/
+          - generic [ref=e425]:
+            - link "OPEN CAMPUS オープンキャンパス" [ref=e426] [cursor=pointer]:
+              - /url: /opencampus/
+              - generic [ref=e427]: OPEN CAMPUS
+              - text: オープンキャンパス
+            - list [ref=e428]:
+              - listitem [ref=e429]:
+                - link "オープンキャンパスとは" [ref=e430] [cursor=pointer]:
+                  - /url: /opencampus/
+              - listitem [ref=e431]:
+                - link "イベント全日程一覧" [ref=e432] [cursor=pointer]:
+                  - /url: /opencampus/calendar/
+              - listitem [ref=e433]:
+                - link "学校説明・個別相談会" [ref=e434] [cursor=pointer]:
+                  - /url: /opencampus/session/
+              - listitem [ref=e435]:
+                - link "無料送迎バス" [ref=e436] [cursor=pointer]:
+                  - /url: /opencampus/bus/
+              - listitem [ref=e437]:
+                - link "交通費補助" [ref=e438] [cursor=pointer]:
+                  - /url: /opencampus/subsidy_list/
+        - list [ref=e439]:
+          - listitem [ref=e440]:
+            - link "卒業生の方へ" [ref=e441] [cursor=pointer]:
+              - /url: /visit_graduate/
+          - listitem [ref=e442]:
+            - link "高等学校の先生方へ" [ref=e443] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9888/
+          - listitem [ref=e444]:
+            - link "中学校の先生方へ" [ref=e445] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9891/
+          - listitem [ref=e446]:
+            - link "社会人・大学生・短大生の方へ" [ref=e447] [cursor=pointer]:
+              - /url: /visit_society/
+          - listitem [ref=e448]:
+            - link "企業の方へ" [ref=e449] [cursor=pointer]:
+              - /url: /visit_company/
+          - listitem [ref=e450]:
+            - link "職員募集につきまして" [ref=e451] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e452]:
+            - link "産官学連携にご協力いただける企業・自治体の方へ" [ref=e453] [cursor=pointer]:
+              - /url: /visit_municipality/
+        - list [ref=e454]:
+          - listitem [ref=e455]:
+            - link "お問い合わせ" [ref=e456] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/inquiry/
+          - listitem [ref=e457]:
+            - link "交通・アクセス" [ref=e458] [cursor=pointer]:
+              - /url: /school/access/
+          - listitem [ref=e459]:
+            - link "情報公開（職業実践専門課程）" [ref=e460] [cursor=pointer]:
+              - /url: /school/info/
+          - listitem [ref=e461]:
+            - link "施設(教室)利用貸出につきまして" [ref=e462] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/facility/
+          - listitem [ref=e463]:
+            - link "採用情報" [ref=e464] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e465]:
+            - link "サイトマップ" [ref=e466] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e467]:
+            - link "プライバシーポリシー" [ref=e468] [cursor=pointer]:
+              - /url: /privacy/
+          - listitem [ref=e469]:
+            - link "ソーシャルメディアポリシー" [ref=e470] [cursor=pointer]:
+              - /url: /socialpolicy/
+        - list [ref=e471]:
+          - listitem [ref=e472]:
+            - link "Instagram" [ref=e473] [cursor=pointer]:
+              - /url: https://www.instagram.com/sapporo_kango/
+          - listitem [ref=e474]:
+            - link "TikTok" [ref=e475] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@sapporo_kango
+          - listitem [ref=e476]:
+            - link "YouTube" [ref=e477] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+          - listitem [ref=e478]:
+            - link "LINE" [ref=e479] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/914/
+        - paragraph [ref=e480]: © Sapporo College of Nursing & Medical Care.
+  - generic [ref=e482]:
+    - group [ref=e483]:
+      - generic "訪問者別メニュー ▾" [ref=e484] [cursor=pointer]
+    - paragraph [ref=e485]:
+      - link "情報公開（職業実践専門課程）" [ref=e486] [cursor=pointer]:
+        - /url: /school/info/
+      - text: ／
+      - link "施設(教室)利用貸出につきまして" [ref=e487] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/facility/
+    - generic [ref=e488]:
+      - link "資料請求" [ref=e489] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/document/
+        - generic [ref=e491]: 資料請求
+      - link "イベント 全日程一覧" [ref=e492] [cursor=pointer]:
+        - /url: /opencampus/calendar/
+        - generic [ref=e494]:
+          - text: イベント
+          - text: 全日程一覧
+      - link "LINEなんでも 相談" [ref=e495] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/news/2023/914/
+        - generic [ref=e497]:
+          - text: LINEなんでも
+          - text: 相談
+    - list [ref=e498]:
+      - listitem [ref=e499]:
+        - link "夢がふくらむ、目標が見つかる！ オープンキャンパス" [ref=e500] [cursor=pointer]:
+          - /url: /opencampus/
+          - generic [ref=e501]: 夢がふくらむ、目標が見つかる！
+          - generic [ref=e502]: オープンキャンパス
+          - generic [ref=e503]: →
+      - listitem [ref=e504]:
+        - link "REASON 札幌看護医療専門学校が選ばれる理由" [ref=e505] [cursor=pointer]:
+          - /url: /school/study/
+          - generic [ref=e506]: REASON
+          - generic [ref=e507]: 札幌看護医療専門学校が選ばれる理由
+          - generic [ref=e508]: →
+      - listitem [ref=e509]:
+        - link "COURSE ミライを担う医療系4学科" [ref=e510] [cursor=pointer]:
+          - /url: /course/
+          - generic [ref=e511]: COURSE
+          - generic [ref=e512]: ミライを担う医療系4学科
+          - generic [ref=e513]: →
+      - listitem [ref=e514]:
+        - link "ADMISSION 入試・学費" [ref=e515] [cursor=pointer]:
+          - /url: /admission/
+          - generic [ref=e516]: ADMISSION
+          - generic [ref=e517]: 入試・学費
+          - generic [ref=e518]: →
+      - listitem [ref=e519]:
+        - link "FACILITY 施設紹介" [ref=e520] [cursor=pointer]:
+          - /url: /campuslife/facility/
+          - generic [ref=e521]: FACILITY
+          - generic [ref=e522]: 施設紹介
+          - generic [ref=e523]: →

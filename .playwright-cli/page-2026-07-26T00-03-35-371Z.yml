@@ -1,0 +1,418 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "札幌看護医療専門学校" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e9]
+        - button "MENU" [ref=e10] [cursor=pointer]:
+          - generic [ref=e15]: MENU
+    - main [ref=e16]:
+      - navigation "パンくずリスト" [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "TOP" [ref=e20] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e21]:
+            - text: ›
+            - link "入試・学費" [ref=e22] [cursor=pointer]:
+              - /url: /admission/
+          - listitem [ref=e23]: ›推薦・一般入試 出願方法
+      - generic [ref=e25]:
+        - paragraph [ref=e26]: ADMISSION
+        - heading "推薦・一般入試 出願方法" [level=1] [ref=e27]
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - heading "スマホからも手続きカンタン！ 「ネット出願」なら24時間手続きできます！" [level=2] [ref=e30]:
+            - text: スマホからも手続きカンタン！
+            - text: 「ネット出願」なら24時間手続きできます！
+          - heading "ネット出願方法" [level=3] [ref=e31]
+          - paragraph [ref=e32]:
+            - link "ネット出願フォーム →" [ref=e33] [cursor=pointer]:
+              - /url: https://webappform.jikei.com/?sid=SNM
+        - list [ref=e35]:
+          - img
+          - listitem [ref=e36]:
+            - generic [ref=e37]:
+              - text: STEP
+              - generic [ref=e38]: "1"
+            - generic [ref=e39]:
+              - heading "ネット出願をする" [level=3] [ref=e40]
+              - generic [ref=e41]:
+                - list [ref=e42]:
+                  - listitem [ref=e43]: 本校HPから画面の指示に従って必要事項を入力してください。
+                  - listitem [ref=e44]: 写真データ（正面上半身、無帽、無背景、制服または正装で3カ月以内に撮影したもの）をご準備ください。
+                  - listitem [ref=e45]: 選考料の支払い方法を「コンビニ決済」か「クレジットカード決済」のいずれかを選択してください。
+                  - listitem [ref=e46]: 入力完了後、登録したメールアドレスに登録完了メールが送られたら入力は完了です。
+                - list [ref=e47]:
+                  - listitem [ref=e48]: ※ 完了メールを正しく受け取るために、【info@snm.ac.jp】からのメールの受信許可をしてください。
+                - generic [ref=e49]:
+                  - heading "記述入力内容について（志望理由など）" [level=4] [ref=e50]
+                  - list [ref=e51]:
+                    - listitem [ref=e52]: 将来の夢や目標、入学してから頑張りたいことなど、あなたの未来像[200文字以内]
+                    - listitem [ref=e53]: 本校を志望した理由[200文字以内]
+                    - listitem [ref=e54]: 長所・短所[100文字以内]
+                    - listitem [ref=e55]: 趣味・特技[100文字以内]
+                    - listitem [ref=e56]: 得意科目・不得意科目[100文字以内]
+                    - listitem [ref=e57]: 学内外での活動歴（部活動、生徒会活動、ボランティア活動など）[200文字以内]
+                    - listitem [ref=e58]: 資格・免許（該当する場合のみ入力）[100文字以内]
+                    - listitem [ref=e59]: 高校卒業後の履歴・職歴（該当する場合のみ入力）[100文字以内]
+                  - list [ref=e60]:
+                    - listitem [ref=e61]: ※ 入力完了後の編集はできません。
+          - listitem [ref=e62]:
+            - generic [ref=e63]:
+              - text: STEP
+              - generic [ref=e64]: "2"
+            - generic [ref=e65]:
+              - heading "選考料（30,000円）のお支払い （ネット出願受付期間内にお支払いください）" [level=3] [ref=e66]:
+                - text: 選考料（30,000円）のお支払い
+                - text: （ネット出願受付期間内にお支払いください）
+              - generic [ref=e67]:
+                - paragraph [ref=e68]: ネット出願時、 選考料のお支払い方法をお知らせします。「コンビニ決済」か「クレジットカード決済」のいずれかより選択してください。
+                - list [ref=e69]:
+                  - listitem [ref=e70]: ※ 選択後の変更はできません。
+                  - listitem [ref=e71]: ※ 選考を辞退した場合、入学選考料の返金は致しかねますのでご了承ください。
+                  - listitem [ref=e72]: ※ ネット出願期間内にお支払いください。
+                - table [ref=e74]:
+                  - rowgroup [ref=e75]:
+                    - row "コンビニ決済の場合 クレジットカード決済の場合" [ref=e76]:
+                      - columnheader "コンビニ決済の場合" [ref=e77]
+                      - columnheader "クレジットカード決済の場合" [ref=e78]
+                    - row "下記のコンビニにてお取り扱いが可能です。コンビニ決済画面に従い入力し、「送信ボタン」を押すと各コンビニの振込用の番号が表示されますので、その番号を控えコンビニにてお支払いください。 ファミリーマート ローソン セイコーマート 画面の指示に従い入力してください。送信ボタンを押すとその場で決済されるので手続きは完了です。" [ref=e79]:
+                      - cell "下記のコンビニにてお取り扱いが可能です。コンビニ決済画面に従い入力し、「送信ボタン」を押すと各コンビニの振込用の番号が表示されますので、その番号を控えコンビニにてお支払いください。 ファミリーマート ローソン セイコーマート" [ref=e80]:
+                        - paragraph [ref=e81]: 下記のコンビニにてお取り扱いが可能です。コンビニ決済画面に従い入力し、「送信ボタン」を押すと各コンビニの振込用の番号が表示されますので、その番号を控えコンビニにてお支払いください。
+                        - list [ref=e82]:
+                          - listitem [ref=e83]: ファミリーマート
+                          - listitem [ref=e84]: ローソン
+                          - listitem [ref=e85]: セイコーマート
+                      - cell "画面の指示に従い入力してください。送信ボタンを押すとその場で決済されるので手続きは完了です。" [ref=e86]:
+                        - paragraph [ref=e87]: 画面の指示に従い入力してください。送信ボタンを押すとその場で決済されるので手続きは完了です。
+          - listitem [ref=e88]:
+            - generic [ref=e89]:
+              - text: STEP
+              - generic [ref=e90]: "3"
+            - generic [ref=e91]:
+              - heading "その他の提出書類の送付と受験票の受け取り" [level=3] [ref=e92]
+              - generic [ref=e93]:
+                - list [ref=e94]:
+                  - listitem [ref=e95]: 該当する出願書類を簡易書留で郵送または窓口へ持参してください。
+                  - listitem [ref=e96]: 出願書類・選考料入金の確認ができ次第、本校よりメールにてWEB受験票（受験番号や入学試験、特待生試験の詳細や日時など）をお送りします。
+                  - listitem [ref=e97]: WEB受験票に記載された試験日時に来校してください。
+                - list [ref=e98]:
+                  - listitem [ref=e99]: ※ AO入試、指定校推薦の方は来校の必要はありません。
+                  - listitem [ref=e100]: ※ 本校から送信したメールを持参の上、来校受付時にメール本文の画面を提示してください。
+                  - listitem [ref=e101]: ※ メールは無くさず保管してください。スクリーンショットは不可です。
+          - listitem [ref=e102]:
+            - generic [ref=e103]: ●
+            - generic [ref=e104]:
+              - heading "入学試験の結果が届く" [level=3] [ref=e105]
+              - generic [ref=e106]:
+                - paragraph [ref=e107]: 入学試験日より、2週間以内に入学試験の結果を郵送でお送りします。合格者には「学費振込依頼書」を合せてお送りします。
+                - list [ref=e108]:
+                  - listitem [ref=e109]: ※ 特待生試験を受験の方は、入学試験と特待生試験の結果を一緒にお送りします。
+        - generic [ref=e110]:
+          - heading "入学までの流れ" [level=2] [ref=e111]
+          - list [ref=e112]:
+            - img
+            - listitem [ref=e113]:
+              - generic [ref=e114]: ●
+              - generic [ref=e115]:
+                - heading "入学手続き①" [level=3] [ref=e116]
+                - paragraph [ref=e118]:
+                  - text: 1次納入手続きを行う
+                  - text: お送りする所定の振込用紙を使用して期日まで（合格通知発行日から2週間以内が目安）に納入を完了してください。
+                  - text: ※原則一括納入となります。
+            - listitem [ref=e119]:
+              - generic [ref=e120]: ●
+              - generic [ref=e121]:
+                - heading "入学許可証通知" [level=3] [ref=e122]
+                - paragraph [ref=e124]: 1次納入手続き完了確認後、「入学許可書」をお送りします。
+            - listitem [ref=e125]:
+              - generic [ref=e126]: ●
+              - generic [ref=e127]:
+                - heading "入学前登校に参加" [level=3] [ref=e128]
+                - paragraph [ref=e130]: 入学後の授業をスムーズにスタートさせるために、本校では入学前から専門の勉強をいち早くスタートできるオリジナルのプログラム「入学前教育」として「入学前登校」や「e-learning」による学習を行っています。入学前から仲間作りや、学校生活の準備ができるため、安心して4月を迎えることができます（日程は別途お知らせします）。
+            - listitem [ref=e131]:
+              - generic [ref=e132]: ●
+              - generic [ref=e133]:
+                - heading "入学手続き②（2月中旬）" [level=3] [ref=e134]
+                - paragraph [ref=e136]:
+                  - text: 2次納入手続きを行う
+                  - text: 諸費用納入についてのご案内を2月中旬頃お送りします。所定の振込用紙を使用して3月中旬（指定の期日）までに納入を完了してください。
+            - listitem [ref=e137]:
+              - generic [ref=e138]: ●
+              - generic [ref=e139]:
+                - heading "入学式案内（3月中旬）" [level=3] [ref=e140]
+                - paragraph [ref=e142]: 入学式の案内をします。入学式は4月上旬に開催を予定しております。
+            - listitem [ref=e143]:
+              - generic [ref=e144]: ●
+              - heading "入学式（4月上旬）" [level=3] [ref=e146]
+        - generic [ref=e148]:
+          - heading "【指定校・高校（公募）・業界推薦希望の方】は下記より書式をダウンロードし印刷してください。" [level=3] [ref=e149]
+          - paragraph [ref=e150]:
+            - text: 印刷した用紙を市販の封筒に朱書きで「推薦書在中」と記載の上、簡易書留郵送にてお送りください。
+            - text: （送付先 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号 札幌看護医療専門学校 入学事務局行）
+          - list [ref=e151]:
+            - listitem [ref=e152]: ※ オープンキャンパスなどでもお渡し可能です。
+          - paragraph [ref=e153]:
+            - link "推薦書ダウンロード →" [ref=e154] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/asset/doc/admission/share/recommendation.pdf
+        - generic [ref=e156]:
+          - link "オープンキャンパス" [ref=e157] [cursor=pointer]:
+            - /url: /opencampus/
+            - img "オープンキャンパス" [ref=e158]
+          - link "学校・学科/入試/学費などじっくり相談したい方へ 学校説明＆個別相談会" [ref=e159] [cursor=pointer]:
+            - /url: /opencampus/session/
+            - img "学校・学科/入試/学費などじっくり相談したい方へ 学校説明＆個別相談会" [ref=e160]
+        - link "LINE何でも相談室 1対1トークで気軽に相談！" [ref=e162] [cursor=pointer]:
+          - /url: https://www.snm.ac.jp/news/2023/914/
+          - img "LINE何でも相談室 1対1トークで気軽に相談！" [ref=e163]
+    - contentinfo [ref=e164]:
+      - generic [ref=e165]:
+        - link "札幌看護医療専門学校" [ref=e166] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e167]
+        - paragraph [ref=e168]: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+        - paragraph [ref=e169]:
+          - text: TEL
+          - link "011-801-8343" [ref=e170] [cursor=pointer]:
+            - /url: tel:011-801-8343
+          - text: ／フリーダイヤル
+          - link "0120-37-8343" [ref=e171] [cursor=pointer]:
+            - /url: tel:0120-37-8343
+        - navigation "フッターナビゲーション" [ref=e172]:
+          - generic [ref=e173]:
+            - link "ABOUT 学校案内" [ref=e174] [cursor=pointer]:
+              - /url: /school/
+              - generic [ref=e175]: ABOUT
+              - text: 学校案内
+            - list [ref=e176]:
+              - listitem [ref=e177]:
+                - link "学校案内 トップ" [ref=e178] [cursor=pointer]:
+                  - /url: /school/
+              - listitem [ref=e179]:
+                - link "札幌看護医療が選ばれる理由" [ref=e180] [cursor=pointer]:
+                  - /url: /school/study/
+              - listitem [ref=e181]:
+                - link "高校1・2年生のための進路選び" [ref=e182] [cursor=pointer]:
+                  - /url: /school/guide/
+              - listitem [ref=e183]:
+                - link "交通・アクセス" [ref=e184] [cursor=pointer]:
+                  - /url: /school/access/
+              - listitem [ref=e185]:
+                - link "建学の理念" [ref=e186] [cursor=pointer]:
+                  - /url: /school/philosophy/
+              - listitem [ref=e187]:
+                - link "情報公開（職業実践専門課程）" [ref=e188] [cursor=pointer]:
+                  - /url: /school/info/
+          - generic [ref=e189]:
+            - link "COURSE 学科・専攻" [ref=e190] [cursor=pointer]:
+              - /url: /course/
+              - generic [ref=e191]: COURSE
+              - text: 学科・専攻
+            - list [ref=e192]:
+              - listitem [ref=e193]:
+                - link "学科・専攻 トップ" [ref=e194] [cursor=pointer]:
+                  - /url: /course/
+              - listitem [ref=e195]:
+                - link "看護学科" [ref=e196] [cursor=pointer]:
+                  - /url: /course/nursing/
+              - listitem [ref=e197]:
+                - link "視能訓練士学科" [ref=e198] [cursor=pointer]:
+                  - /url: /course/orthoptist/
+              - listitem [ref=e199]:
+                - link "歯科衛生士学科 ホワイトニング・デンタルエステ専攻" [ref=e200] [cursor=pointer]:
+                  - /url: /course/dentalhygienists/
+              - listitem [ref=e201]:
+                - link "臨床工学技士学科" [ref=e202] [cursor=pointer]:
+                  - /url: /course/clinicalengineer/
+          - generic [ref=e203]:
+            - link "CAREER 資格・就職" [ref=e204] [cursor=pointer]:
+              - /url: /career/
+              - generic [ref=e205]: CAREER
+              - text: 資格・就職
+            - list [ref=e206]:
+              - listitem [ref=e207]:
+                - link "資格・就職 トップ" [ref=e208] [cursor=pointer]:
+                  - /url: /career/
+              - listitem [ref=e209]:
+                - link "資格サポート" [ref=e210] [cursor=pointer]:
+                  - /url: /career/license_support/
+              - listitem [ref=e211]:
+                - link "就職サポート" [ref=e212] [cursor=pointer]:
+                  - /url: /career/job_result/
+          - generic [ref=e213]:
+            - link "CAMPUS LIFE 学校生活・施設" [ref=e214] [cursor=pointer]:
+              - /url: /campuslife/
+              - generic [ref=e215]: CAMPUS LIFE
+              - text: 学校生活・施設
+            - list [ref=e216]:
+              - listitem [ref=e217]:
+                - link "学校生活・施設 トップ" [ref=e218] [cursor=pointer]:
+                  - /url: /campuslife/
+              - listitem [ref=e219]:
+                - link "キャンパスライフ" [ref=e220] [cursor=pointer]:
+                  - /url: /campuslife/schedule/
+              - listitem [ref=e221]:
+                - link "施設紹介" [ref=e222] [cursor=pointer]:
+                  - /url: /campuslife/facility/
+          - generic [ref=e223]:
+            - link "ADMISSION 入試・学費" [ref=e224] [cursor=pointer]:
+              - /url: /admission/
+              - generic [ref=e225]: ADMISSION
+              - text: 入試・学費
+            - list [ref=e226]:
+              - listitem [ref=e227]:
+                - link "入試・学費 トップ" [ref=e228] [cursor=pointer]:
+                  - /url: /admission/
+              - listitem [ref=e229]:
+                - link "募集要項" [ref=e230] [cursor=pointer]:
+                  - /url: /admission/application/
+              - listitem [ref=e231]:
+                - link "AO入試エントリー・出願方法" [ref=e232] [cursor=pointer]:
+                  - /url: /admission/ao/
+              - listitem [ref=e233]:
+                - link "推薦・一般入試 出願方法" [ref=e234] [cursor=pointer]:
+                  - /url: /admission/applicationflow/
+              - listitem [ref=e235]:
+                - link "学費・奨学金制度" [ref=e236] [cursor=pointer]:
+                  - /url: /admission/expenses/
+              - listitem [ref=e237]:
+                - link "特待生＆減免制度" [ref=e238] [cursor=pointer]:
+                  - /url: /admission/scholarship/
+          - generic [ref=e239]:
+            - link "OPEN CAMPUS オープンキャンパス" [ref=e240] [cursor=pointer]:
+              - /url: /opencampus/
+              - generic [ref=e241]: OPEN CAMPUS
+              - text: オープンキャンパス
+            - list [ref=e242]:
+              - listitem [ref=e243]:
+                - link "オープンキャンパスとは" [ref=e244] [cursor=pointer]:
+                  - /url: /opencampus/
+              - listitem [ref=e245]:
+                - link "イベント全日程一覧" [ref=e246] [cursor=pointer]:
+                  - /url: /opencampus/calendar/
+              - listitem [ref=e247]:
+                - link "学校説明・個別相談会" [ref=e248] [cursor=pointer]:
+                  - /url: /opencampus/session/
+              - listitem [ref=e249]:
+                - link "無料送迎バス" [ref=e250] [cursor=pointer]:
+                  - /url: /opencampus/bus/
+              - listitem [ref=e251]:
+                - link "交通費補助" [ref=e252] [cursor=pointer]:
+                  - /url: /opencampus/subsidy_list/
+        - list [ref=e253]:
+          - listitem [ref=e254]:
+            - link "卒業生の方へ" [ref=e255] [cursor=pointer]:
+              - /url: /visit_graduate/
+          - listitem [ref=e256]:
+            - link "高等学校の先生方へ" [ref=e257] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9888/
+          - listitem [ref=e258]:
+            - link "中学校の先生方へ" [ref=e259] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9891/
+          - listitem [ref=e260]:
+            - link "社会人・大学生・短大生の方へ" [ref=e261] [cursor=pointer]:
+              - /url: /visit_society/
+          - listitem [ref=e262]:
+            - link "企業の方へ" [ref=e263] [cursor=pointer]:
+              - /url: /visit_company/
+          - listitem [ref=e264]:
+            - link "職員募集につきまして" [ref=e265] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e266]:
+            - link "産官学連携にご協力いただける企業・自治体の方へ" [ref=e267] [cursor=pointer]:
+              - /url: /visit_municipality/
+        - list [ref=e268]:
+          - listitem [ref=e269]:
+            - link "お問い合わせ" [ref=e270] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/inquiry/
+          - listitem [ref=e271]:
+            - link "交通・アクセス" [ref=e272] [cursor=pointer]:
+              - /url: /school/access/
+          - listitem [ref=e273]:
+            - link "情報公開（職業実践専門課程）" [ref=e274] [cursor=pointer]:
+              - /url: /school/info/
+          - listitem [ref=e275]:
+            - link "施設(教室)利用貸出につきまして" [ref=e276] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/facility/
+          - listitem [ref=e277]:
+            - link "採用情報" [ref=e278] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e279]:
+            - link "サイトマップ" [ref=e280] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e281]:
+            - link "プライバシーポリシー" [ref=e282] [cursor=pointer]:
+              - /url: /privacy/
+          - listitem [ref=e283]:
+            - link "ソーシャルメディアポリシー" [ref=e284] [cursor=pointer]:
+              - /url: /socialpolicy/
+        - list [ref=e285]:
+          - listitem [ref=e286]:
+            - link "Instagram" [ref=e287] [cursor=pointer]:
+              - /url: https://www.instagram.com/sapporo_kango/
+          - listitem [ref=e288]:
+            - link "TikTok" [ref=e289] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@sapporo_kango
+          - listitem [ref=e290]:
+            - link "YouTube" [ref=e291] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+          - listitem [ref=e292]:
+            - link "LINE" [ref=e293] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/914/
+        - paragraph [ref=e294]: © Sapporo College of Nursing & Medical Care.
+  - generic [ref=e296]:
+    - group [ref=e297]:
+      - generic "訪問者別メニュー ▾" [ref=e298] [cursor=pointer]
+    - paragraph [ref=e299]:
+      - link "情報公開（職業実践専門課程）" [ref=e300] [cursor=pointer]:
+        - /url: /school/info/
+      - text: ／
+      - link "施設(教室)利用貸出につきまして" [ref=e301] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/facility/
+    - generic [ref=e302]:
+      - link "資料請求" [ref=e303] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/document/
+        - generic [ref=e305]: 資料請求
+      - link "イベント 全日程一覧" [ref=e306] [cursor=pointer]:
+        - /url: /opencampus/calendar/
+        - generic [ref=e308]:
+          - text: イベント
+          - text: 全日程一覧
+      - link "LINEなんでも 相談" [ref=e309] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/news/2023/914/
+        - generic [ref=e311]:
+          - text: LINEなんでも
+          - text: 相談
+    - list [ref=e312]:
+      - listitem [ref=e313]:
+        - link "夢がふくらむ、目標が見つかる！ オープンキャンパス" [ref=e314] [cursor=pointer]:
+          - /url: /opencampus/
+          - generic [ref=e315]: 夢がふくらむ、目標が見つかる！
+          - generic [ref=e316]: オープンキャンパス
+          - generic [ref=e317]: →
+      - listitem [ref=e318]:
+        - link "REASON 札幌看護医療専門学校が選ばれる理由" [ref=e319] [cursor=pointer]:
+          - /url: /school/study/
+          - generic [ref=e320]: REASON
+          - generic [ref=e321]: 札幌看護医療専門学校が選ばれる理由
+          - generic [ref=e322]: →
+      - listitem [ref=e323]:
+        - link "COURSE ミライを担う医療系4学科" [ref=e324] [cursor=pointer]:
+          - /url: /course/
+          - generic [ref=e325]: COURSE
+          - generic [ref=e326]: ミライを担う医療系4学科
+          - generic [ref=e327]: →
+      - listitem [ref=e328]:
+        - link "ADMISSION 入試・学費" [ref=e329] [cursor=pointer]:
+          - /url: /admission/
+          - generic [ref=e330]: ADMISSION
+          - generic [ref=e331]: 入試・学費
+          - generic [ref=e332]: →
+      - listitem [ref=e333]:
+        - link "FACILITY 施設紹介" [ref=e334] [cursor=pointer]:
+          - /url: /campuslife/facility/
+          - generic [ref=e335]: FACILITY
+          - generic [ref=e336]: 施設紹介
+          - generic [ref=e337]: →

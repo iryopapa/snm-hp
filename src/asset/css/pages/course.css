@@ -661,7 +661,7 @@ html.js .p-course__trip-ph.is-delay02 .alt { animation-delay: 2s; }
 .p-course__vr .head-img img { max-width: 100%; height: auto; }
 .p-course__vr .head-title { text-align: center; font-size: var(--fs-lg); font-weight: 800; margin-bottom: var(--space-3); background: var(--grad-script); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .p-course__vr .vr-title { text-align: center; font-weight: 700; font-size: var(--fs-md); margin: var(--space-5) 0 var(--space-3); }
-.p-course__vr .tag { text-align: center; margin-top: var(--space-6); }
+.p-course__vr .tag { text-align: center; margin-top: var(--space-6); width: fit-content; margin-inline: auto; }
 .p-course__vr-slide .txt { font-size: var(--fs-xs); margin-top: var(--space-2); background: var(--color-bg); border-radius: var(--radius-xs); padding: var(--space-2); }
 .p-course__vr-pickup { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
 .p-course__vr-pickup li { background: var(--color-bg); border-radius: var(--radius-md); padding: var(--space-3); font-size: var(--fs-xs); }

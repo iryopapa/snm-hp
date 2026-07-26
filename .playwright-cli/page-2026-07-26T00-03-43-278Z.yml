@@ -1,0 +1,357 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "札幌看護医療専門学校" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e9]
+        - button "MENU" [ref=e10] [cursor=pointer]:
+          - generic [ref=e15]: MENU
+    - main [ref=e16]:
+      - navigation "パンくずリスト" [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "TOP" [ref=e20] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e21]: ›プライバシーポリシー
+      - heading "PRIVACY POLICY プライバシーポリシー" [level=1] [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]: PRIVACY POLICY
+          - generic [ref=e27]: プライバシーポリシー
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - heading "学校法人 滋慶学園 個人情報保護方針" [level=2] [ref=e30]
+          - generic [ref=e31]:
+            - term [ref=e32]: 個人情報の取得、利用及び提供
+            - definition [ref=e33]: 個人情報を取得する場合は、その利用目的を明確にした上で、必要な範囲の個人情報を取得し、利用目的の範囲内でのみ利用します。また、本人の同意を得ることなく、個人情報を第三者に提供、開示等はいたしません。
+            - term [ref=e34]: 個人情報の安全管理
+            - definition [ref=e35]: 個人情報への不正アクセス、紛失、破壊、改ざん、漏洩等のリスクに関して、システム面・組織面から合理的な安全対策、予防策を講じます。また、万一の事件事故発生時には、速やかな緊急事態対応策を実施します。
+            - term [ref=e36]: 個人情報に関する法令及びその他の規範の遵守
+            - definition [ref=e37]: 個人情報を適正に取り扱うために、個人情報保護に関する法令及びその他の規範を遵守します。
+            - term [ref=e38]: 個人情報に関する苦情及び相談への対応
+            - definition [ref=e39]: 個人情報の取り扱いに関する苦情、相談、問い合わせ等について受付窓口を設置し、適切かつ迅速に対応いたします。
+            - term [ref=e40]: 個人情報保護の実践と継続的改善
+            - definition [ref=e41]: 個人情報保護の実践のために、個人情報保護委員会を設置すると共に、個人情報保護管理者を選任し、当学園が定める行動規範、規程に従って運用します。また、定期的あるいは適宜に点検・見直し、継続的改善を行います。これらの実効性を確保するために、全ての役職員・従業者に対して、個人情報保護教育・研修を定期的に実施し、周知徹底を図ります。
+          - paragraph [ref=e42]:
+            - text: 学校法人 滋慶学園
+            - text: 個人情報保護委員会
+          - paragraph [ref=e43]: 学校長 佐々木 孝
+        - generic [ref=e44]:
+          - heading "プライバシーステートメント" [level=2] [ref=e45]
+          - paragraph [ref=e46]: ＜札幌看護医療専門学校＞（以下「本校」という）は、本校で学んでいただく学生・同窓生および保護者の皆様に関する情報を正確かつ安全に取り扱うことを最優先とし、個人情報保護方針、個人情報保護法および関連ガイドライン等に基づきプライバシーステートメントを定め宣言することで役員、教職員のすべてがこれを遵守することをお約束いたします。
+          - paragraph [ref=e47]: ※最終更新日 2024年2月21日
+          - link [ref=e49] [cursor=pointer]:
+            - /url: https://www.truste.or.jp/hssl/validate/01534.php
+          - paragraph [ref=e50]:
+            - text: TRUSTe本校は、TRUSTeプライバシー・プログラムのライセンシーです。このプライバシーステートメントは＜札幌看護医療専門学校＞のウェブサイト（https://www.snm.ac.jp/（以下「本ウェブサイト」という））の利用者に対する、プライバシー保護の為に行っている活動の表明です。TRUSTeの使命は公正な個人情報の利用促進によって、ユーザーのインターネットに対する信用と信頼を築く事です。このプライバシーステートメントでは、皆様の個人情報の取扱いに関する公約を遵守するため、個人情報の取扱いについて開示しています。また本校はTRUSTeによってその取扱いの実態を調査されることに同意しています。 皆様方は､本校が掲示した本プライバシーステートメントあるいは個人情報の取扱について疑問、質問のある場合は、＜
+            - link "info@snm.ac.jp" [ref=e51] [cursor=pointer]:
+              - /url: mailto:info@snm.ac.jp
+            - text: ＞を通じて、まず本校に直接ご連絡ください。その問い合わせについての受領連絡が無い、あるいは納得のいく回答でなかった場合には、
+            - link "TRUSTe" [ref=e52] [cursor=pointer]:
+              - /url: https://www.truste.or.jp/hssl/watchdog/
+            - text: にご連絡ください。その際、TRUSTeは、皆様と本ウェブサイトの仲介役として、問題の解決をはかることになります。
+        - generic [ref=e53]:
+          - heading "1.個人情報の取得と利用" [level=2] [ref=e54]
+          - paragraph [ref=e55]: 本校は、取得した個人情報を、このプライバシーステートメントに表記している内容と異なった目的で利用したり、第三者に提供したりしません。
+          - heading "資料請求・イベント参加" [level=3] [ref=e56]
+          - paragraph [ref=e57]: 本ウェブサイト上のフォーム等で資料請求およびオープンキャンパス、学校説明会、入試説明会等の各種イベント参加申し込みができます。この際、本校は連絡先情報（名前･e-mailアドレス・住所、SNSアカウントなど）、生年月日、性別、高校名、希望学科、学年、年齢、同伴者の氏名等を皆様から取得します。取得した個人情報は、それぞれ下記の通り利用します。 連絡先情報は、入学案内や募集要項の送付、手紙や電話・メール等を利用した進路情報の提供、進路に関するカウンセリング、各種イベントの案内等に利用します。その他の情報は、受験資格の確認、的確な情報提供のために利用します。なお取得した皆様の個人情報を､進路指導の補助等のため、出身高等学校等へ提供する場合があります。
+          - heading "ネット出願" [level=3] [ref=e58]
+          - paragraph [ref=e59]: 本ウェブサイト上の専用フォームより本校への出願手続きが行えます。この際、本校は連絡先情報(氏名、住所、電話番号、e-mailアドレス等)、選考関連情報（志望学科、選考種別、受験日等）、性別、生年月日、写真、学歴、クレジットカード番号等を取得します。本校はこれらの個人情報を出願手続きの実施、選考、各種連絡等に利用します。
+          - heading "AOエントリー" [level=3] [ref=e60]
+          - paragraph [ref=e61]: 本ウェブサイトより、AO受験のエントリーが出来ます。この際、エントリー希望の皆様は、本校に対し、氏名、性別、生年月日、現住所、電話、e-mailアドレス、写真、志望学科、学歴、AOエントリー承認等の個人情報を提供します。本校はこれらの個人情報をAOエントリー受付、エントリー承認者への連絡等に利用します。
+          - heading "お問い合わせ" [level=3] [ref=e62]
+          - paragraph [ref=e63]: ｅ-mailまたはフォームを使用して本校へ問い合わせや相談が出来ます。この際、皆様は本校に対し，問い合わせや相談内容と共にe-mailアドレスを送信します。これらの個人情報は、本校が問い合わせに回答することのみに利用します。
+          - heading "クッキーおよびアクセスログについて" [level=3] [ref=e64]
+          - paragraph [ref=e65]: 本ウェブサイトでは、ウェブサイトの利用状況の把握・分析等のためにクッキーやアクセスログの取得をします。なお、クッキーの受信を許可するかどうかは、皆様のウェブブラウザで設定できます。必要に応じて設定をご確認ください。但し、クッキーの受信を拒否した場合、ウェブサイトの機能の一部が利用できなくなる可能性があります。ご了承ください。
+          - paragraph [ref=e66]: 取得したデータの取り扱い等につきましては、Googleアナリティクスの利用規約およびプライバシーポリシーをご参照ください。
+          - list [ref=e67]:
+            - listitem [ref=e68]:
+              - text: ■
+              - link "Googleアナリティクスサービス利用規約" [ref=e69] [cursor=pointer]:
+                - /url: https://marketingplatform.google.com/about/analytics/terms/jp/
+            - listitem [ref=e70]:
+              - text: ■
+              - link "Google ポリシーと規約ページ" [ref=e71] [cursor=pointer]:
+                - /url: https://policies.google.com/technologies/ads?hl=ja
+          - heading "AI（人工知能）によるデータ集計・分析に基づく広告配信やマーケティング活動について" [level=3] [ref=e72]
+          - paragraph [ref=e73]: 皆様に関する情報（提供された個人情報や属性情報、本ウェブサイト閲覧履歴等）を、人工知能等を用いて、ご自身またはご自身以外の方の個人情報、その他の情報（統計情報や推定情報を含みます）とともに分析を行い、分析・推定結果に基づいた皆様への効果的な広告配信や今後の広告配信の指針、マーケティング等の施策に利用する場合があります。
+        - generic [ref=e74]:
+          - heading "2.リンク" [level=2] [ref=e75]
+          - paragraph [ref=e76]: 本ウェブサイトは他のウェブサイトへのリンクを含んでいますが、本校は他のウェブサイトにおける個人情報の取扱いには責任を持ちません。このプライバシーステートメントは、本ウェブサイトで取得する個人情報だけに適用されます。リンク先ウェブサイトに関しては､それぞれ当該のプライバシーステートメントをご確認ください。
+        - generic [ref=e77]:
+          - heading "3.個人情報の取扱いを含む業務の委託" [level=2] [ref=e78]
+          - paragraph [ref=e79]: 個人情報の処理、資料やＤＭの発送等の業務を別の事業者へ委託する場合には、個人情報の保護が十分に図られている事業者を選定し、本校と同等の情報管理を行うことを契約により義務づけるなど、万全の対策を講じた上で行います。
+        - generic [ref=e80]:
+          - heading "4.安全管理措置" [level=2] [ref=e81]
+          - paragraph [ref=e82]: 本校は､皆様の個人情報を、正確かつ最新の状態に保ち、個人情報への不正アクセス、紛失、破壊、改ざんおよび漏えいなどを防止するための合理的な措置を講じています。本校では個人情報取扱責任者を置き、その指示のもと適切な取扱いや管理を行うなど、提供された皆様の個人情報を大切に扱うための体制を整えています。更に､本校の全ての職員に対し、個人情報の重要性を理解し、個人情報保護を実践する為に、定期的な教育研修を実施しています。また､本校が個人情報を保存するサーバーは、警備会社の管理下にある安全な環境の中に保管されています。
+        - generic [ref=e83]:
+          - heading "5.情報の補足" [level=2] [ref=e84]
+          - paragraph [ref=e85]: 本校では､皆様が本校のウェブサイトにアクセスした履歴や認識できない方法で取得した情報を皆様の個人情報に補足し、利用、管理しています。
+        - generic [ref=e86]:
+          - heading "6.個人情報の開示・訂正等・利用停止等" [level=2] [ref=e87]
+          - paragraph [ref=e88]: 皆様がご自身の個人情報について照会される場合、個人情報に変更がある場合、或いは､皆様がもはや本校のサービスを望まない場合には、本校は皆様から提供された個人情報を開示、訂正・更新､或いは利用を停止いたします。このようなお申し出は､本校の個人情報取扱委員会宛のe-mail・電話・郵便で行うことが出来ます。なお、個人情報の照会、訂正等、利用停止等のお申し出をいただく場合、お申し出の方がご本人様かどうかの確認をさせていただきます。
+        - generic [ref=e89]:
+          - heading "7.法令に定められた個人情報の提供" [level=2] [ref=e90]
+          - paragraph [ref=e91]: 本校は、本人の同意なしに個人情報を第三者へ提供しませんが、法令等に基づき提供が求められた場合、個人情報を政府、地方自治体、裁判所、又は国際的な法執行機関等に対して提供することがあります。
+        - generic [ref=e92]:
+          - heading "8.個人情報の取扱いの変更" [level=2] [ref=e93]
+          - paragraph [ref=e94]: 本校が個人情報保護方針やプライバシーステートメントを変更する場合には､この変更について本ウェブサイト上に掲載します。また本校は､個人情報を取得したときのプライバシーステートメントに従いその個人情報を利用しますが、個人情報を取得した時点で述べたものとは異なった目的に利用する場合には、あらかじめ本人の同意を得たうえで利用します。
+        - generic [ref=e95]:
+          - heading "お問い合わせ・苦情は以下まで" [level=2] [ref=e96]
+          - paragraph [ref=e97]:
+            - text: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+            - text: 札幌看護医療専門学校 個人情報保護委員会
+          - list [ref=e98]:
+            - listitem [ref=e99]: TEL.011-801-8343
+            - listitem [ref=e100]:
+              - link "info@snm.ac.jp" [ref=e101] [cursor=pointer]:
+                - /url: mailto:info@snm.ac.jp
+    - contentinfo [ref=e102]:
+      - generic [ref=e103]:
+        - link "札幌看護医療専門学校" [ref=e104] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e105]
+        - paragraph [ref=e106]: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+        - paragraph [ref=e107]:
+          - text: TEL
+          - link "011-801-8343" [ref=e108] [cursor=pointer]:
+            - /url: tel:011-801-8343
+          - text: ／フリーダイヤル
+          - link "0120-37-8343" [ref=e109] [cursor=pointer]:
+            - /url: tel:0120-37-8343
+        - navigation "フッターナビゲーション" [ref=e110]:
+          - generic [ref=e111]:
+            - link "ABOUT 学校案内" [ref=e112] [cursor=pointer]:
+              - /url: /school/
+              - generic [ref=e113]: ABOUT
+              - text: 学校案内
+            - list [ref=e114]:
+              - listitem [ref=e115]:
+                - link "学校案内 トップ" [ref=e116] [cursor=pointer]:
+                  - /url: /school/
+              - listitem [ref=e117]:
+                - link "札幌看護医療が選ばれる理由" [ref=e118] [cursor=pointer]:
+                  - /url: /school/study/
+              - listitem [ref=e119]:
+                - link "高校1・2年生のための進路選び" [ref=e120] [cursor=pointer]:
+                  - /url: /school/guide/
+              - listitem [ref=e121]:
+                - link "交通・アクセス" [ref=e122] [cursor=pointer]:
+                  - /url: /school/access/
+              - listitem [ref=e123]:
+                - link "建学の理念" [ref=e124] [cursor=pointer]:
+                  - /url: /school/philosophy/
+              - listitem [ref=e125]:
+                - link "情報公開（職業実践専門課程）" [ref=e126] [cursor=pointer]:
+                  - /url: /school/info/
+          - generic [ref=e127]:
+            - link "COURSE 学科・専攻" [ref=e128] [cursor=pointer]:
+              - /url: /course/
+              - generic [ref=e129]: COURSE
+              - text: 学科・専攻
+            - list [ref=e130]:
+              - listitem [ref=e131]:
+                - link "学科・専攻 トップ" [ref=e132] [cursor=pointer]:
+                  - /url: /course/
+              - listitem [ref=e133]:
+                - link "看護学科" [ref=e134] [cursor=pointer]:
+                  - /url: /course/nursing/
+              - listitem [ref=e135]:
+                - link "視能訓練士学科" [ref=e136] [cursor=pointer]:
+                  - /url: /course/orthoptist/
+              - listitem [ref=e137]:
+                - link "歯科衛生士学科 ホワイトニング・デンタルエステ専攻" [ref=e138] [cursor=pointer]:
+                  - /url: /course/dentalhygienists/
+              - listitem [ref=e139]:
+                - link "臨床工学技士学科" [ref=e140] [cursor=pointer]:
+                  - /url: /course/clinicalengineer/
+          - generic [ref=e141]:
+            - link "CAREER 資格・就職" [ref=e142] [cursor=pointer]:
+              - /url: /career/
+              - generic [ref=e143]: CAREER
+              - text: 資格・就職
+            - list [ref=e144]:
+              - listitem [ref=e145]:
+                - link "資格・就職 トップ" [ref=e146] [cursor=pointer]:
+                  - /url: /career/
+              - listitem [ref=e147]:
+                - link "資格サポート" [ref=e148] [cursor=pointer]:
+                  - /url: /career/license_support/
+              - listitem [ref=e149]:
+                - link "就職サポート" [ref=e150] [cursor=pointer]:
+                  - /url: /career/job_result/
+          - generic [ref=e151]:
+            - link "CAMPUS LIFE 学校生活・施設" [ref=e152] [cursor=pointer]:
+              - /url: /campuslife/
+              - generic [ref=e153]: CAMPUS LIFE
+              - text: 学校生活・施設
+            - list [ref=e154]:
+              - listitem [ref=e155]:
+                - link "学校生活・施設 トップ" [ref=e156] [cursor=pointer]:
+                  - /url: /campuslife/
+              - listitem [ref=e157]:
+                - link "キャンパスライフ" [ref=e158] [cursor=pointer]:
+                  - /url: /campuslife/schedule/
+              - listitem [ref=e159]:
+                - link "施設紹介" [ref=e160] [cursor=pointer]:
+                  - /url: /campuslife/facility/
+          - generic [ref=e161]:
+            - link "ADMISSION 入試・学費" [ref=e162] [cursor=pointer]:
+              - /url: /admission/
+              - generic [ref=e163]: ADMISSION
+              - text: 入試・学費
+            - list [ref=e164]:
+              - listitem [ref=e165]:
+                - link "入試・学費 トップ" [ref=e166] [cursor=pointer]:
+                  - /url: /admission/
+              - listitem [ref=e167]:
+                - link "募集要項" [ref=e168] [cursor=pointer]:
+                  - /url: /admission/application/
+              - listitem [ref=e169]:
+                - link "AO入試エントリー・出願方法" [ref=e170] [cursor=pointer]:
+                  - /url: /admission/ao/
+              - listitem [ref=e171]:
+                - link "推薦・一般入試 出願方法" [ref=e172] [cursor=pointer]:
+                  - /url: /admission/applicationflow/
+              - listitem [ref=e173]:
+                - link "学費・奨学金制度" [ref=e174] [cursor=pointer]:
+                  - /url: /admission/expenses/
+              - listitem [ref=e175]:
+                - link "特待生＆減免制度" [ref=e176] [cursor=pointer]:
+                  - /url: /admission/scholarship/
+          - generic [ref=e177]:
+            - link "OPEN CAMPUS オープンキャンパス" [ref=e178] [cursor=pointer]:
+              - /url: /opencampus/
+              - generic [ref=e179]: OPEN CAMPUS
+              - text: オープンキャンパス
+            - list [ref=e180]:
+              - listitem [ref=e181]:
+                - link "オープンキャンパスとは" [ref=e182] [cursor=pointer]:
+                  - /url: /opencampus/
+              - listitem [ref=e183]:
+                - link "イベント全日程一覧" [ref=e184] [cursor=pointer]:
+                  - /url: /opencampus/calendar/
+              - listitem [ref=e185]:
+                - link "学校説明・個別相談会" [ref=e186] [cursor=pointer]:
+                  - /url: /opencampus/session/
+              - listitem [ref=e187]:
+                - link "無料送迎バス" [ref=e188] [cursor=pointer]:
+                  - /url: /opencampus/bus/
+              - listitem [ref=e189]:
+                - link "交通費補助" [ref=e190] [cursor=pointer]:
+                  - /url: /opencampus/subsidy_list/
+        - list [ref=e191]:
+          - listitem [ref=e192]:
+            - link "卒業生の方へ" [ref=e193] [cursor=pointer]:
+              - /url: /visit_graduate/
+          - listitem [ref=e194]:
+            - link "高等学校の先生方へ" [ref=e195] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9888/
+          - listitem [ref=e196]:
+            - link "中学校の先生方へ" [ref=e197] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9891/
+          - listitem [ref=e198]:
+            - link "社会人・大学生・短大生の方へ" [ref=e199] [cursor=pointer]:
+              - /url: /visit_society/
+          - listitem [ref=e200]:
+            - link "企業の方へ" [ref=e201] [cursor=pointer]:
+              - /url: /visit_company/
+          - listitem [ref=e202]:
+            - link "職員募集につきまして" [ref=e203] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e204]:
+            - link "産官学連携にご協力いただける企業・自治体の方へ" [ref=e205] [cursor=pointer]:
+              - /url: /visit_municipality/
+        - list [ref=e206]:
+          - listitem [ref=e207]:
+            - link "お問い合わせ" [ref=e208] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/inquiry/
+          - listitem [ref=e209]:
+            - link "交通・アクセス" [ref=e210] [cursor=pointer]:
+              - /url: /school/access/
+          - listitem [ref=e211]:
+            - link "情報公開（職業実践専門課程）" [ref=e212] [cursor=pointer]:
+              - /url: /school/info/
+          - listitem [ref=e213]:
+            - link "施設(教室)利用貸出につきまして" [ref=e214] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/facility/
+          - listitem [ref=e215]:
+            - link "採用情報" [ref=e216] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e217]:
+            - link "サイトマップ" [ref=e218] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e219]:
+            - link "プライバシーポリシー" [ref=e220] [cursor=pointer]:
+              - /url: /privacy/
+          - listitem [ref=e221]:
+            - link "ソーシャルメディアポリシー" [ref=e222] [cursor=pointer]:
+              - /url: /socialpolicy/
+        - list [ref=e223]:
+          - listitem [ref=e224]:
+            - link "Instagram" [ref=e225] [cursor=pointer]:
+              - /url: https://www.instagram.com/sapporo_kango/
+          - listitem [ref=e226]:
+            - link "TikTok" [ref=e227] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@sapporo_kango
+          - listitem [ref=e228]:
+            - link "YouTube" [ref=e229] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+          - listitem [ref=e230]:
+            - link "LINE" [ref=e231] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/914/
+        - paragraph [ref=e232]: © Sapporo College of Nursing & Medical Care.
+  - generic [ref=e234]:
+    - group [ref=e235]:
+      - generic "訪問者別メニュー ▾" [ref=e236] [cursor=pointer]
+    - paragraph [ref=e237]:
+      - link "情報公開（職業実践専門課程）" [ref=e238] [cursor=pointer]:
+        - /url: /school/info/
+      - text: ／
+      - link "施設(教室)利用貸出につきまして" [ref=e239] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/facility/
+    - generic [ref=e240]:
+      - link "資料請求" [ref=e241] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/document/
+        - generic [ref=e243]: 資料請求
+      - link "イベント 全日程一覧" [ref=e244] [cursor=pointer]:
+        - /url: /opencampus/calendar/
+        - generic [ref=e246]:
+          - text: イベント
+          - text: 全日程一覧
+      - link "LINEなんでも 相談" [ref=e247] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/news/2023/914/
+        - generic [ref=e249]:
+          - text: LINEなんでも
+          - text: 相談
+    - list [ref=e250]:
+      - listitem [ref=e251]:
+        - link "夢がふくらむ、目標が見つかる！ オープンキャンパス" [ref=e252] [cursor=pointer]:
+          - /url: /opencampus/
+          - generic [ref=e253]: 夢がふくらむ、目標が見つかる！
+          - generic [ref=e254]: オープンキャンパス
+          - generic [ref=e255]: →
+      - listitem [ref=e256]:
+        - link "REASON 札幌看護医療専門学校が選ばれる理由" [ref=e257] [cursor=pointer]:
+          - /url: /school/study/
+          - generic [ref=e258]: REASON
+          - generic [ref=e259]: 札幌看護医療専門学校が選ばれる理由
+          - generic [ref=e260]: →
+      - listitem [ref=e261]:
+        - link "COURSE ミライを担う医療系4学科" [ref=e262] [cursor=pointer]:
+          - /url: /course/
+          - generic [ref=e263]: COURSE
+          - generic [ref=e264]: ミライを担う医療系4学科
+          - generic [ref=e265]: →
+      - listitem [ref=e266]:
+        - link "ADMISSION 入試・学費" [ref=e267] [cursor=pointer]:
+          - /url: /admission/
+          - generic [ref=e268]: ADMISSION
+          - generic [ref=e269]: 入試・学費
+          - generic [ref=e270]: →
+      - listitem [ref=e271]:
+        - link "FACILITY 施設紹介" [ref=e272] [cursor=pointer]:
+          - /url: /campuslife/facility/
+          - generic [ref=e273]: FACILITY
+          - generic [ref=e274]: 施設紹介
+          - generic [ref=e275]: →

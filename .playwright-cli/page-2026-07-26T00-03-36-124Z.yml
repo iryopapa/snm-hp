@@ -1,0 +1,766 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "札幌看護医療専門学校" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e9]
+        - button "MENU" [ref=e10] [cursor=pointer]:
+          - generic [ref=e15]: MENU
+    - main [ref=e16]:
+      - navigation "パンくずリスト" [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "TOP" [ref=e20] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e21]:
+            - text: ›
+            - link "入試・学費" [ref=e22] [cursor=pointer]:
+              - /url: /admission/
+          - listitem [ref=e23]: ›学費・奨学金制度
+      - generic [ref=e25]:
+        - paragraph [ref=e26]: ADMISSION
+        - heading "学費・奨学金制度" [level=1] [ref=e27]
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - heading "学費（年額）" [level=2] [ref=e30]
+          - generic [ref=e31]:
+            - heading "看護学科" [level=3] [ref=e32]
+            - table [ref=e33]:
+              - rowgroup [ref=e34]:
+                - row "1年次 2年次 3年次" [ref=e35]:
+                  - columnheader [ref=e36]
+                  - columnheader "1年次" [ref=e37]
+                  - columnheader "2年次" [ref=e38]
+                  - columnheader "3年次" [ref=e39]
+              - rowgroup [ref=e40]:
+                - row "入学金 200,000円 - -" [ref=e41]:
+                  - rowheader "入学金" [ref=e42]
+                  - cell "200,000円" [ref=e43]
+                  - cell "-" [ref=e44]
+                  - cell "-" [ref=e45]
+                - row "授業料 700,000円" [ref=e46]:
+                  - rowheader "授業料" [ref=e47]
+                  - cell "700,000円" [ref=e48]
+                - row "実習費 370,000円" [ref=e49]:
+                  - rowheader "実習費" [ref=e50]
+                  - cell "370,000円" [ref=e51]
+                - row "施設設備費 80,000円 90,000円" [ref=e52]:
+                  - rowheader "施設設備費" [ref=e53]
+                  - cell "80,000円" [ref=e54]
+                  - cell "90,000円" [ref=e55]
+                - row "合計 1,350,000円 1,160,000円 1,160,000円" [ref=e56]:
+                  - rowheader "合計" [ref=e57]
+                  - cell "1,350,000円" [ref=e58]
+                  - cell "1,160,000円" [ref=e59]
+                  - cell "1,160,000円" [ref=e60]
+          - generic [ref=e61]:
+            - heading "視能訓練士学科" [level=3] [ref=e62]
+            - table [ref=e63]:
+              - rowgroup [ref=e64]:
+                - row "1年次 2年次 3年次" [ref=e65]:
+                  - columnheader [ref=e66]
+                  - columnheader "1年次" [ref=e67]
+                  - columnheader "2年次" [ref=e68]
+                  - columnheader "3年次" [ref=e69]
+              - rowgroup [ref=e70]:
+                - row "入学金 200,000円 - -" [ref=e71]:
+                  - rowheader "入学金" [ref=e72]
+                  - cell "200,000円" [ref=e73]
+                  - cell "-" [ref=e74]
+                  - cell "-" [ref=e75]
+                - row "授業料 700,000円" [ref=e76]:
+                  - rowheader "授業料" [ref=e77]
+                  - cell "700,000円" [ref=e78]
+                - row "実習費 80,000円 140,000円 160,000円" [ref=e79]:
+                  - rowheader "実習費" [ref=e80]
+                  - cell "80,000円" [ref=e81]
+                  - cell "140,000円" [ref=e82]
+                  - cell "160,000円" [ref=e83]
+                - row "施設設備費 100,000円 130,000円" [ref=e84]:
+                  - rowheader "施設設備費" [ref=e85]
+                  - cell "100,000円" [ref=e86]
+                  - cell "130,000円" [ref=e87]
+                - row "合計 1,080,000円 970,000円 990,000円" [ref=e88]:
+                  - rowheader "合計" [ref=e89]
+                  - cell "1,080,000円" [ref=e90]
+                  - cell "970,000円" [ref=e91]
+                  - cell "990,000円" [ref=e92]
+          - generic [ref=e93]:
+            - heading "歯科衛生士学科" [level=3] [ref=e94]
+            - table [ref=e95]:
+              - rowgroup [ref=e96]:
+                - row "1年次 2年次 3年次" [ref=e97]:
+                  - columnheader [ref=e98]
+                  - columnheader "1年次" [ref=e99]
+                  - columnheader "2年次" [ref=e100]
+                  - columnheader "3年次" [ref=e101]
+              - rowgroup [ref=e102]:
+                - row "入学金 200,000円 - -" [ref=e103]:
+                  - rowheader "入学金" [ref=e104]
+                  - cell "200,000円" [ref=e105]
+                  - cell "-" [ref=e106]
+                  - cell "-" [ref=e107]
+                - row "授業料 500,000円" [ref=e108]:
+                  - rowheader "授業料" [ref=e109]
+                  - cell "500,000円" [ref=e110]
+                - row "実習費 200,000円 350,000円" [ref=e111]:
+                  - rowheader "実習費" [ref=e112]
+                  - cell "200,000円" [ref=e113]
+                  - cell "350,000円" [ref=e114]
+                - row "施設設備費 150,000円 80,000円" [ref=e115]:
+                  - rowheader "施設設備費" [ref=e116]
+                  - cell "150,000円" [ref=e117]
+                  - cell "80,000円" [ref=e118]
+                - row "合計 1,050,000円 930,000円 930,000円" [ref=e119]:
+                  - rowheader "合計" [ref=e120]
+                  - cell "1,050,000円" [ref=e121]
+                  - cell "930,000円" [ref=e122]
+                  - cell "930,000円" [ref=e123]
+          - generic [ref=e124]:
+            - heading "臨床工学技士学科" [level=3] [ref=e125]
+            - table [ref=e126]:
+              - rowgroup [ref=e127]:
+                - row "1年次 2年次 3年次" [ref=e128]:
+                  - columnheader [ref=e129]
+                  - columnheader "1年次" [ref=e130]
+                  - columnheader "2年次" [ref=e131]
+                  - columnheader "3年次" [ref=e132]
+              - rowgroup [ref=e133]:
+                - row "入学金 200,000円 - -" [ref=e134]:
+                  - rowheader "入学金" [ref=e135]
+                  - cell "200,000円" [ref=e136]
+                  - cell "-" [ref=e137]
+                  - cell "-" [ref=e138]
+                - row "授業料 700,000円" [ref=e139]:
+                  - rowheader "授業料" [ref=e140]
+                  - cell "700,000円" [ref=e141]
+                - row "実習費 230,000円 280,000円" [ref=e142]:
+                  - rowheader "実習費" [ref=e143]
+                  - cell "230,000円" [ref=e144]
+                  - cell "280,000円" [ref=e145]
+                - row "施設設備費 150,000円 120,000円" [ref=e146]:
+                  - rowheader "施設設備費" [ref=e147]
+                  - cell "150,000円" [ref=e148]
+                  - cell "120,000円" [ref=e149]
+                - row "合計 1,280,000円 1,100,000円 1,100,000円" [ref=e150]:
+                  - rowheader "合計" [ref=e151]
+                  - cell "1,280,000円" [ref=e152]
+                  - cell "1,100,000円" [ref=e153]
+                  - cell "1,100,000円" [ref=e154]
+        - generic [ref=e155]:
+          - heading "上記の年間学費と別にかかる初年度の諸費用（年額）" [level=2] [ref=e156]
+          - generic [ref=e157]:
+            - paragraph [ref=e158]: 看護学科
+            - paragraph [ref=e159]:
+              - text: 教科書・教材費、資格検定費、健康管理費、総合演習費
+              - text: 460,000円程度
+          - generic [ref=e160]:
+            - paragraph [ref=e161]: 視能訓練士学科
+            - paragraph [ref=e162]:
+              - text: 教科書・教材費、資格検定費、健康管理費、総合演習費
+              - text: 390,000円程度
+          - generic [ref=e163]:
+            - paragraph [ref=e164]: 歯科衛生士学科
+            - paragraph [ref=e165]:
+              - text: 教科書・教材費、資格検定費、健康管理費、総合演習費
+              - text: 450,000円程度
+          - generic [ref=e166]:
+            - paragraph [ref=e167]: 臨床工学技士学科
+            - paragraph [ref=e168]:
+              - text: 教科書・教材費、資格検定費、健康管理費、総合演習費
+              - text: 370,000円程度
+          - list [ref=e170]:
+            - listitem [ref=e171]: ※ PC等の購入費用は別途必要となります。
+            - listitem [ref=e172]: ※ 国内研修・海外研修に参加を希望される方は別途研修費用が必要となります。
+            - listitem [ref=e173]: ※ 初年度の諸費用は2026年度入学生の参考金額です。金額が変更になる可能性があります。
+            - listitem [ref=e174]: ※ 2年次、3年次の諸費用は別途必要となります。
+        - generic [ref=e175]:
+          - heading "学費・諸費用に関する補足説明" [level=2] [ref=e176]
+          - generic [ref=e177]:
+            - paragraph [ref=e178]: 学費納入時期
+            - paragraph [ref=e179]:
+              - text: 初年度：合格通知に同封される振込依頼書に記載。諸費用は入学前3月中旬までに納入ください。
+              - text: 進級時：各学年進級前の1月末までに納入ください。
+            - list [ref=e180]:
+              - listitem [ref=e181]: ※ 原則一括払いとなります。
+          - generic [ref=e182]:
+            - paragraph [ref=e183]: 学費・諸費用納入方法
+            - paragraph [ref=e184]: 本校より発行した振込依頼書にてお振り込みください。
+          - generic [ref=e185]:
+            - paragraph [ref=e186]: 初年度諸費用の内訳
+            - paragraph [ref=e187]:
+              - text: 教科書・教材費：個人の教科書と教材にかかる費用です。
+              - text: 資格検定費：各学科により異なります。資格検定費は受験予定資格分を納入いただきますが、未受験の場合の返金可能分については次年度学費へ振替（卒業年次は返金）させていただきます。
+              - text: 健康管理費：学生の健康を管理するための総合的な健康診断を年1回実施し、年間を通じての健康指導に関わる費用です。
+              - text: 総合演習費：行事、授業の消耗品等にかかる費用です。
+            - list [ref=e188]:
+              - listitem [ref=e189]: ※ 諸費用は一括で納入ください。
+          - generic [ref=e191]:
+            - paragraph [ref=e192]: ◆納付済みの授業料等の返還について
+            - paragraph [ref=e193]: 本校に合格し、授業料等及び諸費用等を納付された方が、2027年3月31日（17:00）までに本校への入学辞退の意思表示をされた場合は、原則として授業料等及び諸費用等を返還します。ただし、入学選考料及び入学金、入学準備金は返還できません。
+          - paragraph [ref=e194]:
+            - link "学費が減免！特待生・奨学金制度 →" [ref=e195] [cursor=pointer]:
+              - /url: /admission/scholarship/
+        - generic [ref=e196]:
+          - heading "日本学生支援機構 奨学生制度" [level=2] [ref=e197]
+          - paragraph [ref=e198]: 独立行政法人日本学生支援機構の奨学金は「学びたい」という意欲と能力のある学生が、経済的な理由で学業をあきらめることがないよう作られた制度です。
+          - table [ref=e200]:
+            - rowgroup [ref=e201]:
+              - row "種類 給付奨学金 （貸与型）第一種奨学金 （貸与型）第二種奨学金" [ref=e202]:
+                - columnheader "種類" [ref=e203]
+                - columnheader "給付奨学金" [ref=e204]
+                - columnheader "（貸与型）第一種奨学金" [ref=e205]
+                - columnheader "（貸与型）第二種奨学金" [ref=e206]
+              - row "特長 入学後、学生本人名義の口座に決まった金額が毎月振り込まれます。" [ref=e207]:
+                - rowheader "特長" [ref=e208]
+                - cell "入学後、学生本人名義の口座に決まった金額が毎月振り込まれます。" [ref=e209]
+              - row "貸与(給付)月額 自宅外通学 19,000円〜75,800円 自宅通学 9,600円〜38,300円 自宅外通学 2万円、3万円、4万円、5万円、6万円※ 自宅通学 2万円、3万円、4万円、5万3千円※ 2万円〜12万円 （1万円刻み） 希望する月額を選択 （申し込み後の変更も可能です）。" [ref=e210]:
+                - rowheader "貸与(給付)月額" [ref=e211]
+                - cell "自宅外通学 19,000円〜75,800円" [ref=e212]:
+                  - text: 自宅外通学
+                  - text: 19,000円〜75,800円
+                - cell "自宅通学 9,600円〜38,300円" [ref=e213]:
+                  - text: 自宅通学
+                  - text: 9,600円〜38,300円
+                - cell "自宅外通学 2万円、3万円、4万円、5万円、6万円※" [ref=e214]:
+                  - text: 自宅外通学
+                  - text: 2万円、3万円、4万円、5万円、6万円※
+                - cell "自宅通学 2万円、3万円、4万円、5万3千円※" [ref=e215]:
+                  - text: 自宅通学
+                  - text: 2万円、3万円、4万円、5万3千円※
+                - cell "2万円〜12万円 （1万円刻み） 希望する月額を選択 （申し込み後の変更も可能です）。" [ref=e216]:
+                  - text: 2万円〜12万円
+                  - text: （1万円刻み）
+                  - text: 希望する月額を選択
+                  - text: （申し込み後の変更も可能です）。
+              - row "希望する月額を選択（申し込み後の変更も可能です）。 ※審査により最高月額を選択できないことがあります。" [ref=e217]:
+                - cell "希望する月額を選択（申し込み後の変更も可能です）。 ※審査により最高月額を選択できないことがあります。" [ref=e218]:
+                  - text: 希望する月額を選択（申し込み後の変更も可能です）。
+                  - text: ※審査により最高月額を選択できないことがあります。
+              - row "利率 - 無利子 年利上限3% （2026年3月卒業生実績 1.641％） ※利率固定方式の場合" [ref=e219]:
+                - rowheader "利率" [ref=e220]
+                - cell "-" [ref=e221]
+                - cell "無利子" [ref=e222]
+                - cell "年利上限3% （2026年3月卒業生実績 1.641％） ※利率固定方式の場合" [ref=e223]:
+                  - text: 年利上限3%
+                  - text: （2026年3月卒業生実績 1.641％）
+                  - text: ※利率固定方式の場合
+              - row "返還期間 原則返還なし 卒業後7ヵ月目から返還開始、20年以内 （毎月均等、毎月と半年毎の併用から選択でき、返還期間は貸与総額により決まります）。" [ref=e224]:
+                - rowheader "返還期間" [ref=e225]
+                - cell "原則返還なし" [ref=e226]
+                - cell "卒業後7ヵ月目から返還開始、20年以内 （毎月均等、毎月と半年毎の併用から選択でき、返還期間は貸与総額により決まります）。" [ref=e227]:
+                  - text: 卒業後7ヵ月目から返還開始、20年以内
+                  - text: （毎月均等、毎月と半年毎の併用から選択でき、返還期間は貸与総額により決まります）。
+          - list [ref=e228]:
+            - listitem [ref=e229]:
+              - text: ※ 奨学金の併用を希望される場合、給付型奨学金第Ⅰ・Ⅱ区分・多子世帯（第Ⅰ〜Ⅳ区分）に採用された方は併給調整で第一種奨学金が利用できなくなります
+              - superscript [ref=e230]: "*1"
+              - text: 。必要な場合は第二種奨学金もお申し込みください。
+          - paragraph [ref=e231]:
+            - generic [ref=e232]:
+              - superscript [ref=e233]: "*1"
+              - text: 第Ⅲ区分・多子世帯は減額されます。
+          - paragraph [ref=e234]:
+            - generic [ref=e235]:
+              - text: 採用基準や詳細については、
+              - link "日本学生支援機構ホームページ" [ref=e236] [cursor=pointer]:
+                - /url: https://www.jasso.go.jp/
+              - text: をご覧ください。
+        - generic [ref=e237]:
+          - heading "日本学生支援機構奨学金手続きの流れ" [level=3] [ref=e238]
+          - paragraph [ref=e239]: 入学前の申込（予約採用）
+          - list [ref=e240]:
+            - listitem [ref=e241]: ※ 応募資格：2027年3月に高等学校または専修学校（高等課程）を卒業予定の方
+          - list [ref=e242]:
+            - listitem [ref=e243]:
+              - generic [ref=e244]:
+                - text: STEP
+                - generic [ref=e245]: "1"
+              - generic [ref=e246]:
+                - heading "高等学校で募集" [level=4] [ref=e247]
+                - generic [ref=e248]:
+                  - paragraph [ref=e249]: 【募集時期】2026年4月〜
+                  - list [ref=e250]:
+                    - listitem [ref=e251]: ※ 詳細は在学中の高等学校へご確認ください。
+            - listitem [ref=e252]:
+              - generic [ref=e253]:
+                - text: STEP
+                - generic [ref=e254]: "2"
+              - heading "高等学校で予約申し込みをする" [level=4] [ref=e256]
+            - listitem [ref=e257]:
+              - generic [ref=e258]:
+                - text: STEP
+                - generic [ref=e259]: "3"
+              - generic [ref=e260]:
+                - heading "日本学生支援機構での選考" [level=4] [ref=e261]
+                - list [ref=e263]:
+                  - listitem [ref=e264]: 8月〜1月頃
+            - listitem [ref=e265]:
+              - generic [ref=e266]:
+                - text: STEP
+                - generic [ref=e267]: "4"
+              - heading "「採用候補者決定通知」の交付" [level=4] [ref=e269]
+            - listitem [ref=e270]:
+              - generic [ref=e271]:
+                - text: STEP
+                - generic [ref=e272]: "5"
+              - heading "2027年4月当校へ入学" [level=4] [ref=e274]
+            - listitem [ref=e275]:
+              - generic [ref=e276]:
+                - text: STEP
+                - generic [ref=e277]: "6"
+              - heading "当校にて貸与開始に向けた手続き" [level=4] [ref=e279]
+            - listitem [ref=e280]:
+              - generic [ref=e281]:
+                - text: STEP
+                - generic [ref=e282]: "7"
+              - generic [ref=e283]:
+                - heading "奨学金支給" [level=4] [ref=e284]
+                - generic [ref=e285]:
+                  - list [ref=e286]:
+                    - listitem [ref=e287]: 2027年5月〜
+                  - paragraph [ref=e288]: （最短で）奨学金の振込み開始
+        - generic [ref=e289]:
+          - heading "授業料分納制度" [level=2] [ref=e290]
+          - generic [ref=e291]:
+            - paragraph [ref=e292]: 授業料分納制度とは
+            - paragraph [ref=e293]: 高等学校で「日本学生支援機構奨学金」の予約採用に申し込みをして採用になった方を対象に、授業料の分割納入が可能になる制度です。
+          - generic [ref=e294]:
+            - paragraph [ref=e295]: 本制度の申込方法
+            - list [ref=e296]:
+              - listitem [ref=e297]: 在学中の高等学校にて、「日本学生支援機構」の予約採用の申し込みを行ってください。
+              - listitem [ref=e298]:
+                - text: 出願時、ネット出願フォームのチェック欄で選択してください。
+                - text: 「授業料分納制度申請書」を合格通知と一緒に送付させていただきます。別途手続きが必要となります。
+          - generic [ref=e299]:
+            - paragraph [ref=e300]: 納入例 ※授業料が700,000円の場合
+            - table [ref=e302]:
+              - rowgroup [ref=e303]:
+                - row "5月 6月 7月 8月 9月 10月 11月 12月 1月 計" [ref=e304]:
+                  - columnheader [ref=e305]
+                  - columnheader "5月" [ref=e306]
+                  - columnheader "6月" [ref=e307]
+                  - columnheader "7月" [ref=e308]
+                  - columnheader "8月" [ref=e309]
+                  - columnheader "9月" [ref=e310]
+                  - columnheader "10月" [ref=e311]
+                  - columnheader "11月" [ref=e312]
+                  - columnheader "12月" [ref=e313]
+                  - columnheader "1月" [ref=e314]
+                  - columnheader "計" [ref=e315]
+              - rowgroup [ref=e316]:
+                - row "分納額 140,000円 70,000円 70,000円 70,000円 70,000円 70,000円 70,000円 70,000円 70,000円 700,000円" [ref=e317]:
+                  - rowheader "分納額" [ref=e318]
+                  - cell "140,000円" [ref=e319]
+                  - cell "70,000円" [ref=e320]
+                  - cell "70,000円" [ref=e321]
+                  - cell "70,000円" [ref=e322]
+                  - cell "70,000円" [ref=e323]
+                  - cell "70,000円" [ref=e324]
+                  - cell "70,000円" [ref=e325]
+                  - cell "70,000円" [ref=e326]
+                  - cell "70,000円" [ref=e327]
+                  - cell "700,000円" [ref=e328]
+          - list [ref=e329]:
+            - listitem [ref=e330]: ※ 分割納入は、1年間で、5月〜1月末までの最大9回まで分割をすることができます。
+            - listitem [ref=e331]: ※ 月々のお支払いは、各金融機関の自動送金サービスを利用することが条件となります。
+            - listitem [ref=e332]: ※ 入学金、実習費、施設設備維持費、諸費用については、一括での納入となります。
+            - listitem [ref=e333]: ※ 詳細は、入学事務局までお問い合わせください。
+        - generic [ref=e334]:
+          - heading "高等教育の修学支援新制度" [level=2] [ref=e335]
+          - link "高等教育の「修学支援新制度」 多子世帯支援" [ref=e336] [cursor=pointer]:
+            - /url: https://www.snm.ac.jp/asset/doc/admission/expenses/r7_yoyaku_leaflet.pdf
+            - img "高等教育の「修学支援新制度」 多子世帯支援" [ref=e337]
+          - table [ref=e339]:
+            - rowgroup [ref=e340]:
+              - row "制度概要 家庭の経済事情や、子育て支援の観点から、意欲のある子どもたちが高等教育機関へ進学し、学ぶことができるようにする国の制度です。日本学生支援機構奨学金と併せて修学を支援します。" [ref=e341]:
+                - rowheader "制度概要" [ref=e342]
+                - cell "家庭の経済事情や、子育て支援の観点から、意欲のある子どもたちが高等教育機関へ進学し、学ぶことができるようにする国の制度です。日本学生支援機構奨学金と併せて修学を支援します。" [ref=e343]
+              - row "支援方法 入学金・授業料の一部を国が負担します。併せて給付奨学金（日本学生支援機構）の対象となりますのでご本人の負担が軽減されます。" [ref=e344]:
+                - rowheader "支援方法" [ref=e345]
+                - cell "入学金・授業料の一部を国が負担します。併せて給付奨学金（日本学生支援機構）の対象となりますのでご本人の負担が軽減されます。" [ref=e346]
+              - row "対象者 世帯収入の要件や子どもの人数を満たしていること、進学先で学ぶ意欲のある学生であることが条件となります。ご自身が対象となるかどうかは日本学生支援機構の進学資金シミュレーターおよび文部科学省のホームページにてご確認ください。" [ref=e347]:
+                - rowheader "対象者" [ref=e348]
+                - cell "世帯収入の要件や子どもの人数を満たしていること、進学先で学ぶ意欲のある学生であることが条件となります。ご自身が対象となるかどうかは日本学生支援機構の進学資金シミュレーターおよび文部科学省のホームページにてご確認ください。" [ref=e349]
+              - row "申込方法 在籍している高等学校にて、日本学生支援機構の予約採用で給付奨学金の申し込みをしてください。予約採用で申し込みをしている方は出願時、ネット出願フォームのチェック欄で選択してください。" [ref=e350]:
+                - rowheader "申込方法" [ref=e351]
+                - cell "在籍している高等学校にて、日本学生支援機構の予約採用で給付奨学金の申し込みをしてください。予約採用で申し込みをしている方は出願時、ネット出願フォームのチェック欄で選択してください。" [ref=e352]:
+                  - text: 在籍している高等学校にて、日本学生支援機構の予約採用で
+                  - generic [ref=e353]: 給付奨学金
+                  - text: の申し込みをしてください。予約採用で申し込みをしている方は出願時、ネット出願フォームのチェック欄で選択してください。
+          - generic [ref=e354]:
+            - heading "減免額" [level=3] [ref=e355]
+            - paragraph [ref=e356]: 入学金（全学科共通）
+            - table [ref=e358]:
+              - rowgroup [ref=e359]:
+                - row "採用区分 第Ⅰ区分 第Ⅱ区分 第Ⅲ区分 多子世帯 （第Ⅰ〜Ⅳ区分） ・多子世帯" [ref=e360]:
+                  - columnheader "採用区分" [ref=e361]
+                  - columnheader "第Ⅰ区分" [ref=e362]
+                  - columnheader "第Ⅱ区分" [ref=e363]
+                  - columnheader "第Ⅲ区分" [ref=e364]
+                  - columnheader "多子世帯 （第Ⅰ〜Ⅳ区分） ・多子世帯" [ref=e365]:
+                    - text: 多子世帯
+                    - text: （第Ⅰ〜Ⅳ区分）
+                    - text: ・多子世帯
+              - rowgroup [ref=e366]:
+                - row "入学金 200,000円" [ref=e367]:
+                  - rowheader "入学金" [ref=e368]
+                  - cell "200,000円" [ref=e369]
+                - row "減免額 160,000円 106,700円 53,400円 160,000円" [ref=e370]:
+                  - rowheader "減免額" [ref=e371]
+                  - cell "160,000円" [ref=e372]
+                  - cell "106,700円" [ref=e373]
+                  - cell "53,400円" [ref=e374]
+                  - cell "160,000円" [ref=e375]
+                - row "必要な金額 40,000円 93,300円 146,600円 40,000円" [ref=e376]:
+                  - rowheader "必要な金額" [ref=e377]
+                  - cell "40,000円" [ref=e378]
+                  - cell "93,300円" [ref=e379]
+                  - cell "146,600円" [ref=e380]
+                  - cell "40,000円" [ref=e381]
+          - generic [ref=e382]:
+            - paragraph [ref=e383]: 授業料（看護学科、視能訓練士学科、臨床工学技士学科）
+            - table [ref=e385]:
+              - rowgroup [ref=e386]:
+                - row "採用区分 第Ⅰ区分 第Ⅱ区分 第Ⅲ区分 多子世帯 （第Ⅰ〜Ⅳ区分） ・多子世帯" [ref=e387]:
+                  - columnheader "採用区分" [ref=e388]
+                  - columnheader "第Ⅰ区分" [ref=e389]
+                  - columnheader "第Ⅱ区分" [ref=e390]
+                  - columnheader "第Ⅲ区分" [ref=e391]
+                  - columnheader "多子世帯 （第Ⅰ〜Ⅳ区分） ・多子世帯" [ref=e392]:
+                    - text: 多子世帯
+                    - text: （第Ⅰ〜Ⅳ区分）
+                    - text: ・多子世帯
+              - rowgroup [ref=e393]:
+                - row "授業料 700,000円" [ref=e394]:
+                  - rowheader "授業料" [ref=e395]
+                  - cell "700,000円" [ref=e396]
+                - row "減免額 590,000円 393,400円 196,700円 590,000円" [ref=e397]:
+                  - rowheader "減免額" [ref=e398]
+                  - cell "590,000円" [ref=e399]
+                  - cell "393,400円" [ref=e400]
+                  - cell "196,700円" [ref=e401]
+                  - cell "590,000円" [ref=e402]
+                - row "必要な金額 110,000円 306,600円 503,300円 110,000円" [ref=e403]:
+                  - rowheader "必要な金額" [ref=e404]
+                  - cell "110,000円" [ref=e405]
+                  - cell "306,600円" [ref=e406]
+                  - cell "503,300円" [ref=e407]
+                  - cell "110,000円" [ref=e408]
+          - generic [ref=e409]:
+            - paragraph [ref=e410]: 授業料（歯科衛生士学科）
+            - table [ref=e412]:
+              - rowgroup [ref=e413]:
+                - row "採用区分 第Ⅰ区分 第Ⅱ区分 第Ⅲ区分 多子世帯 （第Ⅰ〜Ⅳ区分） ・多子世帯" [ref=e414]:
+                  - columnheader "採用区分" [ref=e415]
+                  - columnheader "第Ⅰ区分" [ref=e416]
+                  - columnheader "第Ⅱ区分" [ref=e417]
+                  - columnheader "第Ⅲ区分" [ref=e418]
+                  - columnheader "多子世帯 （第Ⅰ〜Ⅳ区分） ・多子世帯" [ref=e419]:
+                    - text: 多子世帯
+                    - text: （第Ⅰ〜Ⅳ区分）
+                    - text: ・多子世帯
+              - rowgroup [ref=e420]:
+                - row "授業料 500,000円" [ref=e421]:
+                  - rowheader "授業料" [ref=e422]
+                  - cell "500,000円" [ref=e423]
+                - row "減免額 500,000円 333,400円 166,700円 500,000円" [ref=e424]:
+                  - rowheader "減免額" [ref=e425]
+                  - cell "500,000円" [ref=e426]
+                  - cell "333,400円" [ref=e427]
+                  - cell "166,700円" [ref=e428]
+                  - cell "500,000円" [ref=e429]
+                - row "必要な金額 0円 166,600円 333,300円 0円" [ref=e430]:
+                  - rowheader "必要な金額" [ref=e431]
+                  - cell "0円" [ref=e432]
+                  - cell "166,600円" [ref=e433]
+                  - cell "333,300円" [ref=e434]
+                  - cell "0円" [ref=e435]
+          - list [ref=e436]:
+            - listitem [ref=e437]: ※ 2026年度 参考金額
+            - listitem [ref=e438]: ※ 第Ⅳ区分（私立理工農）は本校対象外です。
+        - generic [ref=e439]:
+          - heading "教育ローンについて" [level=2] [ref=e440]
+          - paragraph [ref=e441]:
+            - text: 教育ローンは、入学前に保護者の方が必要な費用を一括して借入することができます。
+            - text: 在学中も返済期間に含まれますが、在学中の元金返還を据置きにする制度もあります。
+          - table [ref=e443]:
+            - rowgroup [ref=e444]:
+              - row "日本政策金融公庫 国の教育ローン 北洋銀行教育ローン 株式会社オリエント コーポレーション" [ref=e445]:
+                - columnheader [ref=e446]
+                - columnheader "日本政策金融公庫 国の教育ローン" [ref=e447]:
+                  - text: 日本政策金融公庫
+                  - text: 国の教育ローン
+                - columnheader "北洋銀行教育ローン" [ref=e448]
+                - columnheader "株式会社オリエント コーポレーション" [ref=e449]:
+                  - text: 株式会社オリエント
+                  - text: コーポレーション
+              - row "融資金額 350万円まで 10万円以上500万円以内 （1万円単位） 3万円以上500万円以内" [ref=e450]:
+                - rowheader "融資金額" [ref=e451]
+                - cell "350万円まで" [ref=e452]
+                - cell "10万円以上500万円以内 （1万円単位）" [ref=e453]:
+                  - text: 10万円以上500万円以内
+                  - text: （1万円単位）
+                - cell "3万円以上500万円以内" [ref=e454]
+          - generic [ref=e455]:
+            - paragraph [ref=e456]: 学費に関する問い合わせ
+            - paragraph [ref=e457]:
+              - text: 学費に関する相談を承ります。
+              - text: 本校には学費に関する専門の相談員（FA：ファイナンシャル・アドバイザー）がおります。在学中に必要な全ての諸費用の算出、各制度の詳細や理想的なプランのご紹介など承っております。学費のことで迷ったらまずはお気軽にお問い合わせください。
+          - generic [ref=e458]:
+            - link "オリコ学費サポートプラン" [ref=e459] [cursor=pointer]:
+              - /url: https://orico-web.jp/gakuhi/index.html?clientid=16587503
+              - img "オリコ学費サポートプラン" [ref=e460]
+            - link "専門実践教育 訓練給付金" [ref=e461] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2025/14279/
+              - img "専門実践教育 訓練給付金" [ref=e462]
+    - contentinfo [ref=e463]:
+      - generic [ref=e464]:
+        - link "札幌看護医療専門学校" [ref=e465] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e466]
+        - paragraph [ref=e467]: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+        - paragraph [ref=e468]:
+          - text: TEL
+          - link "011-801-8343" [ref=e469] [cursor=pointer]:
+            - /url: tel:011-801-8343
+          - text: ／フリーダイヤル
+          - link "0120-37-8343" [ref=e470] [cursor=pointer]:
+            - /url: tel:0120-37-8343
+        - navigation "フッターナビゲーション" [ref=e471]:
+          - generic [ref=e472]:
+            - link "ABOUT 学校案内" [ref=e473] [cursor=pointer]:
+              - /url: /school/
+              - generic [ref=e474]: ABOUT
+              - text: 学校案内
+            - list [ref=e475]:
+              - listitem [ref=e476]:
+                - link "学校案内 トップ" [ref=e477] [cursor=pointer]:
+                  - /url: /school/
+              - listitem [ref=e478]:
+                - link "札幌看護医療が選ばれる理由" [ref=e479] [cursor=pointer]:
+                  - /url: /school/study/
+              - listitem [ref=e480]:
+                - link "高校1・2年生のための進路選び" [ref=e481] [cursor=pointer]:
+                  - /url: /school/guide/
+              - listitem [ref=e482]:
+                - link "交通・アクセス" [ref=e483] [cursor=pointer]:
+                  - /url: /school/access/
+              - listitem [ref=e484]:
+                - link "建学の理念" [ref=e485] [cursor=pointer]:
+                  - /url: /school/philosophy/
+              - listitem [ref=e486]:
+                - link "情報公開（職業実践専門課程）" [ref=e487] [cursor=pointer]:
+                  - /url: /school/info/
+          - generic [ref=e488]:
+            - link "COURSE 学科・専攻" [ref=e489] [cursor=pointer]:
+              - /url: /course/
+              - generic [ref=e490]: COURSE
+              - text: 学科・専攻
+            - list [ref=e491]:
+              - listitem [ref=e492]:
+                - link "学科・専攻 トップ" [ref=e493] [cursor=pointer]:
+                  - /url: /course/
+              - listitem [ref=e494]:
+                - link "看護学科" [ref=e495] [cursor=pointer]:
+                  - /url: /course/nursing/
+              - listitem [ref=e496]:
+                - link "視能訓練士学科" [ref=e497] [cursor=pointer]:
+                  - /url: /course/orthoptist/
+              - listitem [ref=e498]:
+                - link "歯科衛生士学科 ホワイトニング・デンタルエステ専攻" [ref=e499] [cursor=pointer]:
+                  - /url: /course/dentalhygienists/
+              - listitem [ref=e500]:
+                - link "臨床工学技士学科" [ref=e501] [cursor=pointer]:
+                  - /url: /course/clinicalengineer/
+          - generic [ref=e502]:
+            - link "CAREER 資格・就職" [ref=e503] [cursor=pointer]:
+              - /url: /career/
+              - generic [ref=e504]: CAREER
+              - text: 資格・就職
+            - list [ref=e505]:
+              - listitem [ref=e506]:
+                - link "資格・就職 トップ" [ref=e507] [cursor=pointer]:
+                  - /url: /career/
+              - listitem [ref=e508]:
+                - link "資格サポート" [ref=e509] [cursor=pointer]:
+                  - /url: /career/license_support/
+              - listitem [ref=e510]:
+                - link "就職サポート" [ref=e511] [cursor=pointer]:
+                  - /url: /career/job_result/
+          - generic [ref=e512]:
+            - link "CAMPUS LIFE 学校生活・施設" [ref=e513] [cursor=pointer]:
+              - /url: /campuslife/
+              - generic [ref=e514]: CAMPUS LIFE
+              - text: 学校生活・施設
+            - list [ref=e515]:
+              - listitem [ref=e516]:
+                - link "学校生活・施設 トップ" [ref=e517] [cursor=pointer]:
+                  - /url: /campuslife/
+              - listitem [ref=e518]:
+                - link "キャンパスライフ" [ref=e519] [cursor=pointer]:
+                  - /url: /campuslife/schedule/
+              - listitem [ref=e520]:
+                - link "施設紹介" [ref=e521] [cursor=pointer]:
+                  - /url: /campuslife/facility/
+          - generic [ref=e522]:
+            - link "ADMISSION 入試・学費" [ref=e523] [cursor=pointer]:
+              - /url: /admission/
+              - generic [ref=e524]: ADMISSION
+              - text: 入試・学費
+            - list [ref=e525]:
+              - listitem [ref=e526]:
+                - link "入試・学費 トップ" [ref=e527] [cursor=pointer]:
+                  - /url: /admission/
+              - listitem [ref=e528]:
+                - link "募集要項" [ref=e529] [cursor=pointer]:
+                  - /url: /admission/application/
+              - listitem [ref=e530]:
+                - link "AO入試エントリー・出願方法" [ref=e531] [cursor=pointer]:
+                  - /url: /admission/ao/
+              - listitem [ref=e532]:
+                - link "推薦・一般入試 出願方法" [ref=e533] [cursor=pointer]:
+                  - /url: /admission/applicationflow/
+              - listitem [ref=e534]:
+                - link "学費・奨学金制度" [ref=e535] [cursor=pointer]:
+                  - /url: /admission/expenses/
+              - listitem [ref=e536]:
+                - link "特待生＆減免制度" [ref=e537] [cursor=pointer]:
+                  - /url: /admission/scholarship/
+          - generic [ref=e538]:
+            - link "OPEN CAMPUS オープンキャンパス" [ref=e539] [cursor=pointer]:
+              - /url: /opencampus/
+              - generic [ref=e540]: OPEN CAMPUS
+              - text: オープンキャンパス
+            - list [ref=e541]:
+              - listitem [ref=e542]:
+                - link "オープンキャンパスとは" [ref=e543] [cursor=pointer]:
+                  - /url: /opencampus/
+              - listitem [ref=e544]:
+                - link "イベント全日程一覧" [ref=e545] [cursor=pointer]:
+                  - /url: /opencampus/calendar/
+              - listitem [ref=e546]:
+                - link "学校説明・個別相談会" [ref=e547] [cursor=pointer]:
+                  - /url: /opencampus/session/
+              - listitem [ref=e548]:
+                - link "無料送迎バス" [ref=e549] [cursor=pointer]:
+                  - /url: /opencampus/bus/
+              - listitem [ref=e550]:
+                - link "交通費補助" [ref=e551] [cursor=pointer]:
+                  - /url: /opencampus/subsidy_list/
+        - list [ref=e552]:
+          - listitem [ref=e553]:
+            - link "卒業生の方へ" [ref=e554] [cursor=pointer]:
+              - /url: /visit_graduate/
+          - listitem [ref=e555]:
+            - link "高等学校の先生方へ" [ref=e556] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9888/
+          - listitem [ref=e557]:
+            - link "中学校の先生方へ" [ref=e558] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9891/
+          - listitem [ref=e559]:
+            - link "社会人・大学生・短大生の方へ" [ref=e560] [cursor=pointer]:
+              - /url: /visit_society/
+          - listitem [ref=e561]:
+            - link "企業の方へ" [ref=e562] [cursor=pointer]:
+              - /url: /visit_company/
+          - listitem [ref=e563]:
+            - link "職員募集につきまして" [ref=e564] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e565]:
+            - link "産官学連携にご協力いただける企業・自治体の方へ" [ref=e566] [cursor=pointer]:
+              - /url: /visit_municipality/
+        - list [ref=e567]:
+          - listitem [ref=e568]:
+            - link "お問い合わせ" [ref=e569] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/inquiry/
+          - listitem [ref=e570]:
+            - link "交通・アクセス" [ref=e571] [cursor=pointer]:
+              - /url: /school/access/
+          - listitem [ref=e572]:
+            - link "情報公開（職業実践専門課程）" [ref=e573] [cursor=pointer]:
+              - /url: /school/info/
+          - listitem [ref=e574]:
+            - link "施設(教室)利用貸出につきまして" [ref=e575] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/facility/
+          - listitem [ref=e576]:
+            - link "採用情報" [ref=e577] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e578]:
+            - link "サイトマップ" [ref=e579] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e580]:
+            - link "プライバシーポリシー" [ref=e581] [cursor=pointer]:
+              - /url: /privacy/
+          - listitem [ref=e582]:
+            - link "ソーシャルメディアポリシー" [ref=e583] [cursor=pointer]:
+              - /url: /socialpolicy/
+        - list [ref=e584]:
+          - listitem [ref=e585]:
+            - link "Instagram" [ref=e586] [cursor=pointer]:
+              - /url: https://www.instagram.com/sapporo_kango/
+          - listitem [ref=e587]:
+            - link "TikTok" [ref=e588] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@sapporo_kango
+          - listitem [ref=e589]:
+            - link "YouTube" [ref=e590] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+          - listitem [ref=e591]:
+            - link "LINE" [ref=e592] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/914/
+        - paragraph [ref=e593]: © Sapporo College of Nursing & Medical Care.
+  - generic [ref=e595]:
+    - group [ref=e596]:
+      - generic "訪問者別メニュー ▾" [ref=e597] [cursor=pointer]
+    - paragraph [ref=e598]:
+      - link "情報公開（職業実践専門課程）" [ref=e599] [cursor=pointer]:
+        - /url: /school/info/
+      - text: ／
+      - link "施設(教室)利用貸出につきまして" [ref=e600] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/facility/
+    - generic [ref=e601]:
+      - link "資料請求" [ref=e602] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/document/
+        - generic [ref=e604]: 資料請求
+      - link "イベント 全日程一覧" [ref=e605] [cursor=pointer]:
+        - /url: /opencampus/calendar/
+        - generic [ref=e607]:
+          - text: イベント
+          - text: 全日程一覧
+      - link "LINEなんでも 相談" [ref=e608] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/news/2023/914/
+        - generic [ref=e610]:
+          - text: LINEなんでも
+          - text: 相談
+    - list [ref=e611]:
+      - listitem [ref=e612]:
+        - link "夢がふくらむ、目標が見つかる！ オープンキャンパス" [ref=e613] [cursor=pointer]:
+          - /url: /opencampus/
+          - generic [ref=e614]: 夢がふくらむ、目標が見つかる！
+          - generic [ref=e615]: オープンキャンパス
+          - generic [ref=e616]: →
+      - listitem [ref=e617]:
+        - link "REASON 札幌看護医療専門学校が選ばれる理由" [ref=e618] [cursor=pointer]:
+          - /url: /school/study/
+          - generic [ref=e619]: REASON
+          - generic [ref=e620]: 札幌看護医療専門学校が選ばれる理由
+          - generic [ref=e621]: →
+      - listitem [ref=e622]:
+        - link "COURSE ミライを担う医療系4学科" [ref=e623] [cursor=pointer]:
+          - /url: /course/
+          - generic [ref=e624]: COURSE
+          - generic [ref=e625]: ミライを担う医療系4学科
+          - generic [ref=e626]: →
+      - listitem [ref=e627]:
+        - link "ADMISSION 入試・学費" [ref=e628] [cursor=pointer]:
+          - /url: /admission/
+          - generic [ref=e629]: ADMISSION
+          - generic [ref=e630]: 入試・学費
+          - generic [ref=e631]: →
+      - listitem [ref=e632]:
+        - link "FACILITY 施設紹介" [ref=e633] [cursor=pointer]:
+          - /url: /campuslife/facility/
+          - generic [ref=e634]: FACILITY
+          - generic [ref=e635]: 施設紹介
+          - generic [ref=e636]: →

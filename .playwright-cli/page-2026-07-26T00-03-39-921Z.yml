@@ -1,0 +1,440 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "札幌看護医療専門学校" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e9]
+        - button "MENU" [ref=e10] [cursor=pointer]:
+          - generic [ref=e15]: MENU
+    - main [ref=e16]:
+      - navigation "パンくずリスト" [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "TOP" [ref=e20] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e21]:
+            - text: ›
+            - link "オープンキャンパス" [ref=e22] [cursor=pointer]:
+              - /url: /opencampus/
+          - listitem [ref=e23]: ›無料送迎バス
+      - heading "OPEN CAMPUS 無料送迎バス" [level=1] [ref=e25]:
+        - generic [ref=e26]: OPEN CAMPUS
+        - generic [ref=e27]: 無料送迎バス
+      - paragraph [ref=e30]:
+        - text: オープンキャンパス開催に合わせ、北海道内各地から無料送迎バスを運行します。バス1本で行き帰りも楽々移動
+        - text: ぜひご利用ください！
+      - generic [ref=e32]:
+        - heading "無料送迎バスのポイント" [level=2] [ref=e33]
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - heading "道内各地で運行！" [level=3] [ref=e36]
+            - paragraph [ref=e37]: 道内各地から無料送迎バスを運行しています！
+            - paragraph [ref=e38]
+            - generic [ref=e39]:
+              - term [ref=e40]: 運行エリア：
+              - definition [ref=e41]:
+                - list [ref=e42]:
+                  - listitem [ref=e43]: 恵庭・
+                  - listitem [ref=e44]: 千歳・
+                  - listitem [ref=e45]: 苫小牧・
+                  - listitem [ref=e46]: 帯広・
+                  - listitem [ref=e47]: 芽室・
+                  - listitem [ref=e48]: 十勝清水・
+                  - listitem [ref=e49]: 函館・
+                  - listitem [ref=e50]: 七飯・
+                  - listitem [ref=e51]: 上川・
+                  - listitem [ref=e52]: 宗谷・
+                  - listitem [ref=e53]: 留萌・
+                  - listitem [ref=e54]: 空知・
+                  - listitem [ref=e55]: 胆振・
+                  - listitem [ref=e56]: 日高・
+                  - listitem [ref=e57]: 後志
+            - paragraph [ref=e58]:
+              - text: ※日程により運行エリアが変更になります。
+              - text: ※運行エリア外の方は
+              - link "交通費補助制度" [ref=e59] [cursor=pointer]:
+                - /url: /opencampus/subsidy_list/
+              - text: もありますのでご活用ください。
+              - text: ※無料送迎バスは参加者1名につき同行者（保護者）は1名乗車可能です。
+              - strong [ref=e60]:
+                - text: ※帰路の時刻表は
+                - link "こちら" [ref=e61] [cursor=pointer]:
+                  - /url: https://www.snm.ac.jp/news/2026/17946/
+          - generic [ref=e62]:
+            - heading "友達や保護者の方と一緒に利用OK!" [level=3] [ref=e63]
+            - paragraph [ref=e64]: 1人での参加も、お友達や保護者の方との参加も大歓迎！（申込時にご入力ください）
+            - paragraph [ref=e65]
+          - generic [ref=e66]:
+            - heading "キャンパスに直行なので迷う心配なし!" [level=3] [ref=e67]
+            - paragraph [ref=e68]: 初めて知らない土地に行くのは不安なもの。でも送迎バスならキャンパスまで直行なので安心です！
+            - paragraph [ref=e69]
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e73]: Timetable
+          - heading "運行日を調べる" [level=2] [ref=e74]
+        - paragraph [ref=e75]:
+          - strong [ref=e76]: ※バスの座席は限りがあり、ご予約いただいても満席で利用できない場合がありますので、ご了承ください。
+          - text: ※無料送迎バスの申込みは開催日の1週間前までです。
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]: 運行日を選択
+            - combobox "運行日を選択" [ref=e80]:
+              - option "2026/07/25（土）" [selected]
+              - option "2026/09/26（土）"
+              - option "2026/11/28（土）"
+              - option "2026/12/13（日）"
+              - option "2027/03/27（土）"
+          - generic [ref=e81]:
+            - heading "07.25（土）" [level=4] [ref=e82]
+            - generic [ref=e83]:
+              - heading "名寄・旭川（ルートD） 【満席になりました】" [level=5] [ref=e84]:
+                - text: 名寄・旭川（ルートD）
+                - generic [ref=e85]: 【満席になりました】
+              - paragraph [ref=e86]: 当日出発
+              - list [ref=e87]:
+                - listitem [ref=e88]:
+                  - link "名寄 6:00 西條名寄店前 国道40号線沿" [ref=e89] [cursor=pointer]:
+                    - /url: /opencampus/calendar/#2026-07-25
+                    - generic [ref=e90]: 名寄
+                    - generic [ref=e91]: 6:00
+                    - generic [ref=e92]: 西條名寄店前 国道40号線沿
+                - listitem [ref=e93]:
+                  - link "旭川 7:50 JR旭川駅前広場 団体バス停車場" [ref=e94] [cursor=pointer]:
+                    - /url: /opencampus/calendar/#2026-07-25
+                    - generic [ref=e95]: 旭川
+                    - generic [ref=e96]: 7:50
+                    - generic [ref=e97]: JR旭川駅前広場 団体バス停車場
+            - generic [ref=e98]:
+              - heading "帯広・芽室（ルートE） 【満席になりました】" [level=5] [ref=e99]:
+                - text: 帯広・芽室（ルートE）
+                - generic [ref=e100]: 【満席になりました】
+              - paragraph [ref=e101]: 当日出発
+              - list [ref=e102]:
+                - listitem [ref=e103]:
+                  - link "帯広 6:30 JR帯広駅南口 市立図書館前" [ref=e104] [cursor=pointer]:
+                    - /url: /opencampus/calendar/#2026-07-25
+                    - generic [ref=e105]: 帯広
+                    - generic [ref=e106]: 6:30
+                    - generic [ref=e107]: JR帯広駅南口 市立図書館前
+                - listitem [ref=e108]:
+                  - link "芽室 7:05 JR芽室駅前" [ref=e109] [cursor=pointer]:
+                    - /url: /opencampus/calendar/#2026-07-25
+                    - generic [ref=e110]: 芽室
+                    - generic [ref=e111]: 7:05
+                    - generic [ref=e112]: JR芽室駅前
+            - generic [ref=e113]:
+              - heading "伊達・東室蘭（ルートF） 【満席になりました】" [level=5] [ref=e114]:
+                - text: 伊達・東室蘭（ルートF）
+                - generic [ref=e115]: 【満席になりました】
+              - paragraph [ref=e116]: 当日出発
+              - list [ref=e117]:
+                - listitem [ref=e118]:
+                  - link "伊達 7:10 道の駅びっくりドンキー前" [ref=e119] [cursor=pointer]:
+                    - /url: /opencampus/calendar/#2026-07-25
+                    - generic [ref=e120]: 伊達
+                    - generic [ref=e121]: 7:10
+                    - generic [ref=e122]: 道の駅びっくりドンキー前
+                - listitem [ref=e123]:
+                  - link "東室蘭 7:50 JR東室蘭駅東口（バスプール）" [ref=e124] [cursor=pointer]:
+                    - /url: /opencampus/calendar/#2026-07-25
+                    - generic [ref=e125]: 東室蘭
+                    - generic [ref=e126]: 7:50
+                    - generic [ref=e127]: JR東室蘭駅東口（バスプール）
+            - generic [ref=e128]:
+              - heading "函館・七飯（ルートG） 【満席になりました】" [level=5] [ref=e129]:
+                - text: 函館・七飯（ルートG）
+                - generic [ref=e130]: 【満席になりました】
+              - paragraph [ref=e131]: 当日出発
+              - list [ref=e132]:
+                - listitem [ref=e133]:
+                  - link "函館 5:10 JR函館駅そば プレミアホテル-CABIN PRESIDENT-函館前" [ref=e134] [cursor=pointer]:
+                    - /url: /opencampus/calendar/#2026-07-25
+                    - generic [ref=e135]: 函館
+                    - generic [ref=e136]: 5:10
+                    - generic [ref=e137]: JR函館駅そば プレミアホテル-CABIN PRESIDENT-函館前
+                - listitem [ref=e138]:
+                  - link "七飯 5:50 ローソン七飯本町店前" [ref=e139] [cursor=pointer]:
+                    - /url: /opencampus/calendar/#2026-07-25
+                    - generic [ref=e140]: 七飯
+                    - generic [ref=e141]: 5:50
+                    - generic [ref=e142]: ローソン七飯本町店前
+            - generic [ref=e143]:
+              - heading "北見・遠軽（ルートH） 【満席になりました】" [level=5] [ref=e144]:
+                - text: 北見・遠軽（ルートH）
+                - generic [ref=e145]: 【満席になりました】
+              - paragraph [ref=e146]: 当日出発
+              - list [ref=e147]:
+                - listitem [ref=e148]:
+                  - link "北見 5:00 JR北見駅南口（中央プロムナード）" [ref=e149] [cursor=pointer]:
+                    - /url: /opencampus/calendar/#2026-07-25
+                    - generic [ref=e150]: 北見
+                    - generic [ref=e151]: 5:00
+                    - generic [ref=e152]: JR北見駅南口（中央プロムナード）
+                - listitem [ref=e153]:
+                  - link "遠軽 6:20 バスターミナル前（北見バス遠軽営業所）" [ref=e154] [cursor=pointer]:
+                    - /url: /opencampus/calendar/#2026-07-25
+                    - generic [ref=e155]: 遠軽
+                    - generic [ref=e156]: 6:20
+                    - generic [ref=e157]: バスターミナル前（北見バス遠軽営業所）
+            - generic [ref=e158]:
+              - heading "釧路（ルートI） 【満席になりました】" [level=5] [ref=e159]:
+                - text: 釧路（ルートI）
+                - generic [ref=e160]: 【満席になりました】
+              - paragraph [ref=e161]: 当日出発
+              - list [ref=e162]:
+                - listitem [ref=e163]:
+                  - link "釧路 5:20 JR釧路駅前バスターミナル" [ref=e164] [cursor=pointer]:
+                    - /url: /opencampus/calendar/#2026-07-25
+                    - generic [ref=e165]: 釧路
+                    - generic [ref=e166]: 5:20
+                    - generic [ref=e167]: JR釧路駅前バスターミナル
+    - contentinfo [ref=e168]:
+      - generic [ref=e169]:
+        - link "札幌看護医療専門学校" [ref=e170] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e171]
+        - paragraph [ref=e172]: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+        - paragraph [ref=e173]:
+          - text: TEL
+          - link "011-801-8343" [ref=e174] [cursor=pointer]:
+            - /url: tel:011-801-8343
+          - text: ／フリーダイヤル
+          - link "0120-37-8343" [ref=e175] [cursor=pointer]:
+            - /url: tel:0120-37-8343
+        - navigation "フッターナビゲーション" [ref=e176]:
+          - generic [ref=e177]:
+            - link "ABOUT 学校案内" [ref=e178] [cursor=pointer]:
+              - /url: /school/
+              - generic [ref=e179]: ABOUT
+              - text: 学校案内
+            - list [ref=e180]:
+              - listitem [ref=e181]:
+                - link "学校案内 トップ" [ref=e182] [cursor=pointer]:
+                  - /url: /school/
+              - listitem [ref=e183]:
+                - link "札幌看護医療が選ばれる理由" [ref=e184] [cursor=pointer]:
+                  - /url: /school/study/
+              - listitem [ref=e185]:
+                - link "高校1・2年生のための進路選び" [ref=e186] [cursor=pointer]:
+                  - /url: /school/guide/
+              - listitem [ref=e187]:
+                - link "交通・アクセス" [ref=e188] [cursor=pointer]:
+                  - /url: /school/access/
+              - listitem [ref=e189]:
+                - link "建学の理念" [ref=e190] [cursor=pointer]:
+                  - /url: /school/philosophy/
+              - listitem [ref=e191]:
+                - link "情報公開（職業実践専門課程）" [ref=e192] [cursor=pointer]:
+                  - /url: /school/info/
+          - generic [ref=e193]:
+            - link "COURSE 学科・専攻" [ref=e194] [cursor=pointer]:
+              - /url: /course/
+              - generic [ref=e195]: COURSE
+              - text: 学科・専攻
+            - list [ref=e196]:
+              - listitem [ref=e197]:
+                - link "学科・専攻 トップ" [ref=e198] [cursor=pointer]:
+                  - /url: /course/
+              - listitem [ref=e199]:
+                - link "看護学科" [ref=e200] [cursor=pointer]:
+                  - /url: /course/nursing/
+              - listitem [ref=e201]:
+                - link "視能訓練士学科" [ref=e202] [cursor=pointer]:
+                  - /url: /course/orthoptist/
+              - listitem [ref=e203]:
+                - link "歯科衛生士学科 ホワイトニング・デンタルエステ専攻" [ref=e204] [cursor=pointer]:
+                  - /url: /course/dentalhygienists/
+              - listitem [ref=e205]:
+                - link "臨床工学技士学科" [ref=e206] [cursor=pointer]:
+                  - /url: /course/clinicalengineer/
+          - generic [ref=e207]:
+            - link "CAREER 資格・就職" [ref=e208] [cursor=pointer]:
+              - /url: /career/
+              - generic [ref=e209]: CAREER
+              - text: 資格・就職
+            - list [ref=e210]:
+              - listitem [ref=e211]:
+                - link "資格・就職 トップ" [ref=e212] [cursor=pointer]:
+                  - /url: /career/
+              - listitem [ref=e213]:
+                - link "資格サポート" [ref=e214] [cursor=pointer]:
+                  - /url: /career/license_support/
+              - listitem [ref=e215]:
+                - link "就職サポート" [ref=e216] [cursor=pointer]:
+                  - /url: /career/job_result/
+          - generic [ref=e217]:
+            - link "CAMPUS LIFE 学校生活・施設" [ref=e218] [cursor=pointer]:
+              - /url: /campuslife/
+              - generic [ref=e219]: CAMPUS LIFE
+              - text: 学校生活・施設
+            - list [ref=e220]:
+              - listitem [ref=e221]:
+                - link "学校生活・施設 トップ" [ref=e222] [cursor=pointer]:
+                  - /url: /campuslife/
+              - listitem [ref=e223]:
+                - link "キャンパスライフ" [ref=e224] [cursor=pointer]:
+                  - /url: /campuslife/schedule/
+              - listitem [ref=e225]:
+                - link "施設紹介" [ref=e226] [cursor=pointer]:
+                  - /url: /campuslife/facility/
+          - generic [ref=e227]:
+            - link "ADMISSION 入試・学費" [ref=e228] [cursor=pointer]:
+              - /url: /admission/
+              - generic [ref=e229]: ADMISSION
+              - text: 入試・学費
+            - list [ref=e230]:
+              - listitem [ref=e231]:
+                - link "入試・学費 トップ" [ref=e232] [cursor=pointer]:
+                  - /url: /admission/
+              - listitem [ref=e233]:
+                - link "募集要項" [ref=e234] [cursor=pointer]:
+                  - /url: /admission/application/
+              - listitem [ref=e235]:
+                - link "AO入試エントリー・出願方法" [ref=e236] [cursor=pointer]:
+                  - /url: /admission/ao/
+              - listitem [ref=e237]:
+                - link "推薦・一般入試 出願方法" [ref=e238] [cursor=pointer]:
+                  - /url: /admission/applicationflow/
+              - listitem [ref=e239]:
+                - link "学費・奨学金制度" [ref=e240] [cursor=pointer]:
+                  - /url: /admission/expenses/
+              - listitem [ref=e241]:
+                - link "特待生＆減免制度" [ref=e242] [cursor=pointer]:
+                  - /url: /admission/scholarship/
+          - generic [ref=e243]:
+            - link "OPEN CAMPUS オープンキャンパス" [ref=e244] [cursor=pointer]:
+              - /url: /opencampus/
+              - generic [ref=e245]: OPEN CAMPUS
+              - text: オープンキャンパス
+            - list [ref=e246]:
+              - listitem [ref=e247]:
+                - link "オープンキャンパスとは" [ref=e248] [cursor=pointer]:
+                  - /url: /opencampus/
+              - listitem [ref=e249]:
+                - link "イベント全日程一覧" [ref=e250] [cursor=pointer]:
+                  - /url: /opencampus/calendar/
+              - listitem [ref=e251]:
+                - link "学校説明・個別相談会" [ref=e252] [cursor=pointer]:
+                  - /url: /opencampus/session/
+              - listitem [ref=e253]:
+                - link "無料送迎バス" [ref=e254] [cursor=pointer]:
+                  - /url: /opencampus/bus/
+              - listitem [ref=e255]:
+                - link "交通費補助" [ref=e256] [cursor=pointer]:
+                  - /url: /opencampus/subsidy_list/
+        - list [ref=e257]:
+          - listitem [ref=e258]:
+            - link "卒業生の方へ" [ref=e259] [cursor=pointer]:
+              - /url: /visit_graduate/
+          - listitem [ref=e260]:
+            - link "高等学校の先生方へ" [ref=e261] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9888/
+          - listitem [ref=e262]:
+            - link "中学校の先生方へ" [ref=e263] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9891/
+          - listitem [ref=e264]:
+            - link "社会人・大学生・短大生の方へ" [ref=e265] [cursor=pointer]:
+              - /url: /visit_society/
+          - listitem [ref=e266]:
+            - link "企業の方へ" [ref=e267] [cursor=pointer]:
+              - /url: /visit_company/
+          - listitem [ref=e268]:
+            - link "職員募集につきまして" [ref=e269] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e270]:
+            - link "産官学連携にご協力いただける企業・自治体の方へ" [ref=e271] [cursor=pointer]:
+              - /url: /visit_municipality/
+        - list [ref=e272]:
+          - listitem [ref=e273]:
+            - link "お問い合わせ" [ref=e274] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/inquiry/
+          - listitem [ref=e275]:
+            - link "交通・アクセス" [ref=e276] [cursor=pointer]:
+              - /url: /school/access/
+          - listitem [ref=e277]:
+            - link "情報公開（職業実践専門課程）" [ref=e278] [cursor=pointer]:
+              - /url: /school/info/
+          - listitem [ref=e279]:
+            - link "施設(教室)利用貸出につきまして" [ref=e280] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/facility/
+          - listitem [ref=e281]:
+            - link "採用情報" [ref=e282] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e283]:
+            - link "サイトマップ" [ref=e284] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e285]:
+            - link "プライバシーポリシー" [ref=e286] [cursor=pointer]:
+              - /url: /privacy/
+          - listitem [ref=e287]:
+            - link "ソーシャルメディアポリシー" [ref=e288] [cursor=pointer]:
+              - /url: /socialpolicy/
+        - list [ref=e289]:
+          - listitem [ref=e290]:
+            - link "Instagram" [ref=e291] [cursor=pointer]:
+              - /url: https://www.instagram.com/sapporo_kango/
+          - listitem [ref=e292]:
+            - link "TikTok" [ref=e293] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@sapporo_kango
+          - listitem [ref=e294]:
+            - link "YouTube" [ref=e295] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+          - listitem [ref=e296]:
+            - link "LINE" [ref=e297] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/914/
+        - paragraph [ref=e298]: © Sapporo College of Nursing & Medical Care.
+  - generic [ref=e300]:
+    - group [ref=e301]:
+      - generic "訪問者別メニュー ▾" [ref=e302] [cursor=pointer]
+    - paragraph [ref=e303]:
+      - link "情報公開（職業実践専門課程）" [ref=e304] [cursor=pointer]:
+        - /url: /school/info/
+      - text: ／
+      - link "施設(教室)利用貸出につきまして" [ref=e305] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/facility/
+    - generic [ref=e306]:
+      - link "資料請求" [ref=e307] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/document/
+        - generic [ref=e309]: 資料請求
+      - link "イベント 全日程一覧" [ref=e310] [cursor=pointer]:
+        - /url: /opencampus/calendar/
+        - generic [ref=e312]:
+          - text: イベント
+          - text: 全日程一覧
+      - link "LINEなんでも 相談" [ref=e313] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/news/2023/914/
+        - generic [ref=e315]:
+          - text: LINEなんでも
+          - text: 相談
+    - list [ref=e316]:
+      - listitem [ref=e317]:
+        - link "夢がふくらむ、目標が見つかる！ オープンキャンパス" [ref=e318] [cursor=pointer]:
+          - /url: /opencampus/
+          - generic [ref=e319]: 夢がふくらむ、目標が見つかる！
+          - generic [ref=e320]: オープンキャンパス
+          - generic [ref=e321]: →
+      - listitem [ref=e322]:
+        - link "REASON 札幌看護医療専門学校が選ばれる理由" [ref=e323] [cursor=pointer]:
+          - /url: /school/study/
+          - generic [ref=e324]: REASON
+          - generic [ref=e325]: 札幌看護医療専門学校が選ばれる理由
+          - generic [ref=e326]: →
+      - listitem [ref=e327]:
+        - link "COURSE ミライを担う医療系4学科" [ref=e328] [cursor=pointer]:
+          - /url: /course/
+          - generic [ref=e329]: COURSE
+          - generic [ref=e330]: ミライを担う医療系4学科
+          - generic [ref=e331]: →
+      - listitem [ref=e332]:
+        - link "ADMISSION 入試・学費" [ref=e333] [cursor=pointer]:
+          - /url: /admission/
+          - generic [ref=e334]: ADMISSION
+          - generic [ref=e335]: 入試・学費
+          - generic [ref=e336]: →
+      - listitem [ref=e337]:
+        - link "FACILITY 施設紹介" [ref=e338] [cursor=pointer]:
+          - /url: /campuslife/facility/
+          - generic [ref=e339]: FACILITY
+          - generic [ref=e340]: 施設紹介
+          - generic [ref=e341]: →

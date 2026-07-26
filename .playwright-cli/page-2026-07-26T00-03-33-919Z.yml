@@ -1,0 +1,742 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "札幌看護医療専門学校" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e9]
+        - button "MENU" [ref=e10] [cursor=pointer]:
+          - generic [ref=e15]: MENU
+    - main [ref=e16]:
+      - navigation "パンくずリスト" [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "TOP" [ref=e20] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e21]:
+            - text: ›
+            - link "入試・学費" [ref=e22] [cursor=pointer]:
+              - /url: /admission/
+          - listitem [ref=e23]: ›募集要項・出願概要
+      - generic [ref=e25]:
+        - paragraph [ref=e26]: ADMISSION
+        - heading "募集要項・出願概要" [level=1] [ref=e27]
+      - generic [ref=e28]:
+        - generic [ref=e30]:
+          - link "AO入試＆エントリー徹底解説！" [ref=e31] [cursor=pointer]:
+            - /url: https://www.snm.ac.jp/news/2025/14409/
+            - img "AO入試＆エントリー徹底解説！" [ref=e32]
+          - link "入試説明会" [ref=e33] [cursor=pointer]:
+            - /url: https://www.snm.ac.jp/news/2026/17955/
+            - img "入試説明会" [ref=e34]
+        - generic [ref=e35]:
+          - heading "募集人数・修業年限" [level=2] [ref=e36]
+          - table [ref=e37]:
+            - rowgroup [ref=e38]:
+              - row "学科名 募集人員 修業年限" [ref=e39]:
+                - columnheader "学科名" [ref=e40]
+                - columnheader "募集人員" [ref=e41]
+                - columnheader "修業年限" [ref=e42]
+            - rowgroup [ref=e43]:
+              - row "看護学科 80名 3年" [ref=e44]:
+                - cell "看護学科" [ref=e45]
+                - cell "80名" [ref=e46]
+                - cell "3年" [ref=e47]
+              - row "視能訓練士学科 44名 3年" [ref=e48]:
+                - cell "視能訓練士学科" [ref=e49]
+                - cell "44名" [ref=e50]
+                - cell "3年" [ref=e51]
+              - row "歯科衛生士学科 44名 3年" [ref=e52]:
+                - cell "歯科衛生士学科" [ref=e53]
+                - cell "44名" [ref=e54]
+                - cell "3年" [ref=e55]
+              - row "臨床工学技士学科 40名 3年" [ref=e56]:
+                - cell "臨床工学技士学科" [ref=e57]
+                - cell "40名" [ref=e58]
+                - cell "3年" [ref=e59]
+        - generic [ref=e60]:
+          - heading "出願資格について" [level=2] [ref=e61]
+          - list [ref=e62]:
+            - listitem [ref=e63]: ①2027年3月高等学校を卒業見込み、または高等学校を卒業している方。
+            - listitem [ref=e64]: ②2027年3月までに高等学校卒業程度認定試験に合格、または合格見込みの方
+            - listitem [ref=e65]: ③18歳以上で高等学校卒業者と同等以上の学力があると認められた方
+        - generic [ref=e66]:
+          - heading "出願書類一覧・提出方法" [level=2] [ref=e67]
+          - list [ref=e68]:
+            - listitem [ref=e69]: 出願書類受付締切：各入学試験日のネット出願受付期間の最終日到着分まで
+            - listitem [ref=e70]:
+              - text: 郵送による提出：郵便窓口より「簡易書留」にてお送りください（指定の封筒はありません）。
+              - text: 【提出先】
+              - text: 〒004-0051
+              - text: 札幌市厚別区厚別中央1条5丁目1-5
+              - text: 札幌看護医療専門学校 入学事務局宛
+            - listitem [ref=e71]:
+              - text: 持参による提出：受付時間内に本校窓口へ持参してください。
+              - text: 受付時間（平日）9:00～17:00
+              - text: ※受付時間外・土日祝に持参希望の場合は、必ず事前にお電話にてご相談ください（TEL:0120-37-8343）。
+            - listitem [ref=e72]: 出願書類・選考料入金の確認ができ次第、本校より受験票を発行（メールにて送付）します。
+          - table [ref=e74]:
+            - rowgroup [ref=e75]:
+              - row "出願書類 提出方法 AO入試（総合型選抜） 指定校・高校（公募） 推薦入試 業界推薦入試 一般入試 社会人入試" [ref=e76]:
+                - columnheader "出願書類" [ref=e77]
+                - columnheader "提出方法" [ref=e78]
+                - columnheader "AO入試（総合型選抜）" [ref=e79]
+                - columnheader "指定校・高校（公募） 推薦入試" [ref=e80]:
+                  - text: 指定校・高校（公募）
+                  - text: 推薦入試
+                - columnheader "業界推薦入試" [ref=e81]
+                - columnheader "一般入試" [ref=e82]
+                - columnheader "社会人入試" [ref=e83]
+            - rowgroup [ref=e84]:
+              - row "入学願書 ネット出願フォーム入力 ○ ○ ○ ○ ○" [ref=e85]:
+                - rowheader "入学願書" [ref=e86]
+                - cell "ネット出願フォーム入力" [ref=e87]
+                - cell "○" [ref=e88]
+                - cell "○" [ref=e89]
+                - cell "○" [ref=e90]
+                - cell "○" [ref=e91]
+                - cell "○" [ref=e92]
+              - row "調査書 厳封したもの 郵送または持参 ○ ○ ○ ○ ○" [ref=e93]:
+                - rowheader "調査書 厳封したもの" [ref=e94]:
+                  - text: 調査書
+                  - text: 厳封したもの
+                - cell "郵送または持参" [ref=e95]
+                - cell "○" [ref=e96]
+                - cell "○" [ref=e97]
+                - cell "○" [ref=e98]
+                - cell "○" [ref=e99]
+                - cell "○" [ref=e100]
+              - row "推薦書 厳封したもの - ○ ○ - -" [ref=e101]:
+                - rowheader "推薦書 厳封したもの" [ref=e102]:
+                  - text: 推薦書
+                  - text: 厳封したもの
+                - cell "-" [ref=e103]
+                - cell "○" [ref=e104]
+                - cell "○" [ref=e105]
+                - cell "-" [ref=e106]
+                - cell "-" [ref=e107]
+              - row "大学・短大・専門学校等 卒業証明書 厳封したもの 該当される方のみ提出必要" [ref=e108]:
+                - rowheader "大学・短大・専門学校等 卒業証明書 厳封したもの" [ref=e109]:
+                  - text: 大学・短大・専門学校等
+                  - text: 卒業証明書
+                  - text: 厳封したもの
+                - cell "該当される方のみ提出必要" [ref=e110]
+              - row "選考料 コンビニまたはクレジットカード決済 30,000円" [ref=e111]:
+                - rowheader "選考料" [ref=e112]
+                - cell "コンビニまたはクレジットカード決済" [ref=e113]
+                - cell "30,000円" [ref=e114]
+          - table [ref=e116]:
+            - rowgroup [ref=e117]:
+              - row "内容・備考" [ref=e118]:
+                - columnheader [ref=e119]
+                - columnheader "内容・備考" [ref=e120]
+              - row "入学願書 証明写真データ（正面上半身、無帽、無背景、制服または正装で3カ月以内に撮影したもの）のアップロードが必要です。" [ref=e121]:
+                - rowheader "入学願書" [ref=e122]
+                - cell "証明写真データ（正面上半身、無帽、無背景、制服または正装で3カ月以内に撮影したもの）のアップロードが必要です。" [ref=e123]:
+                  - list [ref=e124]:
+                    - listitem [ref=e125]: 証明写真データ（正面上半身、無帽、無背景、制服または正装で3カ月以内に撮影したもの）のアップロードが必要です。
+              - row "調査書 厳封したもの 出願資格②の方は合格成績証明書または合格見込成績証明書が必要となります。 既卒の方で卒業後5年以上経過し調査書（成績証明書）が発行されない場合は、卒業証明書（発行日から6ヶ月以内）を提出してください。" [ref=e126]:
+                - rowheader "調査書 厳封したもの" [ref=e127]:
+                  - text: 調査書
+                  - text: 厳封したもの
+                - cell "出願資格②の方は合格成績証明書または合格見込成績証明書が必要となります。 既卒の方で卒業後5年以上経過し調査書（成績証明書）が発行されない場合は、卒業証明書（発行日から6ヶ月以内）を提出してください。" [ref=e128]:
+                  - list [ref=e129]:
+                    - listitem [ref=e130]: 出願資格②の方は合格成績証明書または合格見込成績証明書が必要となります。
+                    - listitem [ref=e131]: 既卒の方で卒業後5年以上経過し調査書（成績証明書）が発行されない場合は、卒業証明書（発行日から6ヶ月以内）を提出してください。
+              - row "推薦書 厳封したもの オープンキャンパス等で配布された、もしくは、本校HPよりダウンロードした「推薦書」に必要事項を記入してご提出ください。 推薦書ダウンロードはこちら →" [ref=e132]:
+                - rowheader "推薦書 厳封したもの" [ref=e133]:
+                  - text: 推薦書
+                  - text: 厳封したもの
+                - cell "オープンキャンパス等で配布された、もしくは、本校HPよりダウンロードした「推薦書」に必要事項を記入してご提出ください。 推薦書ダウンロードはこちら →" [ref=e134]:
+                  - paragraph [ref=e135]: オープンキャンパス等で配布された、もしくは、本校HPよりダウンロードした「推薦書」に必要事項を記入してご提出ください。
+                  - paragraph [ref=e136]:
+                    - link "推薦書ダウンロードはこちら →" [ref=e137] [cursor=pointer]:
+                      - /url: https://www.snm.ac.jp/asset/doc/admission/share/recommendation.pdf
+              - row "大学・短大・専門学校等 卒業証明書 厳封したもの 発行日から6カ月以内のものをご提出ください。 オンラインで発行した証明書は厳封不要です。" [ref=e138]:
+                - rowheader "大学・短大・専門学校等 卒業証明書 厳封したもの" [ref=e139]:
+                  - text: 大学・短大・専門学校等
+                  - text: 卒業証明書
+                  - text: 厳封したもの
+                - cell "発行日から6カ月以内のものをご提出ください。 オンラインで発行した証明書は厳封不要です。" [ref=e140]:
+                  - text: 発行日から6カ月以内のものをご提出ください。
+                  - text: オンラインで発行した証明書は厳封不要です。
+          - list [ref=e141]:
+            - listitem [ref=e142]: ※ AO入試（総合型選抜）第1期の出願期間（9/1〜9/24）については、調査書以外の出願書類が揃い次第、受験票を発行します。調査書に関して、ネット出願受付期間内に提出が難しい場合は事前連絡の上、10/15（木）までに提出してください。提出確認後に合否通知・手続きのご案内をお送りします。
+            - listitem [ref=e143]: ※ 再受験の場合は、調査書もしくは卒業証明書の再提出は必要ありません（選考料はかかります）。
+            - listitem [ref=e144]: ※ 留学生・外国人の方は、事前審査と別途出願書類（日本語能力試験N1もしくはN2取得証明書のコピー等）が必要ですので、出願前に入学事務局までお問い合わせください。
+        - generic [ref=e145]:
+          - heading "出願概要" [level=2] [ref=e146]
+          - heading "看護学科 ※看護学科は、AO入試はありません" [level=3] [ref=e147]
+          - table [ref=e149]:
+            - rowgroup [ref=e150]:
+              - row "入試方法 選考方法 対象者 選考料" [ref=e151]:
+                - columnheader "入試方法" [ref=e152]
+                - columnheader "選考方法" [ref=e153]
+                - columnheader "対象者" [ref=e154]
+                - columnheader "選考料" [ref=e155]
+            - rowgroup [ref=e156]:
+              - row "指定校推薦入試 書類選考 本校を専願し、オープンキャンパス・入試説明会・学校説明会のいずれかに1回以上参加した者。 ※詳細は在籍高等学校の進路指導担当の先生へご確認ください。 30,000円 （ネット出願受付期間内にお支払いください）" [ref=e157]:
+                - cell "指定校推薦入試" [ref=e158]
+                - cell "書類選考" [ref=e159]
+                - cell "本校を専願し、オープンキャンパス・入試説明会・学校説明会のいずれかに1回以上参加した者。 ※詳細は在籍高等学校の進路指導担当の先生へご確認ください。" [ref=e160]:
+                  - text: 本校を専願し、オープンキャンパス・入試説明会・学校説明会のいずれかに1回以上参加した者。
+                  - text: ※詳細は在籍高等学校の進路指導担当の先生へご確認ください。
+                - cell "30,000円 （ネット出願受付期間内にお支払いください）" [ref=e161]:
+                  - text: 30,000円
+                  - text: （ネット出願受付期間内にお支払いください）
+              - row "高校（公募）推薦入試 小論文／面接 本校を専願し、3学年までの学習評価がB段階で3.5以上かつ在籍高等学校の学校長が推薦する者。" [ref=e162]:
+                - cell "高校（公募）推薦入試" [ref=e163]
+                - cell "小論文／面接" [ref=e164]
+                - cell "本校を専願し、3学年までの学習評価がB段階で3.5以上かつ在籍高等学校の学校長が推薦する者。" [ref=e165]
+              - row "業界推薦入試 小論文／面接 本校を専願し、2027年3月に大学・短大・専門学校等を卒業見込みで、在籍学校長が推薦する者。 本校を専願し、保健医療機関施設・福祉施設に現在勤務している者、または勤務していた者のうち、責任者（理事長、病院長、施設長等）が推薦する者。" [ref=e166]:
+                - cell "業界推薦入試" [ref=e167]
+                - cell "小論文／面接" [ref=e168]
+                - cell "本校を専願し、2027年3月に大学・短大・専門学校等を卒業見込みで、在籍学校長が推薦する者。 本校を専願し、保健医療機関施設・福祉施設に現在勤務している者、または勤務していた者のうち、責任者（理事長、病院長、施設長等）が推薦する者。" [ref=e169]:
+                  - list [ref=e170]:
+                    - listitem [ref=e171]: 本校を専願し、2027年3月に大学・短大・専門学校等を卒業見込みで、在籍学校長が推薦する者。
+                    - listitem [ref=e172]: 本校を専願し、保健医療機関施設・福祉施設に現在勤務している者、または勤務していた者のうち、責任者（理事長、病院長、施設長等）が推薦する者。
+              - row "一般入試 筆記：国語（必須）、数学Ⅰ·Aまたは英語（選択）／面接 出願資格を満たす者。" [ref=e173]:
+                - cell "一般入試" [ref=e174]
+                - cell "筆記：国語（必須）、数学Ⅰ·Aまたは英語（選択）／面接" [ref=e175]
+                - cell "出願資格を満たす者。" [ref=e176]
+              - row "社会人入試 筆記：国語（必須）、数学Ⅰ·Aまたは英語（選択）／面接 本校を専願し、高等学校卒業以上で、10月1日時点で1年以上の就業経験のある者。" [ref=e177]:
+                - cell "社会人入試" [ref=e178]
+                - cell "筆記：国語（必須）、数学Ⅰ·Aまたは英語（選択）／面接" [ref=e179]
+                - cell "本校を専願し、高等学校卒業以上で、10月1日時点で1年以上の就業経験のある者。" [ref=e180]
+          - generic [ref=e181]:
+            - paragraph [ref=e182]: ＜看護学科の出願に関する補足説明＞
+            - paragraph [ref=e183]: ○選考方法について
+            - list [ref=e184]:
+              - listitem [ref=e185]: 高校（公募）推薦入試・業界推薦入試は小論文（50分•600字）／集団面接（グループディスカッション）・個人面接 各15分程度です。
+              - listitem [ref=e186]: 一般入試・社会人入試は筆記：国語（古文・漢文を除く50分）必須、数学Ⅰ・A（50分）または英語（50分）を出願時に選択／集団面接（グループディスカッション）・個人面接各15分程度です。
+            - list [ref=e187]:
+              - listitem [ref=e188]: ※ 出願後の筆記試験科目の変更はできません。
+              - listitem [ref=e189]: ※ 看護学科を受験し、不合格であった場合、別日程での再受験も可能です。その場合調査書、もしくは卒業証明書の再提出の必要はありません（選考料はかかります）。
+          - generic [ref=e190]:
+            - paragraph [ref=e191]:
+              - text: ＜複数学科志望同時選考制度のお知らせ＞
+              - text: 【高校（公募）推薦入試・業界推薦入試・一般入試・社会人入試】
+            - paragraph [ref=e192]: 看護学科を第1志望で、本校の他学科を第2・第3志望として同時に選考を受けることが可能です。
+            - list [ref=e193]:
+              - listitem [ref=e194]: ※ 入学願書の「第2・第3志望欄」に入力してください。入学試験時に記入することもできます。
+        - generic [ref=e196]:
+          - link "いま注目の医療職 臨床工学技士学科" [ref=e197] [cursor=pointer]:
+            - /url: /course/clinicalengineer/
+            - img "いま注目の医療職 臨床工学技士学科" [ref=e198]
+          - link "女性に人気の医療職 視能訓練士学科" [ref=e199] [cursor=pointer]:
+            - /url: /course/orthoptist/
+            - img "女性に人気の医療職 視能訓練士学科" [ref=e200]
+          - link [ref=e201] [cursor=pointer]:
+            - /url: /course/dentalhygienists/
+        - generic [ref=e202]:
+          - paragraph [ref=e203]: 入学試験日
+          - paragraph [ref=e204]: 出願書類受付締切：各入学試験日のネット出願受付期間の最終日到着分まで。
+          - list [ref=e205]:
+            - listitem [ref=e206]: ※ 定員に達した場合は募集を締切ります。募集状況は本校ホームページに掲載いたしますので、お問い合わせはお控えください。
+            - listitem [ref=e207]:
+              - text: ※ 調査書など持参の場合はネット出願受付期間内（平日）9:00～17:00までに本校窓口へご提出ください。
+              - text: "受付時間外・土日祝に持参希望の場合は、必ず事前にお電話にてご相談ください（TEL: 0120-37-8343）。"
+            - listitem [ref=e208]: ※ 指定校推薦入試は書類選考のため、来校不要です（特待生試験を希望する場合は、入学試験日に実施するため、ご来校ください）。
+            - listitem [ref=e209]: ※ 特待生試験（希望者のみ）は指定校推薦入試・高校（公募）推薦入試の方のみとなります。
+          - table [ref=e211]:
+            - rowgroup [ref=e212]:
+              - row "入学試験日 2026年 10/18（日） 2026年 11/8（日） 2026年 12/6（日） 2027年 1/23（土）" [ref=e213]:
+                - rowheader "入学試験日" [ref=e214]
+                - cell "2026年 10/18（日）" [ref=e215]:
+                  - text: 2026年
+                  - text: 10/18（日）
+                - cell "2026年 11/8（日）" [ref=e216]:
+                  - text: 2026年
+                  - text: 11/8（日）
+                - cell "2026年 12/6（日）" [ref=e217]:
+                  - text: 2026年
+                  - text: 12/6（日）
+                - cell "2027年 1/23（土）" [ref=e218]:
+                  - text: 2027年
+                  - text: 1/23（土）
+              - row "ネット出願受付期間 10/1（木）～10/15（木） 10/1（水）～11/5（木） 11/9（月）～12/3（木） 12/7（月）～1/21（木）" [ref=e219]:
+                - rowheader "ネット出願受付期間" [ref=e220]
+                - cell "10/1（木）～10/15（木）" [ref=e221]
+                - cell "10/1（水）～11/5（木）" [ref=e222]
+                - cell "11/9（月）～12/3（木）" [ref=e223]
+                - cell "12/7（月）～1/21（木）" [ref=e224]
+              - row "指定校・高校（公募）・業界推薦入試 ◯" [ref=e225]:
+                - rowheader "指定校・高校（公募）・業界推薦入試" [ref=e226]
+                - cell "◯" [ref=e227]
+                - cell [ref=e228]
+                - cell [ref=e229]
+                - cell [ref=e230]
+              - row "一般入試 ◯ ◯ ◯" [ref=e231]:
+                - columnheader "一般入試" [ref=e232]
+                - cell [ref=e233]
+                - cell "◯" [ref=e234]
+                - cell "◯" [ref=e235]
+                - cell "◯" [ref=e236]
+              - row "社会人入試 ◯ ◯" [ref=e237]:
+                - rowheader "社会人入試" [ref=e238]
+                - cell "◯" [ref=e239]
+                - cell [ref=e240]
+                - cell [ref=e241]
+                - cell "◯" [ref=e242]
+              - row "特待生試験 （希望者のみ） ◯ （筆記） ー ー ー" [ref=e243]:
+                - rowheader "特待生試験 （希望者のみ）" [ref=e244]:
+                  - text: 特待生試験
+                  - text: （希望者のみ）
+                - cell "◯ （筆記）" [ref=e245]:
+                  - text: ◯
+                  - text: （筆記）
+                - cell "ー" [ref=e246]
+                - cell "ー" [ref=e247]
+                - cell "ー" [ref=e248]
+              - row "入学手続き（学費納入）締切日 11月上旬 11月下旬 12月下旬 2月中旬" [ref=e249]:
+                - rowheader "入学手続き（学費納入）締切日" [ref=e250]
+                - cell "11月上旬" [ref=e251]
+                - cell "11月下旬" [ref=e252]
+                - cell "12月下旬" [ref=e253]
+                - cell "2月中旬" [ref=e254]
+          - list [ref=e255]:
+            - listitem [ref=e256]: ※ 推薦受験者が同一学科を再受験する場合は一般受験となります。
+          - generic [ref=e257]:
+            - paragraph [ref=e258]: ＜合否について＞
+            - paragraph [ref=e259]: 入学試験日より2週間以内に合否通知をお送りします。合格者には「学費振込依頼書」を合わせてお送りします。
+            - list [ref=e260]:
+              - listitem [ref=e261]: ※ 特待生試験を受験の方は、入学選考と特待生試験の結果を一緒にお送りします。
+            - list [ref=e262]:
+              - listitem [ref=e263]: 合否についての電話でのお問い合わせは応じておりません。
+              - listitem [ref=e264]: 合格者には、合格通知、学費（入学金、授業料、実習費、施設設備費）振込依頼書をお送りします。
+              - listitem [ref=e265]: お送りする所定の振込用紙を使用して、期日まで（合格通知発行日から2週間以内が目安）に納入を完了してください。
+              - listitem [ref=e266]: 事情により入学を辞退される場合は、必ず入学事務局までご連絡ください。
+        - generic [ref=e267]:
+          - heading "視能訓練士学科／歯科衛生士学科／臨床工学技士学科" [level=3] [ref=e268]
+          - table [ref=e270]:
+            - rowgroup [ref=e271]:
+              - row "入試方法 選考方法 対象者 選考料" [ref=e272]:
+                - columnheader "入試方法" [ref=e273]
+                - columnheader "選考方法" [ref=e274]
+                - columnheader "対象者" [ref=e275]
+                - columnheader "選考料" [ref=e276]
+            - rowgroup [ref=e277]:
+              - row "AO入試（総合型選抜） AO審査(面談) オープンキャンパス・入試説明会・学校説明会のいずれかに1回以上参加した者。 30,000円 （ネット出願受付期間内にお支払いください）" [ref=e278]:
+                - cell "AO入試（総合型選抜）" [ref=e279]
+                - cell "AO審査(面談)" [ref=e280]
+                - cell "オープンキャンパス・入試説明会・学校説明会のいずれかに1回以上参加した者。" [ref=e281]
+                - cell "30,000円 （ネット出願受付期間内にお支払いください）" [ref=e282]:
+                  - text: 30,000円
+                  - text: （ネット出願受付期間内にお支払いください）
+              - row "指定校推薦入試 書類選考 本校を専願し、オープンキャンパス・入試説明会・学校説明会のいずれかに1回以上参加した者。 ※詳細は、在籍高等学校の進路指導担当の先生へご確認ください。" [ref=e283]:
+                - cell "指定校推薦入試" [ref=e284]
+                - cell "書類選考" [ref=e285]
+                - cell "本校を専願し、オープンキャンパス・入試説明会・学校説明会のいずれかに1回以上参加した者。 ※詳細は、在籍高等学校の進路指導担当の先生へご確認ください。" [ref=e286]:
+                  - text: 本校を専願し、オープンキャンパス・入試説明会・学校説明会のいずれかに1回以上参加した者。
+                  - text: ※詳細は、在籍高等学校の進路指導担当の先生へご確認ください。
+              - row "高校（公募）推薦入試 小論文／面接 本校を専願し、在籍高等学校の学校長が推薦する者。" [ref=e287]:
+                - cell "高校（公募）推薦入試" [ref=e288]
+                - cell "小論文／面接" [ref=e289]
+                - cell "本校を専願し、在籍高等学校の学校長が推薦する者。" [ref=e290]
+              - row "業界推薦入試 小論文／面接 本校を専願し、2027年3月に大学・短大・専門学校等を卒業見込みで、在籍学校長が推薦する者。 本校を専願し、保健医療機関施設・福祉施設に現在勤務している者、または勤務していた者のうち責任者（理事長、病院長、施設長等）が推薦する者。" [ref=e291]:
+                - cell "業界推薦入試" [ref=e292]
+                - cell "小論文／面接" [ref=e293]
+                - cell "本校を専願し、2027年3月に大学・短大・専門学校等を卒業見込みで、在籍学校長が推薦する者。 本校を専願し、保健医療機関施設・福祉施設に現在勤務している者、または勤務していた者のうち責任者（理事長、病院長、施設長等）が推薦する者。" [ref=e294]:
+                  - list [ref=e295]:
+                    - listitem [ref=e296]: 本校を専願し、2027年3月に大学・短大・専門学校等を卒業見込みで、在籍学校長が推薦する者。
+                    - listitem [ref=e297]: 本校を専願し、保健医療機関施設・福祉施設に現在勤務している者、または勤務していた者のうち責任者（理事長、病院長、施設長等）が推薦する者。
+              - row "一般入試 小論文／面接 出願資格を満たす者。" [ref=e298]:
+                - cell "一般入試" [ref=e299]
+                - cell "小論文／面接" [ref=e300]
+                - cell "出願資格を満たす者。" [ref=e301]
+          - paragraph [ref=e302]: ＜出願に関する補足説明＞
+          - paragraph [ref=e303]: 高校（公募）推薦入試・業界推薦入試・一般入試は、小論文（50分・600字）／個人面接（20分程度）です。
+          - list [ref=e304]:
+            - listitem [ref=e305]: ※ 推薦入試受験者が同一学科を再受験する場合は一般入試での受験となります。その場合調査書、もしくは卒業証明書の再提出は必要ありません（選考料はかかります）。
+        - generic [ref=e306]:
+          - paragraph [ref=e307]: 入学試験日
+          - paragraph [ref=e308]: 出願書類受付締切：各入学試験日のネット出願受付期間の最終日到着分まで。
+          - list [ref=e309]:
+            - listitem [ref=e310]: ※ 定員に達した場合は募集を締切ります。募集状況は学校ホームページに掲載いたしますので、お問い合わせはお控えください。
+            - listitem [ref=e311]:
+              - text: ※ 調査書など持参の場合はネット出願受付期間内（平日）9:00～17:00までに本校窓口へご提出ください。
+              - text: "受付時間外・土日祝に持参希望の場合は、必ず事前にお電話にてご相談ください（TEL: 0120-37-8343）。"
+            - listitem [ref=e312]: ※ 指定校推薦入試は書類選考のため、来校不要です（特待生試験を希望する場合は、入学試験日に実施するため、ご来校ください）。
+            - listitem [ref=e313]: ※ 特待生試験（希望者のみ）はAO入試（総合型選抜）・指定校推薦入試・高校（公募）推薦入試の方のみとなります。
+          - table [ref=e315]:
+            - rowgroup [ref=e316]:
+              - row "入学試験日 2026年 9/27（日） 2026年 10/18（日） 2026年 11/8（日） 2026年 12/6（日） 2027年 1/9（土） 2027年 1/23（土） 2027年 2/13（土） 2027年 2/27（土）" [ref=e317]:
+                - rowheader "入学試験日" [ref=e318]
+                - cell "2026年 9/27（日）" [ref=e319]:
+                  - text: 2026年
+                  - text: 9/27（日）
+                - cell "2026年 10/18（日）" [ref=e320]:
+                  - text: 2026年
+                  - text: 10/18（日）
+                - cell "2026年 11/8（日）" [ref=e321]:
+                  - text: 2026年
+                  - text: 11/8（日）
+                - cell "2026年 12/6（日）" [ref=e322]:
+                  - text: 2026年
+                  - text: 12/6（日）
+                - cell "2027年 1/9（土）" [ref=e323]:
+                  - text: 2027年
+                  - text: 1/9（土）
+                - cell "2027年 1/23（土）" [ref=e324]:
+                  - text: 2027年
+                  - text: 1/23（土）
+                - cell "2027年 2/13（土）" [ref=e325]:
+                  - text: 2027年
+                  - text: 2/13（土）
+                - cell "2027年 2/27（土）" [ref=e326]:
+                  - text: 2027年
+                  - text: 2/27（土）
+              - row "ネット出願受付期間 9/1（火）～9/24（木） 9/28（月）～10/15（木） 10/19（月）～11/5（木） 11/9（月）～12/3（木） 12/7（月）～1/7（木） 1/11（月・祝）～1/21（木） 1/25（月）～2/11（木・祝） 2/15（月）～2/25（木）" [ref=e327]:
+                - rowheader "ネット出願受付期間" [ref=e328]
+                - cell "9/1（火）～9/24（木）" [ref=e329]
+                - cell "9/28（月）～10/15（木）" [ref=e330]
+                - cell "10/19（月）～11/5（木）" [ref=e331]
+                - cell "11/9（月）～12/3（木）" [ref=e332]
+                - cell "12/7（月）～1/7（木）" [ref=e333]
+                - cell "1/11（月・祝）～1/21（木）" [ref=e334]
+                - cell "1/25（月）～2/11（木・祝）" [ref=e335]
+                - cell "2/15（月）～2/25（木）" [ref=e336]
+              - row "AO入試（総合型選抜） 第1期 ◯ 第2期 ◯ 第3期 ◯ 第4期 ◯ 第5期 ◯" [ref=e337]:
+                - rowheader "AO入試（総合型選抜）" [ref=e338]
+                - cell "第1期 ◯" [ref=e339]:
+                  - text: 第1期
+                  - text: ◯
+                - cell "第2期 ◯" [ref=e340]:
+                  - text: 第2期
+                  - text: ◯
+                - cell "第3期 ◯" [ref=e341]:
+                  - text: 第3期
+                  - text: ◯
+                - cell "第4期 ◯" [ref=e342]:
+                  - text: 第4期
+                  - text: ◯
+                - cell "第5期 ◯" [ref=e343]:
+                  - text: 第5期
+                  - text: ◯
+                - cell [ref=e344]
+                - cell [ref=e345]
+                - cell [ref=e346]
+              - row "指定校・高校（公募）・業界推薦入試 10/1（木）〜 ◯" [ref=e347]:
+                - columnheader "指定校・高校（公募）・業界推薦入試" [ref=e348]
+                - cell [ref=e349]
+                - cell "10/1（木）〜 ◯" [ref=e350]:
+                  - text: 10/1（木）〜
+                  - text: ◯
+                - cell [ref=e351]
+                - cell [ref=e352]
+                - cell [ref=e353]
+                - cell [ref=e354]
+                - cell [ref=e355]
+                - cell [ref=e356]
+              - row "一般入試 10/1（木）〜 ◯ ◯ ◯ ◯ ◯ ◯ ◯" [ref=e357]:
+                - columnheader "一般入試" [ref=e358]
+                - cell [ref=e359]
+                - cell "10/1（木）〜 ◯" [ref=e360]:
+                  - text: 10/1（木）〜
+                  - text: ◯
+                - cell "◯" [ref=e361]
+                - cell "◯" [ref=e362]
+                - cell "◯" [ref=e363]
+                - cell "◯" [ref=e364]
+                - cell "◯" [ref=e365]
+                - cell "◯" [ref=e366]
+              - row "特待生試験 （希望者のみ） 第1期 ◯ 第2期 ◯ 第3期 ◯ 第4期 ◯ 第5期 ◯" [ref=e367]:
+                - rowheader "特待生試験 （希望者のみ）" [ref=e368]:
+                  - text: 特待生試験
+                  - text: （希望者のみ）
+                - cell "第1期 ◯" [ref=e369]:
+                  - text: 第1期
+                  - text: ◯
+                - cell "第2期 ◯" [ref=e370]:
+                  - text: 第2期
+                  - text: ◯
+                - cell "第3期 ◯" [ref=e371]:
+                  - text: 第3期
+                  - text: ◯
+                - cell "第4期 ◯" [ref=e372]:
+                  - text: 第4期
+                  - text: ◯
+                - cell "第5期 ◯" [ref=e373]:
+                  - text: 第5期
+                  - text: ◯
+                - cell [ref=e374]
+                - cell [ref=e375]
+                - cell [ref=e376]
+              - row "入学手続き（学費納入）締切日 10月中旬頃 11月上旬 11月下旬 12月下旬 1月下旬 2月中旬 2月下旬 3月上旬" [ref=e377]:
+                - rowheader "入学手続き（学費納入）締切日" [ref=e378]
+                - cell "10月中旬頃" [ref=e379]
+                - cell "11月上旬" [ref=e380]
+                - cell "11月下旬" [ref=e381]
+                - cell "12月下旬" [ref=e382]
+                - cell "1月下旬" [ref=e383]
+                - cell "2月中旬" [ref=e384]
+                - cell "2月下旬" [ref=e385]
+                - cell "3月上旬" [ref=e386]
+          - list [ref=e387]:
+            - listitem [ref=e388]: ※ 推薦受験者が同一学科を再受験する場合は一般入試での受験となります。その場合調査書、もしくは卒業証明書の再提出の必要はありません（選考料はかかります）。
+          - generic [ref=e389]:
+            - paragraph [ref=e390]: ＜合否について＞
+            - paragraph [ref=e391]: 入学試験日より2週間以内に合否通知をお送りします。合格者には「学費振込依頼書」を合わせてお送りします。
+            - list [ref=e392]:
+              - listitem [ref=e393]: ※ 特待生試験を受験の方は、入学選考と特待生試験の結果を一緒にお送りします。
+            - list [ref=e394]:
+              - listitem [ref=e395]: 合否についての電話でのお問い合わせは応じておりません。
+              - listitem [ref=e396]: 合格者には、合格通知、学費（入学金、授業料、実習費、施設設備費）振込依頼書をお送りします。
+              - listitem [ref=e397]: お送りする所定の振込用紙を使用して、期日まで（合格通知発行日から2週間以内が目安）に納入を完了してください。
+              - listitem [ref=e398]: 事情により入学を辞退される場合は、必ず入学事務局までご連絡ください。
+        - generic [ref=e399]:
+          - heading "【お知らせ】「一人ひとりを大切に」 滋慶学園グループにおける合理的配慮について" [level=2] [ref=e400]
+          - paragraph [ref=e401]:
+            - text: 滋慶学園グループにおける合理的配慮については、
+            - link "こちら" [ref=e402] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/asset/doc/admission/application/hairyo.pdf
+            - text: をご参照ください。
+    - contentinfo [ref=e403]:
+      - generic [ref=e404]:
+        - link "札幌看護医療専門学校" [ref=e405] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e406]
+        - paragraph [ref=e407]: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+        - paragraph [ref=e408]:
+          - text: TEL
+          - link "011-801-8343" [ref=e409] [cursor=pointer]:
+            - /url: tel:011-801-8343
+          - text: ／フリーダイヤル
+          - link "0120-37-8343" [ref=e410] [cursor=pointer]:
+            - /url: tel:0120-37-8343
+        - navigation "フッターナビゲーション" [ref=e411]:
+          - generic [ref=e412]:
+            - link "ABOUT 学校案内" [ref=e413] [cursor=pointer]:
+              - /url: /school/
+              - generic [ref=e414]: ABOUT
+              - text: 学校案内
+            - list [ref=e415]:
+              - listitem [ref=e416]:
+                - link "学校案内 トップ" [ref=e417] [cursor=pointer]:
+                  - /url: /school/
+              - listitem [ref=e418]:
+                - link "札幌看護医療が選ばれる理由" [ref=e419] [cursor=pointer]:
+                  - /url: /school/study/
+              - listitem [ref=e420]:
+                - link "高校1・2年生のための進路選び" [ref=e421] [cursor=pointer]:
+                  - /url: /school/guide/
+              - listitem [ref=e422]:
+                - link "交通・アクセス" [ref=e423] [cursor=pointer]:
+                  - /url: /school/access/
+              - listitem [ref=e424]:
+                - link "建学の理念" [ref=e425] [cursor=pointer]:
+                  - /url: /school/philosophy/
+              - listitem [ref=e426]:
+                - link "情報公開（職業実践専門課程）" [ref=e427] [cursor=pointer]:
+                  - /url: /school/info/
+          - generic [ref=e428]:
+            - link "COURSE 学科・専攻" [ref=e429] [cursor=pointer]:
+              - /url: /course/
+              - generic [ref=e430]: COURSE
+              - text: 学科・専攻
+            - list [ref=e431]:
+              - listitem [ref=e432]:
+                - link "学科・専攻 トップ" [ref=e433] [cursor=pointer]:
+                  - /url: /course/
+              - listitem [ref=e434]:
+                - link "看護学科" [ref=e435] [cursor=pointer]:
+                  - /url: /course/nursing/
+              - listitem [ref=e436]:
+                - link "視能訓練士学科" [ref=e437] [cursor=pointer]:
+                  - /url: /course/orthoptist/
+              - listitem [ref=e438]:
+                - link "歯科衛生士学科 ホワイトニング・デンタルエステ専攻" [ref=e439] [cursor=pointer]:
+                  - /url: /course/dentalhygienists/
+              - listitem [ref=e440]:
+                - link "臨床工学技士学科" [ref=e441] [cursor=pointer]:
+                  - /url: /course/clinicalengineer/
+          - generic [ref=e442]:
+            - link "CAREER 資格・就職" [ref=e443] [cursor=pointer]:
+              - /url: /career/
+              - generic [ref=e444]: CAREER
+              - text: 資格・就職
+            - list [ref=e445]:
+              - listitem [ref=e446]:
+                - link "資格・就職 トップ" [ref=e447] [cursor=pointer]:
+                  - /url: /career/
+              - listitem [ref=e448]:
+                - link "資格サポート" [ref=e449] [cursor=pointer]:
+                  - /url: /career/license_support/
+              - listitem [ref=e450]:
+                - link "就職サポート" [ref=e451] [cursor=pointer]:
+                  - /url: /career/job_result/
+          - generic [ref=e452]:
+            - link "CAMPUS LIFE 学校生活・施設" [ref=e453] [cursor=pointer]:
+              - /url: /campuslife/
+              - generic [ref=e454]: CAMPUS LIFE
+              - text: 学校生活・施設
+            - list [ref=e455]:
+              - listitem [ref=e456]:
+                - link "学校生活・施設 トップ" [ref=e457] [cursor=pointer]:
+                  - /url: /campuslife/
+              - listitem [ref=e458]:
+                - link "キャンパスライフ" [ref=e459] [cursor=pointer]:
+                  - /url: /campuslife/schedule/
+              - listitem [ref=e460]:
+                - link "施設紹介" [ref=e461] [cursor=pointer]:
+                  - /url: /campuslife/facility/
+          - generic [ref=e462]:
+            - link "ADMISSION 入試・学費" [ref=e463] [cursor=pointer]:
+              - /url: /admission/
+              - generic [ref=e464]: ADMISSION
+              - text: 入試・学費
+            - list [ref=e465]:
+              - listitem [ref=e466]:
+                - link "入試・学費 トップ" [ref=e467] [cursor=pointer]:
+                  - /url: /admission/
+              - listitem [ref=e468]:
+                - link "募集要項" [ref=e469] [cursor=pointer]:
+                  - /url: /admission/application/
+              - listitem [ref=e470]:
+                - link "AO入試エントリー・出願方法" [ref=e471] [cursor=pointer]:
+                  - /url: /admission/ao/
+              - listitem [ref=e472]:
+                - link "推薦・一般入試 出願方法" [ref=e473] [cursor=pointer]:
+                  - /url: /admission/applicationflow/
+              - listitem [ref=e474]:
+                - link "学費・奨学金制度" [ref=e475] [cursor=pointer]:
+                  - /url: /admission/expenses/
+              - listitem [ref=e476]:
+                - link "特待生＆減免制度" [ref=e477] [cursor=pointer]:
+                  - /url: /admission/scholarship/
+          - generic [ref=e478]:
+            - link "OPEN CAMPUS オープンキャンパス" [ref=e479] [cursor=pointer]:
+              - /url: /opencampus/
+              - generic [ref=e480]: OPEN CAMPUS
+              - text: オープンキャンパス
+            - list [ref=e481]:
+              - listitem [ref=e482]:
+                - link "オープンキャンパスとは" [ref=e483] [cursor=pointer]:
+                  - /url: /opencampus/
+              - listitem [ref=e484]:
+                - link "イベント全日程一覧" [ref=e485] [cursor=pointer]:
+                  - /url: /opencampus/calendar/
+              - listitem [ref=e486]:
+                - link "学校説明・個別相談会" [ref=e487] [cursor=pointer]:
+                  - /url: /opencampus/session/
+              - listitem [ref=e488]:
+                - link "無料送迎バス" [ref=e489] [cursor=pointer]:
+                  - /url: /opencampus/bus/
+              - listitem [ref=e490]:
+                - link "交通費補助" [ref=e491] [cursor=pointer]:
+                  - /url: /opencampus/subsidy_list/
+        - list [ref=e492]:
+          - listitem [ref=e493]:
+            - link "卒業生の方へ" [ref=e494] [cursor=pointer]:
+              - /url: /visit_graduate/
+          - listitem [ref=e495]:
+            - link "高等学校の先生方へ" [ref=e496] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9888/
+          - listitem [ref=e497]:
+            - link "中学校の先生方へ" [ref=e498] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9891/
+          - listitem [ref=e499]:
+            - link "社会人・大学生・短大生の方へ" [ref=e500] [cursor=pointer]:
+              - /url: /visit_society/
+          - listitem [ref=e501]:
+            - link "企業の方へ" [ref=e502] [cursor=pointer]:
+              - /url: /visit_company/
+          - listitem [ref=e503]:
+            - link "職員募集につきまして" [ref=e504] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e505]:
+            - link "産官学連携にご協力いただける企業・自治体の方へ" [ref=e506] [cursor=pointer]:
+              - /url: /visit_municipality/
+        - list [ref=e507]:
+          - listitem [ref=e508]:
+            - link "お問い合わせ" [ref=e509] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/inquiry/
+          - listitem [ref=e510]:
+            - link "交通・アクセス" [ref=e511] [cursor=pointer]:
+              - /url: /school/access/
+          - listitem [ref=e512]:
+            - link "情報公開（職業実践専門課程）" [ref=e513] [cursor=pointer]:
+              - /url: /school/info/
+          - listitem [ref=e514]:
+            - link "施設(教室)利用貸出につきまして" [ref=e515] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/facility/
+          - listitem [ref=e516]:
+            - link "採用情報" [ref=e517] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e518]:
+            - link "サイトマップ" [ref=e519] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e520]:
+            - link "プライバシーポリシー" [ref=e521] [cursor=pointer]:
+              - /url: /privacy/
+          - listitem [ref=e522]:
+            - link "ソーシャルメディアポリシー" [ref=e523] [cursor=pointer]:
+              - /url: /socialpolicy/
+        - list [ref=e524]:
+          - listitem [ref=e525]:
+            - link "Instagram" [ref=e526] [cursor=pointer]:
+              - /url: https://www.instagram.com/sapporo_kango/
+          - listitem [ref=e527]:
+            - link "TikTok" [ref=e528] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@sapporo_kango
+          - listitem [ref=e529]:
+            - link "YouTube" [ref=e530] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+          - listitem [ref=e531]:
+            - link "LINE" [ref=e532] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/914/
+        - paragraph [ref=e533]: © Sapporo College of Nursing & Medical Care.
+  - generic [ref=e535]:
+    - group [ref=e536]:
+      - generic "訪問者別メニュー ▾" [ref=e537] [cursor=pointer]
+    - paragraph [ref=e538]:
+      - link "情報公開（職業実践専門課程）" [ref=e539] [cursor=pointer]:
+        - /url: /school/info/
+      - text: ／
+      - link "施設(教室)利用貸出につきまして" [ref=e540] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/facility/
+    - generic [ref=e541]:
+      - link "資料請求" [ref=e542] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/document/
+        - generic [ref=e544]: 資料請求
+      - link "イベント 全日程一覧" [ref=e545] [cursor=pointer]:
+        - /url: /opencampus/calendar/
+        - generic [ref=e547]:
+          - text: イベント
+          - text: 全日程一覧
+      - link "LINEなんでも 相談" [ref=e548] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/news/2023/914/
+        - generic [ref=e550]:
+          - text: LINEなんでも
+          - text: 相談
+    - list [ref=e551]:
+      - listitem [ref=e552]:
+        - link "夢がふくらむ、目標が見つかる！ オープンキャンパス" [ref=e553] [cursor=pointer]:
+          - /url: /opencampus/
+          - generic [ref=e554]: 夢がふくらむ、目標が見つかる！
+          - generic [ref=e555]: オープンキャンパス
+          - generic [ref=e556]: →
+      - listitem [ref=e557]:
+        - link "REASON 札幌看護医療専門学校が選ばれる理由" [ref=e558] [cursor=pointer]:
+          - /url: /school/study/
+          - generic [ref=e559]: REASON
+          - generic [ref=e560]: 札幌看護医療専門学校が選ばれる理由
+          - generic [ref=e561]: →
+      - listitem [ref=e562]:
+        - link "COURSE ミライを担う医療系4学科" [ref=e563] [cursor=pointer]:
+          - /url: /course/
+          - generic [ref=e564]: COURSE
+          - generic [ref=e565]: ミライを担う医療系4学科
+          - generic [ref=e566]: →
+      - listitem [ref=e567]:
+        - link "ADMISSION 入試・学費" [ref=e568] [cursor=pointer]:
+          - /url: /admission/
+          - generic [ref=e569]: ADMISSION
+          - generic [ref=e570]: 入試・学費
+          - generic [ref=e571]: →
+      - listitem [ref=e572]:
+        - link "FACILITY 施設紹介" [ref=e573] [cursor=pointer]:
+          - /url: /campuslife/facility/
+          - generic [ref=e574]: FACILITY
+          - generic [ref=e575]: 施設紹介
+          - generic [ref=e576]: →

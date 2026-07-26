@@ -1,0 +1,89 @@
+/* ============ design tokens（実サイト styles2026.css からの実測値ベース） ============ */
+:root {
+  /* Color: brand */
+  --color-brand-yellow: #ffe200;
+  --color-brand-pink: #ef89ac;
+  --color-brand-green: #7cbc28;
+
+  /* Color: pastel surface */
+  --color-pastel-pink: #fbdce8;
+  --color-pastel-blue: #bce6f9;
+  --color-pastel-green: #9be8bb;
+  --color-pastel-cream: #fffce5;
+
+  /* Color: neutral */
+  --color-ink: #333;
+  --color-ink-soft: #555;
+  --color-bg: #fff;
+  --color-bg-gray-1: #f8f8f8;
+  --color-bg-gray-2: #f5f5f5;
+  --color-bg-gray-3: #f0f0f0;
+  --color-line: #ddd;
+
+  /* Gradients */
+  --grad-badge: linear-gradient(90deg, #ee8cb6 0%, #f4c1ac 50%, #f2be63 100%);
+  --grad-pink-v: linear-gradient(0deg, #f3b3dc 0%, #ef89ac 100%);
+  --grad-script: linear-gradient(90deg, #ef89ac 0%, #c9a6e0 50%, #8fd0f0 100%);
+  --grad-marker: linear-gradient(to top, transparent 0.5em, #ffe200 0.5em, #ffe300 50%, transparent 50%);
+  --grad-shine: linear-gradient(105deg, transparent 40%, rgba(255, 255, 255, 0.55) 50%, transparent 60%);
+
+  /* Shadow */
+  --shadow-soft: 0 0 20px rgba(51, 51, 51, 0.1);
+  --shadow-float: 0 14px 96px 16px rgba(0, 0, 0, 0.08);
+  --shadow-offset: 4px 4px 0 0 var(--color-ink);
+
+  /* Radius */
+  --radius-xs: 3px;
+  --radius-md: 10px;
+  --radius-pill: 45px;
+  --radius-full: 50%;
+
+  /* Space (4px基調) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  /* Typography */
+  --font-jp: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  --font-en: "Hanken Grotesk", var(--font-jp);
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.8125rem;
+  --fs-base: 0.9375rem;
+  --fs-md: 1.0625rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-num: clamp(2.5rem, 12cqw, 4rem);
+  --lh-body: 1.8;
+  --lh-tight: 1.4;
+  --ls-base: 0.05em;
+  --ls-wide: 0.075em;
+  --ls-caps: 0.15em;
+
+  /* Layout */
+  --column-w: 390px;
+
+  /* Z-index layers */
+  --z-deco: -1;
+  --z-base: 0;
+  --z-rail: 10;
+  --z-sticky: 50;
+  --z-header: 100;
+  --z-modal: 1000;
+
+  /* Motion */
+  --dur-fast: 0.2s;
+  --dur-base: 0.3s;
+  --dur-slow: 0.6s;
+  --dur-hero: 0.9s;
+  --ease-site: ease-out;
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --reveal-y: 24px;
+  --stagger-step: 80ms;
+}

@@ -1,0 +1,943 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "札幌看護医療専門学校" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e9]
+        - button "MENU" [ref=e10] [cursor=pointer]:
+          - generic [ref=e15]: MENU
+    - main [ref=e16]:
+      - navigation "パンくずリスト" [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "TOP" [ref=e20] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e21]:
+            - text: ›
+            - link "オープンキャンパス" [ref=e22] [cursor=pointer]:
+              - /url: /opencampus/
+          - listitem [ref=e23]: ›交通費補助
+      - heading "OPEN CAMPUS 交通費補助" [level=1] [ref=e25]:
+        - generic [ref=e26]: OPEN CAMPUS
+        - generic [ref=e27]: 交通費補助
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - heading "交通費補助が利用できます！" [level=2] [ref=e31]
+          - paragraph [ref=e32]: はじめてオープンキャンパスに参加する高校生の方は事前申請なしで交通費補助が利用できます！
+          - list [ref=e33]:
+            - listitem [ref=e34]: ・公共交通機関（JR、バスなど）でお越しの方
+            - listitem [ref=e35]: ・リピーターさんはLINE追加で、リピーターさん用の交通費補助クーポンがGETできます✨下のバナーからGETしよう！
+        - generic [ref=e36]:
+          - link "遠方から新札幌への行き方" [ref=e37] [cursor=pointer]:
+            - /url: https://www.snm.ac.jp/news/2024/13820/
+            - img "遠方から新札幌への行き方" [ref=e38]
+          - link "交通費補助クーポンプレゼント" [ref=e39] [cursor=pointer]:
+            - /url: https://lin.ee/kxlpB4B
+            - img "交通費補助クーポンプレゼント" [ref=e40]
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e44]: Area
+          - heading "地区別補助額一覧" [level=2] [ref=e45]
+        - generic [ref=e46]:
+          - table [ref=e48]:
+            - rowgroup [ref=e49]:
+              - row "エリア名 補助額" [ref=e50]:
+                - columnheader "エリア名" [ref=e51]
+                - columnheader "補助額" [ref=e52]
+            - rowgroup [ref=e53]:
+              - row "あ 愛別 5,000円" [ref=e54]:
+                - rowheader "あ 愛別" [ref=e55]:
+                  - generic [ref=e56]: あ
+                  - text: 愛別
+                - cell "5,000円" [ref=e57]
+              - row "赤井川 3,000円" [ref=e58]:
+                - rowheader "赤井川" [ref=e59]
+                - cell "3,000円" [ref=e60]
+              - row "赤平 3,000円" [ref=e61]:
+                - rowheader "赤平" [ref=e62]
+                - cell "3,000円" [ref=e63]
+              - row "旭川 4,000円" [ref=e64]:
+                - rowheader "旭川" [ref=e65]
+                - cell "4,000円" [ref=e66]
+              - row "芦別 3,000円" [ref=e67]:
+                - rowheader "芦別" [ref=e68]
+                - cell "3,000円" [ref=e69]
+              - row "足寄 7,000円" [ref=e70]:
+                - rowheader "足寄" [ref=e71]
+                - cell "7,000円" [ref=e72]
+              - row "厚岸 9,000円" [ref=e73]:
+                - rowheader "厚岸" [ref=e74]
+                - cell "9,000円" [ref=e75]
+              - row "厚沢部 9,000円" [ref=e76]:
+                - rowheader "厚沢部" [ref=e77]
+                - cell "9,000円" [ref=e78]
+              - row "厚真 3,000円" [ref=e79]:
+                - rowheader "厚真" [ref=e80]
+                - cell "3,000円" [ref=e81]
+              - row "網走 11,000円" [ref=e82]:
+                - rowheader "網走" [ref=e83]
+                - cell "11,000円" [ref=e84]
+              - row "安平 3,000円" [ref=e85]:
+                - rowheader "安平" [ref=e86]
+                - cell "3,000円" [ref=e87]
+              - row "い 池田 6,000円" [ref=e88]:
+                - rowheader "い 池田" [ref=e89]:
+                  - generic [ref=e90]: い
+                  - text: 池田
+                - cell "6,000円" [ref=e91]
+              - row "石狩 1,000円" [ref=e92]:
+                - rowheader "石狩" [ref=e93]
+                - cell "1,000円" [ref=e94]
+              - row "今金 8,500円" [ref=e95]:
+                - rowheader "今金" [ref=e96]
+                - cell "8,500円" [ref=e97]
+              - row "岩内 3,000円" [ref=e98]:
+                - rowheader "岩内" [ref=e99]
+                - cell "3,000円" [ref=e100]
+              - row "岩見沢 2,000円" [ref=e101]:
+                - rowheader "岩見沢" [ref=e102]
+                - cell "2,000円" [ref=e103]
+              - row "う 歌志内 3,000円" [ref=e104]:
+                - rowheader "う 歌志内" [ref=e105]:
+                  - generic [ref=e106]: う
+                  - text: 歌志内
+                - cell "3,000円" [ref=e107]
+              - row "浦臼 3,000円" [ref=e108]:
+                - rowheader "浦臼" [ref=e109]
+                - cell "3,000円" [ref=e110]
+              - row "浦河 5,000円" [ref=e111]:
+                - rowheader "浦河" [ref=e112]
+                - cell "5,000円" [ref=e113]
+              - row "浦幌 6,500円" [ref=e114]:
+                - rowheader "浦幌" [ref=e115]
+                - cell "6,500円" [ref=e116]
+              - row "雨竜 3,000円" [ref=e117]:
+                - rowheader "雨竜" [ref=e118]
+                - cell "3,000円" [ref=e119]
+              - row "え 江差 9,500円" [ref=e120]:
+                - rowheader "え 江差" [ref=e121]:
+                  - generic [ref=e122]: え
+                  - text: 江差
+                - cell "9,500円" [ref=e123]
+              - row "枝幸 9,000円" [ref=e124]:
+                - rowheader "枝幸" [ref=e125]
+                - cell "9,000円" [ref=e126]
+              - row "恵庭 1,000円" [ref=e127]:
+                - rowheader "恵庭" [ref=e128]
+                - cell "1,000円" [ref=e129]
+              - row "江別 1,000円" [ref=e130]:
+                - rowheader "江別" [ref=e131]
+                - cell "1,000円" [ref=e132]
+              - row "えりも 5,000円" [ref=e133]:
+                - rowheader "えりも" [ref=e134]
+                - cell "5,000円" [ref=e135]
+              - row "遠軽 7,500円" [ref=e136]:
+                - rowheader "遠軽" [ref=e137]
+                - cell "7,500円" [ref=e138]
+              - row "遠別 7,000円" [ref=e139]:
+                - rowheader "遠別" [ref=e140]
+                - cell "7,000円" [ref=e141]
+              - row "お 雄武 10,500円" [ref=e142]:
+                - rowheader "お 雄武" [ref=e143]:
+                  - generic [ref=e144]: お
+                  - text: 雄武
+                - cell "10,500円" [ref=e145]
+              - row "大空 10,500円" [ref=e146]:
+                - rowheader "大空" [ref=e147]
+                - cell "10,500円" [ref=e148]
+              - row "奥尻 10,000円" [ref=e149]:
+                - rowheader "奥尻" [ref=e150]
+                - cell "10,000円" [ref=e151]
+              - row "置戸 10,500円" [ref=e152]:
+                - rowheader "置戸" [ref=e153]
+                - cell "10,500円" [ref=e154]
+              - row "興部 9,500円" [ref=e155]:
+                - rowheader "興部" [ref=e156]
+                - cell "9,500円" [ref=e157]
+              - row "長万部 5,000円" [ref=e158]:
+                - rowheader "長万部" [ref=e159]
+                - cell "5,000円" [ref=e160]
+              - row "小樽 1,500円" [ref=e161]:
+                - rowheader "小樽" [ref=e162]
+                - cell "1,500円" [ref=e163]
+              - row "音威子府 7,000円" [ref=e164]:
+                - rowheader "音威子府" [ref=e165]
+                - cell "7,000円" [ref=e166]
+              - row "音更 6,000円" [ref=e167]:
+                - rowheader "音更" [ref=e168]
+                - cell "6,000円" [ref=e169]
+              - row "乙部 9,500円" [ref=e170]:
+                - rowheader "乙部" [ref=e171]
+                - cell "9,500円" [ref=e172]
+              - row "帯広 6,000円" [ref=e173]:
+                - rowheader "帯広" [ref=e174]
+                - cell "6,000円" [ref=e175]
+              - row "小平 4,000円" [ref=e176]:
+                - rowheader "小平" [ref=e177]
+                - cell "4,000円" [ref=e178]
+              - row "か 上士幌 6,500円" [ref=e179]:
+                - rowheader "か 上士幌" [ref=e180]:
+                  - generic [ref=e181]: か
+                  - text: 上士幌
+                - cell "6,500円" [ref=e182]
+              - row "上砂川 3,000円" [ref=e183]:
+                - rowheader "上砂川" [ref=e184]
+                - cell "3,000円" [ref=e185]
+              - row "上ノ国 9,500円" [ref=e186]:
+                - rowheader "上ノ国" [ref=e187]
+                - cell "9,500円" [ref=e188]
+              - row "神恵内 4,000円" [ref=e189]:
+                - rowheader "神恵内" [ref=e190]
+                - cell "4,000円" [ref=e191]
+              - row "上川 5,000円" [ref=e192]:
+                - rowheader "上川" [ref=e193]
+                - cell "5,000円" [ref=e194]
+              - row "上富良野町 3,500円" [ref=e195]:
+                - rowheader "上富良野町" [ref=e196]
+                - cell "3,500円" [ref=e197]
+          - table [ref=e199]:
+            - rowgroup [ref=e200]:
+              - row "エリア名 補助額" [ref=e201]:
+                - columnheader "エリア名" [ref=e202]
+                - columnheader "補助額" [ref=e203]
+            - rowgroup [ref=e204]:
+              - row "き 木古内 8,000円" [ref=e205]:
+                - rowheader "き 木古内" [ref=e206]:
+                  - generic [ref=e207]: き
+                  - text: 木古内
+                - cell "8,000円" [ref=e208]
+              - row "北広島 1,000円" [ref=e209]:
+                - rowheader "北広島" [ref=e210]
+                - cell "1,000円" [ref=e211]
+              - row "北見 8,000円" [ref=e212]:
+                - rowheader "北見" [ref=e213]
+                - cell "8,000円" [ref=e214]
+              - row "喜茂別 3,000円" [ref=e215]:
+                - rowheader "喜茂別" [ref=e216]
+                - cell "3,000円" [ref=e217]
+              - row "京極 3,000円" [ref=e218]:
+                - rowheader "京極" [ref=e219]
+                - cell "3,000円" [ref=e220]
+              - row "共和 3,000円" [ref=e221]:
+                - rowheader "共和" [ref=e222]
+                - cell "3,000円" [ref=e223]
+              - row "清里 12,500円" [ref=e224]:
+                - rowheader "清里" [ref=e225]
+                - cell "12,500円" [ref=e226]
+              - row "く 釧路 8,000円" [ref=e227]:
+                - rowheader "く 釧路" [ref=e228]:
+                  - generic [ref=e229]: く
+                  - text: 釧路
+                - cell "8,000円" [ref=e230]
+              - row "釧路町 8,500円" [ref=e231]:
+                - rowheader "釧路町" [ref=e232]
+                - cell "8,500円" [ref=e233]
+              - row "倶知安 3,000円" [ref=e234]:
+                - rowheader "倶知安" [ref=e235]
+                - cell "3,000円" [ref=e236]
+              - row "栗山 2,000円" [ref=e237]:
+                - rowheader "栗山" [ref=e238]
+                - cell "2,000円" [ref=e239]
+              - row "黒松内 5,000円" [ref=e240]:
+                - rowheader "黒松内" [ref=e241]
+                - cell "5,000円" [ref=e242]
+              - row "訓子府 9,000円" [ref=e243]:
+                - rowheader "訓子府" [ref=e244]
+                - cell "9,000円" [ref=e245]
+              - row "け 剣淵 5,000円" [ref=e246]:
+                - rowheader "け 剣淵" [ref=e247]:
+                  - generic [ref=e248]: け
+                  - text: 剣淵
+                - cell "5,000円" [ref=e249]
+              - row "こ 小清水 12,000円" [ref=e250]:
+                - rowheader "こ 小清水" [ref=e251]:
+                  - generic [ref=e252]: こ
+                  - text: 小清水
+                - cell "12,000円" [ref=e253]
+              - row "さ 札幌 500円" [ref=e254]:
+                - rowheader "さ 札幌" [ref=e255]:
+                  - generic [ref=e256]: さ
+                  - text: 札幌
+                - cell "500円" [ref=e257]
+              - row "様似 5,000円" [ref=e258]:
+                - rowheader "様似" [ref=e259]
+                - cell "5,000円" [ref=e260]
+              - row "更別 6,000円" [ref=e261]:
+                - rowheader "更別" [ref=e262]
+                - cell "6,000円" [ref=e263]
+              - row "佐呂間 12,500円" [ref=e264]:
+                - rowheader "佐呂間" [ref=e265]
+                - cell "12,500円" [ref=e266]
+              - row "猿払 9,500円" [ref=e267]:
+                - rowheader "猿払" [ref=e268]
+                - cell "9,500円" [ref=e269]
+              - row "し 鹿追 6,500円" [ref=e270]:
+                - rowheader "し 鹿追" [ref=e271]:
+                  - generic [ref=e272]: し
+                  - text: 鹿追
+                - cell "6,500円" [ref=e273]
+              - row "鹿部 7,000円" [ref=e274]:
+                - rowheader "鹿部" [ref=e275]
+                - cell "7,000円" [ref=e276]
+              - row "標茶 9,000円" [ref=e277]:
+                - rowheader "標茶" [ref=e278]
+                - cell "9,000円" [ref=e279]
+              - row "士別 5,000円" [ref=e280]:
+                - rowheader "士別" [ref=e281]
+                - cell "5,000円" [ref=e282]
+              - row "士幌 6,000円" [ref=e283]:
+                - rowheader "士幌" [ref=e284]
+                - cell "6,000円" [ref=e285]
+              - row "島牧 5,000円" [ref=e286]:
+                - rowheader "島牧" [ref=e287]
+                - cell "5,000円" [ref=e288]
+              - row "清水 6,000円" [ref=e289]:
+                - rowheader "清水" [ref=e290]
+                - cell "6,000円" [ref=e291]
+              - row "占冠 5,000円" [ref=e292]:
+                - rowheader "占冠" [ref=e293]
+                - cell "5,000円" [ref=e294]
+              - row "下川 7,000円" [ref=e295]:
+                - rowheader "下川" [ref=e296]
+                - cell "7,000円" [ref=e297]
+              - row "積丹 4,000円" [ref=e298]:
+                - rowheader "積丹" [ref=e299]
+                - cell "4,000円" [ref=e300]
+              - row "斜里 12,500円" [ref=e301]:
+                - rowheader "斜里" [ref=e302]
+                - cell "12,500円" [ref=e303]
+              - row "初山別 7,000円" [ref=e304]:
+                - rowheader "初山別" [ref=e305]
+                - cell "7,000円" [ref=e306]
+              - row "白老 2,000円" [ref=e307]:
+                - rowheader "白老" [ref=e308]
+                - cell "2,000円" [ref=e309]
+              - row "白糠 7,500円" [ref=e310]:
+                - rowheader "白糠" [ref=e311]
+                - cell "7,500円" [ref=e312]
+              - row "知内 8,000円" [ref=e313]:
+                - rowheader "知内" [ref=e314]
+                - cell "8,000円" [ref=e315]
+              - row "新篠津 1,000円" [ref=e316]:
+                - rowheader "新篠津" [ref=e317]
+                - cell "1,000円" [ref=e318]
+              - row "新得 6,000円" [ref=e319]:
+                - rowheader "新得" [ref=e320]
+                - cell "6,000円" [ref=e321]
+              - row "新十津川 3,000円" [ref=e322]:
+                - rowheader "新十津川" [ref=e323]
+                - cell "3,000円" [ref=e324]
+              - row "新ひだか 5,000円" [ref=e325]:
+                - rowheader "新ひだか" [ref=e326]
+                - cell "5,000円" [ref=e327]
+              - row "標津 12,000円" [ref=e328]:
+                - rowheader "標津" [ref=e329]
+                - cell "12,000円" [ref=e330]
+          - table [ref=e332]:
+            - rowgroup [ref=e333]:
+              - row "エリア名 補助額" [ref=e334]:
+                - columnheader "エリア名" [ref=e335]
+                - columnheader "補助額" [ref=e336]
+            - rowgroup [ref=e337]:
+              - row "す 寿都 5,000円" [ref=e338]:
+                - rowheader "す 寿都" [ref=e339]:
+                  - generic [ref=e340]: す
+                  - text: 寿都
+                - cell "5,000円" [ref=e341]
+              - row "砂川 3,000円" [ref=e342]:
+                - rowheader "砂川" [ref=e343]
+                - cell "3,000円" [ref=e344]
+              - row "せ 瀬棚 8,500円" [ref=e345]:
+                - rowheader "せ 瀬棚" [ref=e346]:
+                  - generic [ref=e347]: せ
+                  - text: 瀬棚
+                - cell "8,500円" [ref=e348]
+              - row "そ 壮瞥 3,500円" [ref=e349]:
+                - rowheader "そ 壮瞥" [ref=e350]:
+                  - generic [ref=e351]: そ
+                  - text: 壮瞥
+                - cell "3,500円" [ref=e352]
+              - row "た 大樹 6,500円" [ref=e353]:
+                - rowheader "た 大樹" [ref=e354]:
+                  - generic [ref=e355]: た
+                  - text: 大樹
+                - cell "6,500円" [ref=e356]
+              - row "鷹栖 4,000円" [ref=e357]:
+                - rowheader "鷹栖" [ref=e358]
+                - cell "4,000円" [ref=e359]
+              - row "滝川 3,000円" [ref=e360]:
+                - rowheader "滝川" [ref=e361]
+                - cell "3,000円" [ref=e362]
+              - row "滝上 9,500円" [ref=e363]:
+                - rowheader "滝上" [ref=e364]
+                - cell "9,500円" [ref=e365]
+              - row "伊達 3,500円" [ref=e366]:
+                - rowheader "伊達" [ref=e367]
+                - cell "3,500円" [ref=e368]
+              - row "ち 秩父別 3,000円" [ref=e369]:
+                - rowheader "ち 秩父別" [ref=e370]:
+                  - generic [ref=e371]: ち
+                  - text: 秩父別
+                - cell "3,000円" [ref=e372]
+              - row "千歳 1,000円" [ref=e373]:
+                - rowheader "千歳" [ref=e374]
+                - cell "1,000円" [ref=e375]
+              - row "つ 月形 2,000円" [ref=e376]:
+                - rowheader "つ 月形" [ref=e377]:
+                  - generic [ref=e378]: つ
+                  - text: 月形
+                - cell "2,000円" [ref=e379]
+              - row "津別 9,000円" [ref=e380]:
+                - rowheader "津別" [ref=e381]
+                - cell "9,000円" [ref=e382]
+              - row "鶴居 9,000円" [ref=e383]:
+                - rowheader "鶴居" [ref=e384]
+                - cell "9,000円" [ref=e385]
+              - row "て 天塩 8,000円" [ref=e386]:
+                - rowheader "て 天塩" [ref=e387]:
+                  - generic [ref=e388]: て
+                  - text: 天塩
+                - cell "8,000円" [ref=e389]
+              - row "弟子屈 9,500円" [ref=e390]:
+                - rowheader "弟子屈" [ref=e391]
+                - cell "9,500円" [ref=e392]
+              - row "と 当別 1,000円" [ref=e393]:
+                - rowheader "と 当別" [ref=e394]:
+                  - generic [ref=e395]: と
+                  - text: 当別
+                - cell "1,000円" [ref=e396]
+              - row "当麻 5,000円" [ref=e397]:
+                - rowheader "当麻" [ref=e398]
+                - cell "5,000円" [ref=e399]
+              - row "洞爺湖 3,500円" [ref=e400]:
+                - rowheader "洞爺湖" [ref=e401]
+                - cell "3,500円" [ref=e402]
+              - row "苫小牧 2,000円" [ref=e403]:
+                - rowheader "苫小牧" [ref=e404]
+                - cell "2,000円" [ref=e405]
+              - row "苫前 5,500円" [ref=e406]:
+                - rowheader "苫前" [ref=e407]
+                - cell "5,500円" [ref=e408]
+              - row "泊 4,000円" [ref=e409]:
+                - rowheader "泊" [ref=e410]
+                - cell "4,000円" [ref=e411]
+              - row "豊浦 5,000円" [ref=e412]:
+                - rowheader "豊浦" [ref=e413]
+                - cell "5,000円" [ref=e414]
+              - row "豊頃 6,500円" [ref=e415]:
+                - rowheader "豊頃" [ref=e416]
+                - cell "6,500円" [ref=e417]
+              - row "豊富 9,500円" [ref=e418]:
+                - rowheader "豊富" [ref=e419]
+                - cell "9,500円" [ref=e420]
+              - row "な 奈井江 3,000円" [ref=e421]:
+                - rowheader "な 奈井江" [ref=e422]:
+                  - generic [ref=e423]: な
+                  - text: 奈井江
+                - cell "3,000円" [ref=e424]
+              - row "中川 7,000円" [ref=e425]:
+                - rowheader "中川" [ref=e426]
+                - cell "7,000円" [ref=e427]
+              - row "中札内 6,000円" [ref=e428]:
+                - rowheader "中札内" [ref=e429]
+                - cell "6,000円" [ref=e430]
+              - row "中標津 11,500円" [ref=e431]:
+                - rowheader "中標津" [ref=e432]
+                - cell "11,500円" [ref=e433]
+              - row "中頓別 9,000円" [ref=e434]:
+                - rowheader "中頓別" [ref=e435]
+                - cell "9,000円" [ref=e436]
+              - row "中富良野町 3,500円" [ref=e437]:
+                - rowheader "中富良野町" [ref=e438]
+                - cell "3,500円" [ref=e439]
+              - row "長沼 2,000円" [ref=e440]:
+                - rowheader "長沼" [ref=e441]
+                - cell "2,000円" [ref=e442]
+              - row "七飯 7,000円" [ref=e443]:
+                - rowheader "七飯" [ref=e444]
+                - cell "7,000円" [ref=e445]
+              - row "名寄 5,000円" [ref=e446]:
+                - rowheader "名寄" [ref=e447]
+                - cell "5,000円" [ref=e448]
+              - row "南幌 2,000円" [ref=e449]:
+                - rowheader "南幌" [ref=e450]
+                - cell "2,000円" [ref=e451]
+              - row "に 新冠 5,000円" [ref=e452]:
+                - rowheader "に 新冠" [ref=e453]:
+                  - generic [ref=e454]: に
+                  - text: 新冠
+                - cell "5,000円" [ref=e455]
+              - row "仁木 3,000円" [ref=e456]:
+                - rowheader "仁木" [ref=e457]
+                - cell "3,000円" [ref=e458]
+              - row "西興部 9,500円" [ref=e459]:
+                - rowheader "西興部" [ref=e460]
+                - cell "9,500円" [ref=e461]
+              - row "ニセコ 3,000円" [ref=e462]:
+                - rowheader "ニセコ" [ref=e463]
+                - cell "3,000円" [ref=e464]
+              - row "ぬ 沼田 4,000円" [ref=e465]:
+                - rowheader "ぬ 沼田" [ref=e466]:
+                  - generic [ref=e467]: ぬ
+                  - text: 沼田
+                - cell "4,000円" [ref=e468]
+              - row "ね 根室 11,500円" [ref=e469]:
+                - rowheader "ね 根室" [ref=e470]:
+                  - generic [ref=e471]: ね
+                  - text: 根室
+                - cell "11,500円" [ref=e472]
+              - row "の 登別 3,000円" [ref=e473]:
+                - rowheader "の 登別" [ref=e474]:
+                  - generic [ref=e475]: の
+                  - text: 登別
+                - cell "3,000円" [ref=e476]
+              - row "は 函館 8,000円" [ref=e477]:
+                - rowheader "は 函館" [ref=e478]:
+                  - generic [ref=e479]: は
+                  - text: 函館
+                - cell "8,000円" [ref=e480]
+              - row "羽幌 6,500円" [ref=e481]:
+                - rowheader "羽幌" [ref=e482]
+                - cell "6,500円" [ref=e483]
+              - row "浜頓別 9,000円" [ref=e484]:
+                - rowheader "浜頓別" [ref=e485]
+                - cell "9,000円" [ref=e486]
+              - row "浜中 9,500円" [ref=e487]:
+                - rowheader "浜中" [ref=e488]
+                - cell "9,500円" [ref=e489]
+          - table [ref=e491]:
+            - rowgroup [ref=e492]:
+              - row "エリア名 補助額" [ref=e493]:
+                - columnheader "エリア名" [ref=e494]
+                - columnheader "補助額" [ref=e495]
+            - rowgroup [ref=e496]:
+              - row "ひ 美瑛 4,000円" [ref=e497]:
+                - rowheader "ひ 美瑛" [ref=e498]:
+                  - generic [ref=e499]: ひ
+                  - text: 美瑛
+                - cell "4,000円" [ref=e500]
+              - row "東神楽 4,000円" [ref=e501]:
+                - rowheader "東神楽" [ref=e502]
+                - cell "4,000円" [ref=e503]
+              - row "東川 4,000円" [ref=e504]:
+                - rowheader "東川" [ref=e505]
+                - cell "4,000円" [ref=e506]
+              - row "日高 4,500円" [ref=e507]:
+                - rowheader "日高" [ref=e508]
+                - cell "4,500円" [ref=e509]
+              - row "比布 5,000円" [ref=e510]:
+                - rowheader "比布" [ref=e511]
+                - cell "5,000円" [ref=e512]
+              - row "美唄 3,000円" [ref=e513]:
+                - rowheader "美唄" [ref=e514]
+                - cell "3,000円" [ref=e515]
+              - row "美深 7,000円" [ref=e516]:
+                - rowheader "美深" [ref=e517]
+                - cell "7,000円" [ref=e518]
+              - row "美幌 9,000円" [ref=e519]:
+                - rowheader "美幌" [ref=e520]
+                - cell "9,000円" [ref=e521]
+              - row "平取 4,500円" [ref=e522]:
+                - rowheader "平取" [ref=e523]
+                - cell "4,500円" [ref=e524]
+              - row "広尾 6,500円" [ref=e525]:
+                - rowheader "広尾" [ref=e526]
+                - cell "6,500円" [ref=e527]
+              - row "ふ 深川 3,000円" [ref=e528]:
+                - rowheader "ふ 深川" [ref=e529]:
+                  - generic [ref=e530]: ふ
+                  - text: 深川
+                - cell "3,000円" [ref=e531]
+              - row "福島 8,000円" [ref=e532]:
+                - rowheader "福島" [ref=e533]
+                - cell "8,000円" [ref=e534]
+              - row "富良野 3,000円" [ref=e535]:
+                - rowheader "富良野" [ref=e536]
+                - cell "3,000円" [ref=e537]
+              - row "古平 4,000円" [ref=e538]:
+                - rowheader "古平" [ref=e539]
+                - cell "4,000円" [ref=e540]
+              - row "へ 別海 11,500円" [ref=e541]:
+                - rowheader "へ 別海" [ref=e542]:
+                  - generic [ref=e543]: へ
+                  - text: 別海
+                - cell "11,500円" [ref=e544]
+              - row "ほ 北斗 7,000円" [ref=e545]:
+                - rowheader "ほ 北斗" [ref=e546]:
+                  - generic [ref=e547]: ほ
+                  - text: 北斗
+                - cell "7,000円" [ref=e548]
+              - row "北竜 3,000円" [ref=e549]:
+                - rowheader "北竜" [ref=e550]
+                - cell "3,000円" [ref=e551]
+              - row "幌加内 5,000円" [ref=e552]:
+                - rowheader "幌加内" [ref=e553]
+                - cell "5,000円" [ref=e554]
+              - row "幌延 9,000円" [ref=e555]:
+                - rowheader "幌延" [ref=e556]
+                - cell "9,000円" [ref=e557]
+              - row "本別 6,000円" [ref=e558]:
+                - rowheader "本別" [ref=e559]
+                - cell "6,000円" [ref=e560]
+              - row "ま 幕別 6,000円" [ref=e561]:
+                - rowheader "ま 幕別" [ref=e562]:
+                  - generic [ref=e563]: ま
+                  - text: 幕別
+                - cell "6,000円" [ref=e564]
+              - row "増毛 4,000円" [ref=e565]:
+                - rowheader "増毛" [ref=e566]
+                - cell "4,000円" [ref=e567]
+              - row "真狩 3,000円" [ref=e568]:
+                - rowheader "真狩" [ref=e569]
+                - cell "3,000円" [ref=e570]
+              - row "松前 8,500円" [ref=e571]:
+                - rowheader "松前" [ref=e572]
+                - cell "8,500円" [ref=e573]
+              - row "み 三笠 3,000円" [ref=e574]:
+                - rowheader "み 三笠" [ref=e575]:
+                  - generic [ref=e576]: み
+                  - text: 三笠
+                - cell "3,000円" [ref=e577]
+              - row "南富良野 3,500円" [ref=e578]:
+                - rowheader "南富良野" [ref=e579]
+                - cell "3,500円" [ref=e580]
+              - row "む むかわ 3,000円" [ref=e581]:
+                - rowheader "む むかわ" [ref=e582]:
+                  - generic [ref=e583]: む
+                  - text: むかわ
+                - cell "3,000円" [ref=e584]
+              - row "室蘭 3,000円" [ref=e585]:
+                - rowheader "室蘭" [ref=e586]
+                - cell "3,000円" [ref=e587]
+              - row "め 芽室 6,000円" [ref=e588]:
+                - rowheader "め 芽室" [ref=e589]:
+                  - generic [ref=e590]: め
+                  - text: 芽室
+                - cell "6,000円" [ref=e591]
+              - row "も 妹背牛 3,000円" [ref=e592]:
+                - rowheader "も 妹背牛" [ref=e593]:
+                  - generic [ref=e594]: も
+                  - text: 妹背牛
+                - cell "3,000円" [ref=e595]
+              - row "森 7,000円" [ref=e596]:
+                - rowheader "森" [ref=e597]
+                - cell "7,000円" [ref=e598]
+              - row "紋別 9,500円" [ref=e599]:
+                - rowheader "紋別" [ref=e600]
+                - cell "9,500円" [ref=e601]
+              - row "や 八雲 6,000円" [ref=e602]:
+                - rowheader "や 八雲" [ref=e603]:
+                  - generic [ref=e604]: や
+                  - text: 八雲
+                - cell "6,000円" [ref=e605]
+              - row "ゆ 夕張 3,000円" [ref=e606]:
+                - rowheader "ゆ 夕張" [ref=e607]:
+                  - generic [ref=e608]: ゆ
+                  - text: 夕張
+                - cell "3,000円" [ref=e609]
+              - row "湧別 9,500円" [ref=e610]:
+                - rowheader "湧別" [ref=e611]
+                - cell "9,500円" [ref=e612]
+              - row "由仁 2,000円" [ref=e613]:
+                - rowheader "由仁" [ref=e614]
+                - cell "2,000円" [ref=e615]
+              - row "よ 余市 3,000円" [ref=e616]:
+                - rowheader "よ 余市" [ref=e617]:
+                  - generic [ref=e618]: よ
+                  - text: 余市
+                - cell "3,000円" [ref=e619]
+              - row "ら 羅臼 12,500円" [ref=e620]:
+                - rowheader "ら 羅臼" [ref=e621]:
+                  - generic [ref=e622]: ら
+                  - text: 羅臼
+                - cell "12,500円" [ref=e623]
+              - row "り 蘭越 5,000円" [ref=e624]:
+                - rowheader "り 蘭越" [ref=e625]:
+                  - generic [ref=e626]: り
+                  - text: 蘭越
+                - cell "5,000円" [ref=e627]
+              - row "り 陸別 7,500円" [ref=e628]:
+                - rowheader "り 陸別" [ref=e629]:
+                  - generic [ref=e630]: り
+                  - text: 陸別
+                - cell "7,500円" [ref=e631]
+              - row "利尻 11,000円" [ref=e632]:
+                - rowheader "利尻" [ref=e633]
+                - cell "11,000円" [ref=e634]
+              - row "利尻富士 11,000円" [ref=e635]:
+                - rowheader "利尻富士" [ref=e636]
+                - cell "11,000円" [ref=e637]
+              - row "る 留寿都 3,000円" [ref=e638]:
+                - rowheader "る 留寿都" [ref=e639]:
+                  - generic [ref=e640]: る
+                  - text: 留寿都
+                - cell "3,000円" [ref=e641]
+              - row "留萌 5,000円" [ref=e642]:
+                - rowheader "留萌" [ref=e643]
+                - cell "5,000円" [ref=e644]
+              - row "れ 礼文 11,500円" [ref=e645]:
+                - rowheader "れ 礼文" [ref=e646]:
+                  - generic [ref=e647]: れ
+                  - text: 礼文
+                - cell "11,500円" [ref=e648]
+              - row "わ 稚内 10,000円" [ref=e649]:
+                - rowheader "わ 稚内" [ref=e650]:
+                  - generic [ref=e651]: わ
+                  - text: 稚内
+                - cell "10,000円" [ref=e652]
+              - row "和寒 5,000円" [ref=e653]:
+                - rowheader "和寒" [ref=e654]
+                - cell "5,000円" [ref=e655]
+              - row "道外一律 13,000円" [ref=e656]:
+                - rowheader "道外一律" [ref=e657]
+                - cell "13,000円" [ref=e658]
+    - contentinfo [ref=e659]:
+      - generic [ref=e660]:
+        - link "札幌看護医療専門学校" [ref=e661] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e662]
+        - paragraph [ref=e663]: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+        - paragraph [ref=e664]:
+          - text: TEL
+          - link "011-801-8343" [ref=e665] [cursor=pointer]:
+            - /url: tel:011-801-8343
+          - text: ／フリーダイヤル
+          - link "0120-37-8343" [ref=e666] [cursor=pointer]:
+            - /url: tel:0120-37-8343
+        - navigation "フッターナビゲーション" [ref=e667]:
+          - generic [ref=e668]:
+            - link "ABOUT 学校案内" [ref=e669] [cursor=pointer]:
+              - /url: /school/
+              - generic [ref=e670]: ABOUT
+              - text: 学校案内
+            - list [ref=e671]:
+              - listitem [ref=e672]:
+                - link "学校案内 トップ" [ref=e673] [cursor=pointer]:
+                  - /url: /school/
+              - listitem [ref=e674]:
+                - link "札幌看護医療が選ばれる理由" [ref=e675] [cursor=pointer]:
+                  - /url: /school/study/
+              - listitem [ref=e676]:
+                - link "高校1・2年生のための進路選び" [ref=e677] [cursor=pointer]:
+                  - /url: /school/guide/
+              - listitem [ref=e678]:
+                - link "交通・アクセス" [ref=e679] [cursor=pointer]:
+                  - /url: /school/access/
+              - listitem [ref=e680]:
+                - link "建学の理念" [ref=e681] [cursor=pointer]:
+                  - /url: /school/philosophy/
+              - listitem [ref=e682]:
+                - link "情報公開（職業実践専門課程）" [ref=e683] [cursor=pointer]:
+                  - /url: /school/info/
+          - generic [ref=e684]:
+            - link "COURSE 学科・専攻" [ref=e685] [cursor=pointer]:
+              - /url: /course/
+              - generic [ref=e686]: COURSE
+              - text: 学科・専攻
+            - list [ref=e687]:
+              - listitem [ref=e688]:
+                - link "学科・専攻 トップ" [ref=e689] [cursor=pointer]:
+                  - /url: /course/
+              - listitem [ref=e690]:
+                - link "看護学科" [ref=e691] [cursor=pointer]:
+                  - /url: /course/nursing/
+              - listitem [ref=e692]:
+                - link "視能訓練士学科" [ref=e693] [cursor=pointer]:
+                  - /url: /course/orthoptist/
+              - listitem [ref=e694]:
+                - link "歯科衛生士学科 ホワイトニング・デンタルエステ専攻" [ref=e695] [cursor=pointer]:
+                  - /url: /course/dentalhygienists/
+              - listitem [ref=e696]:
+                - link "臨床工学技士学科" [ref=e697] [cursor=pointer]:
+                  - /url: /course/clinicalengineer/
+          - generic [ref=e698]:
+            - link "CAREER 資格・就職" [ref=e699] [cursor=pointer]:
+              - /url: /career/
+              - generic [ref=e700]: CAREER
+              - text: 資格・就職
+            - list [ref=e701]:
+              - listitem [ref=e702]:
+                - link "資格・就職 トップ" [ref=e703] [cursor=pointer]:
+                  - /url: /career/
+              - listitem [ref=e704]:
+                - link "資格サポート" [ref=e705] [cursor=pointer]:
+                  - /url: /career/license_support/
+              - listitem [ref=e706]:
+                - link "就職サポート" [ref=e707] [cursor=pointer]:
+                  - /url: /career/job_result/
+          - generic [ref=e708]:
+            - link "CAMPUS LIFE 学校生活・施設" [ref=e709] [cursor=pointer]:
+              - /url: /campuslife/
+              - generic [ref=e710]: CAMPUS LIFE
+              - text: 学校生活・施設
+            - list [ref=e711]:
+              - listitem [ref=e712]:
+                - link "学校生活・施設 トップ" [ref=e713] [cursor=pointer]:
+                  - /url: /campuslife/
+              - listitem [ref=e714]:
+                - link "キャンパスライフ" [ref=e715] [cursor=pointer]:
+                  - /url: /campuslife/schedule/
+              - listitem [ref=e716]:
+                - link "施設紹介" [ref=e717] [cursor=pointer]:
+                  - /url: /campuslife/facility/
+          - generic [ref=e718]:
+            - link "ADMISSION 入試・学費" [ref=e719] [cursor=pointer]:
+              - /url: /admission/
+              - generic [ref=e720]: ADMISSION
+              - text: 入試・学費
+            - list [ref=e721]:
+              - listitem [ref=e722]:
+                - link "入試・学費 トップ" [ref=e723] [cursor=pointer]:
+                  - /url: /admission/
+              - listitem [ref=e724]:
+                - link "募集要項" [ref=e725] [cursor=pointer]:
+                  - /url: /admission/application/
+              - listitem [ref=e726]:
+                - link "AO入試エントリー・出願方法" [ref=e727] [cursor=pointer]:
+                  - /url: /admission/ao/
+              - listitem [ref=e728]:
+                - link "推薦・一般入試 出願方法" [ref=e729] [cursor=pointer]:
+                  - /url: /admission/applicationflow/
+              - listitem [ref=e730]:
+                - link "学費・奨学金制度" [ref=e731] [cursor=pointer]:
+                  - /url: /admission/expenses/
+              - listitem [ref=e732]:
+                - link "特待生＆減免制度" [ref=e733] [cursor=pointer]:
+                  - /url: /admission/scholarship/
+          - generic [ref=e734]:
+            - link "OPEN CAMPUS オープンキャンパス" [ref=e735] [cursor=pointer]:
+              - /url: /opencampus/
+              - generic [ref=e736]: OPEN CAMPUS
+              - text: オープンキャンパス
+            - list [ref=e737]:
+              - listitem [ref=e738]:
+                - link "オープンキャンパスとは" [ref=e739] [cursor=pointer]:
+                  - /url: /opencampus/
+              - listitem [ref=e740]:
+                - link "イベント全日程一覧" [ref=e741] [cursor=pointer]:
+                  - /url: /opencampus/calendar/
+              - listitem [ref=e742]:
+                - link "学校説明・個別相談会" [ref=e743] [cursor=pointer]:
+                  - /url: /opencampus/session/
+              - listitem [ref=e744]:
+                - link "無料送迎バス" [ref=e745] [cursor=pointer]:
+                  - /url: /opencampus/bus/
+              - listitem [ref=e746]:
+                - link "交通費補助" [ref=e747] [cursor=pointer]:
+                  - /url: /opencampus/subsidy_list/
+        - list [ref=e748]:
+          - listitem [ref=e749]:
+            - link "卒業生の方へ" [ref=e750] [cursor=pointer]:
+              - /url: /visit_graduate/
+          - listitem [ref=e751]:
+            - link "高等学校の先生方へ" [ref=e752] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9888/
+          - listitem [ref=e753]:
+            - link "中学校の先生方へ" [ref=e754] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/9891/
+          - listitem [ref=e755]:
+            - link "社会人・大学生・短大生の方へ" [ref=e756] [cursor=pointer]:
+              - /url: /visit_society/
+          - listitem [ref=e757]:
+            - link "企業の方へ" [ref=e758] [cursor=pointer]:
+              - /url: /visit_company/
+          - listitem [ref=e759]:
+            - link "職員募集につきまして" [ref=e760] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e761]:
+            - link "産官学連携にご協力いただける企業・自治体の方へ" [ref=e762] [cursor=pointer]:
+              - /url: /visit_municipality/
+        - list [ref=e763]:
+          - listitem [ref=e764]:
+            - link "お問い合わせ" [ref=e765] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/inquiry/
+          - listitem [ref=e766]:
+            - link "交通・アクセス" [ref=e767] [cursor=pointer]:
+              - /url: /school/access/
+          - listitem [ref=e768]:
+            - link "情報公開（職業実践専門課程）" [ref=e769] [cursor=pointer]:
+              - /url: /school/info/
+          - listitem [ref=e770]:
+            - link "施設(教室)利用貸出につきまして" [ref=e771] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/form/facility/
+          - listitem [ref=e772]:
+            - link "採用情報" [ref=e773] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e774]:
+            - link "サイトマップ" [ref=e775] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e776]:
+            - link "プライバシーポリシー" [ref=e777] [cursor=pointer]:
+              - /url: /privacy/
+          - listitem [ref=e778]:
+            - link "ソーシャルメディアポリシー" [ref=e779] [cursor=pointer]:
+              - /url: /socialpolicy/
+        - list [ref=e780]:
+          - listitem [ref=e781]:
+            - link "Instagram" [ref=e782] [cursor=pointer]:
+              - /url: https://www.instagram.com/sapporo_kango/
+          - listitem [ref=e783]:
+            - link "TikTok" [ref=e784] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@sapporo_kango
+          - listitem [ref=e785]:
+            - link "YouTube" [ref=e786] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+          - listitem [ref=e787]:
+            - link "LINE" [ref=e788] [cursor=pointer]:
+              - /url: https://www.snm.ac.jp/news/2023/914/
+        - paragraph [ref=e789]: © Sapporo College of Nursing & Medical Care.
+  - generic [ref=e791]:
+    - group [ref=e792]:
+      - generic "訪問者別メニュー ▾" [ref=e793] [cursor=pointer]
+    - paragraph [ref=e794]:
+      - link "情報公開（職業実践専門課程）" [ref=e795] [cursor=pointer]:
+        - /url: /school/info/
+      - text: ／
+      - link "施設(教室)利用貸出につきまして" [ref=e796] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/facility/
+    - generic [ref=e797]:
+      - link "資料請求" [ref=e798] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/form/document/
+        - generic [ref=e800]: 資料請求
+      - link "イベント 全日程一覧" [ref=e801] [cursor=pointer]:
+        - /url: /opencampus/calendar/
+        - generic [ref=e803]:
+          - text: イベント
+          - text: 全日程一覧
+      - link "LINEなんでも 相談" [ref=e804] [cursor=pointer]:
+        - /url: https://www.snm.ac.jp/news/2023/914/
+        - generic [ref=e806]:
+          - text: LINEなんでも
+          - text: 相談
+    - list [ref=e807]:
+      - listitem [ref=e808]:
+        - link "夢がふくらむ、目標が見つかる！ オープンキャンパス" [ref=e809] [cursor=pointer]:
+          - /url: /opencampus/
+          - generic [ref=e810]: 夢がふくらむ、目標が見つかる！
+          - generic [ref=e811]: オープンキャンパス
+          - generic [ref=e812]: →
+      - listitem [ref=e813]:
+        - link "REASON 札幌看護医療専門学校が選ばれる理由" [ref=e814] [cursor=pointer]:
+          - /url: /school/study/
+          - generic [ref=e815]: REASON
+          - generic [ref=e816]: 札幌看護医療専門学校が選ばれる理由
+          - generic [ref=e817]: →
+      - listitem [ref=e818]:
+        - link "COURSE ミライを担う医療系4学科" [ref=e819] [cursor=pointer]:
+          - /url: /course/
+          - generic [ref=e820]: COURSE
+          - generic [ref=e821]: ミライを担う医療系4学科
+          - generic [ref=e822]: →
+      - listitem [ref=e823]:
+        - link "ADMISSION 入試・学費" [ref=e824] [cursor=pointer]:
+          - /url: /admission/
+          - generic [ref=e825]: ADMISSION
+          - generic [ref=e826]: 入試・学費
+          - generic [ref=e827]: →
+      - listitem [ref=e828]:
+        - link "FACILITY 施設紹介" [ref=e829] [cursor=pointer]:
+          - /url: /campuslife/facility/
+          - generic [ref=e830]: FACILITY
+          - generic [ref=e831]: 施設紹介
+          - generic [ref=e832]: →
