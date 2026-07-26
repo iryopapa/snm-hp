@@ -401,16 +401,42 @@
 .p-visit__pdf-list .image img { margin-inline: auto; width: 48px; }
 
 /* ---------- 社会人・大学生・短大生（visit_society） ---------- */
+
+/* MV: 原本はタイトルが画像の上（重ねない）レイアウト */
+.p-visit-society .p-other__mv-title {
+  position: static;
+  display: block;
+  padding: var(--space-5) var(--space-4) var(--space-4);
+}
+.p-visit-society .p-other__mv-title .text-wrap {
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+}
+.p-visit-society .p-other__mv-title .en {
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  color: var(--color-ink);
+  font-size: var(--fs-xs);
+}
+.p-visit-society .p-other__mv-title .ja { font-size: var(--fs-xl); margin-top: var(--space-1); }
+.p-visit-society .p-other__mv-bg { margin-left: var(--space-4); }
+
 .p-visit__head-title {
   text-align: center;
   font-size: var(--fs-md);
   font-weight: 700;
-  line-height: 2.1;
+  line-height: 2.3;
   margin-bottom: var(--space-4);
 }
 .p-visit__head-title .bg {
-  background: var(--grad-marker);
-  padding-inline: 0.2em;
+  display: inline-block;
+  line-height: 1.8;
+  background: linear-gradient(90deg, #a3cbd4 0%, #7bafe5 47%, #bfaae8 77%, #bfaae8 100%);
+  color: #fff;
+  padding: 2px 9px;
 }
 .p-visit__support-row {
   display: grid;
@@ -420,9 +446,13 @@
 }
 .p-visit__support-row .img-box img { border-radius: var(--radius-md); width: 100%; }
 .p-visit__support-row .txt-box {
+  position: relative;
+  background: var(--color-brand-yellow);
+  border-radius: 5px;
+  padding: 6px;
   font-size: var(--fs-xs);
   text-align: center;
-  margin-top: var(--space-1);
+  margin-top: -12px;
   line-height: 1.5;
 }
 .p-visit__support-row .txt-box .large {
@@ -454,14 +484,16 @@
 .color-dentalhygienists { color: #9a6bc9; }
 .color-clinicalengineer { color: #52a416; }
 
-/* 職種紹介ボックス */
+/* 職種紹介ボックス（原本はモーダル: 通常は非表示・丸写真タップで表示） */
 .p-visit__job {
+  display: none;
   background: var(--color-bg-gray-1);
   border-radius: var(--radius-md);
   padding: var(--space-5) var(--space-4);
   margin-top: var(--space-5);
   scroll-margin-top: var(--space-6);
 }
+.p-visit__job:target { display: block; }
 .p-visit__job .img-box img { margin-inline: auto; width: 130px; }
 .p-visit__job-catch {
   text-align: center;
@@ -480,9 +512,12 @@
   margin: var(--space-4) 0 var(--space-2);
 }
 
-/* こんな方にオススメ */
+/* こんな方にオススメ（原本はグラデ枠） */
 .p-visit__add-box {
-  border: 2px dashed var(--color-brand-pink);
+  border: 3px solid transparent;
+  background:
+    linear-gradient(var(--color-bg), var(--color-bg)) padding-box,
+    linear-gradient(90deg, #a3cbd4 0%, #7bafe5 47%, #bfaae8 100%) border-box;
   border-radius: var(--radius-md);
   padding: var(--space-4);
   margin-bottom: var(--space-4);

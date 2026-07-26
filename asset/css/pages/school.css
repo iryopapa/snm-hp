@@ -90,44 +90,43 @@
 .p-school-index__menu-card:hover .arrow { translate: 4px 0; }
 
 /* ============ /school/study/ 選ばれる理由 ============ */
-.p-school-study__mv { position: relative; overflow: hidden; text-align: center; }
-.p-school-study__mv-bg img { display: block; width: 100%; height: auto; }
-.p-school-study__mv-img {
-  position: absolute;
-  top: 6%;
-  left: 50%;
-  translate: -50% 0;
-  width: 74%;
+/* 原本: .study .mv-wrap（写真=左下84.6%・筆記体=左上・白帯タイトル=右下・ぼかし背景=右上） */
+.p-school-study__mv {
+  position: relative;
   z-index: 1;
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  box-shadow: var(--shadow-soft);
+  width: 100%;
+  padding: 37.1794871795% 0 5.1282051282%;
+  background: var(--color-bg);
 }
+.p-school-study__mv-img { width: 84.6153846154%; }
+.p-school-study__mv-img img { display: block; width: 100%; height: auto; }
 .p-school-study__mv-title {
   position: absolute;
-  left: 50%;
-  bottom: 22%;
-  translate: -50% 0;
-  z-index: 2;
-  width: max-content;
-  max-width: 92%;
-  padding: var(--space-2) var(--space-5);
-  background: var(--color-bg);
-  border: 1px solid var(--color-ink);
-  border-radius: var(--radius-pill);
-  box-shadow: 3px 3px 0 0 rgba(51, 51, 51, 0.25);
-  font-weight: 800;
-  font-size: var(--fs-md);
-  line-height: var(--lh-tight);
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  border-bottom: 1px solid;
+  text-align: center;
+  padding: 0.2em 1em;
+  font-weight: 700;
+  font-size: min(19px, 4.87vw);
+  letter-spacing: 0.05em;
 }
 .p-school-study__mv-catch {
   position: absolute;
-  left: 50%;
-  bottom: 6%;
-  translate: -50% 0;
-  z-index: 2;
-  width: min(70%, 420px);
+  left: 5.1282051282%;
+  top: 22.8915662651%;
+  width: 53.8461538462%;
 }
+.p-school-study__mv-catch img { display: block; width: 100%; height: auto; }
+.p-school-study__mv-bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 84.6153846154%;
+  z-index: -1;
+}
+.p-school-study__mv-bg img { display: block; width: 100%; height: auto; }
 .p-school-study__head { text-align: center; font-weight: 700; }
 
 /* アンカーメニュー */
@@ -271,28 +270,61 @@
 .p-school-study__voice .txt { font-size: var(--fs-sm); }
 .p-school-study__voice .name { margin-top: var(--space-2); font-weight: 700; font-size: var(--fs-xs); }
 
-/* 学園祭 */
+/* 学園祭（原本: .special-box＝背景写真jpg・白フチ文字タイトル・右上に回転スカラップ+日付） */
 .p-school-study__special {
   position: relative;
-  margin-top: var(--space-6);
-  padding: var(--space-5) var(--space-4);
-  background: var(--color-pastel-blue);
-  border-radius: var(--radius-md);
+  z-index: 1;
+  margin: 22.8571428571% calc(-1 * var(--space-5)) 0;
+  padding: 30px 5.1282051282% 20px;
+  background: url("/asset/img/school/study/2026/campus-special-bg.jpg") center center / cover no-repeat;
 }
-.p-school-study__special .title { display: flex; justify-content: center; align-items: flex-start; gap: var(--space-2); font-weight: 800; font-size: var(--fs-xl); margin-bottom: var(--space-4); }
-.p-school-study__special .icon { position: relative; width: 110px; margin: 0 auto var(--space-3); aspect-ratio: 1; }
+.p-school-study__special .title {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto 0.5em;
+  color: #fff;
+  text-shadow: 1px 1px 0 #333, -1px -1px 0 #333, -1px 1px 0 #333, 1px -1px 0 #333, 1px 0 0 #333, -1px 0 0 #333, 0 1px 0 #333, 0 -1px 0 #333;
+  font-weight: 700;
+  font-size: min(29px, 7.44vw);
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+  text-align: center;
+}
+.p-school-study__special .title .catch {
+  position: absolute;
+  left: -30px;
+  top: -10px;
+  width: min(54px, 13.8461538462vw);
+}
+.p-school-study__special .title .catch img { display: block; width: 100%; height: auto; }
+.p-school-study__special .icon {
+  position: absolute;
+  right: 2.8571428571%;
+  top: 2.2em;
+  width: 20.7142857143%;
+  aspect-ratio: 1;
+  z-index: 1;
+}
 .p-school-study__special .icon .front, .p-school-study__special .icon .bg { position: absolute; inset: 0; }
+.p-school-study__special .icon .front { z-index: 1; }
 .p-school-study__special .icon img { width: 100%; height: 100%; }
-.p-school-study__special .icon .bg { animation: p-school-spin 14s linear infinite; }
-.p-school-study__special .ph { border-radius: var(--radius-md); overflow: hidden; margin-bottom: var(--space-3); }
-.p-school-study__special .text { font-size: var(--fs-sm); font-weight: 700; }
+.p-school-study__special .icon .bg { animation: p-school-spin 20s linear infinite; }
+.p-school-study__special .ph { margin-bottom: var(--space-3); }
+.p-school-study__special .ph img { display: block; width: 100%; height: auto; }
+.p-school-study__special .text { background: #fff; padding: 10px 5.7142857143%; font-size: var(--fs-sm); }
 @keyframes p-school-spin { to { rotate: 360deg; } }
 
-/* 学びの特長 */
-.p-school-study__learning { position: relative; background: var(--color-pastel-cream); padding-bottom: var(--space-7); overflow: hidden; }
-.p-school-study__learning-bg { position: absolute; top: 0; left: 0; right: 0; z-index: 0; opacity: 0.5; }
-.p-school-study__learning-bg img { display: block; width: 100%; height: auto; }
-.p-school-study__learning > * { position: relative; z-index: 1; }
+/* 学びの特長（原本: .learning-block .block-bg＝黄→桃グラデ背景+上端に写真を敷く） */
+.p-school-study__learning {
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(90deg, rgba(249, 193, 88, 0.6) 0%, rgba(243, 169, 201, 0.6) 100%) #fff;
+  padding-bottom: var(--space-7);
+  overflow: hidden;
+}
+.p-school-study__learning > :not(.p-school-study__learning-bg) { position: relative; z-index: 1; }
+.p-school-study__learning-bg { position: absolute; top: 0; left: 0; right: 0; z-index: -1; }
+.p-school-study__learning-bg img { display: block; width: 100%; height: auto; object-fit: cover; object-position: center top; }
 .p-school-study__group { margin: var(--space-6) var(--space-5) 0; }
 .p-school-study__group-catch {
   text-align: center;
