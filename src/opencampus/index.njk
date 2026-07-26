@@ -10,7 +10,7 @@ permalink: /opencampus/index.html
 ---
 {#- MV -#}
 <section class="p-opencampus__mv is-top">
-  <h1 class="p-opencampus__mv-title"><img src="/asset/img/opencampus/top/2026/mv-title.webp" alt="オープンキャンパス" width="524" height="306"></h1>
+  <h1 class="p-opencampus__mv-title" data-anim="fade"><img src="/asset/img/opencampus/top/2026/mv-title.webp" alt="オープンキャンパス" width="524" height="306"></h1>
   <div class="p-opencampus__mv-bg"><img src="/asset/img/opencampus/top/2026/mv-bg.webp" alt="" width="670" height="744"></div>
 </section>
 
@@ -85,24 +85,35 @@ permalink: /opencampus/index.html
     {cat: "cat06", img: "program06-ph03.webp", txt: "バーチャル医療解剖体験"},
     {cat: "cat06", img: "program06-ph04.webp", txt: "スクラブ体験"}
   ] -%}
-  <div class="p-opencampus__program-filter" data-program-filter role="group" aria-label="プログラム絞り込み" data-anim="fade-up">
-    <button type="button" data-cat="all" aria-pressed="true">すべて</button>
+  <div class="p-opencampus__program-accs">
     {%- for c in programCats %}
-    <button type="button" data-cat="{{ c.id }}" aria-pressed="false">{{ c.label }}</button>
+    <details class="p-opencampus__program-acc"{% if loop.first %} open{% endif %}>
+      <summary>
+        <span class="head"><span class="label">知りたい！</span><span class="num">0{{ loop.index }}</span></span>
+        <span class="body"><span class="ttl">{{ c.label }}</span><span class="sub">にオススメプログラム</span></span>
+        <span class="toggle" aria-hidden="true"></span>
+      </summary>
+      <div class="p-opencampus__program-panel">
+        {%- if c.id == "cat06" %}
+        <p class="p-opencampus__program-special">
+          <span class="icon"><img src="/asset/img/opencampus/top/2026/icon-megaphone.png" loading="lazy" alt="" width="35" height="30"></span>その日限定のスペシャル体験も開催！
+        </p>
+        {%- endif %}
+        <div class="p-opencampus__program-row">
+          {%- for p in programItems %}{% if p.cat == c.id %}
+          <figure class="p-opencampus__program-card c-frame-card">
+            <img src="/asset/img/opencampus/top/2026/{{ p.img }}" loading="lazy" alt="" width="303" height="303">
+            <figcaption>{{ p.txt }}</figcaption>
+          </figure>
+          {%- endif %}{% endfor %}
+        </div>
+        {%- if c.id == "cat06" %}
+        <p class="p-opencampus__program-note">特別プログラムの開催は随時お知らせいたします。</p>
+        {%- endif %}
+      </div>
+    </details>
     {%- endfor %}
   </div>
-  <p class="p-opencampus__program-special" data-program-item data-cat="cat06">
-    <span class="icon"><img src="/asset/img/opencampus/top/2026/icon-megaphone.png" loading="lazy" alt="" width="35" height="30"></span>その日限定のスペシャル体験も開催！
-  </p>
-  <div class="p-opencampus__program-grid" data-anim-group>
-    {%- for p in programItems %}
-    <figure class="p-opencampus__program-card c-frame-card" data-program-item data-cat="{{ p.cat }}" data-anim="fade-up">
-      <img src="/asset/img/opencampus/top/2026/{{ p.img }}" loading="lazy" alt="" width="303" height="303">
-      <figcaption>{{ p.txt }}</figcaption>
-    </figure>
-    {%- endfor %}
-  </div>
-  <p class="p-opencampus__program-note">特別プログラムの開催は随時お知らせいたします。</p>
   <div class="p-opencampus__btn-group" data-anim="fade-up">
     <p class="p-opencampus__btn-title"><span class="icon"><img src="/asset/img/opencampus/top/2026/icon-sparkling.png" loading="lazy" alt="" width="10" height="15"></span>自分の<span class="u-marker" data-marker>“やりたい”</span>に合わせて<br>たくさんのプログラムの中から自由に選ぼう！<span class="icon"><img src="/asset/img/opencampus/top/2026/icon-sparkling.png" loading="lazy" alt="" width="10" height="15"></span></p>
     <a href="/form/event/" class="c-btn c-btn--yellow c-btn--arrow">申し込みフォームへ</a>

@@ -1,0 +1,350 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "札幌看護医療専門学校" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e7]
+        - button "MENU" [ref=e8] [cursor=pointer]:
+          - generic [ref=e13]: MENU
+    - main [ref=e14]:
+      - navigation "パンくずリスト" [ref=e15]:
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "TOP" [ref=e18] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e19]:
+            - text: ›
+            - link "学校案内" [ref=e20] [cursor=pointer]:
+              - /url: /school/
+          - listitem [ref=e21]: ›札幌看護医療が選ばれる理由
+      - generic [ref=e22]:
+        - heading "札幌看護医療が選ばれる理由" [level=1] [ref=e24]
+        - paragraph [ref=e25]:
+          - img "The reason why Sapporo Nursing and Medical College is chosen as." [ref=e26]
+      - paragraph [ref=e29]: 医療のまちとして発展しつづける新札幌。ICTを取り入れた最先端の医療教育、まちや企業・大学との連携など選ばれる理由をまとめて紹介します！
+      - navigation "選ばれる理由メニュー" [ref=e30]:
+        - heading "選ばれる理由" [level=2] [ref=e31]:
+          - generic [ref=e33]: 選ばれる理由
+        - list [ref=e35]:
+          - listitem [ref=e36]:
+            - link "POINT 01 学びの環境 ↓" [ref=e37] [cursor=pointer]:
+              - /url: "#campus"
+              - generic [ref=e38]:
+                - generic [ref=e39]: POINT
+                - generic [ref=e40]: "01"
+              - generic [ref=e41]: 学びの環境
+              - generic [ref=e42]: ↓
+          - listitem [ref=e43]:
+            - link "POINT 02 学びの特長 ↓" [ref=e44] [cursor=pointer]:
+              - /url: "#features"
+              - generic [ref=e45]:
+                - generic [ref=e46]: POINT
+                - generic [ref=e47]: "02"
+              - generic [ref=e48]: 学びの特長
+              - generic [ref=e49]: ↓
+          - listitem [ref=e50]:
+            - link "POINT 03 学びの設備 ↓" [ref=e51] [cursor=pointer]:
+              - /url: "#facility"
+              - generic [ref=e52]:
+                - generic [ref=e53]: POINT
+                - generic [ref=e54]: "03"
+              - generic [ref=e55]: 学びの設備
+              - generic [ref=e56]: ↓
+          - listitem [ref=e57]:
+            - link "POINT 04 学びの楽しさ ↓" [ref=e58] [cursor=pointer]:
+              - /url: "#fun"
+              - generic [ref=e59]:
+                - generic [ref=e60]: POINT
+                - generic [ref=e61]: "04"
+              - generic [ref=e62]: 学びの楽しさ
+              - generic [ref=e63]: ↓
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - paragraph [ref=e66]:
+            - img "Situation" [ref=e68]
+            - generic [ref=e69]: 学びの環境
+          - paragraph [ref=e70]: 進化を続ける副都心「新さっぽろ」
+          - heading "まち全体がキャンパス" [level=2] [ref=e71]:
+            - img "まち全体がキャンパス" [ref=e72]
+        - paragraph [ref=e73]:
+          - text: 医療・教育・商業が集積した「新さっぽろ駅周辺地区」大規模複合開発プロジェクトがいよいよ完成！札幌看護医療専門学校で過ごす3年間は、通学も快適で放課後も楽しみがいっぱい。近隣の新設病院で学び深めることも―――
+          - text: いわば、この街全体がキャンパスです。
+        - generic [ref=e75]:
+          - paragraph [ref=e76]: 一人暮らし応援！
+          - paragraph [ref=e78]: 札幌市と協定を結び、厚別区もみじ台団地に学生が入居できるようになりました。1万円台の家賃で入居することができます。
+        - list [ref=e80]:
+          - listitem [ref=e81]:
+            - paragraph [ref=e82]:
+              - generic [ref=e84]: "1"
+              - generic [ref=e85]:
+                - generic [ref=e86]: 授業は9:30スタート！
+                - generic [ref=e87]: 札幌看護医療専門学校
+            - paragraph [ref=e90]: 地下鉄・JR・バスのトリプルアクセスで通学も快適です。校舎が広くてキレイなので、モチベーションも上がります！
+            - generic [ref=e92]:
+              - paragraph [ref=e93]: JR・地下鉄・バスなど通学に便利！
+              - list [ref=e94]:
+                - listitem [ref=e95]:
+                  - generic [ref=e97]:
+                    - text: 地下鉄東西線 新さっぽろ駅
+                    - generic [ref=e98]: （1番出口徒歩3分）
+                - listitem [ref=e99]:
+                  - img "JR" [ref=e101]
+                  - generic [ref=e102]:
+                    - text: JR新札幌駅
+                    - generic [ref=e103]: （徒歩5分）
+                - listitem [ref=e104]:
+                  - generic [ref=e106]:
+                    - text: 新札幌バスターミナル
+                    - generic [ref=e107]: （徒歩5分）
+          - listitem [ref=e108]:
+            - paragraph [ref=e109]:
+              - generic [ref=e111]: "2"
+              - generic [ref=e112]:
+                - generic [ref=e113]: 産学連携協定を結びました！
+                - generic [ref=e114]: 新さっぽろの6つの病院・診療所
+            - figure "各施設をつなぐアクティブリンク（空中歩廊）" [ref=e115]:
+              - generic [ref=e116]: 各施設をつなぐアクティブリンク（空中歩廊）
+            - heading "メディカルゾーン" [level=3] [ref=e117]
+            - paragraph [ref=e118]: 再開発で、開業した新設の病院・クリニックと産学連携協定を結び、施設見学授業や臨床実習を実施しています。医療・教育の質向上、地域貢献のため、今後もさらなる連携を深めていきます。
+          - listitem [ref=e119]:
+            - paragraph [ref=e120]:
+              - generic [ref=e122]: "3"
+              - generic [ref=e123]:
+                - generic [ref=e124]: 飲食店やショッピング・ アルバイト先が充実！
+                - generic [ref=e125]: ショップ＆フード
+            - heading "新さっぽろアークシティ" [level=3] [ref=e127]
+            - paragraph [ref=e128]: イオン新さっぽろ・サンピアザ・デュオ・新さっぽろアークシティホテルなどの商業施設が入っています。
+            - heading "BiVi新さっぽろ" [level=3] [ref=e130]
+            - generic [ref=e131]:
+              - paragraph [ref=e132]: 人気の雑貨店「LOFT（ロフト）」など約40店舗が出展。館内の室内公園「BiViパーク」はオシャレな空間で、イベントなども随時開催。放課後に友達と楽しい時間を過ごせそう！
+              - figure "室内公園「BiViパーク」" [ref=e133]:
+                - generic [ref=e134]: 室内公園「BiViパーク」
+          - listitem [ref=e135]:
+            - paragraph [ref=e136]:
+              - generic [ref=e138]: "4"
+              - generic [ref=e139]:
+                - generic [ref=e140]: 大学と隣接！充実したキャンパスライフ！
+                - generic [ref=e141]: 札幌学院大学
+            - paragraph [ref=e143]: 本校のキャンパスに隣接する札幌学院大学と学術交流協定を結んでおり、サークル活動や図書館・カフェテリアの利用など、札幌看護医療でしか味わえない経験がたくさんあります。
+            - figure "YOSAKOIソーラン祭り 札幌学院大学・文京台" [ref=e144]:
+              - generic [ref=e145]: YOSAKOIソーラン祭り 札幌学院大学・文京台
+            - heading "クラブ/サークル活動" [level=3] [ref=e146]
+            - paragraph [ref=e148]: 札幌学院大学の体育系、文化系クラブ・サークル活動へ参加することができます。放課後の時間はアルバイトだけでなくクラブ・サークル活動も充実！
+            - generic [ref=e150]:
+              - paragraph [ref=e151]:
+                - img "Voice" [ref=e152]
+              - generic [ref=e155]:
+                - paragraph [ref=e156]: 最後の学校生活、自分のやりたい事をやってプライベートも楽しみたいと思いサークルに入りました！忙しい時もあるけど、交流の輪が広がり充実しています！
+                - paragraph [ref=e157]: 松下さん（伊達開来高校出身）
+            - heading "図書館・カフェテリア" [level=3] [ref=e159]
+            - generic [ref=e160]:
+              - paragraph [ref=e161]: カフェテリアでは、学食やパンも販売されていて、大学生気分も味わえます。広くておしゃれな図書館は21時まで利用可能。国家試験前などは、遅くまで仲間と勉強をしている学生も多くいます。
+              - figure "カフェテリア（学食）" [ref=e162]:
+                - generic [ref=e163]: カフェテリア（学食）
+            - generic [ref=e164]:
+              - heading "学園祭 Special" [level=3] [ref=e165]:
+                - text: 学園祭
+                - img "Special" [ref=e167]
+              - img "2026年 6月27日(土) 開催予定！" [ref=e170]
+              - paragraph [ref=e173]: 昨年は1400人以上が来場！新さっぽろ地域企業も沢山参加！大盛り上がりの楽しいイベントなので是非お越しください！
+      - generic [ref=e174]:
+        - generic [ref=e176]:
+          - paragraph [ref=e177]:
+            - img "Features" [ref=e179]
+            - generic [ref=e180]: 学びの特長
+          - paragraph [ref=e181]: 札幌看護医療だからできる
+          - heading "最先端の医療の学び" [level=2] [ref=e182]:
+            - img "最先端の医療の学び" [ref=e183]
+        - generic [ref=e184]:
+          - heading "最先端技術を取り入れ リアルに近い環境で学ぶ" [level=3] [ref=e185]:
+            - text: 最先端技術を取り入れ
+            - text: リアルに近い環境で学ぶ
+          - heading "VR臨床実習" [level=4] [ref=e186]
+          - paragraph [ref=e188]: VRを用いて、実際の臨床現場で活躍する医療人と同じ角度の視界を体験します。様々な医療シーンに対応するトレーニングをすることで、対応力や判断力を磨けるほか、自信をもって臨床実習に臨めます。
+        - generic [ref=e189]:
+          - heading "最新のハイブリッド シミュレータを導入" [level=4] [ref=e190]:
+            - text: 最新のハイブリッド
+            - text: シミュレータを導入
+          - paragraph [ref=e192]: 北海道内でも数少ない最新機器を本格導入。実際に心臓や肺の音などを聴き、人間の体の正常・異常の判断ができます。臨床に即した内容を実践的に学べます。
+        - generic [ref=e193]:
+          - heading "札幌看護医療で学んで、 大学卒業資格を取得できる！ ※希望者のみ" [level=3] [ref=e194]:
+            - text: 札幌看護医療で学んで、
+            - generic [ref=e195]: 大学卒業資格を取得できる！
+            - generic [ref=e196]: ※希望者のみ
+          - paragraph [ref=e197]: 本校に在籍しながら、1年次から星槎大学共生科学部の通信教育課程のカリキュラムを同時に学び、単位認定制度を利用して最短4年間で専門学校＆大学の卒業資格を目指せる新制度。
+          - heading "ダブルスクールを選択した場合（看護学科の例）" [level=4] [ref=e199]
+          - generic [ref=e201]:
+            - heading "専門学校と大学のいいとこどり!" [level=4] [ref=e202]
+            - list [ref=e204]:
+              - listitem [ref=e205]:
+                - paragraph [ref=e206]: Point 01
+                - paragraph [ref=e207]: 少ない学費で学士号を取得できる
+                - paragraph [ref=e208]: 本校に在籍しながら、1年次から星槎大学共生科学部の通信教育課程のカリキュラムを同時に学び、単位認定制度を利用して最短4年間で専門学校＆大学の卒業資格を目指せる新制度。本校卒業後も大学卒業までの学びをサポートします。本校卒業後も大学卒業までの学びをサポートします。
+              - listitem [ref=e209]:
+                - paragraph [ref=e210]: Point 02
+                - paragraph [ref=e211]: 就職先&キャリアアップの選択肢が広がる
+                - paragraph [ref=e212]: 専門学校の実践力を持ちながら、大学卒業が条件となる就職先の選択肢が増えるほか、将来のキャリアアップも期待できます。
+              - listitem [ref=e213]:
+                - paragraph [ref=e214]: Point 03
+                - paragraph [ref=e215]: 自分のペースで学べる
+                - paragraph [ref=e216]: スクーリングや授業はオンラインが多いので、放課後や休日など空き時間を利用して無理なく進められます。
+        - generic [ref=e217]:
+          - heading "充実したICT環境で 効率的に学べる！ 毎日の学生生活も快適に" [level=3] [ref=e218]:
+            - text: 充実したICT環境で
+            - text: 効率的に学べる！
+            - text: 毎日の学生生活も快適に
+          - heading "医療×ICT教育" [level=4] [ref=e219]
+          - paragraph [ref=e220]: 最先端の医療教育をより効率的に習得するための学習ツールが揃っています。授業だけでなく国家試験の勉強にも役立つ専用システムなど、常に最新の学びの環境へアップデートしています。
+          - generic [ref=e222]:
+            - paragraph [ref=e223]: PC・ipad学習ツール
+            - paragraph [ref=e224]: PCやipadで、授業資料の共有や課題の確認などもスムーズです。勉強を圧倒的に効率化できます。
+            - paragraph [ref=e225]: 全員にOffice365アカウントを配布
+            - paragraph [ref=e226]: 全員にoffice365アカウントを配布しており、効率的に学習できます。WordやExcel、PowerPointなどの基本機能はもちろん、Teamsを使用した授業資料の共有や先生への個別相談も可能です。
+          - list [ref=e227]:
+            - listitem [ref=e228]:
+              - paragraph [ref=e230]: 全室に電子黒板を導入
+              - paragraph [ref=e231]: パソコンの画面を表示できる電子黒板。リアルタイムで先生や学生の画面共有ができるので、授業が活発化します。
+            - listitem [ref=e232]:
+              - paragraph [ref=e234]: 電子教科書
+              - paragraph [ref=e235]: 書き込みもできる電子教科書です。資料もかさばらず、いつでもどこでも学べる環境が学びを加速させます。
+            - listitem [ref=e236]:
+              - paragraph [ref=e238]: オンライン求人検索
+              - paragraph [ref=e239]: いつでもどこでも学校に寄せられた求人情報の検索・確認ができます。就職活動を効率的に進めることができます。
+            - listitem [ref=e240]:
+              - paragraph [ref=e242]: 安否確認システム
+              - paragraph [ref=e243]: 万が一災害が発生した場合は、緊急地震速報と連動して、迅速に学生の安否を確認します。
+            - listitem [ref=e244]:
+              - paragraph [ref=e246]: AI Learningナビ
+              - paragraph [ref=e247]: AIが一人ひとりの特性を分析し最適な学習方法を提案したり、試験対策問題を作成しくれたりします。AIによる学習サポートで、学習効率が高まりモチベーションも上がります。グループ校オリジナルの国家試験対策システムを利用し、自分の好きなタイミングで国家試験トレーニングもできます。移動中などのスキマ時間を活用してスマートに国家試験対策ができます。
+          - list [ref=e248]:
+            - listitem [ref=e249]:
+              - paragraph [ref=e251]:
+                - text: 全館高速
+                - text: フリーWi-Fi
+            - listitem [ref=e252]:
+              - paragraph [ref=e254]:
+                - text: eラーニング
+                - text: 国家試験対策
+            - listitem [ref=e255]:
+              - paragraph [ref=e257]:
+                - text: スマートフォン
+                - text: 充電スポット
+        - generic [ref=e258]:
+          - paragraph [ref=e259]
+          - heading "ICTを活用して 効率よく学びを深める！" [level=3] [ref=e260]:
+            - text: ICTを活用して
+            - text: 効率よく学びを深める！
+          - list [ref=e261]:
+            - listitem [ref=e262]:
+              - paragraph [ref=e264]: デジタルノート
+              - paragraph [ref=e265]: 書き込みや編集可能なデジタルノートで、自分に合った勉強方法が可能に。最初は不慣れでも先生が一から教えてくれるので安心。
+            - listitem [ref=e266]:
+              - paragraph [ref=e268]: いつでも国家試験対策
+              - paragraph [ref=e269]: グループ校共通の専用システムを利用し、自分の好きなタイミングで国家試験のトレーニングができます。1年次から国家試験対策が可能！
+            - listitem [ref=e270]:
+              - paragraph [ref=e272]: シェアしながら資料づくり
+              - paragraph [ref=e273]: 大人数、グループでの授業に大活躍！リアルタイムで全員に資料を共有し、役割分担しながら簡単に資料づくりができます。
+            - listitem [ref=e274]:
+              - paragraph [ref=e276]: オンライン特別講義
+              - paragraph [ref=e277]: 日本全国の病院・医療従事者による特別講義を受けることができるほか、海外とつないで、現地の情報をリアルタイムで知ることも。
+      - generic [ref=e278]:
+        - generic [ref=e279]:
+          - paragraph [ref=e280]:
+            - img "Facilitiy" [ref=e282]
+            - generic [ref=e283]: 学びの環境
+          - paragraph [ref=e284]: 最新の医療現場と同じ環境で学べる
+        - paragraph [ref=e285]:
+          - link "施設紹介" [ref=e286] [cursor=pointer]:
+            - /url: /campuslife/facility/
+            - img "施設紹介" [ref=e287]
+        - generic [ref=e288]:
+          - generic [ref=e289]:
+            - paragraph [ref=e290]:
+              - img "Fun" [ref=e292]
+              - generic [ref=e293]: 学びの楽しさ
+            - paragraph [ref=e294]: 札幌看護医療は“楽しい”がいっぱい！
+          - paragraph [ref=e295]:
+            - link "キャンパスライフ" [ref=e296] [cursor=pointer]:
+              - /url: /campuslife/schedule/
+              - img "キャンパスライフ" [ref=e297]
+          - paragraph [ref=e298]:
+            - link "ICTオープンキャンパス" [ref=e299] [cursor=pointer]:
+              - /url: /opencampus/
+              - img "ICTオープンキャンパス" [ref=e300]
+    - contentinfo [ref=e301]:
+      - generic [ref=e302]:
+        - link "札幌看護医療専門学校" [ref=e303] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e304]
+        - paragraph [ref=e305]:
+          - text: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+          - text: TEL
+          - link "011-801-8343" [ref=e306] [cursor=pointer]:
+            - /url: tel:011-801-8343
+          - text: ／フリーダイヤル
+          - link "0120-37-8343" [ref=e307] [cursor=pointer]:
+            - /url: tel:0120-37-8343
+        - group [ref=e308]:
+          - generic "訪問者別メニュー ▾" [ref=e309] [cursor=pointer]
+        - list [ref=e310]:
+          - listitem [ref=e311]:
+            - link "Instagram" [ref=e312] [cursor=pointer]:
+              - /url: https://www.instagram.com/sapporo_kango/
+              - img "Instagram" [ref=e313]
+          - listitem [ref=e314]:
+            - link "TikTok" [ref=e315] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@sapporo_kango
+              - img "TikTok" [ref=e316]
+          - listitem [ref=e317]:
+            - link "YouTube" [ref=e318] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+              - img "YouTube" [ref=e319]
+          - listitem [ref=e320]:
+            - link "LINE" [ref=e321] [cursor=pointer]:
+              - /url: /news/2023/914/
+              - img "LINE" [ref=e322]
+        - list [ref=e323]:
+          - listitem [ref=e324]:
+            - link "お問い合わせ" [ref=e325] [cursor=pointer]:
+              - /url: /form/inquiry/
+          - listitem [ref=e326]:
+            - link "交通・アクセス" [ref=e327] [cursor=pointer]:
+              - /url: /school/access/
+          - listitem [ref=e328]:
+            - link "情報公開（職業実践専門課程）" [ref=e329] [cursor=pointer]:
+              - /url: /school/info/
+          - listitem [ref=e330]:
+            - link "施設(教室)利用貸出につきまして" [ref=e331] [cursor=pointer]:
+              - /url: /form/facility/
+          - listitem [ref=e332]:
+            - link "採用情報" [ref=e333] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e334]:
+            - link "サイトマップ" [ref=e335] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e336]:
+            - link "プライバシーポリシー" [ref=e337] [cursor=pointer]:
+              - /url: /privacy/
+          - listitem [ref=e338]:
+            - link "ソーシャルメディアポリシー" [ref=e339] [cursor=pointer]:
+              - /url: /socialpolicy/
+      - paragraph [ref=e340]: © 2025 Sapporo College of Nursing and Medical Health.
+      - link "ページ上部へ戻る" [ref=e341] [cursor=pointer]:
+        - /url: "#"
+        - text: ←PAGE TOP
+    - generic [ref=e342]:
+      - link "資料請求" [ref=e343] [cursor=pointer]:
+        - /url: /form/document/
+        - generic [ref=e344]: 資料請求
+      - link "イベント 全日程一覧" [ref=e345] [cursor=pointer]:
+        - /url: /opencampus/calendar/
+        - generic [ref=e346]:
+          - text: イベント
+          - text: 全日程一覧
+      - link "AO エントリー" [ref=e347] [cursor=pointer]:
+        - /url: https://webappform.jikei.com/entry/?sid=snm
+        - generic [ref=e348]:
+          - text: AO
+          - text: エントリー
+  - text: ▾ → → → → →
