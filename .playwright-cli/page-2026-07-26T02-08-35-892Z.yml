@@ -1,0 +1,184 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "札幌看護医療専門学校" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e9]
+        - button "MENU" [ref=e10] [cursor=pointer]:
+          - generic [ref=e15]: MENU
+    - main [ref=e16]:
+      - navigation "パンくずリスト" [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "TOP" [ref=e20] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e21]: ›学科・専攻
+      - heading "COURSE 学科・専攻" [level=1] [ref=e24]:
+        - generic [ref=e25]: COURSE
+        - generic [ref=e26]: 学科・専攻
+      - generic [ref=e28]:
+        - paragraph [ref=e29]:
+          - text: 札幌看護医療専門学校では、
+          - text: 新さっぽろの未来を担う
+          - generic [ref=e30]: 医療系4学科1専攻があります。
+        - generic [ref=e31]:
+          - link "3年制 看護学科" [ref=e32] [cursor=pointer]:
+            - /url: /course/nursing/
+            - generic [ref=e33]:
+              - generic [ref=e34]: 3年制
+              - generic [ref=e35]: 看護学科
+          - link "3年制 視能訓練士学科" [ref=e38] [cursor=pointer]:
+            - /url: /course/orthoptist/
+            - generic [ref=e39]:
+              - generic [ref=e40]: 3年制
+              - generic [ref=e41]: 視能訓練士学科
+          - link "3年制 歯科衛生士学科" [ref=e44] [cursor=pointer]:
+            - /url: /course/dentalhygienists/
+            - generic [ref=e45]:
+              - generic [ref=e46]: 3年制
+              - generic [ref=e47]: 歯科衛生士学科
+          - link "3年制 臨床工学技士学科" [ref=e50] [cursor=pointer]:
+            - /url: /course/clinicalengineer/
+            - generic [ref=e51]:
+              - generic [ref=e52]: 3年制
+              - generic [ref=e53]: 臨床工学技士学科
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e60]: Facilitiy
+            - heading "学びの環境" [level=2] [ref=e61]
+            - paragraph [ref=e62]:
+              - generic [ref=e63]: 最新の医療現場と同じ環境で学べる
+          - paragraph [ref=e64]:
+            - link "施設紹介" [ref=e65] [cursor=pointer]:
+              - /url: /campuslife/facility/
+              - img "施設紹介" [ref=e66]
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e70]: Fun
+            - heading "学びの楽しさ" [level=2] [ref=e71]
+            - paragraph [ref=e72]:
+              - generic [ref=e73]: 札幌看護医療は“楽しい”がいっぱい！
+          - generic [ref=e74]:
+            - paragraph [ref=e75]:
+              - link "キャンパスライフ" [ref=e76] [cursor=pointer]:
+                - /url: /campuslife/schedule/
+                - img "キャンパスライフ" [ref=e77]
+            - paragraph [ref=e78]:
+              - link "ICTオープンキャンパス" [ref=e79] [cursor=pointer]:
+                - /url: /opencampus/
+                - img "ICTオープンキャンパス" [ref=e80]
+    - contentinfo [ref=e81]:
+      - generic [ref=e82]:
+        - link "札幌看護医療専門学校" [ref=e83] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e84]
+        - paragraph [ref=e85]:
+          - text: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+          - text: TEL
+          - link "011-801-8343" [ref=e86] [cursor=pointer]:
+            - /url: tel:011-801-8343
+          - text: ／フリーダイヤル
+          - link "0120-37-8343" [ref=e87] [cursor=pointer]:
+            - /url: tel:0120-37-8343
+        - group [ref=e88]:
+          - generic "訪問者別メニュー ▾" [ref=e89] [cursor=pointer]
+        - list [ref=e90]:
+          - listitem [ref=e91]:
+            - link "Instagram" [ref=e92] [cursor=pointer]:
+              - /url: https://www.instagram.com/sapporo_kango/
+              - img "Instagram" [ref=e93]
+          - listitem [ref=e94]:
+            - link "TikTok" [ref=e95] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@sapporo_kango
+              - img "TikTok" [ref=e96]
+          - listitem [ref=e97]:
+            - link "YouTube" [ref=e98] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+              - img "YouTube" [ref=e99]
+          - listitem [ref=e100]:
+            - link "LINE" [ref=e101] [cursor=pointer]:
+              - /url: /news/2023/914/
+              - img "LINE" [ref=e102]
+        - list [ref=e103]:
+          - listitem [ref=e104]:
+            - link "お問い合わせ" [ref=e105] [cursor=pointer]:
+              - /url: /form/inquiry/
+          - listitem [ref=e106]:
+            - link "交通・アクセス" [ref=e107] [cursor=pointer]:
+              - /url: /school/access/
+          - listitem [ref=e108]:
+            - link "情報公開（職業実践専門課程）" [ref=e109] [cursor=pointer]:
+              - /url: /school/info/
+          - listitem [ref=e110]:
+            - link "施設(教室)利用貸出につきまして" [ref=e111] [cursor=pointer]:
+              - /url: /form/facility/
+          - listitem [ref=e112]:
+            - link "採用情報" [ref=e113] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e114]:
+            - link "サイトマップ" [ref=e115] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e116]:
+            - link "プライバシーポリシー" [ref=e117] [cursor=pointer]:
+              - /url: /privacy/
+          - listitem [ref=e118]:
+            - link "ソーシャルメディアポリシー" [ref=e119] [cursor=pointer]:
+              - /url: /socialpolicy/
+      - paragraph [ref=e120]: © 2025 Sapporo College of Nursing and Medical Health.
+      - text: ←
+  - generic [ref=e122]:
+    - group [ref=e123]:
+      - generic "訪問者別メニュー ▾" [ref=e124] [cursor=pointer]
+    - paragraph [ref=e125]:
+      - link "情報公開（職業実践専門課程）" [ref=e126] [cursor=pointer]:
+        - /url: /school/info/
+      - text: ／
+      - link "施設(教室)利用貸出につきまして" [ref=e127] [cursor=pointer]:
+        - /url: /form/facility/
+    - generic [ref=e128]:
+      - link "資料請求" [ref=e129] [cursor=pointer]:
+        - /url: /form/document/
+        - generic [ref=e131]: 資料請求
+      - link "イベント 全日程一覧" [ref=e132] [cursor=pointer]:
+        - /url: /opencampus/calendar/
+        - generic [ref=e134]:
+          - text: イベント
+          - text: 全日程一覧
+      - link "LINEなんでも 相談" [ref=e135] [cursor=pointer]:
+        - /url: /news/2023/914/
+        - generic [ref=e137]:
+          - text: LINEなんでも
+          - text: 相談
+    - list [ref=e138]:
+      - listitem [ref=e139]:
+        - link "夢がふくらむ、目標が見つかる！ オープンキャンパス" [ref=e140] [cursor=pointer]:
+          - /url: /opencampus/
+          - generic [ref=e141]: 夢がふくらむ、目標が見つかる！
+          - generic [ref=e142]: オープンキャンパス
+          - generic [ref=e143]: →
+      - listitem [ref=e144]:
+        - link "REASON 札幌看護医療専門学校が選ばれる理由" [ref=e145] [cursor=pointer]:
+          - /url: /school/study/
+          - generic [ref=e146]: REASON
+          - generic [ref=e147]: 札幌看護医療専門学校が選ばれる理由
+          - generic [ref=e148]: →
+      - listitem [ref=e149]:
+        - link "COURSE ミライを担う医療系4学科" [ref=e150] [cursor=pointer]:
+          - /url: /course/
+          - generic [ref=e151]: COURSE
+          - generic [ref=e152]: ミライを担う医療系4学科
+          - generic [ref=e153]: →
+      - listitem [ref=e154]:
+        - link "ADMISSION 入試・学費" [ref=e155] [cursor=pointer]:
+          - /url: /admission/
+          - generic [ref=e156]: ADMISSION
+          - generic [ref=e157]: 入試・学費
+          - generic [ref=e158]: →
+      - listitem [ref=e159]:
+        - link "FACILITY 施設紹介" [ref=e160] [cursor=pointer]:
+          - /url: /campuslife/facility/
+          - generic [ref=e161]: FACILITY
+          - generic [ref=e162]: 施設紹介
+          - generic [ref=e163]: →

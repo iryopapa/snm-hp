@@ -1,0 +1,512 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "札幌看護医療専門学校" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "札幌看護医療専門学校" [ref=e7]
+      - button "MENU" [ref=e8] [cursor=pointer]:
+        - generic [ref=e13]: MENU
+  - main [ref=e14]:
+    - heading "Future is yours" [level=2] [ref=e17]:
+      - img "Future is yours" [ref=e18]
+    - generic [ref=e20]:
+      - heading "最新NEWS" [level=2] [ref=e21]
+      - list [ref=e22]:
+        - listitem [ref=e23]:
+          - link "私は看護師になれる…？進路に迷う高校生応援企画開催決定✨" [ref=e24] [cursor=pointer]:
+            - /url: /news/2026/19029/
+        - listitem [ref=e25]:
+          - link "【2026年8月】全道８地区で出張オープンキャンパス開催☆" [ref=e26] [cursor=pointer]:
+            - /url: /news/2026/18039/
+        - listitem [ref=e27]:
+          - link "7/25.26進路に迷ってる方必見★特別プログラム開催！" [ref=e28] [cursor=pointer]:
+            - /url: /news/2026/18962/
+    - generic [ref=e29]:
+      - heading "ピックアップ" [level=2] [ref=e30]
+      - generic [ref=e31]:
+        - link "臨床工学技士学科" [ref=e32] [cursor=pointer]:
+          - /url: /course/clinicalengineer/
+          - img "臨床工学技士学科" [ref=e33]
+        - link "視能訓練士学科" [ref=e34] [cursor=pointer]:
+          - /url: /course/orthoptist/
+          - img "視能訓練士学科" [ref=e35]
+        - link "AO" [ref=e36] [cursor=pointer]:
+          - /url: /news/2026/14409/
+          - img "AO" [ref=e37]
+        - link "出張オープンキャンパス" [ref=e38] [cursor=pointer]:
+          - /url: /news/2026/18039/
+          - img "出張オープンキャンパス" [ref=e39]
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - paragraph [ref=e42]:
+          - img "医療系に興味のある方におすすめ！" [ref=e43]
+        - heading "OPEN CAMPUS" [level=2] [ref=e44]:
+          - generic [ref=e45]:
+            - text: OPEN
+            - text: CAMPUS
+        - paragraph [ref=e47]:
+          - text: 選べるプログラムは
+          - text: 全30種類以上！自分に合う組み合わせを
+          - text: 来校してから選べるから、楽しくてためになる！
+      - generic [ref=e48]:
+        - heading "選べるプログラム" [level=3] [ref=e49]:
+          - generic [ref=e50]: 選べるプログラム
+        - generic [ref=e53]:
+          - group "3 / 4" [ref=e54]
+          - group "4 / 4" [ref=e55]
+          - group "1 / 4" [ref=e56]
+          - group "2 / 4" [ref=e57]
+        - paragraph [ref=e58]:
+          - link "詳細をチェック →" [ref=e59] [cursor=pointer]:
+            - /url: /opencampus/
+      - generic [ref=e60]:
+        - tablist [ref=e61]:
+          - tab "カレンダーから探す" [ref=e62] [cursor=pointer]
+          - tab "近日開催から選ぶ" [selected] [ref=e63] [cursor=pointer]
+        - generic [ref=e65]:
+          - generic [ref=e67]:
+            - group "1 / 25" [ref=e68]:
+              - link "2026 7.26 SUN" [ref=e69] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-07-26
+                - generic [ref=e70]: "2026"
+                - generic [ref=e71]: "7.26"
+                - generic [ref=e72]: SUN
+            - group "2 / 25" [ref=e73]:
+              - link "2026 8.1 SAT" [ref=e74] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-08-01
+                - generic [ref=e75]: "2026"
+                - generic [ref=e76]: "8.1"
+                - generic [ref=e77]: SAT
+            - group "3 / 25" [ref=e78]:
+              - link "2026 8.2 SUN" [ref=e79] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-08-02
+                - generic [ref=e80]: "2026"
+                - generic [ref=e81]: "8.2"
+                - generic [ref=e82]: SUN
+            - group "4 / 25" [ref=e83]:
+              - link "2026 8.8 SAT" [ref=e84] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-08-08
+                - generic [ref=e85]: "2026"
+                - generic [ref=e86]: "8.8"
+                - generic [ref=e87]: SAT
+            - group "5 / 25" [ref=e88]:
+              - link "2026 8.15 SAT" [ref=e89] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-08-15
+                - generic [ref=e90]: "2026"
+                - generic [ref=e91]: "8.15"
+                - generic [ref=e92]: SAT
+            - group "6 / 25" [ref=e93]:
+              - link "2026 8.22 SAT" [ref=e94] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-08-22
+                - generic [ref=e95]: "2026"
+                - generic [ref=e96]: "8.22"
+                - generic [ref=e97]: SAT
+            - group "7 / 25" [ref=e98]:
+              - link "2026 8.23 SUN" [ref=e99] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-08-23
+                - generic [ref=e100]: "2026"
+                - generic [ref=e101]: "8.23"
+                - generic [ref=e102]: SUN
+            - group "8 / 25" [ref=e103]:
+              - link "2026 9.12 SAT" [ref=e104] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-09-12
+                - generic [ref=e105]: "2026"
+                - generic [ref=e106]: "9.12"
+                - generic [ref=e107]: SAT
+            - group "9 / 25" [ref=e108]:
+              - link "2026 9.20 SUN" [ref=e109] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-09-20
+                - generic [ref=e110]: "2026"
+                - generic [ref=e111]: "9.20"
+                - generic [ref=e112]: SUN
+            - group "10 / 25" [ref=e113]:
+              - link "2026 9.26 SAT" [ref=e114] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-09-26
+                - generic [ref=e115]: "2026"
+                - generic [ref=e116]: "9.26"
+                - generic [ref=e117]: SAT
+            - group "11 / 25" [ref=e118]:
+              - link "2026 10.10 SAT" [ref=e119] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-10-10
+                - generic [ref=e120]: "2026"
+                - generic [ref=e121]: "10.10"
+                - generic [ref=e122]: SAT
+            - group "12 / 25" [ref=e123]:
+              - link "2026 10.17 SAT" [ref=e124] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-10-17
+                - generic [ref=e125]: "2026"
+                - generic [ref=e126]: "10.17"
+                - generic [ref=e127]: SAT
+            - group "13 / 25" [ref=e128]:
+              - link "2026 11.3 TUE" [ref=e129] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-11-03
+                - generic [ref=e130]: "2026"
+                - generic [ref=e131]: "11.3"
+                - generic [ref=e132]: TUE
+            - group "14 / 25" [ref=e133]:
+              - link "2026 11.28 SAT" [ref=e134] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-11-28
+                - generic [ref=e135]: "2026"
+                - generic [ref=e136]: "11.28"
+                - generic [ref=e137]: SAT
+            - group "15 / 25" [ref=e138]:
+              - link "2026 12.5 SAT" [ref=e139] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-12-05
+                - generic [ref=e140]: "2026"
+                - generic [ref=e141]: "12.5"
+                - generic [ref=e142]: SAT
+            - group "16 / 25" [ref=e143]:
+              - link "2026 12.13 SUN" [ref=e144] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-12-13
+                - generic [ref=e145]: "2026"
+                - generic [ref=e146]: "12.13"
+                - generic [ref=e147]: SUN
+            - group "17 / 25" [ref=e148]:
+              - link "2026 12.19 SAT" [ref=e149] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2026-12-19
+                - generic [ref=e150]: "2026"
+                - generic [ref=e151]: "12.19"
+                - generic [ref=e152]: SAT
+            - group "18 / 25" [ref=e153]:
+              - link "2027 1.9 SAT" [ref=e154] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2027-01-09
+                - generic [ref=e155]: "2027"
+                - generic [ref=e156]: "1.9"
+                - generic [ref=e157]: SAT
+            - group "19 / 25" [ref=e158]:
+              - link "2027 1.24 SUN" [ref=e159] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2027-01-24
+                - generic [ref=e160]: "2027"
+                - generic [ref=e161]: "1.24"
+                - generic [ref=e162]: SUN
+            - group "20 / 25" [ref=e163]:
+              - link "2027 2.13 SAT" [ref=e164] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2027-02-13
+                - generic [ref=e165]: "2027"
+                - generic [ref=e166]: "2.13"
+                - generic [ref=e167]: SAT
+            - group "21 / 25" [ref=e168]:
+              - link "2027 2.27 SAT" [ref=e169] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2027-02-27
+                - generic [ref=e170]: "2027"
+                - generic [ref=e171]: "2.27"
+                - generic [ref=e172]: SAT
+            - group "22 / 25" [ref=e173]:
+              - link "2027 3.13 SAT" [ref=e174] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2027-03-13
+                - generic [ref=e175]: "2027"
+                - generic [ref=e176]: "3.13"
+                - generic [ref=e177]: SAT
+            - group "23 / 25" [ref=e178]:
+              - link "2027 3.21 SUN" [ref=e179] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2027-03-21
+                - generic [ref=e180]: "2027"
+                - generic [ref=e181]: "3.21"
+                - generic [ref=e182]: SUN
+            - group "24 / 25" [ref=e183]:
+              - link "2027 3.27 SAT" [ref=e184] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2027-03-27
+                - generic [ref=e185]: "2027"
+                - generic [ref=e186]: "3.27"
+                - generic [ref=e187]: SAT
+            - group "25 / 25" [ref=e188]:
+              - link "2027 3.28 SUN" [ref=e189] [cursor=pointer]:
+                - /url: /opencampus/calendar/#2027-03-28
+                - generic [ref=e190]: "2027"
+                - generic [ref=e191]: "3.28"
+                - generic [ref=e192]: SUN
+          - button "Previous slide" [disabled]: prev
+          - button "Next slide" [ref=e193] [cursor=pointer]: next
+      - generic [ref=e194]:
+        - heading "その他のイベントをCHECK！ EVENT" [level=3] [ref=e195]:
+          - link "その他のイベントをCHECK！ EVENT" [ref=e196] [cursor=pointer]:
+            - /url: /opencampus/calendar/
+            - img "その他のイベントをCHECK！" [ref=e198]
+            - generic [ref=e199]: EVENT
+        - generic [ref=e200]:
+          - link "無料送迎バスでオープンキャンパスに参加しよう！" [ref=e201] [cursor=pointer]:
+            - /url: /opencampus/bus/
+            - img "無料送迎バスでオープンキャンパスに参加しよう！" [ref=e202]
+          - link "オープンキャンパス" [ref=e203] [cursor=pointer]:
+            - /url: /news/2026/18962/
+            - img "オープンキャンパス" [ref=e204]
+          - link "実技特待生試験 対策講座" [ref=e205] [cursor=pointer]:
+            - /url: /news/2026/17673/
+            - img "実技特待生試験 対策講座" [ref=e206]
+          - link "出張オープンキャンパス" [ref=e207] [cursor=pointer]:
+            - /url: /news/2026/18039/
+            - img "出張オープンキャンパス" [ref=e208]
+    - generic [ref=e210]:
+      - list [ref=e211]:
+        - listitem [ref=e212]: SAPPORO COLLEGE OF NURSING AND MEDICAL HEALTH.
+        - listitem [ref=e213]: SAPPORO COLLEGE OF NURSING AND MEDICAL HEALTH.
+        - listitem [ref=e214]: SAPPORO COLLEGE OF NURSING AND MEDICAL HEALTH.
+      - list [ref=e215]:
+        - listitem [ref=e216]: SAPPORO COLLEGE OF NURSING AND MEDICAL HEALTH.
+        - listitem [ref=e217]: SAPPORO COLLEGE OF NURSING AND MEDICAL HEALTH.
+        - listitem [ref=e218]: SAPPORO COLLEGE OF NURSING AND MEDICAL HEALTH.
+    - generic [ref=e219]:
+      - generic [ref=e220]:
+        - link "Course" [ref=e221] [cursor=pointer]:
+          - /url: /course/
+          - generic [ref=e222]: Course
+        - heading "未来を担う医療系4学科" [level=2] [ref=e223]:
+          - img "未来を担う医療系4学科" [ref=e224]
+      - generic [ref=e225]:
+        - link "3年制 看護学科" [ref=e226] [cursor=pointer]:
+          - /url: /course/nursing/
+          - generic [ref=e227]:
+            - generic [ref=e228]: 3年制
+            - generic [ref=e229]: 看護学科
+        - link "3年制 視能訓練士学科" [ref=e232] [cursor=pointer]:
+          - /url: /course/orthoptist/
+          - generic [ref=e233]:
+            - generic [ref=e234]: 3年制
+            - generic [ref=e235]: 視能訓練士学科
+        - link "3年制 歯科衛生士学科" [ref=e238] [cursor=pointer]:
+          - /url: /course/dentalhygienists/
+          - generic [ref=e239]:
+            - generic [ref=e240]: 3年制
+            - generic [ref=e241]: 歯科衛生士学科
+        - link "3年制 臨床工学技士学科" [ref=e244] [cursor=pointer]:
+          - /url: /course/clinicalengineer/
+          - generic [ref=e245]:
+            - generic [ref=e246]: 3年制
+            - generic [ref=e247]: 臨床工学技士学科
+    - generic [ref=e250]:
+      - generic [ref=e251]:
+        - link "Reason" [ref=e252] [cursor=pointer]:
+          - /url: /school/study/
+          - generic [ref=e253]: Reason
+        - heading "札幌看護医療が選ばれる理由" [level=2] [ref=e254]:
+          - img "札幌看護医療が選ばれる理由" [ref=e255]
+      - list [ref=e256]:
+        - listitem [ref=e257]:
+          - link "01 進化を続ける副都心「新さっぽろ」 まち全体がキャンパス 詳しく見る →" [ref=e258] [cursor=pointer]:
+            - /url: /school/study/#campus
+            - generic [ref=e259]:
+              - img "01" [ref=e261]
+              - generic [ref=e262]:
+                - generic [ref=e263]: 進化を続ける副都心「新さっぽろ」
+                - generic [ref=e264]: まち全体がキャンパス
+            - generic [ref=e266]:
+              - text: 詳しく見る
+              - generic [ref=e267]: →
+        - listitem [ref=e268]:
+          - link "02 ミライにつながる！ 最先端の医療の学び 詳しく見る →" [ref=e269] [cursor=pointer]:
+            - /url: /school/study/#features
+            - generic [ref=e270]:
+              - img "02" [ref=e272]
+              - generic [ref=e273]:
+                - generic [ref=e274]: ミライにつながる！
+                - generic [ref=e275]: 最先端の医療の学び
+            - generic [ref=e277]:
+              - text: 詳しく見る
+              - generic [ref=e278]: →
+        - listitem [ref=e279]:
+          - link "03 毎日のまなびの場所 施設・設備紹介 詳しく見る →" [ref=e280] [cursor=pointer]:
+            - /url: /campuslife/facility/
+            - generic [ref=e281]:
+              - img "03" [ref=e283]
+              - generic [ref=e284]:
+                - generic [ref=e285]: 毎日のまなびの場所
+                - generic [ref=e286]: 施設・設備紹介
+            - generic [ref=e288]:
+              - text: 詳しく見る
+              - generic [ref=e289]: →
+        - listitem [ref=e290]:
+          - link "04 毎日が楽しい！ キャンパスライフ 詳しく見る →" [ref=e291] [cursor=pointer]:
+            - /url: /campuslife/schedule/
+            - generic [ref=e292]:
+              - img "04" [ref=e294]
+              - generic [ref=e295]:
+                - generic [ref=e296]: 毎日が楽しい！
+                - generic [ref=e297]: キャンパスライフ
+            - generic [ref=e299]:
+              - text: 詳しく見る
+              - generic [ref=e300]: →
+    - generic [ref=e301]:
+      - generic [ref=e302]:
+        - link "Instagram" [ref=e303] [cursor=pointer]:
+          - /url: https://www.instagram.com/sapporo_kango/
+          - generic [ref=e304]: Instagram
+        - heading "札幌看護医療の日常" [level=2] [ref=e305]:
+          - img "札幌看護医療の日常" [ref=e306]
+      - generic [ref=e307]:
+        - link [ref=e308] [cursor=pointer]:
+          - /url: https://www.instagram.com/sapporo_kango/
+        - link [ref=e309] [cursor=pointer]:
+          - /url: https://www.instagram.com/sapporo_kango/
+        - link [ref=e310] [cursor=pointer]:
+          - /url: https://www.instagram.com/sapporo_kango/
+        - link [ref=e311] [cursor=pointer]:
+          - /url: https://www.instagram.com/sapporo_kango/
+        - link [ref=e312] [cursor=pointer]:
+          - /url: https://www.instagram.com/sapporo_kango/
+        - link [ref=e313] [cursor=pointer]:
+          - /url: https://www.instagram.com/sapporo_kango/
+        - link [ref=e314] [cursor=pointer]:
+          - /url: https://www.instagram.com/sapporo_kango/
+        - link [ref=e315] [cursor=pointer]:
+          - /url: https://www.instagram.com/sapporo_kango/
+        - link [ref=e316] [cursor=pointer]:
+          - /url: https://www.instagram.com/sapporo_kango/
+      - paragraph [ref=e317]:
+        - link "@sapporo_kango →" [ref=e318] [cursor=pointer]:
+          - /url: https://www.instagram.com/sapporo_kango/
+    - generic [ref=e322]:
+      - generic [ref=e323]:
+        - link "News" [ref=e324] [cursor=pointer]:
+          - /url: /news/
+          - generic [ref=e325]: News
+        - heading "最新の情報" [level=2] [ref=e326]:
+          - img "最新の情報" [ref=e327]
+      - list [ref=e328]:
+        - listitem [ref=e329]:
+          - link "2026.07.16 私は看護師になれる…？進路に迷う高校生応援企画開催決定✨ お知らせ イベント情報" [ref=e330] [cursor=pointer]:
+            - /url: /news/2026/19029/
+            - generic [ref=e331]: 2026.07.16
+            - generic [ref=e332]:
+              - generic [ref=e333]: 私は看護師になれる…？進路に迷う高校生応援企画開催決定✨
+              - generic [ref=e334]:
+                - generic [ref=e335]: お知らせ
+                - generic [ref=e336]: イベント情報
+        - listitem [ref=e337]:
+          - link "2026.07.15 【2026年8月】全道８地区で出張オープンキャンパス開催☆ お知らせ イベント情報" [ref=e338] [cursor=pointer]:
+            - /url: /news/2026/18039/
+            - generic [ref=e339]: 2026.07.15
+            - generic [ref=e340]:
+              - generic [ref=e341]: 【2026年8月】全道８地区で出張オープンキャンパス開催☆
+              - generic [ref=e342]:
+                - generic [ref=e343]: お知らせ
+                - generic [ref=e344]: イベント情報
+        - listitem [ref=e345]:
+          - link "2026.07.13 7/25.26進路に迷ってる方必見★特別プログラム開催！ イベント情報" [ref=e346] [cursor=pointer]:
+            - /url: /news/2026/18962/
+            - generic [ref=e347]: 2026.07.13
+            - generic [ref=e348]:
+              - generic [ref=e349]: 7/25.26進路に迷ってる方必見★特別プログラム開催！
+              - generic [ref=e351]: イベント情報
+      - paragraph [ref=e352]:
+        - link "VIEW MORE →" [ref=e353] [cursor=pointer]:
+          - /url: /news/
+    - generic [ref=e354]:
+      - link "Blog" [ref=e356] [cursor=pointer]:
+        - /url: /blog/
+        - generic [ref=e357]: Blog
+      - generic [ref=e358]:
+        - link "2026.07.22 東北から北海道へ進学を考えている高校生へ ～意外と近いぞ北海道！～" [ref=e359] [cursor=pointer]:
+          - /url: /blog/2026/19180/
+          - generic [ref=e361]:
+            - generic [ref=e362]: 2026.07.22
+            - generic [ref=e363]: 東北から北海道へ進学を考えている高校生へ ～意外と近いぞ北海道！～
+        - link "2026.07.01 2026学園祭～ウェルネスフェス～" [ref=e364] [cursor=pointer]:
+          - /url: /blog/2026/18991/
+          - generic [ref=e366]:
+            - generic [ref=e367]: 2026.07.01
+            - generic [ref=e368]: 2026学園祭～ウェルネスフェス～
+      - paragraph [ref=e369]:
+        - link "VIEW MORE →" [ref=e370] [cursor=pointer]:
+          - /url: /blog/
+    - generic [ref=e371]:
+      - link "Youtube" [ref=e373] [cursor=pointer]:
+        - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+        - generic [ref=e374]: Youtube
+      - generic [ref=e375]:
+        - generic [ref=e376]:
+          - iframe [ref=e378]:
+            
+          - paragraph [ref=e379]: 学園祭＆ウェルネスフェス開催
+        - generic [ref=e380]:
+          - iframe [ref=e382]:
+            
+          - paragraph [ref=e383]: 看護学科 戴帽式&在校生インタビュー
+      - paragraph [ref=e384]:
+        - link "VIEW MORE →" [ref=e385] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+      - generic [ref=e386]:
+        - generic [ref=e387]:
+          - list [ref=e388]:
+            - listitem [ref=e389]
+          - list [ref=e390]:
+            - listitem [ref=e391]
+        - generic [ref=e392]:
+          - list [ref=e393]:
+            - listitem [ref=e394]
+          - list [ref=e395]:
+            - listitem [ref=e396]
+  - contentinfo [ref=e397]:
+    - generic [ref=e398]:
+      - link "札幌看護医療専門学校" [ref=e399] [cursor=pointer]:
+        - /url: /
+        - img "札幌看護医療専門学校" [ref=e400]
+      - paragraph [ref=e401]:
+        - text: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+        - text: TEL
+        - link "011-801-8343" [ref=e402] [cursor=pointer]:
+          - /url: tel:011-801-8343
+        - text: ／フリーダイヤル
+        - link "0120-37-8343" [ref=e403] [cursor=pointer]:
+          - /url: tel:0120-37-8343
+      - group [ref=e404]:
+        - generic "訪問者別メニュー ▾" [ref=e405] [cursor=pointer]
+      - list [ref=e406]:
+        - listitem [ref=e407]:
+          - link "Instagram" [ref=e408] [cursor=pointer]:
+            - /url: https://www.instagram.com/sapporo_kango/
+            - img "Instagram" [ref=e409]
+        - listitem [ref=e410]:
+          - link "TikTok" [ref=e411] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@sapporo_kango
+            - img "TikTok" [ref=e412]
+        - listitem [ref=e413]:
+          - link "YouTube" [ref=e414] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+            - img "YouTube" [ref=e415]
+        - listitem [ref=e416]:
+          - link "LINE" [ref=e417] [cursor=pointer]:
+            - /url: /news/2023/914/
+            - img "LINE" [ref=e418]
+      - list [ref=e419]:
+        - listitem [ref=e420]:
+          - link "お問い合わせ" [ref=e421] [cursor=pointer]:
+            - /url: /form/inquiry/
+        - listitem [ref=e422]:
+          - link "交通・アクセス" [ref=e423] [cursor=pointer]:
+            - /url: /school/access/
+        - listitem [ref=e424]:
+          - link "情報公開（職業実践専門課程）" [ref=e425] [cursor=pointer]:
+            - /url: /school/info/
+        - listitem [ref=e426]:
+          - link "施設(教室)利用貸出につきまして" [ref=e427] [cursor=pointer]:
+            - /url: /form/facility/
+        - listitem [ref=e428]:
+          - link "採用情報" [ref=e429] [cursor=pointer]:
+            - /url: /recruit/
+        - listitem [ref=e430]:
+          - link "サイトマップ" [ref=e431] [cursor=pointer]:
+            - /url: /sitemap/
+        - listitem [ref=e432]:
+          - link "プライバシーポリシー" [ref=e433] [cursor=pointer]:
+            - /url: /privacy/
+        - listitem [ref=e434]:
+          - link "ソーシャルメディアポリシー" [ref=e435] [cursor=pointer]:
+            - /url: /socialpolicy/
+    - paragraph [ref=e436]: © 2025 Sapporo College of Nursing and Medical Health.
+    - link "ページ上部へ戻る" [ref=e437] [cursor=pointer]:
+      - /url: "#"
+      - text: ←PAGE TOP
+  - generic [ref=e438]:
+    - link "資料請求" [ref=e439] [cursor=pointer]:
+      - /url: /form/document/
+      - generic [ref=e440]: 資料請求
+    - link "イベント 全日程一覧" [ref=e441] [cursor=pointer]:
+      - /url: /opencampus/calendar/
+      - generic [ref=e442]:
+        - text: イベント
+        - text: 全日程一覧
+    - link "AO エントリー" [ref=e443] [cursor=pointer]:
+      - /url: https://webappform.jikei.com/entry/?sid=snm
+      - generic [ref=e444]:
+        - text: AO
+        - text: エントリー
