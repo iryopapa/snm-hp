@@ -1,0 +1,526 @@
+/* お仕事紹介トップ /special/（.p-special 配下限定） */
+
+/* ---------- MV ---------- */
+.p-special__mv {
+  padding: var(--space-6) var(--space-3) var(--space-5);
+  background: var(--color-pastel-cream);
+}
+.p-special__mv-ttlbox {
+  max-width: 640px;
+  margin-inline: auto;
+  text-align: center;
+}
+.p-special__mv-catch {
+  display: inline-block;
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  letter-spacing: var(--ls-wide);
+  padding: 4px 14px;
+  border-radius: var(--radius-pill);
+  background: var(--color-brand-yellow);
+  margin-bottom: var(--space-3);
+}
+.p-special__mv-title img {
+  display: block;
+  width: min(100%, 517px);
+  height: auto;
+  margin-inline: auto;
+}
+.p-special__mv-txt {
+  margin-top: var(--space-3);
+  line-height: 2;
+  font-weight: 500;
+}
+.p-special__mv-strip { margin-top: var(--space-5); }
+.p-special__mv-strip ul {
+  display: flex;
+  gap: var(--space-2);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: var(--space-2);
+  -webkit-overflow-scrolling: touch;
+}
+.p-special__mv-strip li {
+  flex: 0 0 min(52%, 240px);
+  scroll-snap-align: start;
+}
+.p-special__mv-strip img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+}
+
+/* ---------- 学科お仕事ボックス ---------- */
+.p-special__courses {
+  max-width: 900px;
+  margin-inline: auto;
+  padding: var(--space-6) var(--space-3) var(--space-8);
+  display: grid;
+  gap: var(--space-7);
+}
+.p-special__course {
+  position: relative;
+  padding: var(--space-5) var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--color-bg);
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+}
+/* 学科アクセント（一覧のカテゴリ色とトーンを揃える） */
+.p-special__course[data-course="clinicalengineer"] { border-top: 6px solid #52a416; }
+.p-special__course[data-course="orthoptist"] { border-top: 6px solid #2f9ed4; }
+.p-special__course[data-course="dentalhygienists"] { border-top: 6px solid #9a6bc9; }
+.p-special__course[data-course="nursing"] { border-top: 6px solid #d1568a; }
+
+.p-special__course-head {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.p-special__balloon {
+  display: inline-block;
+  position: relative;
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  padding: 6px 16px;
+  border: 2px solid var(--color-ink);
+  border-radius: var(--radius-pill);
+  background: var(--color-bg);
+  margin-bottom: var(--space-3);
+}
+.p-special__balloon::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -7px;
+  translate: -50% 0;
+  width: 10px;
+  height: 10px;
+  background: var(--color-bg);
+  border-right: 2px solid var(--color-ink);
+  border-bottom: 2px solid var(--color-ink);
+  rotate: 45deg;
+}
+.p-special__course-ttl {
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  line-height: 1.5;
+}
+.p-special__course-ttl .large {
+  display: inline-block;
+  font-size: 1.4em;
+  background: var(--grad-marker);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100% 0.45em;
+}
+.p-special__course-catch {
+  margin-top: var(--space-2);
+  font-weight: 500;
+  color: var(--color-ink-soft);
+}
+.p-special__course-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-3);
+}
+.p-special__course-strip {
+  position: relative;
+  z-index: 1;
+  margin-top: var(--space-4);
+}
+.p-special__course-strip ul {
+  display: flex;
+  gap: var(--space-2);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: var(--space-2);
+  -webkit-overflow-scrolling: touch;
+}
+.p-special__course-strip li {
+  flex: 0 0 min(46%, 200px);
+  scroll-snap-align: start;
+}
+.p-special__course-strip img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+}
+.p-special__course-bg {
+  position: absolute;
+  right: -40px;
+  bottom: -30px;
+  width: min(45%, 300px);
+  opacity: 0.35;
+  pointer-events: none;
+}
+.p-special__course-bg img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 640px) {
+  .p-special__course { padding: var(--space-6) var(--space-5); }
+  .p-special__course-head { text-align: left; }
+  .p-special__course-btn { justify-content: flex-start; }
+}
+
+/* ==========================================================
+   お仕事紹介 下層（/special/orthoptist ほか・.p-special__job）
+   ========================================================== */
+.p-special__job { --job-accent: var(--color-ink); }
+.p-special__job[data-course="orthoptist"] { --job-accent: #2f9ed4; }
+.p-special__job[data-course="clinicalengineer"] { --job-accent: #52a416; }
+.p-special__job[data-course="dentalhygienists"] { --job-accent: #9a6bc9; }
+
+.p-special__strong {
+  color: var(--job-accent);
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* ---------- 下層MV ---------- */
+.p-special__job-mv {
+  padding: var(--space-6) var(--space-3) var(--space-5);
+  background: var(--color-pastel-cream);
+}
+.p-special__job-mv-head {
+  max-width: 640px;
+  margin-inline: auto;
+  text-align: center;
+}
+.p-special__job-mv-ttl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+}
+.p-special__job-mv-icon img {
+  display: block;
+  width: min(30vw, 130px);
+  height: auto;
+}
+.p-special__job-mv-name {
+  font-size: var(--fs-xxl, 2rem);
+  font-weight: 700;
+  letter-spacing: var(--ls-wide);
+  color: var(--job-accent);
+}
+.p-special__job-mv-catch {
+  margin-top: var(--space-3);
+  font-weight: 700;
+  font-size: var(--fs-lg);
+  line-height: 1.8;
+}
+.p-special__job-mv-catch span { display: block; }
+.p-special__job-mv-bg {
+  max-width: 640px;
+  margin: var(--space-4) auto 0;
+}
+.p-special__job-mv-bg img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+}
+.p-special__job-mv-bg--double {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2);
+}
+
+/* ---------- PICK UP ---------- */
+.p-special__pickups {
+  max-width: 780px;
+  margin-inline: auto;
+  padding: var(--space-6) var(--space-3);
+  display: grid;
+  gap: var(--space-7);
+}
+.p-special__pickup {
+  padding: var(--space-5) var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--color-bg);
+  box-shadow: var(--shadow-soft);
+  border-top: 6px solid var(--job-accent);
+  text-align: center;
+}
+.p-special__pickup-num img {
+  display: inline-block;
+  width: 90px;
+  height: auto;
+}
+.p-special__pickup-ttl {
+  margin-top: var(--space-2);
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  line-height: 1.5;
+}
+.p-special__pickup-mainimg { margin-top: var(--space-4); }
+.p-special__pickup-mainimg img,
+.p-special__pickup-img img,
+.p-special__graph-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-inline: auto;
+  border-radius: var(--radius-sm, 8px);
+}
+.p-special__pickup-inner {
+  margin-top: var(--space-4);
+  text-align: left;
+  line-height: 1.9;
+}
+.p-special__pickup-inner > * + * { margin-top: var(--space-3); }
+.p-special__note {
+  font-size: var(--fs-xs);
+  color: var(--color-ink-soft);
+}
+
+/* 業務リストカード */
+.p-special__pl {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-3);
+}
+.p-special__pl li {
+  padding: var(--space-3);
+  border-radius: var(--radius-md);
+  background: var(--color-pastel-cream);
+  text-align: center;
+}
+.p-special__pl-img img,
+.p-special__pl-illust img {
+  display: block;
+  width: min(100%, 140px);
+  height: auto;
+  margin-inline: auto;
+  border-radius: 50%;
+}
+.p-special__pl-illust img { border-radius: 0; }
+.p-special__pl-ttl {
+  margin-top: var(--space-2);
+  font-weight: 700;
+  color: var(--job-accent);
+}
+.p-special__pl-txt {
+  margin-top: var(--space-1);
+  font-size: var(--fs-sm);
+  text-align: left;
+}
+
+/* グラフ・見出し・表 */
+.p-special__graph {
+  padding: var(--space-3);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+}
+.p-special__graph > * + * { margin-top: var(--space-2); }
+.p-special__graph-ttl {
+  font-weight: 700;
+  text-align: center;
+}
+.p-special__graph-subttl { font-size: var(--fs-md); }
+.p-special__dot-ttl {
+  font-weight: 700;
+  font-size: var(--fs-md);
+  padding-left: 1.1em;
+  position: relative;
+}
+.p-special__dot-ttl::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 0.55em;
+  height: 0.55em;
+  border-radius: 50%;
+  background: var(--job-accent);
+}
+.p-special__dot-ttl--border {
+  padding-bottom: var(--space-1);
+  border-bottom: 2px dashed var(--job-accent);
+}
+.p-special__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.p-special__table th,
+.p-special__table td {
+  border: 1px solid var(--color-line);
+  padding: var(--space-2) var(--space-3);
+  vertical-align: top;
+}
+.p-special__table th {
+  width: 8em;
+  background: var(--color-pastel-cream);
+  font-weight: 700;
+  text-align: left;
+}
+
+/* 在校生の1日（clinicalengineer） */
+.p-special__time {
+  display: grid;
+  gap: var(--space-3);
+}
+.p-special__time li {
+  display: grid;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  border-radius: var(--radius-md);
+  background: var(--color-pastel-cream);
+}
+.p-special__time-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+.p-special__time-balloon {
+  display: inline-block;
+  font-family: var(--font-en);
+  font-weight: 700;
+  line-height: 1;
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+  background: var(--job-accent);
+  color: #fff;
+}
+.p-special__time-ttl { font-weight: 700; }
+.p-special__time-txt { font-size: var(--fs-sm); }
+.p-special__time-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-sm, 8px);
+}
+@media (min-width: 640px) {
+  .p-special__time li {
+    grid-template-columns: 1fr 220px;
+    align-items: center;
+  }
+}
+
+/* ---------- INTERVIEW ---------- */
+.p-special__iv {
+  max-width: 780px;
+  margin-inline: auto;
+  padding: var(--space-6) var(--space-3) var(--space-8);
+  text-align: center;
+}
+.p-special__iv-ttl {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+}
+.p-special__iv-en {
+  font-family: var(--font-en);
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  letter-spacing: var(--ls-wide);
+  color: var(--job-accent);
+}
+.p-special__iv-lead {
+  margin-top: var(--space-1);
+  font-weight: 700;
+}
+.p-special__iv-head {
+  position: relative;
+  margin-top: var(--space-4);
+  padding: var(--space-4);
+}
+.p-special__iv-front { position: relative; z-index: 1; }
+.p-special__iv-prof { font-weight: 500; }
+.p-special__iv-name {
+  margin-top: var(--space-1);
+  font-size: var(--fs-xl);
+  font-weight: 700;
+}
+.p-special__iv-img img {
+  display: block;
+  width: min(60%, 280px);
+  height: auto;
+  margin: var(--space-3) auto 0;
+}
+.p-special__iv-bg {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0.4;
+}
+.p-special__iv-bg img {
+  width: min(80%, 420px);
+  height: auto;
+}
+
+/* Q&A */
+.p-special__qa {
+  margin-top: var(--space-5);
+  display: grid;
+  gap: var(--space-4);
+  text-align: left;
+}
+.p-special__qa-q {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  font-weight: 700;
+  line-height: 1.7;
+}
+.p-special__qa-icon {
+  flex: 0 0 auto;
+  display: inline-grid;
+  place-items: center;
+  width: 2.4em;
+  height: 2.4em;
+  border-radius: 50%;
+  background: var(--job-accent);
+  color: #fff;
+  font-family: var(--font-en);
+  font-weight: 700;
+}
+.p-special__qa-a {
+  margin-top: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--color-pastel-cream);
+  line-height: 1.9;
+}
+.p-special__qa-img img {
+  display: block;
+  width: min(100%, 608px);
+  height: auto;
+  margin-inline: auto;
+  border-radius: var(--radius-md);
+}
+
+/* ---------- バナー（clinicalengineer） ---------- */
+.p-special__banners {
+  max-width: 780px;
+  margin-inline: auto;
+  padding: 0 var(--space-3) var(--space-8);
+  display: grid;
+  gap: var(--space-5);
+}
+.p-special__banner-ttl {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: var(--space-2);
+}
+.p-special__banner-box a {
+  display: block;
+  transition: opacity 0.25s;
+}
+.p-special__banner-box a:hover { opacity: 0.8; }
+.p-special__banner-box img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+}

@@ -1,0 +1,126 @@
+/* ブログ記事詳細（.p-blogart 配下限定） */
+
+.p-blogart {
+  max-width: 860px;
+  margin-inline: auto;
+  padding: var(--space-5) var(--space-3) var(--space-7);
+}
+
+/* ---------- 記事ヘッダ ---------- */
+.p-blogart__head {
+  padding-bottom: var(--space-4);
+  margin-bottom: var(--space-5);
+  border-bottom: 3px solid var(--color-brand-yellow);
+}
+.p-blogart__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+.p-blogart__date {
+  font-family: var(--font-en);
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  color: var(--color-ink-soft);
+}
+.p-blogart__labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+}
+.p-blogart__label {
+  display: inline-block;
+  font-size: var(--fs-xs);
+  line-height: 1;
+  padding: 4px 8px;
+  border: 1px solid currentColor;
+  border-radius: var(--radius-xs);
+  background: var(--color-bg);
+  color: var(--color-ink-soft);
+}
+/* カテゴリ色は一覧（other.css）とトーンを揃える */
+.p-blogart__label[data-cat="nursing"] { color: #d1568a; }
+.p-blogart__label[data-cat="orthoptist"] { color: #2f9ed4; }
+.p-blogart__label[data-cat="dentalhygienists"] { color: #9a6bc9; }
+.p-blogart__label[data-cat="clinicalengineer"] { color: #52a416; }
+.p-blogart__label[data-cat="all_depts"] { color: #b98a00; }
+.p-blogart__label[data-cat="events"] { color: #e0704d; }
+.p-blogart__label[data-cat="session"] { color: #2f8f6e; }
+.p-blogart__label[data-cat="students"] { color: #c9722f; }
+.p-blogart__label[data-cat="occupation"] { color: #6b7fc9; }
+.p-blogart__ttl {
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  line-height: 1.5;
+}
+.p-blogart__eyecatch {
+  margin-top: var(--space-4);
+}
+.p-blogart__eyecatch img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+}
+
+/* ---------- 本文（WP出力HTMLをそのまま流し込む） ---------- */
+.p-blogart__body {
+  line-height: 1.9;
+}
+.p-blogart__body > * + * { margin-top: var(--space-3); }
+.p-blogart__body h1,
+.p-blogart__body h2 {
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  line-height: 1.5;
+  padding: var(--space-1) var(--space-2);
+  margin-top: var(--space-6);
+  border-left: 6px solid var(--color-brand-yellow);
+  background: var(--color-pastel-cream);
+  border-radius: var(--radius-xs);
+}
+.p-blogart__body h3 {
+  font-size: var(--fs-md);
+  font-weight: 700;
+  margin-top: var(--space-5);
+}
+.p-blogart__body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-xs);
+}
+.p-blogart__body a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.25s;
+}
+.p-blogart__body a:hover { opacity: 0.75; }
+.p-blogart__body a:has(img) { text-decoration: none; }
+.p-blogart__body a img { transition: opacity 0.25s; }
+.p-blogart__body a:hover img { opacity: 0.85; }
+/* 原本の囲みボックス（div style="background-color:..."） */
+.p-blogart__body div[style*="background-color"] {
+  padding: var(--space-3);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-xs);
+}
+.p-blogart__body center { display: block; text-align: center; }
+.p-blogart__body table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.p-blogart__body th,
+.p-blogart__body td {
+  border: 1px solid var(--color-line);
+  padding: var(--space-1) var(--space-2);
+}
+
+/* ---------- 戻るボタン ---------- */
+.p-blogart__back {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-7);
+}

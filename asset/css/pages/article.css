@@ -1,0 +1,169 @@
+/* ============================================================
+   article.css — お知らせ記事詳細（/news/<年>/<ID>/ 33ページ共用）
+   prefix: .p-article 配下限定
+   ============================================================ */
+
+.p-article__inner {
+  padding: var(--space-5) var(--space-4) var(--space-8);
+}
+
+/* ---------- 記事ヘッダ ---------- */
+.p-article__head {
+  padding-bottom: var(--space-4);
+  margin-bottom: var(--space-5);
+  border-bottom: 2px solid var(--color-brand-yellow);
+}
+.p-article__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+.p-article__date {
+  font-family: var(--font-en);
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  color: var(--color-ink-soft);
+}
+.p-article__labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.p-article__label {
+  display: inline-block;
+  font-size: var(--fs-xs);
+  line-height: 1;
+  padding: 4px 8px;
+  border: 1px solid currentColor;
+  border-radius: var(--radius-xs);
+  background: var(--color-bg);
+  color: var(--color-ink-soft);
+}
+.p-article__label[data-cat="nursing"] { color: #d1568a; }
+.p-article__label[data-cat="orthoptist"] { color: #2f9ed4; }
+.p-article__label[data-cat="dentalhygienists"] { color: #9a6bc9; }
+.p-article__label[data-cat="clinicalengineer"] { color: #52a416; }
+.p-article__label[data-cat="information"] { color: #b98a00; }
+.p-article__label[data-cat="event"] { color: #e0704d; }
+.p-article__ttl {
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  line-height: var(--lh-tight);
+  letter-spacing: var(--ls-base);
+}
+
+/* ---------- 記事本文（WP由来HTMLの受け皿） ---------- */
+.p-article__body {
+  font-size: var(--fs-base);
+  line-height: var(--lh-body);
+  letter-spacing: var(--ls-base);
+  overflow-wrap: anywhere;
+}
+.p-article__body > * + * { margin-top: var(--space-3); }
+.p-article__body h2 {
+  font-size: var(--fs-md);
+  font-weight: 700;
+  line-height: var(--lh-tight);
+  margin-top: var(--space-6);
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-pastel-cream);
+  border-left: 4px solid var(--color-brand-yellow);
+  border-radius: var(--radius-xs);
+}
+.p-article__body h3 {
+  font-size: var(--fs-md);
+  font-weight: 700;
+  line-height: var(--lh-tight);
+  margin-top: var(--space-5);
+  padding-bottom: var(--space-1);
+  border-bottom: 2px solid var(--color-brand-yellow);
+}
+.p-article__body h4,
+.p-article__body h5 {
+  font-size: var(--fs-base);
+  font-weight: 700;
+  line-height: var(--lh-tight);
+  margin-top: var(--space-4);
+}
+.p-article__body h6 {
+  font-size: var(--fs-xs);
+  font-weight: 400;
+  color: var(--color-ink-soft);
+  margin-top: var(--space-2);
+}
+.p-article__body a:not(.c-btn) {
+  color: #2f6fd4;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.p-article__body img {
+  margin-inline: auto;
+  height: auto;
+  border-radius: var(--radius-xs);
+}
+.p-article__body center {
+  display: block;
+  text-align: center;
+}
+.p-article__body center img { margin-inline: auto; }
+.p-article__body iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border-radius: var(--radius-xs);
+}
+.p-article__body .c-btn {
+  margin: var(--space-3) auto;
+  text-align: center;
+}
+.p-article__body ul,
+.p-article__body ol {
+  padding-left: 1.4em;
+}
+.p-article__body blockquote {
+  padding: var(--space-3);
+  background: var(--color-bg-gray-1);
+  border-left: 4px solid var(--color-line);
+  border-radius: var(--radius-xs);
+}
+.p-article__body hr {
+  border: 0;
+  border-top: 1px solid var(--color-line);
+  margin-block: var(--space-5);
+}
+
+/* ---------- テーブル（横スクロール受け皿） ---------- */
+.p-article__tbl-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-top: var(--space-3);
+}
+.p-article__tbl-scroll table {
+  border-collapse: collapse;
+  min-width: 100%;
+  font-size: var(--fs-sm);
+}
+.p-article__tbl-scroll th,
+.p-article__tbl-scroll td {
+  border: 1px solid var(--color-line);
+  padding: var(--space-1) var(--space-2);
+  white-space: normal;
+  min-width: 5em;
+}
+.p-article__tbl-scroll th {
+  background: var(--color-pastel-cream);
+  font-weight: 700;
+  text-align: center;
+}
+
+/* ---------- 一覧へ戻る ---------- */
+.p-article__back {
+  margin-top: var(--space-7);
+  text-align: center;
+}
+.p-article__back .c-btn { margin-inline: auto; }
