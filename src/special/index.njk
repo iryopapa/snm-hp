@@ -1,0 +1,72 @@
+---
+layout: page.njk
+title: 医療のシゴト特集（お仕事紹介）
+description: 【看護師・視能訓練士・歯科衛生士・臨床工学技士】医療系に進むなら札幌看護医療専門学校！医療のお仕事について詳しく紹介。仕事内容や実際に働いている先輩のインタビューも読めます。
+breadcrumb: [{label: お仕事紹介}]
+bodyClass: p-special
+pageCss: /asset/css/pages/special.css
+permalink: /special/index.html
+---
+{#- MV -#}
+<section class="p-special__mv">
+  <div class="p-special__mv-ttlbox" data-anim="fade-up">
+    <p class="p-special__mv-catch">未来へ導くスペシャルコンテンツ</p>
+    <h1 class="p-special__mv-title"><img src="/asset/img/special/top/2025/mv-title.png" width="517" height="201" alt="医療のシゴト特集"></h1>
+    <p class="p-special__mv-txt">医療系のお仕事を目指す方に、最新のお仕事事情をご紹介。それぞれのお仕事に関する知識を深めて、自分の夢や思い描く将来像にあたるお仕事を見つけましょう♫</p>
+  </div>
+  <div class="p-special__mv-strip" aria-hidden="true">
+    <ul>
+      <li><img src="/asset/img/special/top/2025/mv-bg01.jpg" alt="" width="780" height="1230"></li>
+      <li><img src="/asset/img/special/top/2025/mv-bg02.jpg" alt="" width="780" height="1230" loading="lazy"></li>
+      <li><img src="/asset/img/special/top/2025/mv-bg03.jpg" alt="" width="780" height="1230" loading="lazy"></li>
+      <li><img src="/asset/img/special/top/2025/mv-bg04.jpg" alt="" width="780" height="1230" loading="lazy"></li>
+      <li><img src="/asset/img/special/top/2025/mv-bg05.jpg" alt="" width="780" height="1230" loading="lazy"></li>
+    </ul>
+  </div>
+</section>
+
+{#- お仕事紹介 4学科 -#}
+<section class="p-special__courses">
+  {%- set courses = [
+    {slug: "clinicalengineer", balloon: "将来性のある医療職",
+     titleHtml: "<span class='large'>臨床工学技士</span>ってどんな仕事？",
+     catch: "チーム医療の要として生命を支える",
+     url: "/special/clinicalengineer/", external: false, imgPrefix: "slide01", bg: "course01-bg.png"},
+    {slug: "orthoptist", balloon: "夜勤のない医療職",
+     titleHtml: "<span class='large'>視能訓練士</span>ってどんな仕事？",
+     catch: "眼科診療・視機能検査を支える専門家",
+     url: "/special/orthoptist/", external: false, imgPrefix: "slide02", bg: "course02-bg.png"},
+    {slug: "dentalhygienists", balloon: "歯科衛生士の求人倍率は？",
+     titleHtml: "<span class='large'>歯科衛生士</span>ってどんな仕事？",
+     catch: "キレイな笑顔に欠かせない口腔ケアのプロ",
+     url: "/special/dentalhygienists/", external: false, imgPrefix: "slide03", bg: "course03-bg.png"},
+    {slug: "nursing", balloon: "実習や就職先は？",
+     titleHtml: "札幌看護医療の<br><span class='large'>看護学科</span>の特徴は？",
+     catch: "患者さんに寄り添い心と身体の元気をサポート",
+     url: "/course/nursing/", external: false, imgPrefix: "slide04", bg: "course04-bg.png"}
+  ] -%}
+  {%- for c in courses %}
+  <div class="p-special__course" data-course="{{ c.slug }}" data-anim="fade-up">
+    <div class="p-special__course-head">
+      <p class="p-special__balloon">{{ c.balloon }}</p>
+      <h2 class="p-special__course-ttl">{{ c.titleHtml | safe }}</h2>
+      <p class="p-special__course-catch">{{ c.catch }}</p>
+      <p class="p-special__course-btn">
+        {%- if c.external %}
+        <a href="{{ c.url }}" target="_blank" rel="noopener" class="c-btn c-btn--yellow c-btn--arrow">MORE</a>
+        {%- else %}
+        <a href="{{ c.url }}" class="c-btn c-btn--yellow c-btn--arrow">MORE</a>
+        {%- endif %}
+      </p>
+    </div>
+    <div class="p-special__course-strip">
+      <ul>
+        {%- for i in ["img01", "img02", "img03", "img04"] %}
+        <li><img src="/asset/img/special/top/2025/{{ c.imgPrefix }}-{{ i }}.jpg" alt="" width="320" height="500" loading="lazy"></li>
+        {%- endfor %}
+      </ul>
+    </div>
+    <div class="p-special__course-bg" aria-hidden="true"><img src="/asset/img/special/top/2025/{{ c.bg }}" alt="" width="450" height="385" loading="lazy"></div>
+  </div>
+  {%- endfor %}
+</section>

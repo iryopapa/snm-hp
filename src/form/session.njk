@@ -1,0 +1,140 @@
+---
+layout: page.njk
+title: 学校説明・個別相談会フォーム
+description: 【看護師・視能訓練士・歯科衛生士・臨床工学技士】医療系に進むなら札幌看護医療専門学校！学びや職業、学費など知りたいことをなんでも聞ける個別相談。ご予約はこちらから。
+breadcrumb: [{label: 学校説明・個別相談会フォーム}]
+bodyClass: p-form p-form-session
+pageCss: /asset/css/pages/form.css
+pageJs: /asset/js/pages/form.js
+permalink: /form/session/index.html
+---
+{% set sessionDates = [
+  "2026/07/27(月)", "2026/07/28(火)", "2026/07/29(水)", "2026/07/30(木)", "2026/07/31(金)",
+  "2026/08/16(日)", "2026/08/29(土)", "2026/08/30(日)",
+  "2026/09/13(日)", "2026/09/19(土)", "2026/09/27(日)",
+  "2026/10/04(日)", "2026/10/11(日)", "2026/10/24(土)", "2026/10/31(土)",
+  "2026/11/07(土)", "2026/11/14(土)", "2026/11/15(日)", "2026/11/21(土)",
+  "2026/12/12(土)", "2026/12/20(日)",
+  "2027/01/10(日)", "2027/01/16(土)", "2027/01/30(土)",
+  "2027/02/06(土)", "2027/02/20(土)",
+  "2027/03/06(土)", "2027/03/14(日)"
+] %}
+<section class="u-section p-form__wrap">
+  <div class="c-section-head" data-anim="fade-up">
+    <span class="c-badge"><span class="c-badge__label">Session</span></span>
+    <h1 class="c-section-head__catch">学校説明・個別相談会フォーム</h1>
+  </div>
+
+  <div class="p-form__demo-note c-frame-card" data-anim="fade-up">
+    <p>こちらはデモサイトのため送信機能は動作しません。<br>実際のお問い合わせは公式サイトのフォームをご利用ください。</p>
+    <p class="p-form__demo-btn"><a class="c-btn c-btn--accent c-btn--arrow" data-keep-external href="https://www.snm.ac.jp/form/session/" target="_blank" rel="noopener">公式フォームを開く</a></p>
+  </div>
+
+  <div class="p-form__event-selected c-frame-card" data-event-selected hidden>
+    <p class="p-form__event-selected-label">選択中のイベント</p>
+    <p class="p-form__event-selected-name" data-event-selected-name></p>
+  </div>
+
+  <div class="p-form__info c-frame-card" data-anim="fade-up">
+    <p class="p-form__info-ttl">交通費補助が利用できます！</p>
+    <p>公共交通機関（JR・バスなど）でお越しの方には、交通費補助をしています！<br>
+    ※はじめてオープンキャンパスに参加する高校生対象／事前申請なし<br>
+    <a data-keep-external href="https://www.snm.ac.jp/opencampus/subsidy_list/" target="_blank" rel="noopener">詳しくはこちら</a></p>
+  </div>
+  <p class="p-form__lead" data-anim="fade-up">グループで参加される場合は、同行者の欄にお名前を記入してください。</p>
+  <div class="p-form__caution" data-anim="fade-up">
+    <p>まだ申込は完了していません！<br>最後に送信ボタンを押してください＾＾</p>
+  </div>
+
+  <form class="p-form__form" onsubmit="return false" data-anim="fade-up">
+    <div class="p-form__row">
+      <label class="p-form__label" for="f-event">参加イベント <span class="p-form__req">必須</span></label>
+      <select id="f-event" name="event-name">
+        <option value="" selected>選択してください</option>
+        {% for d in sessionDates %}<option value="{{ d }} - 学校説明・個別相談会">{{ d }} - 学校説明・個別相談会</option>{% endfor %}
+      </select>
+    </div>
+    <div class="p-form__row">
+      <label class="p-form__label" for="f-time">ご希望の時間 <span class="p-form__req">必須</span></label>
+      <select id="f-time" name="time">
+        <option value="" selected>選択してください</option>
+        <option value="10：00開始">10：00開始</option>
+        <option value="11：00開始">11：00開始</option>
+        <option value="12：00開始">12：00開始</option>
+        <option value="13：00開始">13：00開始</option>
+        <option value="14：00開始">14：00開始</option>
+        <option value="15：00開始">15：00開始</option>
+      </select>
+    </div>
+    <fieldset class="p-form__row">
+      <legend class="p-form__label">ご希望の形式 <span class="p-form__req">必須</span></legend>
+      <div class="p-form__choices">
+        <label class="p-form__radio"><input type="radio" name="形式" value="来校">来校</label>
+        <label class="p-form__radio"><input type="radio" name="形式" value="オンライン">オンライン</label>
+      </div>
+    </fieldset>
+    <div class="p-form__row">
+      <label class="p-form__label">氏名 <span class="p-form__req">必須</span></label>
+      <div class="p-form__pair">
+        <input type="text" name="姓" placeholder="姓" autocomplete="family-name">
+        <input type="text" name="名" placeholder="名" autocomplete="given-name">
+      </div>
+      <div class="p-form__pair">
+        <input type="text" name="セイ" placeholder="セイ">
+        <input type="text" name="メイ" placeholder="メイ">
+      </div>
+    </div>
+    <div class="p-form__row">
+      <label class="p-form__label" for="f-tel">連絡先（TEL） <span class="p-form__req">必須</span></label>
+      <input type="tel" id="f-tel" name="連絡先" placeholder="090********" autocomplete="tel">
+    </div>
+    <div class="p-form__row">
+      <label class="p-form__label" for="f-mail">メールアドレス <span class="p-form__req">必須</span></label>
+      <input type="email" id="f-mail" name="メールアドレス" autocomplete="email">
+    </div>
+    <div class="p-form__row">
+      <label class="p-form__label" for="f-school">学校名</label>
+      <input type="text" id="f-school" name="学校名" placeholder="○○高校">
+      <p class="p-form__hint">既卒の方は卒業学校、留学生の方は、日本語学校名をご記入下さい。</p>
+    </div>
+    <div class="p-form__row">
+      <label class="p-form__label" for="f-grade">学年 <span class="p-form__req">必須</span></label>
+      <select id="f-grade" name="学年">
+        <option value="" selected>選択してください</option>
+        <option value="高校1年生">高校1年生</option>
+        <option value="高校2年生">高校2年生</option>
+        <option value="高校3年生">高校3年生</option>
+        <option value="既卒・社会人">既卒・社会人</option>
+        <option value="その他">その他</option>
+      </select>
+    </div>
+    <div class="p-form__row">
+      <label class="p-form__label" for="f-companion">同行者</label>
+      <input type="text" id="f-companion" name="同行者" placeholder="氏名">
+      <p class="p-form__hint">一緒に参加される友人・保護者のお名前を記入ください。（友人の方も別途お申し込みをお願いいたします）</p>
+    </div>
+    <fieldset class="p-form__row">
+      <legend class="p-form__label">気になる学科 <span class="p-form__req">必須</span></legend>
+      <p class="p-form__hint">※複数選択可能</p>
+      <div class="p-form__choices">
+        <label class="p-form__check"><input type="checkbox" name="志望学科[data][]" value="看護学科">看護学科</label>
+        <label class="p-form__check"><input type="checkbox" name="志望学科[data][]" value="視能訓練士学科">視能訓練士学科</label>
+        <label class="p-form__check"><input type="checkbox" name="志望学科[data][]" value="歯科衛生士学科">歯科衛生士学科</label>
+        <label class="p-form__check"><input type="checkbox" name="志望学科[data][]" value="臨床工学技士学科">臨床工学技士学科</label>
+        <label class="p-form__check"><input type="checkbox" name="志望学科[data][]" value="迷い中">迷い中</label>
+        <label class="p-form__check"><input type="checkbox" name="志望学科[data][]" value="相談したい">相談したい</label>
+        <label class="p-form__check"><input type="checkbox" name="志望学科[data][]" value="友達の付き添い">友達の付き添い</label>
+      </div>
+    </fieldset>
+    <div class="p-form__row">
+      <label class="p-form__label" for="f-free">特に聞きたい内容など</label>
+      <textarea id="f-free" name="自由記入" rows="5"></textarea>
+    </div>
+    <div class="p-form__row">
+      <p class="p-form__hint"><a href="/privacy/">プライバシー・ステートメント</a>をご確認のうえお申し込みください。</p>
+    </div>
+    <p class="p-form__submit">
+      <button type="button" class="c-btn" disabled aria-disabled="true">上記に同意の上 送信する（デモのため無効）</button>
+    </p>
+  </form>
+</section>

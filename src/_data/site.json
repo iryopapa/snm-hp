@@ -6,15 +6,15 @@
   "tel": "011-801-8343",
   "freedial": "0120-37-8343",
   "cta": {
-    "document": "https://www.snm.ac.jp/form/document/",
+    "document": "/form/document/",
     "event": "/opencampus/calendar/",
     "ao": "https://webappform.jikei.com/entry/?sid=snm",
-    "line": "https://www.snm.ac.jp/news/2023/914/"
+    "line": "/news/2023/914/"
   },
   "sns": {
     "instagram": "https://www.instagram.com/sapporo_kango/",
     "tiktok": "https://www.tiktok.com/@sapporo_kango",
     "youtube": "https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww",
-    "line": "https://www.snm.ac.jp/news/2023/914/"
+    "line": "/news/2023/914/"
   }
 }

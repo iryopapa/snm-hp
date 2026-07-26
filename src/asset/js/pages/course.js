@@ -45,3 +45,30 @@
     });
   });
 })();
+
+// 360°VRパノラマ（pannellumをクリック時に遅延ロード・全アセット自己ホスト）
+(() => {
+  const stage = document.querySelector("[data-panorama-src]");
+  const btn = document.querySelector("[data-panorama-start]");
+  if (!stage || !btn) return;
+  btn.addEventListener("click", () => {
+    const base = window.SITE_BASE || "/";
+    const css = document.createElement("link");
+    css.rel = "stylesheet";
+    css.href = base + "asset/lib/pannellum/pannellum.css";
+    document.head.appendChild(css);
+    const js = document.createElement("script");
+    js.src = base + "asset/lib/pannellum/pannellum.js";
+    js.onload = () => {
+      btn.remove();
+      window.pannellum.viewer(stage, {
+        type: "equirectangular",
+        panorama: base + stage.dataset.panoramaSrc,
+        autoLoad: true,
+        autoRotate: -3,
+        compass: false,
+      });
+    };
+    document.head.appendChild(js);
+  }, { once: true });
+})();
