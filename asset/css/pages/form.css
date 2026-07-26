@@ -1,0 +1,40 @@
+/* ============ フォームページ（.p-form 配下限定） ============ */
+.p-form__wrap { padding-bottom: var(--space-9); }
+.p-form__demo-note { padding: var(--space-5); text-align: center; font-size: var(--fs-sm); margin-bottom: var(--space-6); }
+.p-form__demo-btn { margin-top: var(--space-4); }
+.p-form__form { display: grid; gap: var(--space-5); }
+.p-form__row { display: grid; gap: var(--space-2); border: 0; padding: 0; margin: 0; }
+.p-form__label { font-weight: 700; font-size: var(--fs-sm); display: flex; align-items: center; gap: var(--space-2); }
+.p-form__req {
+  background: var(--color-brand-pink);
+  color: #fff;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  border-radius: var(--radius-xs);
+  padding: 0 var(--space-2);
+}
+.p-form__pair { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3); }
+.p-form__form input[type="text"],
+.p-form__form input[type="tel"],
+.p-form__form input[type="email"],
+.p-form__form textarea {
+  width: 100%;
+  padding: var(--space-3);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-xs);
+  background: var(--color-bg-gray-1);
+  font: inherit;
+  transition: border-color var(--dur-fast), background var(--dur-fast);
+}
+.p-form__form input:focus,
+.p-form__form textarea:focus {
+  border-color: var(--color-brand-pink);
+  background: var(--color-bg);
+  outline: none;
+}
+.p-form__radio { display: flex; align-items: center; gap: var(--space-2); font-size: var(--fs-sm); }
+.p-form__radio input { accent-color: var(--color-brand-pink); }
+.p-form__hint { font-size: var(--fs-xs); color: var(--color-ink-soft); }
+.p-form__hint a { text-decoration: underline; text-underline-offset: 3px; }
+.p-form__submit { text-align: center; margin-top: var(--space-4); }
+.p-form__submit .c-btn[disabled] { opacity: 0.5; cursor: not-allowed; }
