@@ -35,7 +35,17 @@
     // 各stopの代表写真（本文で使用済みの画像を再利用）とエリア名（本文の見出しを再利用）
     const data = stops
       .map((sec) => {
-        const img = sec.querySelector(".head-img img, .imgs img, .swiper-slide img, .img img, img");
+        // 見出し・バッジ等の装飾画像は代表写真にしない（横長かつ十分大きい実写のみ）
+        // lazy画像は naturalWidth が0なので、HTML属性の width/height を優先して判定する
+        const isPhoto = (el) => {
+          if (el.closest(".ttl, .badge, .icon, .catch, .deco, .head-catch")) return false;
+          const w = parseInt(el.getAttribute("width"), 10) || el.naturalWidth || 0;
+          const h = parseInt(el.getAttribute("height"), 10) || el.naturalHeight || 0;
+          if (!w || !h) return true; // 寸法不明なら除外しない
+          return w >= 400 && w >= h * 0.9;
+        };
+        const imgs = [...sec.querySelectorAll(".head-img img, .imgs img, .swiper-slide img, .img img, img")];
+        const img = imgs.find(isPhoto);
         if (!img) return null;
         const labelEl =
           sec.querySelector(".ttl .strong") ||
