@@ -215,18 +215,30 @@
 .p-top__course-item .img { position: absolute; inset: 0; z-index: 1; transition: translate var(--dur-base) var(--ease-out-quart); }
 .p-top__course-item .img img { display: block; width: 100%; height: auto; }
 .p-top__course-item:hover .img { translate: 0 -6px; }
+/* 学科名は本物同様に下部の白帯へ（人物と被らせない） */
 .p-top__course-name {
   position: absolute;
-  top: var(--space-3);
-  left: var(--space-3);
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 2;
-  display: grid;
-  gap: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  background: rgba(255, 255, 255, 0.96);
+  padding: var(--space-2) var(--space-1);
   color: var(--color-ink);
 }
-.p-top__course-name .txt { font-size: var(--fs-xs); font-weight: 700; }
-.p-top__course-name .txt .number { font-family: var(--font-en); font-size: 1.5em; font-weight: 800; }
-.p-top__course-name .course { font-weight: 800; font-size: var(--fs-md); line-height: var(--lh-tight); }
+.p-top__course-name .txt {
+  background: var(--color-brand-yellow);
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px var(--space-2);
+  border-radius: var(--radius-xs);
+}
+.p-top__course-name .txt .number { font-family: var(--font-en); font-weight: 800; }
+.p-top__course-name .course { font-weight: 800; font-size: var(--fs-sm); line-height: var(--lh-tight); }
 .p-top__course-name .course .small { font-size: 0.7em; }
 
 /* ---- 7. 選ばれる理由 ---- */

@@ -18,8 +18,9 @@
       .from(".p-top__mv-circle", { autoAlpha: 0, scale: 0.6, ease: "back.out(1.7)", duration: 0.7 }, 1.2)
       .from(".l-rail--left", { autoAlpha: 0, duration: 0.8 }, 0.6)
       .from(".l-rail--right", { autoAlpha: 0, x: 24, duration: 0.9 }, 0.8)
-      .from(".l-rail__cta-cards .c-cta-card", { autoAlpha: 0, y: 20, stagger: 0.12, duration: 0.5 }, 1.3)
-      .from(".p-top__ticker", { autoAlpha: 0, y: 12, duration: 0.5 }, 1.6);
+      .from(".l-rail__cta-cards .c-cta-card", { autoAlpha: 0, y: 20, stagger: 0.12, duration: 0.5 }, 1.3);
+    // ※ティッカーは data-anim（reveal.js）に任せる。gsapと二重管理すると
+    //   from値の捕捉タイミング次第で opacity:0 のまま固まるため触らない
 
     // 左右レールのパララックス（視差6%以下・scrub）
     if (typeof ScrollTrigger !== "undefined") {
