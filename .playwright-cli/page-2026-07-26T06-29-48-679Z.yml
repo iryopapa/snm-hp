@@ -1,0 +1,288 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - banner [ref=e6]:
+      - generic [ref=e7]:
+        - link "札幌看護医療専門学校" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e9]
+        - button "MENU" [ref=e10] [cursor=pointer]:
+          - generic [ref=e15]: MENU
+    - main [ref=e16]:
+      - navigation "パンくずリスト" [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "TOP" [ref=e20] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e21]:
+            - text: ›
+            - link "学校生活・施設" [ref=e22] [cursor=pointer]:
+              - /url: /campuslife/
+          - listitem [ref=e23]: ›施設紹介
+      - generic [ref=e24]:
+        - heading "施設紹介" [level=2] [ref=e26]
+        - paragraph [ref=e27]:
+          - img "Facility introduction" [ref=e28]
+      - generic [ref=e29]:
+        - heading "最新の快適な校舎と 充実した設備で" [level=3] [ref=e30]:
+          - generic [ref=e31]: 最新の快適な校舎と
+          - generic [ref=e32]: 充実した設備で
+        - paragraph [ref=e33]:
+          - img "Enjoy a fun campus life!" [ref=e34]
+        - list [ref=e35]:
+          - listitem [ref=e36]
+          - listitem [ref=e37]
+          - listitem [ref=e38]
+      - generic [ref=e39]:
+        - generic [ref=e41]:
+          - heading "まちとつながるプロムナードキャンパス" [level=4] [ref=e42]:
+            - generic [ref=e43]: まちとつながるプロムナードキャンパス
+          - paragraph [ref=e44]: 新たな街づくりにより、「アカデミック街区」として創設された札幌看護医療専門学校。同敷地内には札幌学院大学もあり、共に学べる環境が整っています。屋外プロムナードを通って、毎日明るい気持ちで登校できるお洒落な校舎です。
+        - paragraph [ref=e47]: 外観はプロムナードの舗装と連続感をもたせ、水平性を強調したアースカラー「大地」の外装。
+      - generic [ref=e48]:
+        - generic [ref=e50]:
+          - heading "出会いと居場所が見つかる 開放的なエントランスホール" [level=4] [ref=e51]:
+            - text: 出会いと居場所が見つかる
+            - generic [ref=e52]: 開放的なエントランスホール
+          - paragraph [ref=e53]:
+            - text: 1～2階には屋内外のつながりを促すフォリーが
+            - generic [ref=e54]:
+              - text: 鏤
+              - generic [ref=e55]: ちりば
+            - text: められたガーデン・ホール空間を配置しました。
+        - list [ref=e56]:
+          - listitem [ref=e57]
+          - listitem [ref=e58]
+      - generic [ref=e59]:
+        - generic [ref=e61]:
+          - heading "自然光が心地いいキャンパスカフェ" [level=4] [ref=e62]:
+            - generic [ref=e63]: 自然光が心地いいキャンパスカフェ
+          - paragraph [ref=e64]: 1日の自然光のリズムに合わせた「サーカディアン照明」を導入することで、時間によって移り変わる空間を実現しました。
+        - list [ref=e65]:
+          - listitem [ref=e66]
+          - listitem [ref=e67]
+          - listitem [ref=e68]
+      - generic [ref=e69]:
+        - heading "「共感の大地」" [level=3] [ref=e70]
+        - paragraph [ref=e71]:
+          - text: 「共感の大地」をテーマに、
+          - text: 教室と実習室を一体化させる共用廊下空間にて
+          - text: 学科ごと／フロアごとの共感を重視した空間とし、
+          - text: 多様な教育の場が散策できます。
+      - generic [ref=e73]:
+        - generic [ref=e75]:
+          - heading "明るく広々とした図書館" [level=4] [ref=e76]:
+            - generic [ref=e77]: 明るく広々とした図書館
+          - paragraph [ref=e78]: 必要な専門図書を取り揃え、仕切りで区切られたスペースもあり、一人ひとりが集中できる区間です。
+        - list [ref=e79]:
+          - listitem [ref=e80]
+          - listitem [ref=e81]
+      - generic [ref=e82]:
+        - generic [ref=e84]:
+          - heading "モダンで開放的な設計の カンファレンスシアター" [level=4] [ref=e85]:
+            - text: モダンで開放的な設計の
+            - generic [ref=e86]: カンファレンスシアター
+          - paragraph [ref=e87]: 最大200名を収容できるホールシアターでは、学内だけでなく地域イベントやセミナー開催など幅広く活用されています。
+        - list [ref=e88]:
+          - listitem [ref=e89]
+        - paragraph [ref=e90]
+      - generic [ref=e91]:
+        - generic [ref=e93]:
+          - heading "キレイで清潔感のあるパウダールーム" [level=4] [ref=e94]:
+            - generic [ref=e95]: キレイで清潔感のあるパウダールーム
+          - paragraph [ref=e96]: 実習後や授業の合間に気兼ねなく身だしなみチェックやメイク直しが できるパウダールームです。
+        - list [ref=e97]:
+          - listitem [ref=e98]
+          - listitem [ref=e99]
+      - generic [ref=e100]:
+        - img "Pick up" [ref=e102]
+        - generic [ref=e103]:
+          - heading "AWARD 2023年北海道優秀照明施設賞受賞" [level=4] [ref=e104]:
+            - img "AWARD" [ref=e106]
+            - generic [ref=e107]: 2023年北海道優秀照明施設賞受賞
+          - list [ref=e108]:
+            - listitem [ref=e109]
+            - listitem [ref=e110]
+          - paragraph [ref=e111]:
+            - img "Received the Excellence in Lighting Award 2023" [ref=e112]
+        - generic [ref=e113]:
+          - heading "Netflix配信さよならの続きの ロケ地になりました！" [level=4] [ref=e114]:
+            - generic [ref=e116]:
+              - text: Netflix配信さよならの続きの
+              - text: ロケ地になりました！
+          - list [ref=e117]:
+            - listitem [ref=e118]
+            - listitem [ref=e119]
+            - listitem [ref=e120]
+      - generic [ref=e121]:
+        - heading "最新設備が揃った学びの空間" [level=3] [ref=e122]
+        - generic [ref=e125]:
+          - paragraph [ref=e126]: 看護実習室
+          - paragraph [ref=e127]: 実際の病院と同様の設備環境を備えた実習室。安全・安楽な援助を提供するための看護技術を身につけます。
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - group "1 / 3" [ref=e131]
+              - group "2 / 3" [ref=e132]
+              - group "3 / 3" [ref=e133]
+            - generic [ref=e134]:
+              - button "Go to slide 1" [ref=e135] [cursor=pointer]
+              - button "Go to slide 2" [ref=e136] [cursor=pointer]
+              - button "Go to slide 3" [ref=e137] [cursor=pointer]
+          - generic [ref=e138]:
+            - paragraph [ref=e139]: 母性・小児在宅看護実習室
+            - paragraph [ref=e140]: 保育器や小児用ベッド、沐浴槽を備え、主に母性看護・小児看護の演習を行います。また実際の住居に近い環境で、近年需要の増えている在宅でのケアを学ぶことができる環境も整っています。
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - group "1 / 2" [ref=e144]
+              - group "2 / 2" [ref=e145]
+            - generic [ref=e146]:
+              - button "Go to slide 1" [ref=e147] [cursor=pointer]
+              - button "Go to slide 2" [ref=e148] [cursor=pointer]
+          - generic [ref=e149]:
+            - paragraph [ref=e150]: 視能実習室
+            - paragraph [ref=e151]: 電子視力表や検査機器を使用し、最新の眼科医療を学ぶことができます。
+        - generic [ref=e154]:
+          - paragraph [ref=e155]: 視能実習室（暗室）
+          - paragraph [ref=e156]: 最新の眼科医療機器や道内養成校初の3D眼底カメラを備え、現場で必要な実践力を身につけます。
+        - generic [ref=e159]:
+          - paragraph [ref=e160]: 歯科ユニット実習室
+          - paragraph [ref=e161]: 最新のデジタルユニットを備えた実習室。ルーペやデジタルツールを使った最先端の技術を修得します。
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - group "1 / 2" [ref=e165]
+              - group "2 / 2" [ref=e166]
+            - generic [ref=e167]:
+              - button "Go to slide 1" [ref=e168] [cursor=pointer]
+              - button "Go to slide 2" [ref=e169] [cursor=pointer]
+          - generic [ref=e170]:
+            - paragraph [ref=e171]: 歯科ファントム実習室
+            - paragraph [ref=e172]: 一人一台の専用マネキンとモニターを使って基礎実習を行います。
+        - generic [ref=e173]:
+          - generic [ref=e174]:
+            - generic [ref=e175]:
+              - group "1 / 2" [ref=e176]
+              - group "2 / 2" [ref=e177]
+            - generic [ref=e178]:
+              - button "Go to slide 1" [ref=e179] [cursor=pointer]
+              - button "Go to slide 2" [ref=e180] [cursor=pointer]
+          - generic [ref=e181]:
+            - paragraph [ref=e182]: 臨床工学実習室
+            - paragraph [ref=e183]: 人工透析機器、人工心肺装置など病院で使われる最新の医療機器を備え、体験型実習で様々な現場に対応できる技術と知識を学びます。
+        - generic [ref=e186]:
+          - paragraph [ref=e187]: 基礎工学実習室
+          - paragraph [ref=e188]: 医療機器の原理・構造を学習するために電気・電子工学の実習を行い、必要となってくる装置の基本を学びます。
+    - contentinfo [ref=e189]:
+      - generic [ref=e190]:
+        - link "札幌看護医療専門学校" [ref=e191] [cursor=pointer]:
+          - /url: /
+          - img "札幌看護医療専門学校" [ref=e192]
+        - paragraph [ref=e193]:
+          - text: 〒004-0051 札幌市厚別区厚別中央1条5丁目1番5号
+          - text: TEL
+          - link "011-801-8343" [ref=e194] [cursor=pointer]:
+            - /url: tel:011-801-8343
+          - text: ／フリーダイヤル
+          - link "0120-37-8343" [ref=e195] [cursor=pointer]:
+            - /url: tel:0120-37-8343
+        - group [ref=e196]:
+          - generic "訪問者別メニュー ▾" [ref=e197] [cursor=pointer]
+        - list [ref=e198]:
+          - listitem [ref=e199]:
+            - link "Instagram" [ref=e200] [cursor=pointer]:
+              - /url: https://www.instagram.com/sapporo_kango/
+              - img "Instagram" [ref=e201]
+          - listitem [ref=e202]:
+            - link "TikTok" [ref=e203] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@sapporo_kango
+              - img "TikTok" [ref=e204]
+          - listitem [ref=e205]:
+            - link "YouTube" [ref=e206] [cursor=pointer]:
+              - /url: https://www.youtube.com/channel/UCQU3cRE2T7qim5OOqXSDjww
+              - img "YouTube" [ref=e207]
+          - listitem [ref=e208]:
+            - link "LINE" [ref=e209] [cursor=pointer]:
+              - /url: /news/2023/914/
+              - img "LINE" [ref=e210]
+        - list [ref=e211]:
+          - listitem [ref=e212]:
+            - link "お問い合わせ" [ref=e213] [cursor=pointer]:
+              - /url: /form/inquiry/
+          - listitem [ref=e214]:
+            - link "交通・アクセス" [ref=e215] [cursor=pointer]:
+              - /url: /school/access/
+          - listitem [ref=e216]:
+            - link "情報公開（職業実践専門課程）" [ref=e217] [cursor=pointer]:
+              - /url: /school/info/
+          - listitem [ref=e218]:
+            - link "施設(教室)利用貸出につきまして" [ref=e219] [cursor=pointer]:
+              - /url: /form/facility/
+          - listitem [ref=e220]:
+            - link "採用情報" [ref=e221] [cursor=pointer]:
+              - /url: /recruit/
+          - listitem [ref=e222]:
+            - link "サイトマップ" [ref=e223] [cursor=pointer]:
+              - /url: /sitemap/
+          - listitem [ref=e224]:
+            - link "プライバシーポリシー" [ref=e225] [cursor=pointer]:
+              - /url: /privacy/
+          - listitem [ref=e226]:
+            - link "ソーシャルメディアポリシー" [ref=e227] [cursor=pointer]:
+              - /url: /socialpolicy/
+      - paragraph [ref=e228]: © 2025 Sapporo College of Nursing and Medical Health.
+      - text: ←
+  - generic [ref=e230]:
+    - group [ref=e231]:
+      - generic "訪問者別メニュー ▾" [ref=e232] [cursor=pointer]
+    - paragraph [ref=e233]:
+      - link "情報公開（職業実践専門課程）" [ref=e234] [cursor=pointer]:
+        - /url: /school/info/
+      - text: ／
+      - link "施設(教室)利用貸出につきまして" [ref=e235] [cursor=pointer]:
+        - /url: /form/facility/
+    - generic [ref=e236]:
+      - link "資料請求" [ref=e237] [cursor=pointer]:
+        - /url: /form/document/
+        - generic [ref=e239]: 資料請求
+      - link "イベント 全日程一覧" [ref=e240] [cursor=pointer]:
+        - /url: /opencampus/calendar/
+        - generic [ref=e242]:
+          - text: イベント
+          - text: 全日程一覧
+      - link "LINEなんでも 相談" [ref=e243] [cursor=pointer]:
+        - /url: /news/2023/914/
+        - generic [ref=e245]:
+          - text: LINEなんでも
+          - text: 相談
+    - list [ref=e246]:
+      - listitem [ref=e247]:
+        - link "夢がふくらむ、目標が見つかる！ オープンキャンパス" [ref=e248] [cursor=pointer]:
+          - /url: /opencampus/
+          - generic [ref=e249]: 夢がふくらむ、目標が見つかる！
+          - generic [ref=e250]: オープンキャンパス
+          - generic [ref=e251]: →
+      - listitem [ref=e252]:
+        - link "REASON 札幌看護医療専門学校が選ばれる理由" [ref=e253] [cursor=pointer]:
+          - /url: /school/study/
+          - generic [ref=e254]: REASON
+          - generic [ref=e255]: 札幌看護医療専門学校が選ばれる理由
+          - generic [ref=e256]: →
+      - listitem [ref=e257]:
+        - link "COURSE ミライを担う医療系4学科" [ref=e258] [cursor=pointer]:
+          - /url: /course/
+          - generic [ref=e259]: COURSE
+          - generic [ref=e260]: ミライを担う医療系4学科
+          - generic [ref=e261]: →
+      - listitem [ref=e262]:
+        - link "ADMISSION 入試・学費" [ref=e263] [cursor=pointer]:
+          - /url: /admission/
+          - generic [ref=e264]: ADMISSION
+          - generic [ref=e265]: 入試・学費
+          - generic [ref=e266]: →
+      - listitem [ref=e267]:
+        - link "FACILITY 施設紹介" [ref=e268] [cursor=pointer]:
+          - /url: /campuslife/facility/
+          - generic [ref=e269]: FACILITY
+          - generic [ref=e270]: 施設紹介
+          - generic [ref=e271]: →
