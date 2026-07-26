@@ -1,0 +1,270 @@
+/* ============ 学校生活・施設セクション（.p-campuslife 配下限定） ============ */
+
+/* ---- ハブMV ---- */
+.p-campuslife__mv { position: relative; overflow: hidden; }
+.p-campuslife__mv-inner { position: relative; }
+.p-campuslife__mv-bg img { display: block; width: 100%; height: auto; }
+.p-campuslife__mv-ttl {
+  position: absolute;
+  top: 50%;
+  left: var(--space-5);
+  translate: 0 -50%;
+  z-index: 2;
+  display: grid;
+  gap: var(--space-1);
+  padding: var(--space-3) var(--space-4);
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: var(--radius-xs);
+  box-shadow: var(--shadow-soft);
+}
+.p-campuslife__mv-ttl .eng { font-family: var(--font-en); font-weight: 800; font-size: var(--fs-sm); letter-spacing: var(--ls-caps); color: var(--color-brand-green); }
+.p-campuslife__mv-ttl .ja { font-weight: 800; font-size: var(--fs-xl); line-height: var(--lh-tight); }
+
+/* ---- ハブメニュー ---- */
+.p-campuslife__menu-list { display: grid; gap: var(--space-6); }
+.p-campuslife__menu-card { display: block; overflow: hidden; }
+.p-campuslife__menu-card .img { display: block; margin: var(--space-3) var(--space-3) 0; border-radius: var(--radius-xs); overflow: hidden; }
+.p-campuslife__menu-card .img img { display: block; width: 100%; height: auto; transition: scale var(--dur-slow) var(--ease-out-quart); }
+.p-campuslife__menu-card:hover .img img { scale: 1.04; }
+.p-campuslife__menu-card .body { display: block; padding: var(--space-3) var(--space-4) var(--space-4); }
+.p-campuslife__menu-card .ttl { display: flex; justify-content: space-between; align-items: center; gap: var(--space-2); font-weight: 800; font-size: var(--fs-md); }
+.p-campuslife__menu-card .arrow { font-family: var(--font-en); transition: translate var(--dur-fast); }
+.p-campuslife__menu-card:hover .arrow { translate: 4px 0; }
+
+/* ============ キャンパスライフ（年間行事） ============ */
+.p-campuslife__sc-mv { position: relative; overflow: hidden; }
+.p-campuslife__sc-mv-img img { display: block; width: 100%; height: auto; }
+.p-campuslife__sc-mv-txt {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: grid;
+  align-content: start;
+  justify-items: center;
+  padding-top: var(--space-6);
+}
+.p-campuslife__sc-mv-txt .ttl img { display: block; width: min(84%, 330px); height: auto; margin: 0 auto; }
+.p-campuslife__sc-mv-txt .catch img { display: block; width: min(86%, 336px); height: auto; margin: var(--space-2) auto 0; }
+html.js .p-campuslife__sc-mv-txt { opacity: 0; translate: 0 16px; transition: opacity var(--dur-hero) var(--ease-out-quart), translate var(--dur-hero) var(--ease-out-quart); }
+html.js .p-campuslife__sc-mv-txt.is-inview { opacity: 1; translate: 0 0; }
+
+.p-campuslife__sc-lead { text-align: center; }
+.p-campuslife__sc-lead .txt { font-weight: 700; font-size: var(--fs-base); line-height: 2.2; }
+
+/* 行事ブロック */
+.p-campuslife__event { padding: var(--space-7) 0; }
+.p-campuslife__event:nth-of-type(odd) { background: var(--color-pastel-cream); }
+.p-campuslife__event-head {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 0 var(--space-5);
+  margin-bottom: var(--space-5);
+}
+.p-campuslife__event.is-reverse .p-campuslife__event-head { grid-template-columns: auto 1fr; }
+.p-campuslife__event.is-reverse .p-campuslife__event-head .ttl { order: 2; }
+.p-campuslife__event-head .ttl img { display: block; width: auto; height: auto; max-width: 100%; max-height: 80px; }
+.p-campuslife__event-head .deco img { display: block; width: auto; height: auto; max-width: 96px; max-height: 84px; }
+.p-campuslife__event-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: dense;
+  gap: var(--space-2);
+  padding: 0 var(--space-3);
+}
+.p-campuslife__event-item { position: relative; display: block; border-radius: var(--radius-xs); overflow: hidden; }
+.p-campuslife__event-item.is-tall { grid-row: span 2; }
+.p-campuslife__event-item img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.p-campuslife__event-item.is-xfade img { position: absolute; inset: 0; transition: opacity 1.2s var(--ease-site); }
+.p-campuslife__event-item.is-xfade { aspect-ratio: 1; }
+.p-campuslife__event-item.is-xfade.is-tall { aspect-ratio: 260 / 528; }
+.p-campuslife__event-item.is-xfade img.is-hidden { opacity: 0; }
+.p-campuslife__event-item.is-movie .play {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+.p-campuslife__event-item.is-movie .play .front,
+.p-campuslife__event-item.is-movie .play .text { position: absolute; width: 96px; height: 96px; }
+.p-campuslife__event-item.is-movie .play img { width: 100%; height: 100%; object-fit: contain; }
+.p-campuslife__event-item.is-movie .play .text { animation: p-campuslife-spin 14s linear infinite; }
+.p-campuslife__event-item.is-movie:hover .play .front { scale: 1.08; transition: scale var(--dur-fast) var(--ease-spring); }
+@keyframes p-campuslife-spin { to { rotate: 360deg; } }
+
+/* ============ 施設紹介 ============ */
+.p-campuslife__fa-mv { position: relative; overflow: hidden; }
+.p-campuslife__fa-mv-img img { display: block; width: 100%; height: auto; }
+.p-campuslife__fa-mv-ttl {
+  position: absolute;
+  left: var(--space-5);
+  bottom: var(--space-7);
+  z-index: 2;
+  font-weight: 800;
+  font-size: clamp(1.8rem, 9cqw, 2.4rem);
+  background: rgba(255, 255, 255, 0.92);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-xs);
+  box-shadow: var(--shadow-soft);
+}
+.p-campuslife__fa-mv-catch { position: absolute; left: var(--space-5); bottom: var(--space-4); z-index: 2; width: min(56%, 271px); }
+.p-campuslife__fa-mv-catch img { display: block; width: 100%; height: auto; filter: drop-shadow(0 1px 4px rgba(255, 255, 255, 0.8)); }
+
+.p-campuslife__fa-head { text-align: center; }
+.p-campuslife__fa-title { font-weight: 800; font-size: clamp(1.6rem, 8cqw, 2rem); line-height: 1.6; }
+.p-campuslife__fa-title .grad {
+  background: var(--grad-script);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.p-campuslife__fa-title .small { font-size: 0.6em; }
+.p-campuslife__fa-catch { margin-top: var(--space-4); }
+.p-campuslife__fa-catch img { width: min(100%, 400px); height: auto; }
+.p-campuslife__fa-headimgs { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-2); margin-top: var(--space-5); }
+.p-campuslife__fa-headimgs li { border-radius: var(--radius-xs); overflow: hidden; }
+.p-campuslife__fa-headimgs li:nth-child(2) { grid-row: span 2; }
+.p-campuslife__fa-headimgs img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+/* 共用スペース各グループ */
+.p-campuslife__fa-group:nth-of-type(odd) { background: var(--color-bg-gray-1); }
+.p-campuslife__fa-group .head-img { margin: 0 calc(-1 * var(--space-5)) var(--space-4); }
+.p-campuslife__fa-group .head-img img { display: block; width: 100%; height: auto; }
+.p-campuslife__fa-group .ttl { font-weight: 800; font-size: var(--fs-lg); line-height: var(--lh-body); margin-bottom: var(--space-3); }
+.p-campuslife__fa-group .ttl .strong { font-size: 1.15em; }
+.p-campuslife__fa-group .txt { font-size: var(--fs-sm); line-height: var(--lh-body); }
+.p-campuslife__fa-group .imgs { display: flex; flex-wrap: wrap; align-items: flex-end; gap: var(--space-2); margin-top: var(--space-4); }
+.p-campuslife__fa-group .imgs li { border-radius: var(--radius-xs); overflow: hidden; flex: 1 1 60%; }
+.p-campuslife__fa-group .imgs li:nth-child(even) { flex: 1 1 30%; }
+.p-campuslife__fa-group .imgs img { display: block; width: 100%; height: auto; }
+.p-campuslife__fa-group .sub { margin-top: var(--space-4); }
+.p-campuslife__fa-group .sub-img { border-radius: var(--radius-xs); overflow: hidden; }
+.p-campuslife__fa-group .sub-img img { display: block; width: 100%; height: auto; }
+.p-campuslife__fa-group .sub-txt { margin-top: var(--space-2); font-size: var(--fs-sm); line-height: var(--lh-body); }
+.p-campuslife__fa-group .img-catch { margin-top: var(--space-2); text-align: right; }
+.p-campuslife__fa-group .img-catch img { width: min(60%, 260px); height: auto; }
+
+/* テーマブロック */
+.p-campuslife__fa-theme { position: relative; overflow: hidden; text-align: center; padding-block: var(--space-9); }
+.p-campuslife__fa-theme .ttl { font-weight: 800; font-size: clamp(1.8rem, 9cqw, 2.4rem); margin-bottom: var(--space-4); }
+.p-campuslife__fa-theme .ttl .yellow {
+  color: var(--color-brand-yellow);
+  text-shadow: 1px 1px 0 var(--color-ink), -1px 1px 0 var(--color-ink), 1px -1px 0 var(--color-ink), -1px -1px 0 var(--color-ink);
+}
+.p-campuslife__fa-theme .lead { font-weight: 700; font-size: var(--fs-base); line-height: 2.2; color: #fff; text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6); }
+.p-campuslife__fa-theme .bg { position: absolute; inset: 0; z-index: var(--z-deco); }
+.p-campuslife__fa-theme .bg img { width: 100%; height: 100%; object-fit: cover; }
+.p-campuslife__fa-theme .bg::after { content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.25); }
+
+/* Pick up */
+.p-campuslife__fa-pickup { background: var(--color-pastel-cream); }
+.p-campuslife__fa-pickup .icon { width: 96px; margin: 0 auto var(--space-5); }
+.p-campuslife__fa-pickup .icon img { display: block; width: 100%; height: auto; }
+.p-campuslife__fa-pickup-group + .p-campuslife__fa-pickup-group { margin-top: var(--space-7); }
+.p-campuslife__fa-pickup-group .ttl { display: grid; justify-items: center; gap: var(--space-2); text-align: center; font-weight: 800; font-size: var(--fs-md); line-height: var(--lh-body); margin-bottom: var(--space-4); }
+.p-campuslife__fa-pickup-group .badge img { display: block; width: 96px; height: auto; }
+.p-campuslife__fa-pickup-group .imgs { display: flex; flex-wrap: wrap; align-items: flex-end; gap: var(--space-2); }
+.p-campuslife__fa-pickup-group .imgs li { border-radius: var(--radius-xs); overflow: hidden; flex: 1 1 60%; }
+.p-campuslife__fa-pickup-group .imgs li:nth-child(n + 2) { flex: 1 1 30%; }
+.p-campuslife__fa-pickup-group .imgs li.is-tall { flex: 1 1 55%; }
+.p-campuslife__fa-pickup-group .imgs img { display: block; width: 100%; height: auto; }
+.p-campuslife__fa-pickup-group .catch { margin-top: var(--space-3); text-align: center; }
+.p-campuslife__fa-pickup-group .catch img { width: min(80%, 320px); height: auto; }
+
+/* 最新設備 */
+.p-campuslife__fa-learning { background: var(--color-bg-gray-1); }
+.p-campuslife__fa-learning-title { text-align: center; font-weight: 800; font-size: var(--fs-lg); margin-bottom: var(--space-6); }
+.p-campuslife__fa-room + .p-campuslife__fa-room { margin-top: var(--space-7); }
+.p-campuslife__fa-room .img,
+.p-campuslife__fa-room .js-facility-slide { border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-soft); }
+.p-campuslife__fa-room img { display: block; width: 100%; height: auto; }
+.p-campuslife__fa-room .body { padding: var(--space-4) var(--space-2) 0; }
+.p-campuslife__fa-room .ttl {
+  display: inline-block;
+  font-weight: 800;
+  font-size: var(--fs-md);
+  background: linear-gradient(transparent 60%, var(--color-brand-yellow) 60% 92%, transparent 92%);
+  padding: 0 var(--space-1);
+  margin-bottom: var(--space-2);
+}
+.p-campuslife__fa-room .txt { font-size: var(--fs-sm); line-height: var(--lh-body); }
+.p-campuslife__fa-room .swiper-pagination-bullet-active { background: var(--color-brand-pink); }
+
+/* ---- Phase 3: キャンパス・ツアー（campuslife.jsが生成・pin対象） ---- */
+/* reduced-motion時はJSがビューアを生成しないため、この装飾は動作時のみ現れる */
+.p-campuslife__tour { padding: var(--space-6) var(--space-5); }
+.p-campuslife__tour-frame {
+  position: relative;
+  height: min(62svh, 540px);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--color-ink);
+  box-shadow: var(--shadow-soft);
+}
+.p-campuslife__tour-photos img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  will-change: opacity, transform;
+}
+.p-campuslife__tour-badge {
+  position: absolute;
+  left: var(--space-3);
+  bottom: var(--space-3);
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-2);
+  max-width: calc(100% - var(--space-7));
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: var(--shadow-soft);
+}
+.p-campuslife__tour-badge .en {
+  font-family: var(--font-en);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: var(--ls-caps);
+  color: var(--color-brand-pink);
+  white-space: nowrap;
+}
+.p-campuslife__tour-badge .num { font-family: var(--font-en); font-size: var(--fs-sm); color: var(--color-brand-pink); }
+.p-campuslife__tour-badge .name {
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.p-campuslife__tour-dots {
+  position: absolute;
+  right: var(--space-3);
+  top: 50%;
+  translate: 0 -50%;
+  display: grid;
+  gap: 8px;
+  justify-items: center;
+}
+.p-campuslife__tour-dots li {
+  width: 6px;
+  height: 6px;
+  border-radius: var(--radius-full);
+  background: #fff;
+  box-shadow: 0 0 0 1px rgba(51, 51, 51, 0.35);
+  opacity: 0.55;
+  scale: 1;
+  transition: opacity var(--dur-base) var(--ease-out-quart), scale var(--dur-base) var(--ease-spring);
+}
+.p-campuslife__tour-dots li.is-on { opacity: 1; scale: 1.7; background: var(--color-brand-pink); }
+
+/* reduced-motion: 独自アニメ全停止 */
+@media (prefers-reduced-motion: reduce) {
+  .p-campuslife__event-item.is-movie .play .text { animation: none; }
+  .p-campuslife__event-item.is-xfade img { transition: none; }
+  .p-campuslife__tour-dots li { transition: none; }
+}

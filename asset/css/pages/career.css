@@ -1,0 +1,152 @@
+/* ============ 資格・就職セクション（.p-career 配下限定） ============ */
+
+/* ---- セクション共通MV ---- */
+.p-career__mv { position: relative; overflow: hidden; }
+.p-career__mv-inner { position: relative; }
+.p-career__mv-bg img { display: block; width: 100%; height: auto; }
+.p-career__mv-ttl {
+  position: absolute;
+  top: 50%;
+  left: var(--space-5);
+  translate: 0 -50%;
+  z-index: 2;
+  display: grid;
+  gap: var(--space-1);
+  padding: var(--space-3) var(--space-4);
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: var(--radius-xs);
+  box-shadow: var(--shadow-soft);
+}
+.p-career__mv-ttl .eng { font-family: var(--font-en); font-weight: 800; font-size: var(--fs-sm); letter-spacing: var(--ls-caps); color: var(--color-brand-pink); }
+.p-career__mv-ttl .ja { font-weight: 800; font-size: var(--fs-xl); line-height: var(--lh-tight); }
+.p-career__mv-catch {
+  position: absolute;
+  right: var(--space-3);
+  bottom: var(--space-2);
+  z-index: 2;
+  width: min(46%, 240px);
+}
+.p-career__mv-catch img { display: block; width: 100%; height: auto; filter: drop-shadow(0 1px 6px rgba(255, 255, 255, 0.7)); }
+html.js .p-career__mv-catch { opacity: 0; translate: 0 12px; transition: opacity var(--dur-hero) var(--ease-out-quart) 0.2s, translate var(--dur-hero) var(--ease-out-quart) 0.2s; }
+html.js .p-career__mv-catch.is-inview { opacity: 1; translate: 0 0; }
+
+/* ---- ハブメニュー ---- */
+.p-career__menu-list { display: grid; gap: var(--space-6); }
+.p-career__menu-card { display: block; overflow: hidden; }
+.p-career__menu-card .img { display: block; margin: var(--space-3) var(--space-3) 0; border-radius: var(--radius-xs); overflow: hidden; }
+.p-career__menu-card .img img { display: block; width: 100%; height: auto; transition: scale var(--dur-slow) var(--ease-out-quart); }
+.p-career__menu-card:hover .img img { scale: 1.04; }
+.p-career__menu-card .body { display: grid; gap: var(--space-2); padding: var(--space-3) var(--space-4) var(--space-4); }
+.p-career__menu-card .ttl { display: flex; justify-content: space-between; align-items: center; gap: var(--space-2); font-weight: 800; font-size: var(--fs-md); }
+.p-career__menu-card .arrow { font-family: var(--font-en); transition: translate var(--dur-fast); }
+.p-career__menu-card:hover .arrow { translate: 4px 0; }
+.p-career__menu-card .txt { font-size: var(--fs-sm); line-height: var(--lh-body); }
+
+/* ---- 見出し ---- */
+.p-career__head-title { text-align: center; font-weight: 800; font-size: var(--fs-lg); line-height: 2; margin-bottom: var(--space-5); }
+.p-career__head-title .bg { background: linear-gradient(transparent 60%, var(--color-brand-yellow) 60% 92%, transparent 92%); padding: 0 var(--space-1); }
+.p-career__lead { font-size: var(--fs-base); line-height: var(--lh-body); margin-bottom: var(--space-5); }
+.p-career__sub-title { text-align: center; font-weight: 800; font-size: var(--fs-lg); margin-bottom: var(--space-5); }
+.p-career__dot-title { text-align: center; font-weight: 800; font-size: var(--fs-md); line-height: var(--lh-body); margin-bottom: var(--space-5); }
+.p-career__dot-title .inner { display: inline-block; }
+
+/* ---- 資格リスト ---- */
+.p-career__license-grid { display: grid; gap: var(--space-4); }
+.p-career__license-ttl {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-weight: 800;
+  font-size: var(--fs-md);
+  padding-bottom: var(--space-2);
+  margin-bottom: var(--space-3);
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+}
+.p-career__license-ttl .icon { display: inline-flex; width: 28px; justify-content: center; }
+.p-career__license-ttl .icon img { width: auto; height: auto; max-width: 28px; }
+.p-career__dot-list { display: grid; gap: var(--space-1); font-size: var(--fs-sm); }
+.p-career__dot-list li { position: relative; padding-left: 1em; }
+.p-career__dot-list li::before { content: ""; position: absolute; left: 0; top: 0.55em; width: 7px; height: 7px; border-radius: var(--radius-full); background: var(--color-brand-pink); }
+.p-career__note-list { margin-top: var(--space-4); display: grid; gap: var(--space-1); font-size: var(--fs-xs); color: var(--color-ink-soft); }
+
+/* ---- サポート項目 ---- */
+.p-career__support { background: var(--color-bg-gray-1); }
+.p-career__support-row { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-5) var(--space-4); }
+.p-career__support-col.is-wide { grid-column: 1 / -1; }
+.p-career__support-col .img { border-radius: var(--radius-md); overflow: hidden; margin-bottom: var(--space-3); }
+.p-career__support-col .img img { display: block; width: 100%; height: auto; }
+.p-career__support-col .ttl { font-weight: 800; font-size: var(--fs-base); line-height: var(--lh-body); margin-bottom: var(--space-2); }
+.p-career__support-col .ttl .strong { font-size: 1.15em; }
+.p-career__support-col .ttl.is-plain { font-size: var(--fs-md); border-bottom: 2px solid var(--color-brand-yellow); padding-bottom: var(--space-1); }
+.p-career__support-col .txt { font-size: var(--fs-sm); line-height: var(--lh-body); }
+
+/* ---- 国試サポート6項目＋合格 ---- */
+.p-career__result-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
+.p-career__result-item { display: grid; justify-items: center; gap: var(--space-2); padding: var(--space-4) var(--space-3); text-align: center; }
+.p-career__result-item .img img { display: block; width: 100px; height: auto; }
+.p-career__result-item .txt { font-weight: 700; font-size: var(--fs-xs); line-height: var(--lh-tight); }
+.p-career__goukaku {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-2);
+  margin: var(--space-6) 0;
+  font-weight: 800;
+  font-size: clamp(2rem, 10cqw, 2.6rem);
+  color: var(--color-brand-pink);
+}
+.p-career__goukaku .deco img { display: block; width: 26px; height: auto; }
+
+/* ---- 囲みボックス ---- */
+.p-career__add-box {
+  background: var(--color-pastel-cream);
+  border: 1px solid var(--color-brand-yellow);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+}
+.p-career__add-box + .p-career__add-box { margin-top: var(--space-4); }
+.p-career__add-box .ttl { font-weight: 800; font-size: var(--fs-md); text-align: center; margin-bottom: var(--space-3); }
+.p-career__add-box .txt { font-size: var(--fs-sm); line-height: var(--lh-body); }
+.p-career__add-box .p-career__dot-list { margin-top: var(--space-3); }
+
+/* ---- 就職率実績 ---- */
+.p-career__record { background: var(--color-pastel-cream); }
+.p-career__record-box { padding: var(--space-6) var(--space-4); text-align: center; }
+.p-career__record-head .ttl { display: inline-block; font-weight: 800; font-size: var(--fs-xl); background: linear-gradient(transparent 60%, var(--color-brand-yellow) 60% 92%, transparent 92%); padding: 0 var(--space-2); }
+.p-career__record-head .year { margin-top: var(--space-2); font-weight: 700; font-size: var(--fs-sm); }
+.p-career__record-rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-2);
+  margin: var(--space-4) 0;
+  color: var(--color-brand-pink);
+}
+.p-career__record-rate .c-counter { font-size: clamp(4rem, 22cqw, 5.5rem); }
+.p-career__record-rate .c-counter__unit { font-size: var(--fs-xl); font-family: var(--font-en); font-weight: 800; }
+.p-career__record-rate .deco img { display: block; height: auto; }
+.p-career__record-nums { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-3); max-width: 320px; margin: 0 auto; }
+.p-career__record-nums li { background: var(--color-bg-gray-1); border-radius: var(--radius-md); padding: var(--space-3); }
+.p-career__record-nums .label { font-weight: 700; font-size: var(--fs-xs); }
+.p-career__record-nums .num .c-counter { font-size: 2rem; }
+.p-career__record-nums .num .c-counter__unit { font-size: var(--fs-sm); font-weight: 700; }
+.p-career__record-point {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: var(--space-3);
+  margin-top: var(--space-5);
+  padding-top: var(--space-4);
+  border-top: 1px dashed var(--color-line);
+  text-align: left;
+}
+.p-career__record-point .icon img { display: block; width: 72px; height: auto; }
+.p-career__record-point .row { font-weight: 700; font-size: var(--fs-sm); }
+.p-career__record-point .c-counter.is-md { font-size: 1.7rem; }
+.p-career__record-point .small { font-size: var(--fs-xs); color: var(--color-ink-soft); }
+
+/* ---- 就職先一覧 ---- */
+.p-career__job-box { margin-top: var(--space-6); background: var(--color-bg); border: 1px solid var(--color-line); border-radius: var(--radius-md); padding: var(--space-5); }
+.p-career__job-box .ttl { font-weight: 800; margin-bottom: var(--space-3); }
+.p-career__job-box .ttl .large { font-size: var(--fs-lg); background: linear-gradient(transparent 60%, var(--color-brand-yellow) 60% 92%, transparent 92%); padding: 0 var(--space-1); }
+.p-career__job-box .txt { font-size: var(--fs-xs); line-height: 2; color: var(--color-ink-soft); }
